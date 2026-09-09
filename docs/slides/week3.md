@@ -259,7 +259,7 @@ Carol Gilligan, via the [Hannah Arendt Center, Bard College](https://hac.bard.ed
 
 > I was teaching at Harvard with Erik Erikson, a psychoanalyst working in the Freudian tradition, and Lawrence Kohlberg, a cognitive-developmental psychologist...
 
-She was also Kohlberg's research assistant — and came to think his "stages" were limited.
+She was also Kohlberg's research assistant and came to think his "stages" were limited.
 
 :::: columns
 ::: {.column .portrait-pair width="48%"}
@@ -284,7 +284,7 @@ Lawrence Kohlberg, via [Find a Grave](https://www.findagrave.com/memorial/124296
 ## Jake and Amy {.smaller}
 
 ::: {.source-top}
-Carol Gilligan, *In a Different Voice* (1982), ch. 2 — two eleven-year-olds given the Heinz dilemma
+Carol Gilligan, *In a Different Voice* (1982), ch. 2, two eleven-year-olds given the Heinz dilemma
 :::
 
 :::: columns
@@ -410,10 +410,10 @@ North American porcupine, Seedskadee NWR ([USFWS](https://commons.wikimedia.org/
 - Joan Tronto proposed four "elements" of care
 
 ::: {.incremental}
-1. Attentiveness — noticing others' needs, recognizing vulnerability
-2. Responsibility — accepting duty, deciding to act to meet a need
-3. Competence — skill/knowledge in delivering care, meeting needs successfully
-4. Responsiveness — considering the recipient's perspective, adjusting if needed
+1. Attentiveness: noticing others' needs, recognizing vulnerability
+2. Responsibility: accepting duty, deciding to act to meet a need
+3. Competence: skill/knowledge in delivering care, meeting needs successfully
+4. Responsiveness: considering the recipient's perspective, adjusting if needed
 :::
 
 ---
