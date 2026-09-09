@@ -81,6 +81,17 @@ Turn off phones, laptops, other distractions
 
 ---
 
+## "Why read a book?"
+
+::: {.incremental}
+- Reason #1: Feed and follow your curiosity
+- Reason #2: Get used to self-directed learning
+- Reason #3: Learn from human experts
+- Reason #4: Escape in-depth
+:::
+
+---
+
 ## Book Selection
 
 - To receive full credit, answer the following six questions in the Canvas text box:

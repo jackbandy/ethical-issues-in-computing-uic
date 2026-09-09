@@ -11,6 +11,7 @@ below follow each Commons file page.
 | aristotle.jpg | Aristotle | [Commons](https://commons.wikimedia.org/wiki/File:Aristoteles_Louvre.jpg) | CC BY-SA 2.5 | Eric Gaba (Sting), 2005; Roman marble bust, Louvre |
 | arlie-russell-hochschild.jpg | Arlie Russell Hochschild | [Commons](https://commons.wikimedia.org/wiki/File:Arlie_Russell_Hochschild.jpg) | CC BY-SA 4.0 | Paul572, 2017 |
 | benjamin-constant.png | Benjamin Constant | [Commons](https://commons.wikimedia.org/wiki/File:Henri-Benjamin_Constant_de_Rebecque.png) | Public Domain | Lina Vallier, 1847 |
+| carol-gilligan-2.jpg | Carol Gilligan | [Commons](https://commons.wikimedia.org/wiki/File:Carol_Gilligan_P1010970_-_cropped.jpg) | CC BY-SA 3.0 | Deror avi, 2011; cropped by User:Ravit |
 | confucius.jpg | Confucius | [Commons](https://commons.wikimedia.org/wiki/File:Cropped_version_of_Confucius_Portrait,_Kongzi_(Confucius)_Family_Mansion,_Qufu_(13044335945).jpg) | Public Domain | Unknown artist, Ming dynasty (1368–1644); *Portrait of Confucius at Leisure* (孔子燕居像), Kong Family Mansion, Qufu |
 | corrado-gini.jpg | Corrado Gini | [Commons](https://commons.wikimedia.org/wiki/File:Corrado_Gini.jpg) | CC BY-SA 4.0 | Author unknown, c. 1945; via bookofproofs.org |
 | cory-doctorow.jpg | Cory Doctorow | [Commons](https://commons.wikimedia.org/wiki/File:Cory_Doctorow_portrait_by_Jonathan_Worth_1.jpg) | CC BY 2.0 | Jonathan Worth, 2009 |
@@ -52,6 +53,8 @@ any external distribution.
 |------|--------|--------|-------|-------------|
 | arvind-narayanan.jpg | Arvind Narayanan | [Princeton Engineering news](https://engineering.princeton.edu/news/2023/06/29/tech-expert-arvind-narayanan-takes-helm-joint-technology-policy-center) | Institutional photo | Princeton School of Engineering and Applied Science, 2023 |
 | carol-gilligan.jpg | Carol Gilligan | [NYU Law faculty profile](https://its.law.nyu.edu/facultyprofiles/index.cfm?fuseaction=profile.biography&personid=19946) | Institutional photo | NYU School of Law |
+| carol-gilligan-3.jpg | Carol Gilligan | [Bard College, Hannah Arendt Center event page](https://hac.bard.edu/carol-gilligan-in-a-human-voice) | Event publicity photo for the "Carol Gilligan: In a Human Voice" talk, 29 March 2024; scan borders trimmed. Photographer uncredited on the source page | Uncredited; via the Hannah Arendt Center, Bard College |
+| lawrence-kohlberg.jpg | Lawrence Kohlberg | [Find a Grave memorial 124296839](https://www.findagrave.com/memorial/124296839/lawrence-kohlberg) | User-contributed memorial photo; photographer, date, and rights unrecorded. Identity corroborated by an independent illustration drawn from the same photograph. No freely-licensed portrait of Kohlberg was found on Commons or Wikidata | Photographer unknown; contributed by Find a Grave user "The Silent Forgotten" |
 | helen-nissenbaum.jpg | Helen Nissenbaum | [CMU CyLab seminar page](https://www.cylab.cmu.edu/events/2023/02/15-seminar-nissenbaum.html) | Institutional photo | CMU CyLab, 2023 |
 | joan-tronto-2.jpg | Joan Tronto | [Political Science Now (APSA)](https://politicalsciencenow.com/joan-tronto-receives-the-2023-benjamin-e-lippincott-award/) | Copyrighted studio photo; alternate to the Commons portrait | Francesca Leonardi, Studio Contrasto |
 | latanya-sweeney.jpg | Latanya Sweeney | [Consumer Reports Innovation Lab](https://innovation.consumerreports.org/team/latanya-sweeney/) | Institutional photo | Consumer Reports Innovation Lab |
@@ -77,7 +80,6 @@ Named in the slides but with no freely-licensed portrait located as of June 2026
 - **Erika Cheung** — Theranos whistleblower
 - **John M. Darley** — psychologist, Good Samaritan/bystander studies
 - **Judith Jarvis Thomson** — philosopher, transplant case
-- **Lawrence Kohlberg** — moral development psychologist
 - **Nathan Malkin** — contextual integrity researcher
 - **Tonika Lewis Johnson** — Folded Map Project artist
 - **Victoria Davion** — philosopher, University of Georgia (d. 2017)

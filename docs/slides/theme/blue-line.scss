@@ -326,6 +326,14 @@ $code-block-border-color: $border;
     }
   }
 
+  // A dilemma put on screen in full (Heinz, the porcupine and the moles) wants
+  // the quote-slide frame, but a whole story set at the pull-quote size runs off
+  // the bottom of the slide. Drop it to body size and let the blue rule do the
+  // framing.
+  .quote-slide.story-slide blockquote {
+    font-size: 1em;
+  }
+
   // Four-ethical-theories menu: a centered 2x2 table, big emoji over the name.
   .theories-grid {
     display: flex !important;
@@ -684,6 +692,21 @@ $photo-only-footer-opacity: 0.6;
 .reveal .figure-pair .column img {
   max-height: 420px;
   margin-bottom: 0.2em;
+}
+
+// A row of portraits introducing several people at once (the care-ethics
+// contributors). Source photos range from a square headshot to a wide lecture
+// still, so a shared height cap alone leaves the row ragged: crop each to the
+// same box instead and let the faces line up. Capped in px for the same reason
+// as `.figure-pair` — a vh cap grows past its share of the fixed 1280x720 box
+// on a window taller than 16:9 and drops the names behind the footer.
+.reveal .portrait-row .column img {
+  width: 100%;
+  height: 240px;
+  max-height: 240px;
+  margin-bottom: 0.35em;
+  object-fit: cover;
+  object-position: center top;
 }
 
 // A figure that has to read as a discrete panel on the white slide — the survey

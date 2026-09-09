@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-335 90 600 900">
+ <title>Kohlberg Model of Moral Development</title>
+ <desc>A model of psychology for moral development by Lawrence Kohlberg, redrawn from http://commons.wikimedia.org/wiki/File:Kohlberg_Model_of_Moral_Development.png by CMG Lee.</desc>
+ <style type="text/css">
+  #main { font-family:Helvetica,Arial,sans-serif; font-size:20px; text-anchor:middle;
+          fill:#000000; stroke:#000000; stroke-width:2; stroke-linejoin:round; cursor:default; }
+  rect  { fill:#ffffff; }
+  path  { fill:none;    }
+  text  { stroke:none;  }
+ </style>
+ <defs>
+  <path id="brace" d="M 25,-135 C 0,-135 25,0 0,0 C 25,0 0,135 25,135"/>
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g id="main">
+  <rect x="-160" y="100" width="320" height="170"/>
+  <text y="100"
+   ><tspan x="0" dy="1.5em">STAGE 6</tspan
+   ><tspan x="0" dy="1.5em">Universal Ethical Principles</tspan
+   ><tspan x="0" dy="1.0em">[What if everybody did that?]</tspan
+   ><tspan x="0" dy="1.5em">Heinz: "Human life has supreme</tspan
+   ><tspan x="0" dy="1.0em">inherent value. I couldn't live</tspan
+   ><tspan x="0" dy="1.0em">with myself if I let her die."</tspan
+   ></text>
+  <rect x="-180" y="270" width="360" height="170"/>
+  <text y="270"
+   ><tspan x="0" dy="1.5em">STAGE 5</tspan
+   ><tspan x="0" dy="1.5em">Social Contract Orientation</tspan
+   ><tspan x="0" dy="1.0em">[It's the consensus of thoughtful men.]</tspan
+   ><tspan x="0" dy="1.5em">Heinz: "Society has a right to insure</tspan
+   ><tspan x="0" dy="1.0em">its own survival. I couldn't hold my</tspan
+   ><tspan x="0" dy="1.0em">head up in public if I let her die."</tspan
+   ></text>
+  <rect x="-200" y="440" width="400" height="150"/>
+  <text y="440"
+   ><tspan x="0" dy="1.5em">STAGE 4</tspan
+   ><tspan x="0" dy="1.5em">Law and Order Orientation</tspan
+   ><tspan x="0" dy="1.0em">[Do your duty.]</tspan
+   ><tspan x="0" dy="1.5em">"Saving a human life is more important</tspan
+   ><tspan x="0" dy="1.0em">than protecting property."</tspan
+   ></text>
+  <rect x="-220" y="590" width="440" height="130"/>
+  <text y="590"
+   ><tspan x="0" dy="1.5em">STAGE 3</tspan
+   ><tspan x="0" dy="1.5em">Good Boy, Nice Girl</tspan
+   ><tspan x="0" dy="1.0em">[Do it for me.]</tspan
+   ><tspan x="0" dy="1.5em">"He should do it because he loves his wife."</tspan
+   ></text>
+  <rect x="-240" y="720" width="480" height="130"/>
+  <text y="720"
+   ><tspan x="0" dy="1.5em">STAGE 2</tspan
+   ><tspan x="0" dy="1.5em">Instrumental-Relativist Orientation</tspan
+   ><tspan x="0" dy="1.0em">[If it feels good, do it.]</tspan
+   ><tspan x="0" dy="1.5em">"If his wife is nice and pretty, he should do it."</tspan
+   ></text>
+  <rect x="-260" y="850" width="520" height="130"/>
+  <text y="850"
+   ><tspan x="0" dy="1.5em">STAGE 1</tspan
+   ><tspan x="0" dy="1.5em">Punishment and Obedience Orientation</tspan
+   ><tspan x="0" dy="1.0em">[It's O.K. to do it if you don't get caught.]</tspan
+   ><tspan x="0" dy="1.5em">"It depends on who he knows on the police force."</tspan
+   ></text>
+  <use xlink:href="#brace" transform="translate(-290,270) scale(1,1.18)"/>
+  <text transform="translate(-315,270) rotate(-90)"><tspan>POSTCONVENTIONAL</tspan
+   ><tspan x="0" dy="1.0em">MORALITY</tspan
+   ></text>
+  <use xlink:href="#brace" transform="translate(-290,580) scale(1,1.00)"/>
+  <text transform="translate(-315,580) rotate(-90)"><tspan>CONVENTIONAL</tspan
+   ><tspan x="0" dy="1.0em">MORALITY</tspan
+   ></text>
+  <use xlink:href="#brace" transform="translate(-290,850) scale(1,0.90)"/>
+  <text transform="translate(-315,850) rotate(-90)"><tspan>PRECONVENTIONAL</tspan
+   ><tspan x="0" dy="1.0em">MORALITY</tspan
+   ></text>
+ </g>
+</svg>
