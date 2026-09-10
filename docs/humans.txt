@@ -25,8 +25,8 @@ humansTXT: http://humanstxt.org
 Counterpart for machines: https://doethics.fun/llms.txt
 Security contact: https://doethics.fun/.well-known/security.txt
 
-/* FOR HUMANS, SPECIFICALLY */
-This site is closed to crawlers until 2027 — see /robots.txt and /llms.txt.
+/* FOR HUMANS */
+This site is closed to crawlers until at least 2027 — see /robots.txt and /llms.txt.
 That block is aimed at automated readers. If you are a real person, everything here
 is open to you: read it, share the link, remix it, etc. under the license above.
 
