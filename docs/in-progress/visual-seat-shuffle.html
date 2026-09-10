@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Closed to automated access until 2027; see /robots.txt. This page has no
+       front matter, so Jekyll passes it through without Liquid and it cannot
+       use _includes/crawler-policy.html -- keep these four lines in sync with it. -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <link rel="author" type="text/plain" href="/humans.txt">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'">
   <title>Visual Seat Shuffle</title>
   <meta name="theme-color" content="#00A1DE">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -625,7 +632,11 @@
     <div id="panel-content"></div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Self-hosted rather than loaded from a CDN: the CDN copy was unversioned
+       ("marked/marked.min.js"), so whatever the CDN served as latest ran with
+       full DOM access on this domain. Local copy is marked v18.0.12 (MIT),
+       vendored in assets/js/ alongside its license. -->
+  <script src="/assets/js/marked.umd.js"></script>
   <script src="shuffle.js"></script>
 
   <div class="footnotes">

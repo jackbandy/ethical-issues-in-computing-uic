@@ -1,0 +1,31 @@
+version: 2
+
+updates:
+  # Keeps the action versions in .github/workflows/ up to date. Both workflows
+  # here run with `contents: write` and push back to main, so a compromised or
+  # abandoned action is the one dependency on this repo that could rewrite it.
+  # The versions are pinned to mutable major tags (@v6, @v2), which move under
+  # us; this is what notices when they do.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "thursday"
+      # 6am local year-round
+      time: "06:00"
+      timezone: "America/Chicago"
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "dependencies"
+    groups:
+      # Bundle the small routine updates into one PR instead of several.
+      actions:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+
+# No bundler entry on purpose: docs/Gemfile.lock is gitignored, and Dependabot
+# needs the lockfile to resolve a Ruby update. Nothing else here has a manifest
+# to watch -- the slides are Quarto, with no Python or npm dependencies, and
+# docs/assets/js/marked.umd.js is vendored by hand (bump it by re-downloading
+# the pinned version noted in in-progress/visual-seat-shuffle.html).

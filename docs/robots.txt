@@ -1,14 +1,89 @@
 # robots.txt — doethics.fun (CS 377, Blue Line Ethics)
-# PRE-LAUNCH: only the homepage is crawlable until the Fall 2026 semester
-# (UIC classes start ~late August 2026). The site stays online and shareable
-# by direct link; course materials just won't surface in search yet.
 #
-# TO GO LIVE FOR FALL 2026: delete the "Disallow: /" line below to open the
-# whole site to crawlers.
+# CLOSED TO ALL AUTOMATED ACCESS UNTIL 2027.
+#
+# This is a course site for enrolled students. It is meant to be read by people
+# in a browser, following a link from the syllabus, Canvas, or each other. It is
+# not meant to be indexed, archived, mirrored, summarized, or collected into a
+# training corpus. Nothing here is a public dataset.
+#
+# The site stays online and shareable by direct link the whole time — this file
+# asks crawlers to stay out, it does not hide anything from a human visitor.
+#
+# Every page also carries <meta name="robots" content="noindex, nofollow, ...">,
+# and /llms.txt restates this in prose for anything driving an LLM. /humans.txt
+# is the one file here written for a reader rather than a robot.
+#
+# TO REOPEN IN 2027: delete the "Disallow: /" under "User-agent: *" below,
+# delete the named blocks that follow it if they are no longer wanted, restore
+# the Sitemap line at the bottom, and drop the robots meta tag from
+# _includes/crawler-policy.html.
 
+# ---------------------------------------------------------------------------
+# Everything, everyone. The named sections below are redundant with this one;
+# they are here so the intent is unmistakable rather than inferred.
+# ---------------------------------------------------------------------------
 User-agent: *
-Allow: /$
-Allow: /index.html
 Disallow: /
 
-Sitemap: https://doethics.fun/sitemap.xml
+# ---------------------------------------------------------------------------
+# LLM training and retrieval crawlers, named explicitly.
+# ---------------------------------------------------------------------------
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: meta-externalagent
+User-agent: meta-externalfetcher
+User-agent: FacebookBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: AI2Bot
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: PanguBot
+User-agent: Timpibot
+User-agent: TikTokSpider
+User-agent: YouBot
+User-agent: Webzio-Extended
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# SEO and marketing crawlers. No reason for these to touch a course site.
+# ---------------------------------------------------------------------------
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: BLEXBot
+User-agent: DataForSeoBot
+User-agent: Barkrowler
+User-agent: SeekportBot
+User-agent: serpstatbot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Archivers. Worth naming separately: the course materials change through the
+# semester, and a frozen copy of a half-finished page is worse than no copy.
+# ---------------------------------------------------------------------------
+User-agent: ia_archiver
+User-agent: archive.org_bot
+Disallow: /
+
+# No Sitemap line while the site is closed — advertising a crawl map and then
+# asking not to be crawled sends two different messages. jekyll-sitemap still
+# writes /sitemap.xml, so restoring the line in 2027 is a one-line change:
+# Sitemap: https://doethics.fun/sitemap.xml

@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+  {% include crawler-policy.html %}
 <title>Book Gallery - Student Selections for Ethical Issues in Computing</title>
   {% include social-meta.html %}
   {% include icons.html %}
@@ -37,14 +38,44 @@
 </div>
 <script>
 const AFFILIATE_ID = "122922";
+
+// Every value below is interpolated into innerHTML. books-data.js is
+// hand-maintained, but the `reviews:` blocks are student writing pasted in
+// verbatim, so a review reading `<img src=x onerror=...>` would otherwise run
+// as script on this domain. Escape at the point of use rather than trusting
+// the data file.
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+// Escaping alone still lets a `javascript:` URL through an href. Cover paths in
+// books-data.js are bare and relative ("assets/book-cover-cache/…"), so the
+// rule is: keep http(s) and any relative path, drop anything that carries its
+// own scheme. Whitespace and control characters come out first, since browsers
+// ignore them when resolving a URL ("java\nscript:" is a live scheme to them).
+function escUrl(value) {
+  const url = String(value ?? "").replace(/[\u0000-\u0020\u007f-\u00a0]/g, "");
+  if (/^https?:\/\//i.test(url)) return esc(url);
+  if (/^[a-z][a-z0-9+.-]*:/i.test(url)) return "";
+  return esc(url);
+}
+
+// `color` is written by sandbox/cover-colors.py as a hex triple. It goes into
+// a style attribute, so anything else falls back to the neutral placeholder.
+function escColor(value) {
+  return /^#[0-9a-fA-F]{3,8}$/.test(String(value ?? "")) ? String(value) : "#d8d8d8";
+}
+
 function affiliateLink(isbn) {
-  return `https://bookshop.org/a/${AFFILIATE_ID}/${isbn}`;
+  return `https://bookshop.org/a/${AFFILIATE_ID}/${encodeURIComponent(isbn ?? "")}`;
 }
 
 // The same book on Bookshop, with no referral tag attached. Prefers the
 // product URL recorded in books-data.js; falls back to an ISBN search.
 function plainLink(book) {
-  return book.Link || `https://bookshop.org/search?keywords=${book.ISBN}`;
+  return book.Link || `https://bookshop.org/search?keywords=${encodeURIComponent(book.ISBN ?? "")}`;
 }
 
 function renderGallery(bookList) {
@@ -62,12 +93,12 @@ function renderGallery(bookList) {
     // sandbox/cover-colors.py), so the shelf stays recognizable without
     // loading a cover for every book. Same footprint either way.
     const cover = withCovers
-      ? `<img src="${book.Image}" alt="${book.Title}" loading="lazy">`
-      : `<div class="cover-placeholder" style="background: ${book.color || "#d8d8d8"}" aria-hidden="true"></div>`;
+      ? `<img src="${escUrl(book.Image)}" alt="${esc(book.Title)}" loading="lazy">`
+      : `<div class="cover-placeholder" style="background: ${escColor(book.color)}" aria-hidden="true"></div>`;
     card.innerHTML = `
       ${cover}
-      <h3>${book.Title}</h3>
-      <p>${book.Author}</p>
+      <h3>${esc(book.Title)}</h3>
+      <p>${esc(book.Author)}</p>
     `;
     card.addEventListener("click", () => openPanel(book));
     gallery.appendChild(card);
@@ -75,26 +106,29 @@ function renderGallery(bookList) {
 }
 
 function stars(n) {
-  return "\u2605".repeat(n) + "\u2606".repeat(5 - n);
+  // Clamped because `rating` comes in with the review text: repeat() throws on
+  // a negative and renders nonsense on anything non-numeric.
+  const filled = Math.min(5, Math.max(0, Math.round(Number(n) || 0)));
+  return "\u2605".repeat(filled) + "\u2606".repeat(5 - filled);
 }
 
 function openPanel(book) {
   const reviews = book.reviews && book.reviews.length > 0
     ? book.reviews.map(r => `
         <div class="review">
-          <div class="review-meta">${r.reviewer} <span class="review-stars">${stars(r.rating)}</span></div>
-          <p>${r.text}</p>
+          <div class="review-meta">${esc(r.reviewer)} <span class="review-stars">${stars(r.rating)}</span></div>
+          <p>${esc(r.text)}</p>
         </div>`).join("")
     : '<p class="no-reviews">No reviews yet.</p>';
 
   document.getElementById("panelContent").innerHTML = `
-    <img class="panel-cover" src="${book.Image}" alt="${book.Title}">
-    <h2 class="panel-title">${book.Title}</h2>
-    <p class="panel-author">${book.Author}</p>
-    <p class="panel-isbn">ISBN: ${book.ISBN}</p>
+    <img class="panel-cover" src="${escUrl(book.Image)}" alt="${esc(book.Title)}">
+    <h2 class="panel-title">${esc(book.Title)}</h2>
+    <p class="panel-author">${esc(book.Author)}</p>
+    <p class="panel-isbn">ISBN: ${esc(book.ISBN)}</p>
     <div class="panel-links">
-      <a class="panel-link" href="${affiliateLink(book.ISBN)}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; affiliate link &rarr;</a>
-      <a class="panel-link" href="${plainLink(book)}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; plain link &rarr;</a>
+      <a class="panel-link" href="${escUrl(affiliateLink(book.ISBN))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; affiliate link &rarr;</a>
+      <a class="panel-link" href="${escUrl(plainLink(book))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; plain link &rarr;</a>
     </div>
     <p class="panel-links-note">(Both go to the same book for the same price. The affiliate link credits this course; the plain link has no referral tag.)</p>
     <div class="reviews-heading">

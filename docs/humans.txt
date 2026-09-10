@@ -1,0 +1,35 @@
+/* TEAM */
+Jack Bandy — instructor, CS 377
+Contact: jxb [at] uic [dot] edu
+Bluesky: https://bsky.app/profile/jackbandy.com
+Site: https://jackbandy.com
+Location: Chicago, IL, USA
+
+/* THANKS */
+The students of CS 377
+Chicago Transit Authority — the Blue Line, and the 1973 CTA rulebook
+Unsplash photographers (see docs/assets/chicago-unsplash-images/SOURCES.md)
+Jekyll (https://jekyllrb.com) — builds this site
+Quarto (https://quarto.org) and reveal.js (https://revealjs.com)
+marked (https://marked.js.org) — MIT, self-hosted, not from a CDN
+SIL Open Font License faces — Big Shoulders, Libre Franklin, Mulish, Nunito
+
+/* SITE */
+Course: Ethical Issues in Computing (CS 377), University of Illinois Chicago
+Language: English
+Standards: HTML5, CSS3, no tracking, no analytics, no third-party CDNs
+Source: https://github.com/jackbandy/ethical-issues-in-computing-uic
+License: CC BY-NC-SA 4.0 (third-party materials keep their own terms)
+Last update: 2026-09-10
+humansTXT: http://humanstxt.org
+Counterpart for machines: https://doethics.fun/llms.txt
+Security contact: https://doethics.fun/.well-known/security.txt
+
+/* FOR HUMANS, SPECIFICALLY */
+This site is closed to crawlers until 2027 — see /robots.txt and /llms.txt.
+That block is aimed at automated readers. If you are a real person, everything here
+is open to you: read it, share the link, remix it, etc. under the license above.
+
+Schedule: https://doethics.fun/schedule.html
+Syllabus: https://doethics.fun/syllabus/
+Slides: https://doethics.fun/slides/

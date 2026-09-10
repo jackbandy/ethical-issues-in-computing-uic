@@ -37,3 +37,15 @@ exclude:
   - "*.csv"
   - "*.bib"
   - "*.py"     # build helpers (fetch-book-covers.py, slides/stamp_source_note.py)
+  - "*.sh"     # slides/build.sh -- was being served at /slides/build.sh
+  - "*.scss"   # slides/theme/blue-line.scss -- Quarto compiles it, decks don't load it
+  # Quarto build inputs. The decks inline these at render time, so the rendered
+  # HTML never fetches them; only slides/theme/*.css is needed at runtime.
+  - slides/includes
+  - slides/export-pdf.js
+  # Local Jekyll tooling, never part of the site. Without these the dependency
+  # list was readable at doethics.fun/Gemfile.
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
