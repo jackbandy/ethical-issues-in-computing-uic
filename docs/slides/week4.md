@@ -1,7 +1,7 @@
 
 # Review Theories of Ethics {.title-slide data-menu-title="Week 4, Day 1"}
 
-<!-- NOTICE: Draft from old-slides/pdf-versions/06 Theory Review.pdf and 07 Feeds.pdf. Review and edit before use. -->
+<!-- NOTICE:still in progress -->
 
 CS 377, Week 4, Day 1 🟦 Racine 🟦
 
@@ -45,6 +45,7 @@ CS 377, Week 4, Day 1 🟦 Racine 🟦
 - Book selection check-in
 - Review ethical frameworks
 - Sample of other ethical theories
+- The button: Ostrom's design principles
 :::
 
 ::: {.column width="40%"}
@@ -224,11 +225,128 @@ Turn off phones, laptops, other distractions
 
 ---
 
-## Review Game
 
-- Ransom notes
+
+# The Button {.title-slide .section-header}
+
 
 ---
+
+## Where we left the button {.smaller}
+
+::: {.source-top}
+[doethics.fun/dilemmas/utilitarian-button-matrix](https://doethics.fun/dilemmas/utilitarian-button-matrix/)
+:::
+
+- Two sections, 1% of the final grade, one button each
+- The payoff table says defect; the sections said… what?
+- Today: why the standard story ("tragedy of the commons," free riders) is not the end of it
+
+---
+
+## Elinor Ostrom (1933–2012)
+
+:::: columns
+::: {.column width="55%"}
+- Political economist; Nobel Prize in Economics, 2009
+- Studied irrigation systems, fisheries, forests, grazing land ("real commons")
+- Found groups that governed shared resources for centuries **without** privatizing them or handing them to the state
+- "what rules let a group stop each other from defecting?"
+  - as opposed to "will people defect?"
+:::
+
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/elinor-ostrom.jpg)
+
+::: {.caption}
+Elinor Ostrom at the Nobel press conference, Stockholm, December 2009. Photo: [Holger Motzkau](https://commons.wikimedia.org/wiki/File:Elinor_Ostrom_close-up_(cropped).jpg), CC BY-SA 3.0
+:::
+:::
+::::
+
+---
+
+## The Tragedy of the Commons (Hardin, 1968)
+
+- Shared pasture, private herds: each herder gains from one more cow, everyone shares the cost of overgrazing
+- Hardin's conclusion: only private property or coercion can save the commons
+- Ostrom's response: communities govern themselves all the time!
+
+<!-- TODO: decide how much Hardin to include; note his later eugenics writing -->
+
+---
+
+## Ostrom's Design Principles {.smaller}
+
+::: {.incremental}
+1. **Clearly defined boundaries**: who is in? What is the resource?
+2. **Congruence**: rules fit local conditions, costs proportional to benefits
+3. **Collective-choice arrangements**: people bound by the rules can change the rules
+4. **Monitoring**: by the members themselves, and/or by outside monitors
+5. **Graduated sanctions**: a first violation is not as bad as a second, third, etc.
+6. **Conflict-resolution mechanisms**
+7. **Minimal recognition of the right to organize**: outside authorities do not override the group
+8. **Nested enterprises**: moreso for large systems, governance in layers
+:::
+
+---
+
+## Table Discussion: Audit the Button (10 min) {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+Consider the button's rules and score them against the eight principles.
+
+- Which principles does the current setup already satisfy?
+- Where is it weakest?
+- What one rule would you add or delete?
+- Put your answer on the board under its principle number
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## What was changed
+
+::: {.incremental}
+- **Boundaries (#1):** "during any class meeting" was vague — a push after everyone left still counted.
+  - Now: while class is in session, from the start of the period until "see you next class"
+- **Monitoring (#4):** a push now requires at least 8 *other* enrolled students present, in person, able to see it
+- **Monitoring (#4):** the instructor tells a section when its own button has been pushed
+- **Graduated sanctions (#5):** a push that misses any of these conditions simply does not count
+:::
+
+---
+
+## The rules now read {.smaller}
+
+::: {.source-top}
+[doethics.fun/dilemmas/utilitarian-button-matrix](https://doethics.fun/dilemmas/utilitarian-button-matrix/)
+:::
+
+**A push counts only if** an enrolled student pushes the button:
+
+- **in person**, and
+- **while class is in session** — from the start of the scheduled period until the instructor says "see you next class", and
+- with **at least 8 other enrolled students** present and able to see it
+
+A push that misses any of these does not count.
+
+**The instructor will** tell a section when its own button has been pushed, and share any letter of intent to refrain with both sections — but still will neither confirm nor deny whether the *other* section has pushed.
+
+Everything else is unchanged: two pushes per section, the two letters, five minutes on request, final December 2.
+
+---
+
 
 # Media Diary Exercise {.title-slide .section-header}
 
@@ -238,7 +356,7 @@ Turn off phones, laptops, other distractions
 
 Due tomorrow night at 11:59pm
 
-- Intended to be enjoyable!
+- Intended to be fun/informative/enjoyable!
 - 20 data points and a few reflective questions
 - Use the table below (Account Name, Account Type, Ad?, # of Likes, Notes) for 20 posts from a feed of your choice (Instagram, TikTok, X, YouTube, etc.)
 - Submit a PDF or a link to an online document (Google doc, GitHub repository)
@@ -584,4 +702,7 @@ See you next week!
 7. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
 8. UChicago, [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu).
 9. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
-10. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+10. Elinor Ostrom, *Governing the Commons: The Evolution of Institutions for Collective Action* (Cambridge University Press, 1990), [doi:10.1017/CBO9780511807763](https://doi.org/10.1017/CBO9780511807763) — the eight design principles.
+11. Garrett Hardin, ["The Tragedy of the Commons"](https://doi.org/10.1126/science.162.3859.1243), *Science* 162, no. 3859 (1968): 1243–1248.
+12. Elinor Ostrom portrait: [Holger Motzkau](https://commons.wikimedia.org/wiki/File:Elinor_Ostrom_close-up_(cropped).jpg), Nobel press conference, Stockholm, 2009, via Wikimedia Commons, CC BY-SA 3.0.
+13. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

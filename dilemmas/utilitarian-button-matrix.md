@@ -19,7 +19,7 @@ This semester (Fall 2026) I have two sections of CS 377, and "the button" will a
 * If **neither class pushes the button**
 	* Each class gets **1**/1 point
 
-Here is how the dilemma is often captured visually, in a "payoff table" (your class / the other class):
+Here is the scenario captured as a "payoff table" (between your class / the other class):
 
 |                              | **Other class pushes twice** | **Other class pushes once** | **Other class refrains** |
 | ---------------------------- | ---------------------------- | --------------------------- | ------------------------ |
@@ -28,24 +28,25 @@ Here is how the dilemma is often captured visually, in a "payoff table" (your cl
 | **Your class refrains**      | You: 0<br>Other: 2           | You: 0.5<br>Other: 1.5      | You: 1<br>Other: 1       |
 
 
-The rules of the button are as follows:
-* After the button is introduced, it can be pushed by any student during any class meeting
-* A class can deliberate, elect representatives, and make agreements among itself by whatever procedure it chooses to decide about pushing the button
-* The button must be pushed in-person
-* The button must be pushed by someone enrolled in the class ("enrolled" means enrolled as of the day the button is officially introduced: September 9, 2026)
-* Each class may push the button at most twice; each push moves 0.5 points from the other class to the pushing class
-	* if both classes have pushed, both classes get 0 (no matter how many times either one pushed)
-* Pushing the button **can be reversed** as follows:
-	* the class that pushed the button submits a "letter of intent to reverse the pushing of the 1% button"
-	* the letter is hand-signed by everyone in the class, including the person who pushed the button
-	* each such letter reverses one push
-* A class can also **rule out the button** in advance, e.g. by submitting a "letter of intent to refrain from pushing the button," hand-signed by everyone in the class; once it is filed, no push from that class will count, and the instructor will notify the other class of the letter
-* At the request of any student, a minimum of five minutes of any class meeting are reserved for the class to discuss the button
-* The instructor will not disclose whether the other section has pushed the button, but will share any letter of intent to refrain
-* Students may ask the other section directly, by any means they like, and the two sections may say whatever they wish to each other;
-	* The instructor will neither confirm nor deny anything except letters of intent
-* All pushes and reversals are final as of the last class meeting, December 2, and will be finalized in Canvas at that time.
-	* Note that every student in a section will get the same grade (0, 0.5, 1.0, 1.5, or 2.0)
+The rules of the button are as follows (last updated September 11, 2026):
+* **A push counts only if** an enrolled student pushes the button in person, while class is in session, with at least **8 other enrolled students** present and able to see it
+	* "Enrolled" means enrolled as of September 9, 2026, the day the button was officially introduced
+	* "In session" runs from the start of the scheduled class period until the instructor says "see you next class"
+	* A push that misses any of these conditions does not count
+* A class can decides about the button by whatever procedure they likes: open deliberation, elected representatives, etc., or other agreements
+	* At any student's request, at least five minutes of a class meeting are reserved for discussing the button
+* Each class may push at most twice; each push moves 0.5 points from the other class to the pushing class
+	* If both classes push, both get 0, no matter how many times either one pushed
+* A class can also act by **letter** if the letter is hand-signed by everyone enrolled in the class:
+	* A "letter of intent to reverse the pushing of the 1% button," also signed by the person who pushed, will reverse one push
+	* A "letter of intent to refrain from pushing the button" rules the button out in advance: once filed, no push from that class counts
+* What the instructor will and will not say:
+	* Will not confirm nor deny whether the *other* section has pushed the button
+	* Will share any letter of intent to refrain with both sections
+	* Will tell a section when its own button has been pushed
+* The two sections may contact each other by any means, and say whatever they like to each other
+* All pushes and reversals are final as of the last class meeting, December 2, when the grades go into Canvas
+	* Every student in a section gets the same grade (0, 0.5, 1.0, 1.5, or 2.0)
 
 _What will your section choose?_
 

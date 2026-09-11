@@ -231,6 +231,38 @@ Kohlberg's stages with Heinz responses ([cmglee, after Em Griffin](https://commo
 
 ---
 
+
+## Heinz Dilemma according to Jake and Amy {.smaller}
+
+::: {.source-top}
+Carol Gilligan, *In a Different Voice* (1982), ch. 2, two eleven-year-olds given the Heinz dilemma
+:::
+
+:::: columns
+::: {.column width="48%"}
+### Jake
+
+- Heinz should steal: life outweighs property
+- "Sort of like a math problem with humans"
+- Sets it up as a conflict of rights
+:::
+
+::: {.column width="48%"}
+### Amy
+
+- "They should really just talk it out and find some other way to make the money"
+- "What happens to the wife if Heinz goes to jail? Will she be okay?"
+- Sees a story of relationships over time
+:::
+::::
+
+::: {.fragment}
+(On Kohlberg's scale, Amy's answer scored lower than Jake's.)
+:::
+
+---
+
+
 ## Carol Gilligan {.smaller}
 
 :::: columns
@@ -278,36 +310,6 @@ Lawrence Kohlberg, via [Find a Grave](https://www.findagrave.com/memorial/124296
 :::
 :::
 ::::
-
----
-
-## Jake and Amy {.smaller}
-
-::: {.source-top}
-Carol Gilligan, *In a Different Voice* (1982), ch. 2, two eleven-year-olds given the Heinz dilemma
-:::
-
-:::: columns
-::: {.column width="48%"}
-### Jake
-
-- Heinz should steal: life outweighs property
-- "Sort of like a math problem with humans"
-- Sets it up as a conflict of rights
-:::
-
-::: {.column width="48%"}
-### Amy
-
-- "They should really just talk it out and find some other way to make the money"
-- "What happens to the wife if Heinz goes to jail? Will she be okay?"
-- Sees a story of relationships over time
-:::
-::::
-
-::: {.fragment}
-(On Kohlberg's scale, Amy's answer scored lower than Jake's.)
-:::
 
 ---
 
