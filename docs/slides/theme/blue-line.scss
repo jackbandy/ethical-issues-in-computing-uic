@@ -421,6 +421,7 @@ $code-block-border-color: $border;
   }
 
   .embed-layout {
+    position: relative;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 42px;
@@ -442,10 +443,14 @@ $code-block-border-color: $border;
     align-self: center;
   }
 
+  // The "open in new tab" chip rides in the embed's bottom-left corner. It is
+  // offset from .embed-layout rather than from the slide: an embed slide's
+  // section runs taller than the visible frame, so a slide-relative offset put
+  // the chip inside the footer strip, where it was invisible.
   .embed-overlay {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 12px;
+    left: 12px;
     z-index: 10;
     font-size: 0.5em;
 
@@ -455,6 +460,13 @@ $code-block-border-color: $border;
       border-radius: 4px;
       padding: 0.35em 0.8em;
     }
+  }
+
+  // When the layout leads with a text column the bottom-left corner belongs to
+  // the copy, so send the chip to the other corner, which is the embed's.
+  .embed-layout:has(.embed-copy) .embed-overlay {
+    right: 12px;
+    left: auto;
   }
 
   .embed-frame {
@@ -716,6 +728,102 @@ $photo-only-footer-opacity: 0.6;
   border-radius: 6px;
   box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
   background: $paper;
+}
+
+// "Ethics in the news": each story is rebuilt from its own masthead, headline,
+// deck, lead photo and byline rather than screenshotted off the live page, so
+// the slide carries the article and none of the ads, paywall furniture or
+// consent banners a real capture would drag in. The card is a facsimile, not a
+// reproduction of either publication's design — no logos, no brand type.
+.reveal .news-cards {
+  .columns {
+    gap: 34px;
+  }
+
+  .news-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 14px 18px 16px;
+    border: 1px solid $border;
+    border-radius: 6px;
+    background: $paper;
+    box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
+    text-align: left;
+  }
+
+  // The publication's own wordmark identifies the source; both are text logos
+  // in the public domain on Commons. Height-capped so the two mastheads sit on
+  // the same baseline despite very different aspect ratios.
+  .news-masthead {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid $ink;
+
+    img {
+      display: block;
+      width: auto;
+      height: 26px;
+      max-height: 26px;
+      max-width: 70%;
+      margin: 0;
+    }
+  }
+
+  .news-kicker {
+    margin-bottom: 4px;
+    color: $cta-blue-dark;
+    font-size: 0.4em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .news-headline {
+    margin: 0 0 0.3em;
+    color: $ink;
+    font-family: $presentation-heading-font;
+    font-size: 0.94em;
+    font-weight: 700;
+    line-height: 1.05;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .news-deck {
+    margin: 0 0 0.6em;
+    color: $charcoal;
+    font-size: 0.46em;
+    line-height: 1.35;
+  }
+
+  .news-card > img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    margin: 0;
+    object-fit: cover;
+    object-position: center 28%;
+  }
+
+  .news-credit {
+    margin: 0.3em 0 0;
+    color: $muted;
+    font-size: $caption-size;
+    line-height: 1.25;
+  }
+
+  .news-byline {
+    margin: auto 0 0;
+    padding-top: 0.5em;
+    color: $muted;
+    font-size: 0.42em;
+    line-height: 1.3;
+  }
 }
 
 // "A bit about me" photo grid: keep portraits short enough that the

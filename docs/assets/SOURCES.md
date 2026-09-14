@@ -17,3 +17,7 @@
 - **deontic-square-remix.svg** — Based on Wikipedia deontic square (remixed by Jack Bandy) — License: inherits from source
 
 - **deontic-square-remix-v2.svg** — Based on Wikipedia deontic square (remixed by Jack Bandy) — License: inherits from source
+
+- **troyon-pasture-normandy.jpg** — [Art Institute of Chicago: *Pasture in Normandy*](https://www.artic.edu/artworks/897) — Constant Troyon (French, 1810–1865), 1852, oil on panel; Henry Field Memorial Collection — License: Public Domain (CC0) — downloaded via the AIC IIIF endpoint at 1280px wide
+
+- **news/** — lead photographs from the news stories quoted on the week 4 "Ethics in the News" slide; see [news/SOURCES.md](news/SOURCES.md) for per-file credits and licensing

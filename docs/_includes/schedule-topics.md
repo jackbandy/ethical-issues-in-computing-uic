@@ -64,14 +64,21 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 4, Day 1 (2026-09-14)
 
 * Review theories of ethics
+* Ethics in the news: the call to slow down AI
+* Book selection check-in
+* The button, revisited: Ostrom's design principles
+* Preview the media diary ("Food in your Feed")
 
 ### Sources
 
-* (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
-* (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
+* Stanford Encyclopedia of Philosophy, [Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/), [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/), and [Consequentialism](https://plato.stanford.edu/entries/consequentialism/); Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) — the four theories, and the many flavors of each
+* Elinor Ostrom, [*Governing the Commons: The Evolution of Institutions for Collective Action*](https://doi.org/10.1017/CBO9780511807763) (1990) — the eight design principles
+* Garrett Hardin, [The Tragedy of the Commons](https://doi.org/10.1126/science.162.3859.1243), _Science_ (1968)
+* The [1% Button dilemma](dilemmas/utilitarian-button-matrix/)
 * Caleb Williams [responds to a trolley problem](https://www.youtube.com/watch?v=iM3Bu_S82Jc)
-* Discussing Anthropic's 80-page "Constitution" document with [Amanda Askell](https://archive.is/Xlv9q)
-  * The [constitution in full](https://www.anthropic.com/constitution)
+* Ethics in the news (September 12, 2026): Dario Amodei, [We Must Pace the Frontier](https://darioamodei.com/post/we-must-pace-the-frontier)
+  * _The Washington Post_, [Top AI leaders unite to warn the technology is advancing too fast](https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/)
+  * _Politico_, [AI leaders endorse slowdown in their risky technology](https://www.politico.com/news/2026/09/12/anthropic-ceo-dario-amodei-seeks-immediate-slowdown-artificial-intelligence-01073519)
 
 ## Week 4, Day 2 (2026-09-16)
 
@@ -132,6 +139,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ### Sources
 
 * Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/) (revisit from Week 2)
+* (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
+* (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
 * Elizabeth Bear's ["Dolly"](https://www.apexbookcompany.com/blogs/apex-magazine/dolly), full text at Apex Magazine
   * Audio version via [StarShipSofa episode 204 (34 minutes)](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
 * Wikipedia, ["Dolly" (story)](https://en.wikipedia.org/wiki/Dolly_(story))
@@ -194,6 +203,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ### Sources
 
 * _The Wall Street Journal_, [Artificial - The OpenAI Story](https://open.spotify.com/playlist/6d4v4CTqvvw4EHlHaFG2fh)
+* Discussing Anthropic's 80-page "Constitution" document with [Amanda Askell](https://archive.is/Xlv9q)
+  * The [constitution in full](https://www.anthropic.com/constitution)
 * Bender and Gebru et al. [On the Dangers of Stochastic Parrots - Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
   * [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
 * Chiang and Zheng et al. [An Open Platform for Evaluating LLMs by Human Preference](https://openreview.net/forum?id=3MW8GKNyzI)
