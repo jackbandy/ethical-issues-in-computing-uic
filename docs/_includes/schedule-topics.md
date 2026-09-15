@@ -11,6 +11,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 1, Day 2 (2026-08-26)
 
 * Introduction to Virtue Ethics
+* Worksheet: [Virtue Ethics: Group Reflection](assets/worksheets/01-virtue-ethics.pdf)
 
 ### Sources
 
@@ -31,6 +32,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 2, Day 2 (2026-09-02)
 
 * Introduction to Utilitarian Ethics
+* Worksheet: [Create Your Own Trolley Problem](assets/worksheets/04-utilitarian-ethics.pdf)
 
 ### Sources
 
@@ -50,6 +52,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 3, Day 2 (2026-09-09)
 
 * Introduction to Care Ethics
+* Worksheet: [Care Ethics: Group Reflection](assets/worksheets/06-care-porcupine-heinz.pdf)
 
 ### Sources
 
@@ -97,6 +100,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 * Algorithmic Feeds and Content Moderation, Continued
 * Intro to Privacy
+* **Ethics through Fiction:** read and discuss short story (["The Ones Who Walk Away from Omelas" by Ursula K. Le Guin](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf))
+  * Alternate PDF [here](https://users.manchester.edu/Facstaff/SSNaragon/Online/texts/201/-Essays/Leguin,%20Omelas.pdf)
 * Preview short story ("[Here and Now](https://archive.ph/p7w46)")
 
 ### Sources
@@ -106,11 +111,12 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * Meta's [Community Standards](https://transparency.meta.com/policies/community-standards/)
 * Meta's [exceptions for newsworthy content](https://transparency.meta.com/features/approach-to-newsworthy-content)
 * Reddit's [Platform-wide Rules](https://redditinc.com/policies/reddit-rules)
+* Ursula K. Le Guin, ["The Ones Who Walk Away from Omelas"](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf) (PDF hosted by the U.S. Naval Academy's Core Ethics program)
 
 ## Week 5, Day 2 (2026-09-23)
 
 * Privacy, Continued
-* Discuss short story ("Here and Now")
+* **Ethics through Fiction:** discuss short story ("Here and Now")
 * Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
   * PDF available in Canvas
 
@@ -121,7 +127,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 6, Day 1 (2026-09-28)
 
 * Privacy in data, Continued
-* **Virtue ethics through fiction:** discuss short story ("Message in a Bottle")
+* **Ethics through Fiction:** discuss short story ("Message in a Bottle")
 * Preview short story (["Dolly" by Elizabeth Bear](https://www.apexbookcompany.com/blogs/apex-magazine/dolly))
   * 34-minute audio version via [StarShipSofa episode 204](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
 
@@ -132,9 +138,9 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 6, Day 2 (2026-09-30)
 
 * Inequality and Justice
-* **Deontology through fiction:** discuss short story ("Dolly")
-* Preview short story (["The Ones Who Walk Away from Omelas" by Ursula K. Le Guin](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf))
-  * Alternate PDF [here](https://users.manchester.edu/Facstaff/SSNaragon/Online/texts/201/-Essays/Leguin,%20Omelas.pdf)
+* **Ethics through Fiction:** discuss short story ("Dolly")
+* Preview short story (["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/))
+  * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
 
 ### Sources
 
@@ -147,26 +153,25 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 7, Day 1 (2026-10-05)
 
-* **Asynchronous class day**
- Read ["The Ones Who Walk Away from Omelas"](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf) 
+* **Asynchronous reading day.** No class meeting.
+* Read ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
+  * 34-minute audio version of "If an Algorithm Can Cast a Shadow" [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
 
 ## Week 7, Day 2 (2026-10-07)
 
-* **Asynchronous class day.** No class meeting.
-* Read ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
-  * 34-minute audio version of "If an Algorithm Can Cast a Shadow" [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
+* **Asynchronous reading day.** No class meeting.
+* Continued reading time
 * Work time for the online account scrap doll exercise
 
 ## Week 8, Day 1 (2026-10-12)
 
 * Computing and War
-* **Utilitarianism through fiction:** discuss short story ("The Ones Who Walk Away from Omelas")
+* **Ethics through Fiction:** discuss short story ("If an Algorithm Can Cast a Shadow")
 * Also discuss short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
 
 ### Sources
 
 * Stanford Encyclopedia of Philosophy, [History of Utilitarianism](https://plato.stanford.edu/ENTRiES/utilitarianism-history/) (revisit from Week 2)
-* Ursula K. Le Guin, ["The Ones Who Walk Away from Omelas"](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf) (PDF hosted by the U.S. Naval Academy's Core Ethics program)
 * Joseph Weizenbaum's speech ["Not Without Us"](https://www.jstor.org/stable/48617451)
 * Ross Andersen, ["Inside Anthropic’s Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/)
 * Keach Hagey, ["Altman Says OpenAI Is Working on Pentagon Deal Amid Anthropic Standoff"](https://archive.ph/qcGEY)
@@ -182,7 +187,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 * Medical and health technologies
 * Intro to CyberSecurity
-* **Care ethics through fiction:** discuss short story ("If an Algorithm Can Cast a Shadow")
+* Bridging fiction and non-fiction
 * Discuss Speculative Fiction Exercise
 
 ### Sources
