@@ -1,5 +1,12 @@
 # Summer 2026 To-Do List
 
+## Stories to Add
+- [ ] Add to Week 8, Day 1 (Computing and War) sources: Anthropic's September 2026 threat-intelligence report on a Yemen-based cell using Claude Code to build weapons software (a guided rocket on a phone-class flight computer with final-phase homing guidance, a multi-stage ballistic missile with a stated range goal above 2,000 km, and a multi-variant "R2000" set including a hypersonic glide vehicle). Actors used Claude Code in place of human software engineers for guidance, navigation and control software.
+  - Source as given: https://www.instagram.com/p/DdJxBanjnIM/?img_index=1 (Instagram post by @theclaudeportfolio, an Autopilot investment-ad account — it relays the story but pitches an investing app, so cite the primary source below instead)
+  - Primary source: Anthropic, "Detecting and countering misuse of AI: September 2026" (GTG-87001) — https://www.anthropic.com/threat-intelligence-report-september-2026
+  - News coverage: Bloomberg / LA Times, Sept 11 2026 — https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software ; Reuters — https://www.reuters.com/3fec1b0a85a0/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/
+  - Fits alongside the existing Week 8 Day 1 sources on the Anthropic/Pentagon dispute and the Claude-in-Iran-strikes reporting; also relevant to Week 4 "Ethics in the News".
+
 ## GitHub Pages
 - [x] Seat shuffler needs way to mark absences / empty seats — click a seat to erase it; erased seats are left out of the shuffle, a fully-erased table drops out of the room, and destinations still get 3–4 students each
 - [x] Book gallery takes too long to load (remote images) — covers are now self-hosted in `docs/assets/book-cover-cache/`, fetched by `docs/fetch-book-covers.py`, and the grid lazy-loads

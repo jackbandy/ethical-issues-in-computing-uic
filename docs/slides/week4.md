@@ -471,6 +471,40 @@ CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
+## Ethics in the News {.news-cards}
+
+::: {.source-top}
+September 11, 2026: Anthropic reports that a cell in northern Yemen used its Claude models to develop missile-guidance software — and that the company's own threat-intelligence team detected and shut it down.
+:::
+
+:::: columns
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/latimes-logo.svg" alt="Los Angeles Times"></div>
+<div class="news-kicker">Business</div>
+<div class="news-headline"><a href="https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software">Anthropic says Yemeni weapons cell used its AI to try to build missile guidance software</a></div>
+<div class="news-deck">The Yemen-based group used Claude to help develop guidance, navigation and control software, effectively replacing some tasks typically performed by software engineers.</div>
+<img src="../assets/news/amodei-code-with-claude.jpg" alt="Dario Amodei on stage at the Code with Claude conference">
+<div class="news-credit">Anthropic CEO Dario Amodei at the Code with Claude conference. (Don Feria / AP Content Services for Anthropic)</div>
+<div class="news-byline">By Loni Prinsloo and Omar El Chmouri · September 11, 2026 · <a href="https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software">latimes.com</a></div>
+</div>
+:::
+
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/bloomberg-logo.svg" alt="Bloomberg"></div>
+<div class="news-kicker">Technology</div>
+<div class="news-headline"><a href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemeni-group-used-claude-in-missile-development">Anthropic Says Yemeni Cell Used Claude in Missile Development</a></div>
+<div class="news-deck">The actors were working on three weapons projects, including a guided rocket, a ballistic missile with a claimed range of more than 2,000 kilometers, and a missile family known as the R2000.</div>
+<img src="../assets/news/claude-app-icon.svg" alt="The Claude app icon">
+<div class="news-credit">The Claude app icon. (Anthropic / Wikimedia Commons, CC0)</div>
+<div class="news-byline">By Loni Prinsloo and Omar El Chmouri · September 11, 2026 · <a href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemeni-group-used-claude-in-missile-development">bloomberg.com</a></div>
+</div>
+:::
+::::
+
+---
+
 ## Administrivia
 
 :::: columns
@@ -491,6 +525,7 @@ CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 :::: columns
 ::: {.column width="55%"}
+- Ethics in the News
 - Activity: samples from your feeds
 - Feed algorithms 101
 - Activity: ranking
