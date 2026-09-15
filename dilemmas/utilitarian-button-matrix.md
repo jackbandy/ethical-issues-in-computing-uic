@@ -64,3 +64,4 @@ See also: [Elinor Ostrom's design principles for long-enduring CPR institutions]
 
 See also: the ferry scene from *The Dark Knight* (2008)
 
+See also: [red button or blue button](https://doethics.fun/dilemmas/utilitarian-red-or-blue-button/) 

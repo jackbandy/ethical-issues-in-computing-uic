@@ -13,6 +13,7 @@ I have also made an effort to include "established" ethical dilemmas rather than
 * The [transplant case](utilitarian-ethics-transplant.md)
 * The [tortured child](utilitarian-ethics-tortured-child.md)
 * [The Prisoner's Dilemma](utilitarian-prisoners-dilemma.md)
+* [Red Button or Blue Button](utilitarian-red-or-blue-button.md)
 
 ## Dilemmas from Care Ethics
 * The [Porcupine and the Moles](care-ethics-porcupine-and-moles.md)
