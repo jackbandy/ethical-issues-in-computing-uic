@@ -529,7 +529,7 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 
 ## 🔀 Seat Shuffle {.embed-slide}
 
-::: {.embed-layout style="grid-template-columns:1fr 2.4fr;gap:28px;"}
+::: {.embed-layout}
 ::: {.embed-copy}
 - Shuffle seats!
 - Enter a seed and shuffle
@@ -537,7 +537,7 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 [Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
 :::
 
-::: {.embed-frame}
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
 <iframe
   src="../in-progress/visual-seat-shuffle.html"
   title="Visual Seat Shuffle"
