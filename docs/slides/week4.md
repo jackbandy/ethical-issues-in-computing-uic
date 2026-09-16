@@ -461,13 +461,13 @@ CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
-# Ethical Issues in Algorithmic Feeds {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover" data-menu-title="Week 4, Day 2"}
+# Ethical Issues in Algorithmic Feeds {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop11-uic-halsted-a.jpg" background-size="cover" data-menu-title="Week 4, Day 2"}
 
 CS 377, Week 4, Day 2 🟦 UIC-Halsted 🟦
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop11-uic-halsted-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop11-uic-halsted-a.jpg" background-size="cover"}
 
 ---
 
