@@ -576,6 +576,12 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 
 ---
 
+## Red/Blue Button: What Would AIs Press? {.figure-slide .framed-figure}
+
+![](../assets/red-blue-ai.png){style="max-height:520px;"}
+
+---
+
 # Feed Algorithms {.title-slide .section-header}
 
 ---
