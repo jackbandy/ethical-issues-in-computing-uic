@@ -505,32 +505,19 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 
 ---
 
-## Administrivia
 
-:::: columns
-::: {.column width="55%"}
-- Canvas updates and upcoming deadlines
-- Questions from last class?
-- Reminders
-:::
 
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
-## Agenda for Today
+## Map for Today
 
 :::: columns
 ::: {.column width="55%"}
 - Ethics in the News
-- Activity: samples from your feeds
+- Shuffle seats
+- Warm-up discussion: red or blue button
 - Feed algorithms 101
-- Activity: ranking
-- Mini-lecture: Values and Ethics in Ranking
-- Mini-lecture: Content moderation
+- Discuss samples from your feeds
+- Values in ranking, with the ranking activity
+- Previewing content moderation
 :::
 
 ::: {.column width="40%"}
@@ -540,10 +527,318 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 
 ---
 
-## 🔀 Seat Shuffle
+## 🔀 Seat Shuffle {.embed-slide}
 
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+::: {.embed-layout style="grid-template-columns:1fr 2.4fr;gap:28px;"}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## Warm-up Discussion: Red Button or Blue Button {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-frame}
+<iframe
+  src="https://doethics.fun/dilemmas/utilitarian-red-or-blue-button/"
+  title="Dilemma: Red Button or Blue Button"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://doethics.fun/dilemmas/utilitarian-red-or-blue-button/)
+:::
+:::
+
+---
+
+# Feed Algorithms {.title-slide .section-header}
+
+---
+
+
+## Facebook's Feed System (2021) {.figure-slide}
+
+::: {.source-top}
+[Lada, Wang, and Yan, "How Does News Feed Predict What You Want to See?" (Meta, January 26, 2021)](https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/)
+:::
+
+![](../assets/feeds/RankingFlow.jpg)
+
+::: {.figure-caption}
+Meta's diagram of News Feed ranking: **inventory** → **integrity processes** → a lightweight **multitask model** → **select top relevant posts** → **main scoring pass** → **contextual pass** → your feed
+:::
+
+---
+
+## Facebook's Feed System, by the numbers {.smaller}
+
+::: {.source-top}
+[Lada, Wang, and Yan, "How Does News Feed Predict What You Want to See?" (Meta, January 26, 2021)](https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/)
+:::
+
+::: {}
+- **2+ billion** people using Facebook, trillions of posts
+- **1,000+ candidate posts** eligible for any one person's feed
+- **Thousands of signals** per person feed the relevance predictions
+- A lightweight model cuts the candidates down to **~500 posts**
+- The main scoring pass and contextual pass leave a **few hundred** posts in the feed at any given time
+:::
+
+---
+
+## Generic Feed System Architecture {.smaller}
+
+A typical recommender system proceeds in four stages:
+
+::: {}
+1. **Moderation** — remove items that violate platform policies
+2. **Candidate generation** — select high-potential items from a large pool (billions → thousands)
+3. **Ranking** — assign each candidate a numeric score for this user and context
+4. **Re-ranking** — reorder by ancillary goals (variety, freshness, safety)
+:::
+
+---
+
+## Generic Feed System Architecture {.figure-slide}
+
+::: {.source-top}
+[Knight-Georgetown Institute, *Recommender Systems 101* (March 2025)](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf)
+:::
+
+![](../assets/feeds/recsys-pipeline-kgi.png)
+
+::: {.figure-caption}
+The same four stages with the approximate number of items retained at each one for a large platform: **>100 million** eligible items in, **top 10** items displayed. Source: [Knight-Georgetown Institute, *Recommender Systems 101*](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf), March 2025.
+:::
+
+---
+
+## Table Discussion: Your Feed Sample (8 min) {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Which app did you use?
+- When did you check it?
+- What would you remove?
+- How would you rate or grade this feed sample overall?
+- What did *not* show up in your feed?
+- Did this sample seem typical?
+- What else stuck out to you?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+# Values in Ranking {.title-slide .section-header}
+
+---
+
+## News Values
+
+:::: columns
+::: {.column width="55%"}
+- What goes on the "front page?"
+- What makes an event important?
+- Original study by Johan Galtung and Mari Holmboe Ruge (1965)
+  - "Elite" people and places
+  - Conflicts / scandals / disasters
+- Follow-up by Tony Harcup and Deirdre O'Neill (2017)
+:::
+
+::: {.column width="40%"}
+![](../assets/feeds/newsstand-2012.jpg)
+
+::: {.caption}
+A newsstand in Brighton, January 2012. Photo: [Bobbie Johnson](https://commons.wikimedia.org/wiki/File:2012_newsstand_6751560847.jpg), CC BY-SA 2.0
+:::
+:::
+::::
+
+---
+
+## News Values (Harcup and O'Neill, 2017) {.smaller}
+
+::::: columns
+:::: {.column width="48%"}
+- Threshold/intensity
+- Meaningfulness
+- Clarity/unambiguity
+- Consonance
+- Composition
+- Elite nations, people
+- Negativity (conflict, disaster)
+::::
+
+:::: {.column width="48%"}
+- Surprise
+- Bad news (death, injury)
+- Shareability
+- Show business, sport, humor
+- Follow-up stories
+- Drama (searches, rescues, etc.)
+- Local relevance to audience
+- Magnitude of impact
+::::
+:::::
+
+---
+
+## Ranking Exercise {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- See handout
+- Items you want seen by more people should be ranked higher (1 = top item)
+- Rank/remove all of them!
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## How did you decide the ranking?
+
+---
+
+## "Can't you just score the posts?"
+
+- Current options on Reddit:
+  - Best, Hot, New, Top, Trending
+- Ranking algorithms are opinions embedded in code
+  - See Evan Miller, "How Not To Sort By Average Rating"
+
+---
+
+## Cathy O'Neil {.smaller}
+
+:::: columns
+::: {.column width="55%"}
+- Mathematician (PhD, Harvard); taught at Barnard, then worked as a quant at the hedge fund D.E. Shaw
+- Left finance after the 2008 crash and joined Occupy Wall Street's alternative banking group
+- *Weapons of Math Destruction* (2016): opaque, large-scale, damaging scoring systems — for teachers, borrowers, job applicants, defendants
+- Writes the blog *mathbabe*; her firm audits algorithms
+:::
+
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/cathy-oneil.jpg)
+
+::: {.caption}
+Cathy O'Neil at Google Cambridge, October 2016. Photo: [GRuban](https://commons.wikimedia.org/wiki/File:Cathy_O%27Neil_at_Google_Cambridge.jpg), CC BY-SA 4.0
+:::
+:::
+::::
+
+---
+
+## Algorithms are opinions {.quote-slide}
+
+> Algorithms are opinions embedded in code…. They think algorithms are objective and true and scientific — that's a marketing trick.
+>
+> — Cathy O'Neil, ["The era of blind faith in big data must end"](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end) (TED2017)
+
+---
+
+## Crappy Ranking Options
+
+- Score = (Positive ratings) − (Negative ratings)
+  - Used by Urban Dictionary
+- Score = Upvote Percentage
+  - (Positive ratings) / (Total ratings)
+  - Can be skewed with a small number of observations
+  - Used by Amazon
+
+---
+
+## Improved Ranking
+
+- Your ideas?
+
+::: {.fragment}
+- Technical fix: binomial proportion confidence interval
+- Reddit hides the number of upvotes for the first few hours
+:::
+
+
+
+## Which ethical frameworks are at play? How? {.theories-grid .smaller}
+
+<table>
+<tr>
+<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
+<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
+</tr>
+<tr>
+<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
+<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
+</tr>
+</table>
+
+---
+
+# Previewing Content Moderation {.title-slide .section-header}
+
+---
+
+## What Is Content Moderation?
+
+- The practice of monitoring and applying rules to user-generated content
+- Decisions about what to allow, remove, label, or reduce in reach
+- Carried out by humans, automated systems, or both
+- Much more on this next class!
+
+---
+
+
+
+## That's all for today!
+
+See you next week!
+
+---
+
+# Appendix: Review and things I still need to convert {.title-slide .section-header .no-index}
 
 ---
 
@@ -607,192 +902,53 @@ Which theory do you feel most aligned with so far?
 
 ---
 
-## Table Discussion: Your Feed Sample (8 min)
-
-- Which app did you use? When did you check it?
-- What would you remove, if you had to choose?
-- How would you rate this feed sample overall?
-- What did *not* show up in your feed?
-- Did this sample seem typical?
-- What else surprised you or stuck out to you?
-
 ---
 
-# Feed Algorithms {.title-slide .section-header}
-
----
-
-## Feed Algorithms 101
-
----
-
-## Facebook's Feed System (2021)
-
-<!-- image: Facebook's feed system architecture diagram (2021) -->
-- TODO: add image — *Facebook's feed system architecture diagram (2021)*
-
----
-
-## Generic Feed System Architecture {.smaller}
-
-A typical recommender system proceeds in four stages:
-
-::: {.incremental}
-1. **Moderation** — remove items that violate platform policies
-2. **Candidate generation** — select high-potential items from a large pool (billions → thousands)
-3. **Ranking** — assign each candidate a numeric score for this user and context
-4. **Re-ranking** — reorder by ancillary goals (variety, freshness, safety)
-:::
-
-<!-- image: pipeline diagram showing item counts at each stage (Georgetown/KGI, Recommender Systems 101, March 2025) -->
-- TODO: add image — *pipeline diagram showing item counts at each stage (Georgetown/KGI, Recommender Systems 101, March 2025)*
-
----
-
-## Generic Feed System Architecture
-
-<!-- image: same diagram with annotation showing approximate item counts at each stage for a large platform -->
-- TODO: add image — *same diagram with annotation showing approximate item counts at each stage for a large platform*
-
----
-
-# Values in Ranking {.title-slide .section-header}
-
----
-
-## Mini-lecture: Values and Ethics in Ranking
-
----
-
-## News Values
-
-- What goes on the "front page?"
-- What makes an event important?
-- Original study by Johan Galtung and Mari Holmboe Ruge (1965)
-  - "Elite" people and places
-  - Conflicts / scandals / disasters
-- Follow-up by Tony Harcup and Deirdre O'Neill (2017)
-
----
-
-## News Values (Harcup and O'Neill, 2017) {.smaller}
+## Johan Galtung (1930–2024) {.smaller}
 
 :::: columns
-::: {.column width="48%"}
-- Threshold/intensity
-- Meaningfulness
-- Clarity/unambiguity
-- Consonance
-- Composition
-- Elite nations, people
-- Negativity (conflict, disaster)
+::: {.column width="55%"}
+- Norwegian sociologist; founded the Peace Research Institute Oslo (1959) and the *Journal of Peace Research* (1964)
+- Held the world's first chair in peace and conflict studies (Oslo, 1969)
+- With Mari Holmboe Ruge, asked a ranking question about the news: of everything that happens, why do *these* events become "news"?
+- Their answer: a short list of **news values** — thresholds, elite nations and people, negativity, unambiguity — that works like a scoring function
 :::
 
-::: {.column width="48%"}
-- Surprise
-- Bad news (death, injury)
-- Shareability
-- Show business, sport, humor
-- Follow-up stories
-- Drama (searches, rescues, etc.)
-- Local relevance to audience
-- Magnitude of impact
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/johan-galtung.jpg)
+
+::: {.caption}
+Johan Galtung, 2007. Photo: [David Lisbona](https://commons.wikimedia.org/wiki/File:Johan_Galtung.jpg), CC BY 2.0
+:::
 :::
 ::::
 
 ---
 
-## Ranking Exercise
+## How Facebook ranks comments {.smaller}
 
-- See handout
-- Items you want seen by more people should be ranked higher (1 = top item)
-
----
-
-## How did you decide the ranking?
-
----
-
-## "Can't you just score the posts?"
-
-- Current options on Reddit:
-  - Best, Hot, New, Top, Trending
-- Ranking algorithms are opinions embedded in code
-  - See Evan Miller, "How Not To Sort By Average Rating"
-
----
-
-## Algorithms are opinions {.quote-slide}
-
-> Algorithms are opinions embedded in code…. They think algorithms are objective and true and scientific — that's a marketing trick.
->
-> — Cathy O'Neil
-
----
-
-## Crappy Ranking Options
-
-- Score = (Positive ratings) − (Negative ratings)
-  - Used by Urban Dictionary
-- Score = Upvote Percentage
-  - (Positive ratings) / (Total ratings)
-  - Can be skewed with a small number of observations
-  - Used by Amazon
-
----
-
-## Improved Ranking
-
-- Your ideas?
-
-::: {.fragment}
-- Technical fix: binomial proportion confidence interval
-- Reddit hides the number of upvotes for the first few hours
+::: {.source-top}
+[Revel et al., "Representative Ranking for Deliberation in the Public Sphere," *ICML 2025*](https://arxiv.org/abs/2503.18962)
 :::
 
----
-
-## How Facebook ranks comments
-
-<!-- image: via "Representative Ranking for Deliberation in the Public Sphere" (2025) -->
-- TODO: add image — *via "Representative Ranking for Deliberation in the Public Sphere" (2025)*
+- Comment sections get ranked too — civility classifiers and "prosocial" ranking push toxic replies down
+- But down-ranking by tone can also bury **legitimate viewpoints** that happen to be unpopular
+- Revel, Milli, Lu, Watson-Daniels, and Nickel borrow **justified representation** from social choice theory: if a large enough group shares a view, the top of the ranking owes them a comment
+- The ranking question becomes a question about **representation**, not just quality
 
 ---
 
-## Instagram Notifications (Example of a "Tweak")
+## Instagram Notifications (Example of a "Tweak") {.smaller}
 
-- Author diversity
+::: {.source-top}
+[Meta Engineering, "A New Ranking Framework for Better Notification Quality on Instagram" (September 2, 2025)](https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/)
+:::
 
-<!-- image: via "A New Ranking Framework for Better Notification Quality on Instagram" (2025) -->
-- TODO: add image — *via "A New Ranking Framework for Better Notification Quality on Instagram" (2025)*
-
----
-
-## Which ethical frameworks are at play? How? {.theories-grid .smaller}
-
-<table>
-<tr>
-<td><div class="emoji">🏛</div><div class="name">Virtue Ethics</div></td>
-<td><div class="emoji">📖</div><div class="name">Deontological</div></td>
-</tr>
-<tr>
-<td><div class="emoji">📊</div><div class="name">Utilitarian</div></td>
-<td><div class="emoji">💟</div><div class="name">Care Ethics</div></td>
-</tr>
-</table>
-
----
-
-# Previewing Content Moderation {.title-slide .section-header}
-
----
-
-## What Is Content Moderation?
-
-- The practice of monitoring and applying rules to user-generated content
-- Decisions about what to allow, remove, label, or reduce in reach
-- Carried out by humans, automated systems, or both
-- Much more on this next class!
+- Notifications used to be ranked by predicted engagement alone — which sends you five near-identical alerts
+- The tweak: a **diversity check** layered on top of the engagement models
+- A notification too similar to recent ones — same **author**, content type, or format — is penalized and less likely to be sent
+- Result Meta reports: **fewer** notifications per day, **higher** click-through rate
+- Worth asking whose interests each knob serves
 
 ---
 
@@ -804,20 +960,14 @@ A typical recommender system proceeds in four stages:
 
 ---
 
-## That's all for today!
-
-See you next week!
-
----
-
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week4.md>.
 2. Day 1 title photo: [Racine CTA](https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg) by JeremyA, via Wikimedia Commons, CC BY-SA 3.0.
-3. Georgetown/KGI, *Recommender Systems 101* (March 2025). Pipeline architecture diagram.
+3. Knight-Georgetown Institute, [*Recommender Systems 101*](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf) (March 2025) — the four-stage pipeline and the per-stage item counts; part of KGI's [*Better Feeds: Algorithms That Put People First*](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Better-Feeds_-Algorithms-That-Put-People-First.pdf) report.
 4. Johan Galtung and Mari Holmboe Ruge, "The Structure of Foreign News" (1965); Tony Harcup and Deirdre O'Neill, "What is News? News values revisited (again)" (2017).
 5. Evan Miller, ["How Not To Sort By Average Rating"](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html).
-6. Cathy O'Neil, *Weapons of Math Destruction* (2016).
+6. Cathy O'Neil, *Weapons of Math Destruction* (Crown, 2016); the quotation is from her TED2017 talk, ["The era of blind faith in big data must end"](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end). Portrait: [GRuban](https://commons.wikimedia.org/wiki/File:Cathy_O%27Neil_at_Google_Cambridge.jpg), Google Cambridge, October 2016, via Wikimedia Commons, CC BY-SA 4.0.
 7. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
 8. UChicago, [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu).
 9. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
@@ -828,4 +978,10 @@ See you next week!
 14. Theory variants: [*Deontological Ethics*](https://plato.stanford.edu/entries/ethics-deontological/), [*Consequentialism*](https://plato.stanford.edu/entries/consequentialism/), and [*Virtue Ethics*](https://plato.stanford.edu/entries/ethics-virtue/), *Stanford Encyclopedia of Philosophy*; [*Care Ethics*](https://iep.utm.edu/care-ethics/), *Internet Encyclopedia of Philosophy*.
 15. [Caleb Williams on *Pardon My Take*](https://www.youtube.com/watch?v=iM3Bu_S82Jc) (Barstool Sports).
 16. Ethics in the news: Ted Hesson, Ian Duncan, and Gerrit De Vynck, ["Top AI leaders unite to warn the technology is advancing too fast"](https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/), *The Washington Post* (September 12, 2026), lead photo by Chance Yeh/Getty Images; Ben Johansen and Owen Dahlkamp, ["AI leaders endorse slowdown in their risky technology"](https://www.politico.com/news/2026/09/12/anthropic-ceo-dario-amodei-seeks-immediate-slowdown-artificial-intelligence-01073519), *Politico* (September 12, 2026), lead photo by Markus Schreiber/AP. Both cards are facsimiles built from each story's own headline, deck, photo, and byline — not captures of the publications' page designs. The essay both stories cover: Dario Amodei, ["We Must Pace the Frontier"](https://darioamodei.com/post/we-must-pace-the-frontier).
-17. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+17. Akos Lada, Meihong Wang, and Tak Yan, ["How Does News Feed Predict What You Want to See?"](https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/), Meta Newsroom (January 26, 2021) — the ranking-flow diagram and the per-stage counts; the same illustrations are reproduced from that post.
+18. Manon Revel, Smitha Milli, Tyler Lu, Jamelle Watson-Daniels, and Maximilian Nickel, ["Representative Ranking for Deliberation in the Public Sphere"](https://arxiv.org/abs/2503.18962), *Proceedings of the 42nd International Conference on Machine Learning* (ICML 2025), 51583–51613; also published by the [Knight First Amendment Institute](https://knightcolumbia.org/content/representative-ranking-for-deliberation-in-the-public-sphere).
+19. Meta Engineering, ["A New Ranking Framework for Better Notification Quality on Instagram"](https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/) (September 2, 2025).
+20. News values: Johan Galtung portrait by [David Lisbona](https://commons.wikimedia.org/wiki/File:Johan_Galtung.jpg), 2007, via Wikimedia Commons, CC BY 2.0; newsstand photograph by [Bobbie Johnson](https://commons.wikimedia.org/wiki/File:2012_newsstand_6751560847.jpg), Brighton, January 2012, via Wikimedia Commons, CC BY-SA 2.0.
+21. NOVA, ["Search Engine Breakdown"](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) (21 minutes) — two researchers investigate racial bias built into widely used search engines.
+22. Seat shuffle tool: [doethics.fun/in-progress/visual-seat-shuffle](https://doethics.fun/in-progress/visual-seat-shuffle.html); countdown timer: [doethics.fun/timer](https://doethics.fun/timer/).
+23. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

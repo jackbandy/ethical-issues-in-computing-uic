@@ -95,6 +95,13 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
 * UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
 * Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
+* Knight-Georgetown Institute, [Recommender Systems 101](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf) (March 2025) — the four stages of a feed pipeline, and how many items survive each one; from KGI's [Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Better-Feeds_-Algorithms-That-Put-People-First.pdf) report
+* Akos Lada, Meihong Wang, and Tak Yan, [How Does News Feed Predict What You Want to See? (Meta, 2021)](https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/) — Facebook's own walkthrough of News Feed ranking
+* Evan Miller, [How Not To Sort By Average Rating](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
+* Cathy O'Neil, [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end) (TED2017) — "algorithms are opinions embedded in code"
+* Manon Revel et al., [Representative Ranking for Deliberation in the Public Sphere](https://arxiv.org/abs/2503.18962) (ICML 2025) — what civility ranking does to minority viewpoints in comment sections
+* Meta Engineering, [A New Ranking Framework for Better Notification Quality on Instagram](https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/) (September 2025) — a diversity constraint bolted onto an engagement model
+* Tony Harcup and Deirdre O'Neill, [What is News? News values revisited (again)](https://doi.org/10.1080/1461670X.2016.1150193), *Journalism Studies* (2017)
 
 ## Week 5, Day 1 (2026-09-21)
 

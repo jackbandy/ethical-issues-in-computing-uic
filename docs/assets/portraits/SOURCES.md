@@ -42,6 +42,8 @@ below follow each Commons file page.
 | timnit-gebru.jpg | Timnit Gebru | [Commons](https://commons.wikimedia.org/wiki/File:Timnit_Gebru_crop.jpg) | CC BY 2.0 | TechCrunch (photo by Kimberly White/Getty Images), Disrupt SF 2018 |
 | tyler-shultz.jpg | Tyler Shultz | [Commons](https://commons.wikimedia.org/wiki/File:Tyler_Shultz_at_the_International_Journalism_Festival_2024_in_Perugia,_Italy.jpg) | CC BY-SA 4.0 | Jay Dixit, Perugia, 2024 |
 | virginia-held.jpg | Virginia Held | [Commons](https://commons.wikimedia.org/wiki/File:Virginia_Held_at_2013_Mellon_Sawyer_Seminar.jpg) | CC BY 3.0 | GC Mellon Sawyer (YouTube), 2013; still, cropped |
+| cathy-oneil.jpg | Cathy O'Neil | [Commons](https://commons.wikimedia.org/wiki/File:Cathy_O%27Neil_at_Google_Cambridge.jpg) | CC BY-SA 4.0 | GRuban, Google Cambridge, 3 October 2016 |
+| johan-galtung.jpg | Johan Galtung | [Commons](https://commons.wikimedia.org/wiki/File:Johan_Galtung.jpg) | CC BY 2.0 | David Lisbona, 2 September 2007 |
 | william-james.jpg | William James | [Commons](https://commons.wikimedia.org/wiki/File:William_James,_from_The_Story_of_Philosophy.jpg) | Public Domain | Unknown; from Will Durant, *The Story of Philosophy* (1926) |
 
 ## Non-freely-licensed
