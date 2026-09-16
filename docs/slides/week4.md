@@ -494,11 +494,11 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 <div class="news-card">
 <div class="news-masthead"><img src="../assets/news/bloomberg-logo.svg" alt="Bloomberg"></div>
 <div class="news-kicker">Technology</div>
-<div class="news-headline"><a href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemeni-group-used-claude-in-missile-development">Anthropic Says Yemeni Cell Used Claude in Missile Development</a></div>
+<div class="news-headline"><a href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemen-group-used-claude-in-missile-development">Anthropic Says Yemeni Cell Used Claude in Missile Development</a></div>
 <div class="news-deck">The actors were working on three weapons projects, including a guided rocket, a ballistic missile with a claimed range of more than 2,000 kilometers, and a missile family known as the R2000.</div>
 <img src="../assets/news/claude-app-icon.svg" alt="The Claude app icon">
 <div class="news-credit">The Claude app icon. (Anthropic / Wikimedia Commons, CC0)</div>
-<div class="news-byline">By Loni Prinsloo and Omar El Chmouri · September 11, 2026 · <a href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemeni-group-used-claude-in-missile-development">bloomberg.com</a></div>
+<div class="news-byline">By Loni Prinsloo and Omar El Chmouri · September 11, 2026 · <a href="https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemen-group-used-claude-in-missile-development">bloomberg.com</a></div>
 </div>
 :::
 ::::

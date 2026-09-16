@@ -86,7 +86,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 4, Day 2 (2026-09-16)
 
 * Ethics in Algorithmic Feeds
-  * Values in Ranking
+  * Values in Ranking ([exercise PDF](assets/worksheets/values-in-ranking.pdf))
   * Content Moderation
 
 ### Sources
