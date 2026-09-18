@@ -78,6 +78,26 @@ function plainLink(book) {
   return book.Link || `https://bookshop.org/search?keywords=${encodeURIComponent(book.ISBN ?? "")}`;
 }
 
+// A handful of books -- one too new to be listed, two long out of print --
+// aren't on Bookshop at all, so both Bookshop links would dead-end. Those
+// carry an `offsite:` URL instead (the publisher, or used copies), and the
+// panel shows that single link rather than two broken ones.
+function panelLinks(book) {
+  if (!book.Link && book.offsite) {
+    return `
+      <div class="panel-links">
+        <a class="panel-link" href="${escUrl(book.offsite)}" target="_blank" rel="noopener noreferrer">${esc(book.offsiteLabel || "Where to find it")} &rarr;</a>
+      </div>
+      <p class="panel-links-note">(Bookshop.org doesn't list this title, so this link goes elsewhere and earns the course nothing.)</p>`;
+  }
+  return `
+      <div class="panel-links">
+        <a class="panel-link" href="${escUrl(affiliateLink(book.ISBN))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; affiliate link &rarr;</a>
+        <a class="panel-link" href="${escUrl(plainLink(book))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; plain link &rarr;</a>
+      </div>
+      <p class="panel-links-note">(Both go to the same book for the same price. The affiliate link credits this course; the plain link has no referral tag.)</p>`;
+}
+
 function renderGallery(bookList) {
   const gallery = document.getElementById("gallery");
   gallery.innerHTML = "";
@@ -126,11 +146,7 @@ function openPanel(book) {
     <h2 class="panel-title">${esc(book.Title)}</h2>
     <p class="panel-author">${esc(book.Author)}</p>
     <p class="panel-isbn">ISBN: ${esc(book.ISBN)}</p>
-    <div class="panel-links">
-      <a class="panel-link" href="${escUrl(affiliateLink(book.ISBN))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; affiliate link &rarr;</a>
-      <a class="panel-link" href="${escUrl(plainLink(book))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; plain link &rarr;</a>
-    </div>
-    <p class="panel-links-note">(Both go to the same book for the same price. The affiliate link credits this course; the plain link has no referral tag.)</p>
+    ${panelLinks(book)}
     <div class="reviews-heading">
       <h3>Reviews from students who chose this book (${book.reviews ? book.reviews.length : 0})</h3>
       ${reviews}
