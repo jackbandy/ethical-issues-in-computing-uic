@@ -1,72 +1,80 @@
 # Online Account Biopsy
 
-Big Tech companies [don't need to listen through your microphone to serve you creepy ads](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads). Some ads make it seem like they are listening, but in reality, these companies are _simulating_ the kinds of conversations, purchases, and other behaviors you will carry out in the real world. These simulations are based on a digital profile made up of extensive online trace data -- digital "scraps" like locations, clicks, watch history, and more -- which are combined to create a [doll-like](https://futurism.com/the-byte/google-company-voodoo-doll-avatar) model of you.
+Big Tech companies [don't need to listen through your microphone to serve you creepy ads](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads). Some ads make it seem like they are listening, but in reality, these companies are _simulating_ the kinds of conversations, purchases, and other behaviors you will carry out in the real world. These simulations are based on a digital profile made up of extensive online trace data: digital "scraps" like locations, clicks, watch history, and more. These scraps are combined to create a [doll-like](https://futurism.com/the-byte/google-company-voodoo-doll-avatar) model of you.
 
-Thanks to the General Data Protection Regulation (GDPR), and especially [Article 15](https://gdpr-info.eu/art-15-gdpr/), companies now provide various ways to access this trace data they hold about us. This is often an option buried in the privacy settings menu somewhere and titled "export my data," "data export request," "download my profile," or something like that.
+Thanks to the General Data Protection Regulation (GDPR), and especially [Article 15](https://gdpr-info.eu/art-15-gdpr/), companies now provide various ways to access some of the digital sraps and trace data held about us. This is usually buried in the privacy settings, under a name like "export my data," "data export request," or "download my profile."
 
-*The purpose of this exercise is to retrieve and meditate on these data, guided by the metaphor of a "digital rag doll."*
+*The purpose of this exercise is to retrieve and meditate on these data, guided by the metaphor of a "digital scrap doll."*
 
 
 ## Part 1: Collect Personal Trace Data
 
-First, retrieve some of the data these companies have about you. You can choose one of the options below, or another app you use that offers this feature.
+First, request some of the data these companies have about you. Choose one of the platforms below, or another app you use that offers this feature.
 
-**Note**: many companies take a few days to actually send you the data, so try to request the data a few days before you plan to make the doll.
+**Note**: many companies take a few days to actually send you the data, so request it a few days before you plan to do Part 2.
 
-| # | Platform | Download Your Data Guide |
-| :-- | :-- | :-- |
-| 1 | Google | [Google Takeout](https://support.google.com/accounts/answer/3024190?hl=en) |
-| 2 | TikTok | [TikTok Help: Requesting Your Data](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data) |
-| 3 | Instagram | [Instagram Data Download](https://www.multcloud.com/explore/what-is-included-in-instagram-data-download-0121-ac.html) |
-| 4 | YouTube | [Your Data in YouTube](https://support.google.com/youtube/answer/9315727?hl=en) |
-| 5 | Facebook | [Facebook Data Download](https://www.pandasecurity.com/en/mediacenter/how-to-download-your-personal-data-from-facebook-a-step-by-step-guide/) |
-| 6 | Apple | [Get a Copy of Your Apple Account Data](https://www.macrumors.com/how-to/get-a-copy-of-your-apple-account-data/) |
-| 7 | Snapchat | [Snapchat: How to Download My Data](https://help.snapchat.com/hc/en-us/articles/7012305371156-How-do-I-download-my-data-from-Snapchat) |
-| 8 | Reddit | [Reddit Data Request](https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information) |
-| 9 | Twitter (X) | [Twitter Data Download](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive) |
-| 10 | LinkedIn | [LinkedIn Data Download](https://www.linkedin.com/help/linkedin/answer/a1343196/downloading-your-account-data?lang=en) |
+Exports vary a lot in what they contain. Platforms built on watching, listening, and/or scrolling (TikTok, YouTube, Spotify, Instagram) usually return the richest behavioral history, so they give you the most to work with in Part 2.
+
+| Platform | Download Your Data Guide |
+| :-- | :-- |
+| Google | [Google Takeout](https://support.google.com/accounts/answer/3024190?hl=en) |
+| TikTok | [TikTok Help: Requesting Your Data](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data) |
+| Instagram | [Review and Export a Copy of Your Instagram Information](https://help.instagram.com/181231772500920) |
+| YouTube | [Your Data in YouTube](https://support.google.com/youtube/answer/9315727?hl=en) |
+| Facebook | [Export a Copy of Your Facebook Information](https://www.facebook.com/help/212802592074644) |
+| Apple | [Get a Copy of the Data Associated with Your Apple Account](https://support.apple.com/en-us/102208) |
+| Snapchat | [Snapchat: How to Download My Data](https://help.snapchat.com/hc/en-us/articles/7012305371156-How-do-I-download-my-data-from-Snapchat) |
+| Reddit | [Reddit Data Request](https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information) |
+| X (Twitter) | [How to Download Your X Archive](https://help.x.com/en/managing-your-account/how-to-download-your-x-archive) |
+| LinkedIn | [LinkedIn Data Download](https://www.linkedin.com/help/linkedin/answer/a1343196/downloading-your-account-data?lang=en) |
+| Discord | [Requesting a Copy of Your Data](https://support.discord.com/hc/en-us/articles/360004027692-Requesting-a-Copy-of-your-Data) |
+| Spotify | [Data Rights and Privacy Choices](https://support.spotify.com/us/article/data-rights-and-privacy-settings/) |
+| Twitch | [Twitch Privacy Choices](https://legal.twitch.com/en/legal/privacy-choices/) |
+| Netflix | [What Personal Information Netflix Holds About You](https://help.netflix.com/en/node/100624) |
+| Amazon | [Request Your Personal Information](https://www.amazon.com/gp/help/customer/display.html?nodeId=TP1zlemejtTn6pwYKS) |
+| Strava | [How Do I Export My Strava Data?](https://support.strava.com/en-us/articles/15401919-how-do-i-export-my-strava-data) |
 
 
 ## Part 2: Review Trace Data
 
-Spend some time reviewing the data. It should be fairly straightforward to bring it into a structured data analysis library (i.e. Pandas) if you were given a [CSV](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_csv.html#) or [JSON](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_json.html). Then, do some exploring!
+Spend some time reviewing the data. If your exported includes [CSV](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_csv.html#) or [JSON](https://pandas.pydata.org/docs/dev/reference/api/pandas.read_json.html) files, they can easily load directly into a data analysis library like Pandas. Then, you can do some exploring!
 
-The following are suggested starting points for exploration and reflection -- not requirements.
+The following are suggested starting points.
 
-You might begin with some basic descriptive information from the dataset:
-* How many total data points are available in the export?
-* What time period was included in this export?
-  * Check earliest date and latest date included
-* How many days are in that time period, and how many of those days was I "active"?
-  * What was my longest streak of consecutive active days? Consecutive non-active days?
-* Does the export include the expected data, in terms of time period and activities?
-  * If not, what is missing?
-  * Is anything there that should not be there (e.g. deleted messages, removed likes)?
- 
-After you get a high-level view of the data, try to find some interesting lifetime statistics, such as:
-* How many total TikToks have I watched?
-* How many total posts have I liked on Instagram?
-* Which accounts have I engaged with the most?
-* Which topics or hashtags have I engaged with the most?
-  * How do these align with my real interests?
-* How many unique accounts have I engaged with? How many total engagements are captured?
-* What information is available about follows/unfollows?
-* How many comments have I posted?
-* How many hours of YouTube videos have I watched?
-* How has my activity changed over time?
+**Get oriented in the dataset:**
+* How many total data points are in the export, and what time period do they cover?
+* How many days are in that period, and how many of those days were you "active"? What was your longest streak of consecutive active days? Consecutive non-active days?
+* Is anything missing that you expected? Is anything there that should not be (e.g. deleted messages, removed likes)?
 
-Finally, in addition to these quantitative questions, consider the substance represented in the data, particularly in terms of your privacy. Guiding questions might include:
-* If someone only had this data about a person, what would they infer about that person?
-* Which advertisers might try to reach a person with this kind of data?
-* How specific is this data -- how many others could fit the emerging "profile?"
-* Which data represents me accurately? Inaccurately? Unsure?
-* Does this data capture specific time periods with more or less accuracy?
-* How much of this data would I feel comfortable sharing more broadly?
-  * Which statistics seem "safe" to share publicly?
-  * Which inferences/statistics would I want to keep private?
+**Calculate some lifetime statistics:**
+* How many total items have you watched, liked, posted, or commented on?
+* Which accounts, topics, or hashtags have you engaged with most? How well do those match your real interests?
+* How many unique accounts have you engaged with? What is recorded about follows and unfollows?
+* How has your activity changed over time?
+
+**Consider what the data reveal about you:**
+* If someone had only this data about a person, what would they infer? Which advertisers would try to reach them?
+* How specific is this profile? How many other people could fit it?
+* Which data represent you accurately? Inaccurately? Are some time periods captured better than others?
+* Which statistics seem "safe" to share publicly, and which inferences would you want to keep private?
+
+
+## AI/LLM Policy
+
+**Signal: yellow over red**: "proceed with caution on main route, prepared to stop." See the [FAQ](https://doethics.fun/faq.html) and the [syllabus](https://doethics.fun/syllabus/) for more background.
+
+🟡 AI/LLM-based tools are allowed (but not required) for **analyzing the data** in Part 2. For example, you might use it to write and/or debug analysis code.
+
+I advise agaiinst pasting or uploading your full data export anywhere. Instead, try to develop and run code locally so that your data stays only on your machine. For example, an LLM might generate some code, but make sure your machine is the one that actually runs the code. If take your data export from Google, for example, and upload it to ChatGPT, you just gave OpenAI a free, extensive digital profile with your digital scrap data.
+
+🔴 AI/LLM-based tools are **not** allowed for writing the reflection.
+
+If you do use a tool for the analysis, cite it in your report, at a minimum:
+> I used [tool and version] to [what you asked it to do].
 
 
 ## Submission
 
-Submit a **1-page PDF reflection** in canvas, which should include about 200-400 words, written in complete sentences. Make sure your reflection is grounded in the data you collected and analyzed. Charts and graphs are welcome but not required (if you do include them, your report can be more than 1 page).
+Submit a **1-page PDF reflection** in Canvas: about 200-400 words, in complete sentences, grounded in the data you analyzed. Charts and graphs are welcome but not required (if you include them, your report can run longer than 1 page).
 
+You will build on these observations in the next exercise: the [Online Account Scrap Doll](./03-online-account-rag-doll.md).
