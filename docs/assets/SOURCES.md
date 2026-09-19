@@ -25,4 +25,14 @@
   - **feeds/Recommender-Systems-101.pdf** and **feeds/recsys-pipeline-kgi.png** — [Knight-Georgetown Institute, *Recommender Systems 101*](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf), March 2025 — the PNG is the pipeline figure extracted at native resolution (1600×554) from page 1 of that PDF — the figure is stored in the PDF as a raster image, so no vector version exists — License: see KGI; used with attribution for classroom teaching.
   - **feeds/newsstand-2012.jpg** — [Wikimedia Commons: 2012 newsstand 6751560847.jpg](https://commons.wikimedia.org/wiki/File:2012_newsstand_6751560847.jpg) — Photo by Bobbie Johnson, Brighton, 23 January 2012 — License: CC BY-SA 2.0 — auto-oriented, stripped of EXIF, and downscaled to 1600px on the long edge
 
+- **dewitt-clinton-morse.jpg** — [Wikimedia Commons: De Witt Clinton MET DT2056.jpg](https://commons.wikimedia.org/wiki/File:De_Witt_Clinton_MET_DT2056.jpg) — Samuel Finley Breese Morse (American, 1791–1872), portrait of DeWitt Clinton; donated to Commons by the Metropolitan Museum of Art — License: CC0 — downscaled from 3106px to 1280px wide, EXIF stripped
+
+- **erie-canal-celebration-1825.jpg** — [Wikimedia Commons: New York celebration for the Erie Canal 1825.png](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png) — Anthony Imbert, depicting the New York City celebration marking the Erie Canal's completion, 1825 — License: Public Domain — converted from PNG to JPEG at native 1500px width, EXIF stripped
+
+- **bill-of-rights-1789.jpg** — [Wikimedia Commons: Bill of Rights WDL2704.png](https://commons.wikimedia.org/wiki/File:Bill_of_Rights_WDL2704.png) — the engrossed Bill of Rights, 1789, via the World Digital Library — License: Public Domain — converted from PNG to JPEG at native 1024px width, EXIF stripped
+
+- **moderation/** — case-study images for the week 5 content-moderation slides ("The Terror of War," Meta's Violence and Incitement policy); see [moderation/SOURCES.md](moderation/SOURCES.md). Contains an image of graphic war violence, shown behind a content-warning slide in the deck.
+
+- **logos/** — platform wordmarks for the week 5 "moderation at scale" slides, plus the generated golden-rectangle plates built from them; see [logos/SOURCES.md](logos/SOURCES.md). These are trademarks used nominatively, not freely licensed artwork.
+
 - **news/** — lead photographs from the news stories quoted on the week 4 "Ethics in the News" slide; see [news/SOURCES.md](news/SOURCES.md) for per-file credits and licensing

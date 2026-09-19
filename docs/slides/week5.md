@@ -1,18 +1,13 @@
-# Draft — Needs Review {.draft-notice}
 
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
 
----
+# Content Moderation and Intro to Stories {.title-slide data-menu-title="Week 5, Day 1"}
 
-# Content Moderation and Intro to Privacy {.title-slide data-menu-title="Week 5, Day 1"}
-
-<!-- NOTICE: Draft from old-slides/pdf-versions/07b Moderating Feeds.pdf, 08 Privacy Fundamentals.pdf, and 08 Rights.pdf. Review and edit before use. -->
 
 CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-# Content Moderation and Intro to Privacy {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover" data-menu-title="Week 5, Day 1"}
+# Content Moderation and Intro to Privacy {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop12-clinton-old-post-office.jpg" background-size="cover" data-menu-title="Week 5, Day 1"}
 
 CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
@@ -20,25 +15,10 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop12-clinton-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop12-clinton-old-post-office.jpg" background-size="cover"}
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Canvas updates and upcoming deadlines
-- Questions from last class?
-- Reminders
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
 
 ## Agenda for Today
 
@@ -48,8 +28,8 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 - Shuffle seats
 - Notes on Unit 2
 - Mini-lecture: content moderation
-- Intro to privacy
-- Preview short story ("Here and Now")
+- Discuss Le Guin Short Story
+- Preview next short story ("Here and Now")
 :::
 
 ::: {.column width="40%"}
@@ -59,88 +39,116 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-## Notes on Unit 2
+## (DeWitt) Clinton Connection
 
-<!-- image: Unit 2 overview / structure slide -->
-- TODO: add image — *Unit 2 overview / structure slide*
+:::: columns
+::: {.column width="40%"}
+![](../assets/dewitt-clinton-morse.jpg)
 
----
+::: {.caption}
+Samuel F. B. Morse, *DeWitt Clinton*, c. 1826. [Metropolitan Museum of Art via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:De_Witt_Clinton_MET_DT2056.jpg), public domain (CC0)
+:::
+:::
 
-## Clinton Connection
+::: {.column width="56%"}
+![](../assets/erie-canal-celebration-1825.jpg)
 
-- Named for DeWitt Clinton (1769–1828)
-- Championed the Erie Canal's construction (completed 1825)
-- Connected the Hudson River to Lake Erie, fueling Midwest settlement and trade growth
-
-<!-- image: DeWitt Clinton / Erie Canal images -->
-- TODO: add image — *DeWitt Clinton / Erie Canal images*
-
----
-
-## 🔀 Seat Shuffle
-
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+::: {.caption}
+Anthony Imbert, *Grand Canal Celebration*, New York, 1825. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png), public domain
+:::
+:::
+::::
 
 ---
 
-## iClicker Question
+## 🔀 Seat Shuffle {.embed-slide}
 
-How many ads did you see in the first ten posts?
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<iframe
+  src="../in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-## Table Discussion: Book Check-in
 
+## Table Discussion: Book Check-in {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
 - How is your book coming along?
 - How much have you read?
 - What have you learned so far?
 - How long do you think it will take to complete?
 - What's your plan to read the rest?
 - Presentation ideas?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-# Content Moderation {.title-slide .section-header}
+# Mini-lecture: Content Moderation {.title-slide .section-header}
 
 ---
 
-## Mini-lecture: Content Moderation
-
----
 
 ## Generic Feed System Architecture (Recap)
 
-::: {.incremental}
-1. **Moderation** — remove policy-violating items
-2. **Candidate generation** — select high-potential items
-3. **Ranking** — score candidates for this user and context
-4. **Re-ranking** — apply ancillary goals
+::: {.source-top}
+[Knight-Georgetown Institute, *Recommender Systems 101* (March 2025)](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf)
 :::
 
-<!-- image: pipeline diagram (Georgetown/KGI, March 2025) -->
-- TODO: add image — *pipeline diagram (Georgetown/KGI, March 2025)*
+:::: columns
+::: {.column width="34%"}
+1. **Moderation**
+2. **Candidate generation**
+3. **Ranking**
+4. **Re-ranking**
+:::
+
+::: {.column width="62%"}
+![](../assets/feeds/recsys-pipeline-kgi.png)
+:::
+::::
 
 ---
 
 ## Free Speech
 
-<!-- image: First Amendment text -->
-- TODO: add image — *First Amendment text*
+:::: columns
+::: {.column width="60%"}
+- **[First Amendment](https://constitution.congress.gov/constitution/amendment-1/):** "Congress shall make no law…abridging the freedom of speech, or of the press"
+- **[Section 230](https://www.law.cornell.edu/uscode/text/47/230) (Communications Decency Act):** "It is the policy of the United States… to encourage the development of technologies which maximize user control over what information is received by individuals…who use the Internet…"
+:::
 
----
+::: {.column width="37%"}
+![](../assets/bill-of-rights-1789.jpg)
 
-## Free Speech
-
-- **First Amendment:** "Congress shall make no law…abridging the freedom of speech, or of the press"
-- **Section 230 (Communications Decency Act):** "It is the policy of the United States… to encourage the development of technologies which maximize user control over what information is received by individuals…who use the Internet…"
-
----
-
-## What Is Content Moderation?
-
-<!-- image: content moderation framing diagram -->
-- TODO: add image — *content moderation framing diagram*
+::: {.caption}
+The engrossed Bill of Rights, 1789 — the First Amendment is the third article listed. [World Digital Library via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bill_of_Rights_WDL2704.png), public domain
+:::
+:::
+::::
 
 ---
 
@@ -152,49 +160,63 @@ How many ads did you see in the first ten posts?
 
 ---
 
-## Platform Moderation at Scale
+## Moderation at Scale: Meta
 
 :::: columns
-::: {.column width="48%"}
-**Meta** (~Facebook + Instagram)
+::: {.column width="50%"}
+- ~15,000 content moderators
+- ~1 moderator per **330,000** users
+- ~40,000 in trust and safety
 
-- ~15,000 content moderators (per NYT)
-- ~1 per 330,000 active users
-- ~40,000 workers in trust and safety (2024 hearing)
+::: {.figure-caption}
+Moderator count via *The New York Times*; the 40,000 figure from Meta's testimony at the [Senate Judiciary hearing](https://www.judiciary.senate.gov/committee-activity/hearings/big-tech-and-the-online-child-sexual-exploitation-crisis) (January 2024). Enforcement volumes: [Meta Community Standards Enforcement Report](https://transparency.meta.com/reports/community-standards-enforcement/)
+:::
 :::
 
-::: {.column width="48%"}
-**TikTok**
-
-- Claims 40,000 workers in global trust and safety
-- Focus on "minor safety"
-- ~81% automated deletions
-
-**YouTube**
-
-- Estimated 7,000–10,000 moderators
-- 9.5 million videos removed in Q4 2024
-- 842.8 million comments removed ("spam, scams, misleading content")
+::: {.column width="46%"}
+![](../assets/logos/meta-plate.svg){alt="Meta logo"}
 :::
 ::::
 
 ---
 
-## Moderation Labor at OpenAI
+## Moderation at Scale: TikTok
 
-- Moderators label and filter toxic and/or explicit text for model training
-- Violence, hate speech, explicit material
-- Larger projects in 2021–2022
+:::: columns
+::: {.column width="50%"}
+- Claims **40,000** in global trust and safety
+- Stated focus on "minor safety"
+- ~81% of removals automated
 
-<!-- image: reporting on OpenAI content moderation labor -->
-- TODO: add image — *reporting on OpenAI content moderation labor*
+::: {.figure-caption}
+Source: [TikTok Community Guidelines Enforcement Report, Q4 2024](https://www.tiktok.com/transparency/en/community-guidelines-enforcement-2024-4/)
+:::
+:::
+
+::: {.column width="46%"}
+![](../assets/logos/tiktok-plate.svg){alt="TikTok logo"}
+:::
+::::
 
 ---
 
-## Marginal Content at Twitter
+## Moderation at Scale: YouTube
 
-<!-- image: Twitter internal moderation documentation example -->
-- TODO: add image — *Twitter internal moderation documentation example*
+:::: columns
+::: {.column width="50%"}
+- Estimated 7,000–10,000 moderators
+- **9.5 million** videos removed in Q4 2024
+- **842.8 million** comments removed
+
+::: {.figure-caption}
+Removal counts: [Google Transparency Report — YouTube Community Guidelines enforcement](https://transparencyreport.google.com/youtube-policy/removals). Moderator count is an outside estimate, not a YouTube figure.
+:::
+:::
+
+::: {.column width="46%"}
+![](../assets/logos/youtube-plate.svg){alt="YouTube logo"}
+:::
+::::
 
 ---
 
@@ -202,10 +224,26 @@ How many ads did you see in the first ten posts?
 
 ---
 
-## Example: "The Terror of War" (1972)
+## Content Notice
 
-<!-- image: Kim Phúc photo by Nick Ut — note: this contains graphic war violence and is a famous content moderation test case -->
-- TODO: add image — *Kim Phúc photo by Nick Ut — note: this contains graphic war violence and is a famous content moderation test case*
+::: {.incremental}
+- The next slide shows a graphic image of war violence, including injured children.
+- They are here because they are the cases that forced platforms to rewrite their rules.
+:::
+
+---
+
+## Example: "The Terror of War" (1972) {.figure-slide .framed-figure}
+
+::: {.source-top}
+[Espen Egil Hansen, "Dear Mark…", *Aftenposten* (September 8, 2016)](https://www.aftenposten.no/meninger/kommentar/i/G892Q/dear-mark-i-am-writing-this-to-inform-you-that-i-shall-not-comply-with-your-requirement-to-remove-this-picture)
+:::
+
+![](../assets/moderation/terror-of-war-1972.jpg){style="max-height:470px;"}
+
+::: {.figure-caption}
+Vietnam, 8 June 1972. Facebook removed the photo in 2016 as child nudity, then reversed (see open letter from the editor of Norway's largest newspaper). Long credited to Nick Ut/AP; [authorship under review by World Press Photo](https://www.worldpressphoto.org/news/2025/authorship-attribution-suspended-for-the-terror-of-war). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Terror_of_War.png), public domain
+:::
 
 ---
 
@@ -215,31 +253,21 @@ How many ads did you see in the first ten posts?
 > We would not have war at all if everyone could learn how to live with true love,
 > hope, and forgiveness."
 >
-> — Kim Phúc, NPR interview (2008)
+> — Phan Thi Kim Phuc, NPR interview (2008)
 
-::: {.fragment}
-> "The only thing more powerful than hate is love."
->
-> — Benito Antonio Martínez Ocasio (Bad Bunny)
+---
+
+## Example: "Credible Violence" {.figure-slide .framed-figure}
+
+::: {.source-top}
+[Violence and Incitement — Meta Transparency Center](https://transparency.meta.com/policies/community-standards/violence-incitement/)
 :::
 
----
+![](../assets/moderation/meta-violence-incitement.jpg){style="max-height:470px;"}
 
-## Example: "Credible Violence"
-
-<!-- image: excerpt from Facebook's internal rulebook (The Guardian, 2017) showing the "credible violence" policy category -->
-- TODO: add image — *excerpt from Facebook's internal rulebook (The Guardian, 2017) showing the "credible violence" policy category*
-
-*Source: Nick Hopkins, "Facebook's internal rulebook on sex, terrorism and violence," The Guardian (2017)*
-
----
-
-## Activity: Review the Rules
-
-- Review the rules at your table
-- Which rule(s) would you change?
-- Come up with examples that "toe the line" or break the rules
-  - Community standards may be more ambiguous than you expect
+::: {.figure-caption}
+Meta's current public rule, successor to the internal "credible violence" rulebook leaked to Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence,"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence) *The Guardian* (2017).
+:::
 
 ---
 
@@ -252,22 +280,429 @@ How many ads did you see in the first ten posts?
 - Who writes the rules?
 - How are edge cases handled?
 - What appeals processes exist?
-- Who decides what is "newsworthy"?
+- Who decides what is "newsworthy"? How?
 :::
 
 ::: {.column width="48%"}
 **Outcome questions**
 
-- Who bears the burden of moderation labor?
+- Who does the actual moderation labor?
 - Which communities are most affected by errors?
-- What is the cost of over- vs. under-moderation?
 - Whose speech is protected? Whose is suppressed?
 :::
 ::::
 
 ---
 
-## Thoughts or Questions on Algorithmic Feeds?
+
+## TODO fill in examples
+
+- TODO
+
+---
+
+## Thoughts or Questions on Algorithmic Feeds? Moderation?
+
+---
+
+# A Story {.title-slide .section-header}
+
+---
+
+## Ursula K. Le Guin (1929–2018)
+
+:::: columns
+::: {.column width="56%"}
+- Born in Berkeley, California
+- Wrote science fiction, fantasy, poetry, essays, translations 
+- Best known for the **Earthsea** books
+- ["The Ones Who Walk Away from Omelas"](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf) (1973) won the **Hugo Award for Best Short Story** in 1974
+- Lived in Portland, Oregon (1959-2018)
+:::
+
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/ursula-k-le-guin-kolisch.jpg)
+
+::: {.caption}
+Ursula K. Le Guin, August 1995. Photo: [Marian Wood Kolisch, Oregon State University](https://commons.wikimedia.org/wiki/File:Ursula_Le_Guin_(3551195631)_-_Restoration.jpg), CC BY-SA 2.0
+:::
+:::
+::::
+
+---
+
+## A Writer's Day
+
+::: {.source-top}
+[Kate Jones, "Writing Rituals of Ursula K. Le Guin"](https://anarrativeoftheirown.substack.com/p/writing-rituals-of-ursula-k-le-guin) — from a 1988 interview, republished in *Ursula Le Guin: The Last Interview and Other Conversations*
+:::
+
+| Time | What |
+|:-------------------|:----------------------------------------------|
+| 5:30 a.m. | Wake up and lie there and think |
+| 6:15 a.m. | Get up and eat breakfast (lots) |
+| 7:15 a.m. | Get to work writing, writing, writing |
+| Noon | Lunch |
+| 1:00–3:00 p.m. | Reading, music |
+| 3:00–5:00 p.m. | Correspondence, maybe house cleaning |
+| 5:00–8:00 p.m. | Make dinner and eat it |
+| After 8:00 p.m. | "I tend to be very stupid and we won't talk about this" |
+
+---
+
+## Table Discussion: The Tortured Child {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-frame}
+<iframe
+  src="https://doethics.fun/dilemmas/utilitarian-ethics-tortured-child/"
+  title="Dilemma: The Tortured Child"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## The Full Story
+
+::: {.source-top}
+[Ursula K. Le Guin, "The Ones Who Walk Away from Omelas" (1973)](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf)
+:::
+
+::: {.incremental}
+- That dilemma is the premise of a short story
+- Omelas is a city of genuine happiness
+- Everyone is told about the child when they come of age
+- Le Guin credited the idea to William James' ["The Moral Philosopher and the Moral Life"](https://www.gutenberg.org/cache/epub/26659/pg26659.txt) (1891)
+- Said she had forgotten Dostoyevsky's [earlier version](https://www.gutenberg.org/cache/epub/28054/pg28054.txt) when she wrote it.
+:::
+
+---
+
+## The Next Story: "Here and Now"
+
+::: {.source-top}
+[Ken Liu, "Here and Now," *Kasma Magazine*](https://archive.ph/p7w46)
+:::
+
+:::: columns
+::: {.column width="52%"}
+- Written by Ken Liu
+- Main character is Aaron
+- Centers around an app that facilitates anonymous requests for "information" of any kind
+- Made by Centillion, Inc.
+- Web link on site; PDF in Canvas
+- Read before Wednesday!
+:::
+
+::: {.column width="45%"}
+![](../assets/moderation/here-and-now-baetas.jpg)
+
+::: {.caption}
+Artwork by José Baetas for *Kasma Magazine*
+:::
+:::
+::::
+
+---
+
+## Exercise Preview {.embed-slide}
+
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://doethics.fun/exercises/online-account-biopsy.html"
+  title="Online Account Biopsy exercise"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://doethics.fun/exercises/online-account-biopsy.html)
+:::
+
+---
+
+## Questions / Comments / Etc.?
+
+---
+
+## That's all for today! See you Wednesday!
+
+---
+
+# Privacy as Contextual Integrity {.title-slide data-menu-title="Week 5, Day 2"}
+
+CS 377, Week 5, Day 2 🟦 LaSalle 🟦
+
+---
+
+# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover" data-menu-title="Week 5, Day 2"}
+
+CS 377, Week 5, Day 2 🟦 LaSalle 🟦
+
+<!-- image source: LaSalle station, photo by Cragin Spring -->
+
+---
+
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
+
+---
+
+
+
+## Map for Today
+
+:::: columns
+::: {.column width="55%"}
+- Shuffle seats
+- Preview "online account biopsy" exercise
+- Mini-lecture: contextual integrity
+- Privacy policy demo
+- Privacy policy exercise
+- Digital rights and proposed laws
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop13-lasalle.svg)
+:::
+::::
+
+---
+
+## Nearby Event of Interest! {.embed-slide}
+
+::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://www.cj2026.northwestern.edu"
+  title="Nearby Event of Interest"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## 🔀 Seat Shuffle {.embed-slide}
+
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<iframe
+  src="../in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## Online Account Biopsy
+
+- Introduce yourselves at your table
+- Discuss which app or website you want to use
+- Find the "request my data" option in the app
+- This will be used for your "online account biopsy" exercise
+- Should only take ~5 minutes
+
+---
+
+# Digital Rights {.title-slide .section-header}
+
+---
+
+## Warm-up Discussion: What Are Rights?
+
+- What comes to mind when you hear the word "rights"?
+- What are some examples of rights you have?
+- What are some rights you want to have, but are unsure whether you have?
+- What are some examples of "human rights"?
+- Where do these rights come from?
+- What is a privilege compared to a right?
+
+---
+
+
+
+## Rights and Laws
+
+- Where do rights come from? Declarations, constitutions, statutes, courts
+- A right without an enforcement mechanism behaves differently from one with it
+- What is a privilege compared to a right?
+
+---
+
+## Eleanor Roosevelt and the UDHR {.figure-slide .framed-figure}
+
+::: {.source-top}
+[Universal Declaration of Human Rights (United Nations, 1948)](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+:::
+
+![](../assets/portraits/eleanor-roosevelt.jpg){style="max-height:520px;"}
+
+::: {.figure-caption}
+Eleanor Roosevelt with the English-language text of the UDHR, Lake Success, New York, November 1949. [FDR Presidential Library via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg), CC BY 2.0
+:::
+
+---
+
+## Eleanor Roosevelt on the UDHR {.quote-slide}
+
+> "It is not a treaty; it is not an international agreement. It is not and does not purport
+> to be a statement of law or of legal obligation. It is a declaration of basic principles
+> of human rights and freedoms, to be stamped with the approval of the General Assembly
+> by formal vote of its members, and to serve as a common standard of achievement for
+> all peoples of all nations."
+>
+> — Eleanor Roosevelt
+
+---
+
+## Blueprint for an "AI Bill of Rights"
+
+- Office of Science and Technology Policy (2022)
+- "Intended to support the development of policies and practices that protect civil rights and promote democratic values in the building, deployment, and governance of automated systems"
+
+---
+
+## Activity: Proposed Digital Rights
+
+Review each proposed right — strengths? Weaknesses? Examples where it would come into play?
+
+::: {.incremental}
+- A: "You should be protected from unsafe or ineffective systems."
+- B: "You should not face discrimination by algorithms and systems should be used and designed in an equitable way."
+- C: "You should be protected from abusive data practices via built-in protections and you should have agency over how data about you is used."
+- D: "You should know that an automated system is being used and understand how and why it contributes to outcomes that impact you."
+- E: "You should be able to opt out, where appropriate, and have access to a person who can quickly consider and remedy problems you encounter."
+- F: "You should have the ability to request deletion of your personal data and digital traces from automated systems and databases."
+- G: "You should have the right to repair, modify, and maintain automated systems that you own or that significantly impact your daily life."
+:::
+
+---
+
+## That's all for today!
+
+See you next week!
+
+---
+
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+Slides still missing a visual, or cut from the running order. Not part of the planned sequence.
+
+---
+
+## Notes on Unit 2
+
+<!-- image: Unit 2 overview / structure slide -->
+- TODO: add image — *Unit 2 overview / structure slide*
+
+---
+
+## What Is Content Moderation?
+
+<!-- image: content moderation framing diagram -->
+- TODO: add image — *content moderation framing diagram*
+
+---
+
+## Moderation Labor at OpenAI
+
+- Moderators label and filter toxic and/or explicit text for model training
+- Violence, hate speech, explicit material
+- Larger projects in 2021–2022
+
+::: {.source-top}
+[Billy Perrigo, "Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic," *TIME* (January 18, 2023)](https://time.com/6247678/openai-chatgpt-kenya-workers/)
+:::
+
+<!-- image: TIME's lead photo is copyrighted; link above stands in until a licensed image is chosen -->
+- TODO: add image — *reporting on OpenAI content moderation labor (TIME lead photo is © — needs a licensed substitute)*
+
+::: {.figure-caption}
+Background on moderation labor: Sarah T. Roberts, [*Behind the Screen*](https://yalebooks.yale.edu/book/9780300261479/behind-the-screen/) (Yale University Press, 2019)
+:::
+
+---
+
+## Marginal Content at Twitter
+
+<!-- image: internal Twitter documentation — original source unknown; see links below for substitutes -->
+- TODO: add image — *Twitter internal moderation documentation example*
+
+::: {.figure-caption}
+On "borderline" content that approaches but does not cross the policy line: Mark Zuckerberg, ["A Blueprint for Content Governance and Enforcement"](https://web.archive.org/web/20200107062302/https://www.facebook.com/notes/mark-zuckerberg/a-blueprint-for-content-governance-and-enforcement/10156443129621634/) (2018, via the Internet Archive — the original Facebook note is gone). On how platforms write and phrase these rules: [Schaffner et al., *CHI 2024*](https://doi.org/10.1145/3613904.3642333)
+:::
+
+---
+
+## Contextual Integrity Preview
+
+<!-- image: no openly-licensed CI diagram located; the published figures (Nissenbaum 2004, Malkin 2022) are under publisher copyright. Candidate: draw an original SVG in the house style. -->
+- TODO: add image — *contextual integrity diagram (subject, sender, receiver, data category, transmission principles)*
+
+::: {.figure-caption}
+Primary source: Helen Nissenbaum, ["Privacy as Contextual Integrity,"](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/) *Washington Law Review* 79(1), 2004 — open access
+:::
+
+---
+
+## Contextual Integrity: The Five-Tuple Model
+
+<!-- image: contextual integrity improved figure (Nathan Malkin) -->
+- TODO: add image — *contextual integrity improved figure (Nathan Malkin)*
+
+- **(subject, sender, recipient, information type, transmission principle)**
+
+| Element | Description |
+|---|---|
+| Subject | The individual the information is about |
+| Sender | Person/entity sending the information |
+| Recipient | Person/entity receiving the information |
+| Type | Category of information |
+| Principle | Conditions or constraints for sharing |
+
+*From Nathan Malkin, "Contextual Integrity, Explained: A More Usable Privacy Definition"*
+
+---
+
+## From 1949 to 2022
+
+<!-- image: side-by-side of the two documents; both are freely reproducible (UN + US government works) -->
+- TODO: add image — *UDHR 1949 → AI Bill of Rights 2022 comparison*
+
+::: {.figure-caption}
+Both primary documents: [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (United Nations, 1948) and [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/) (OSTP, 2022 — served from the Biden White House archive since the live whitehouse.gov page was taken down)
+:::
+
+---
+
+## Privacy — parked
+
+The privacy sections below were pulled out of the running order. Reinstate before Day 2.
 
 ---
 
@@ -297,97 +732,9 @@ How many ads did you see in the first ten posts?
   - "Appropriate flows of information"
   - Subject, sender, and receiver
 
----
-
-## Contextual Integrity Preview
-
-<!-- image: contextual integrity diagram (subject, sender, receiver, data category, transmission principles) -->
-- TODO: add image — *contextual integrity diagram (subject, sender, receiver, data category, transmission principles)*
-
----
-
-## Short Story Preview: "Here and Now"
-
-- Written by Ken Liu
-- Main character is Aaron
-- Centers around an app that facilitates anonymous requests for "information" of any kind
-- Made by Centillion, Inc.
-- Web link in GitHub; PDF in Canvas
-- **Read before next Monday**
-
----
-
-## That's all for today! See you Wednesday!
-
----
-
-# Privacy as Contextual Integrity {.title-slide data-menu-title="Week 5, Day 2"}
-
-CS 377, Week 5, Day 2 🟦 LaSalle 🟦
-
----
-
-# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover" data-menu-title="Week 5, Day 2"}
-
-CS 377, Week 5, Day 2 🟦 LaSalle 🟦
-
-<!-- image source: LaSalle station, photo by Cragin Spring -->
-
----
-
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
-
----
-
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Canvas updates and upcoming deadlines
-- Read "Here and Now" — complete discussion by Sunday at 11:59pm
-- Reminders
+::: {.figure-caption}
+Background reading: [SEP, *Privacy*](https://plato.stanford.edu/entries/privacy/) and [SEP, *Privacy and Information Technology*](https://plato.stanford.edu/entries/it-privacy/)
 :::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
-## Agenda for Today
-
-:::: columns
-::: {.column width="55%"}
-- Shuffle seats
-- Preview "online account biopsy" exercise
-- Mini-lecture: contextual integrity
-- Privacy policy demo
-- Privacy policy exercise
-- Digital rights and proposed laws
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-map-stops/stop13-lasalle.svg)
-:::
-::::
-
----
-
-## 🔀 Seat Shuffle
-
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
-
----
-
-## Online Account Biopsy
-
-- Introduce yourselves at your table
-- Discuss which app or website you want to use
-- Find the "request my data" option in the app
-- This will be used for your "online account biopsy" exercise
-- Should only take ~5 minutes
 
 ---
 
@@ -409,32 +756,26 @@ CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 ## Contextual Integrity
 
+:::: columns
+::: {.column width="58%"}
 - Privacy as **appropriate data flows**
 - Beyond binary (e.g. public/private)
 - Appropriateness depends on **specific contexts**
 - Contexts are governed by **norms** (also called expectations)
 - Theorized by **Helen Nissenbaum**
   - University of the Witwatersrand → M.A. and PhD from Stanford
-  - Privacy = appropriate flows; appropriateness depends on context; contexts are governed by norms
 
----
+[Nissenbaum, "Privacy as Contextual Integrity," *Washington Law Review* 79(1), 2004](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/)
+:::
 
-## Contextual Integrity: The Five-Tuple Model
+::: {.column .portrait-solo width="38%"}
+![](../assets/portraits/helen-nissenbaum.jpg)
 
-<!-- image: contextual integrity improved figure (Nathan Malkin) -->
-- TODO: add image — *contextual integrity improved figure (Nathan Malkin)*
-
-- **(subject, sender, recipient, information type, transmission principle)**
-
-| Element | Description |
-|---|---|
-| Subject | The individual the information is about |
-| Sender | Person/entity sending the information |
-| Recipient | Person/entity receiving the information |
-| Type | Category of information |
-| Principle | Conditions or constraints for sharing |
-
-*From Nathan Malkin, "Contextual Integrity, Explained: A More Usable Privacy Definition"*
+::: {.caption}
+Helen Nissenbaum. Photo: [CMU CyLab](https://www.cylab.cmu.edu/events/2023/02/15-seminar-nissenbaum.html), 2023
+:::
+:::
+::::
 
 ---
 
@@ -525,6 +866,10 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ## ChatGPT / OpenAI Policy: What's Collected
 
+::: {.source-top}
+[OpenAI Privacy Policy](https://openai.com/policies/row-privacy-policy/)
+:::
+
 - Name, contact information, date of birth
 - Prompts, files, images
 - Contact data (if shared)
@@ -567,99 +912,13 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 | Law | Year | Covers |
 |---|---|---|
-| FERPA | 1974 | Student education records |
-| HIPAA | 1996 | Health information |
-| COPPA | 1998 | Children under 13 online |
-| GLBA | 1999 | Financial institutions |
-| Children's Internet Protection Act | 2000 | Schools and libraries |
+| [FERPA](https://www.law.cornell.edu/uscode/text/20/1232g) | 1974 | Student education records |
+| [HIPAA](https://www.hhs.gov/hipaa/for-professionals/privacy/index.html) | 1996 | Health information |
+| [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa) | 1998 | Children under 13 online |
+| [GLBA](https://www.ftc.gov/business-guidance/privacy-security/gramm-leach-bliley-act) | 1999 | Financial institutions |
+| [Children's Internet Protection Act](https://www.fcc.gov/consumers/guides/childrens-internet-protection-act) | 2000 | Schools and libraries |
 
 There is no single comprehensive federal privacy law — coverage is sectoral.
-
----
-
-# Digital Rights {.title-slide .section-header}
-
----
-
-## Warm-up Discussion: What Are Rights?
-
-- What comes to mind when you hear the word "rights"?
-- What are some examples of rights you have?
-- What are some rights you want to have, but are unsure whether you have?
-- What are some examples of "human rights"?
-- Where do these rights come from?
-- What is a privilege compared to a right?
-
----
-
-## iClicker Question
-
-"I want to know more about my rights."
-
-- Strong disagree / Disagree / Not sure / Agree / Strong agree
-
----
-
-## Rights and Laws
-
-- Where do rights come from? Declarations, constitutions, statutes, courts
-- A right without an enforcement mechanism behaves differently from one with it
-- What is a privilege compared to a right?
-
----
-
-## Eleanor Roosevelt and the UDHR
-
-<!-- image: Eleanor Roosevelt holding the English language version of the Universal Declaration of Human Rights, November 1949 -->
-- TODO: add image — *Eleanor Roosevelt holding the English language version of the Universal Declaration of Human Rights, November 1949*
-
----
-
-## Eleanor Roosevelt on the UDHR {.quote-slide}
-
-> "It is not a treaty; it is not an international agreement. It is not and does not purport
-> to be a statement of law or of legal obligation. It is a declaration of basic principles
-> of human rights and freedoms, to be stamped with the approval of the General Assembly
-> by formal vote of its members, and to serve as a common standard of achievement for
-> all peoples of all nations."
->
-> — Eleanor Roosevelt
-
----
-
-## From 1949 to 2022
-
-<!-- image: UDHR 1949 → AI Bill of Rights 2022 comparison -->
-- TODO: add image — *UDHR 1949 → AI Bill of Rights 2022 comparison*
-
----
-
-## Blueprint for an "AI Bill of Rights"
-
-- Office of Science and Technology Policy (2022)
-- "Intended to support the development of policies and practices that protect civil rights and promote democratic values in the building, deployment, and governance of automated systems"
-
----
-
-## Activity: Proposed Digital Rights
-
-Review each proposed right — strengths? Weaknesses? Examples where it would come into play?
-
-::: {.incremental}
-- A: "You should be protected from unsafe or ineffective systems."
-- B: "You should not face discrimination by algorithms and systems should be used and designed in an equitable way."
-- C: "You should be protected from abusive data practices via built-in protections and you should have agency over how data about you is used."
-- D: "You should know that an automated system is being used and understand how and why it contributes to outcomes that impact you."
-- E: "You should be able to opt out, where appropriate, and have access to a person who can quickly consider and remedy problems you encounter."
-- F: "You should have the ability to request deletion of your personal data and digital traces from automated systems and databases."
-- G: "You should have the right to repair, modify, and maintain automated systems that you own or that significantly impact your daily life."
-:::
-
----
-
-## That's all for today!
-
-See you next week!
 
 ---
 
@@ -670,7 +929,16 @@ See you next week!
 3. Tarleton Gillespie, ["Content Moderation, AI, and the Question of Scale"](https://doi.org/10.1177/2053951720943234), *Big Data & Society* (2020).
 4. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
 5. Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585), *IEEE Security & Privacy* (2022).
-6. White House OSTP, [Blueprint for an AI Bill of Rights](https://www.whitehouse.gov/ostp/ai-bill-of-rights/) (2022).
+6. White House OSTP, [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/) (2022).
 7. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
-8. Eleanor Roosevelt with UDHR photo, 1949, via Wikimedia Commons.
-9. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+8. Helen Nissenbaum, ["Privacy as Contextual Integrity"](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/), *Washington Law Review* 79(1) (2004) — open access.
+9. Stanford Encyclopedia of Philosophy, [*Privacy*](https://plato.stanford.edu/entries/privacy/) and [*Privacy and Information Technology*](https://plato.stanford.edu/entries/it-privacy/).
+10. Espen Egil Hansen, ["Dear Mark…"](https://www.aftenposten.no/meninger/kommentar/i/G892Q/dear-mark-i-am-writing-this-to-inform-you-that-i-shall-not-comply-with-your-requirement-to-remove-this-picture), *Aftenposten* (2016) — open letter on the "Terror of War" removal.
+11. Billy Perrigo, ["OpenAI Used Kenyan Workers on Less Than $2 Per Hour"](https://time.com/6247678/openai-chatgpt-kenya-workers/), *TIME* (2023).
+12. Sarah T. Roberts, [*Behind the Screen*](https://yalebooks.yale.edu/book/9780300261479/behind-the-screen/) (Yale University Press, 2019).
+13. Mark Zuckerberg, ["A Blueprint for Content Governance and Enforcement"](https://web.archive.org/web/20200107062302/https://www.facebook.com/notes/mark-zuckerberg/a-blueprint-for-content-governance-and-enforcement/10156443129621634/) (2018), via the Internet Archive.
+14. Statutes: [First Amendment](https://constitution.congress.gov/constitution/amendment-1/), [47 U.S.C. § 230](https://www.law.cornell.edu/uscode/text/47/230), [FERPA](https://www.law.cornell.edu/uscode/text/20/1232g), [HIPAA Privacy Rule](https://www.hhs.gov/hipaa/for-professionals/privacy/index.html), [COPPA](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa), [GLBA](https://www.ftc.gov/business-guidance/privacy-security/gramm-leach-bliley-act), [CIPA](https://www.fcc.gov/consumers/guides/childrens-internet-protection-act).
+15. [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (United Nations, 1948).
+16. Eleanor Roosevelt with UDHR photo, 1949, [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg), CC BY 2.0.
+17. Samuel F. B. Morse, *DeWitt Clinton*, [Metropolitan Museum of Art via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:De_Witt_Clinton_MET_DT2056.jpg), CC0; Anthony Imbert, *Grand Canal Celebration* (1825), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png), public domain.
+18. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

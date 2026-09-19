@@ -40,6 +40,9 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 ### 10. Racine
 - **stop10-racine-a.jpg** — [Wikimedia Commons: Racine CTA 080216.jpg](https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg) — License: CC BY-SA 3.0 — Author: User:JeremyA
 
+### 12. Clinton
+- **stop12-clinton-old-post-office.jpg** — [Wikimedia Commons: Old Post Office Chicago 2022.jpg](https://commons.wikimedia.org/wiki/File:Old_Post_Office_Chicago_2022.jpg) — License: CC BY-SA 4.0 — Author: Sea Cow — 3869×2176 — nearby landmark rather than the stop itself: the Old Main Post Office straddling the Eisenhower, one block east of the Clinton platform
+
 ### 14. Jackson
 - **stop14-jackson-c.jpg** — [Wikimedia Commons: Stairs to Red Line at Jackson.jpg](https://commons.wikimedia.org/wiki/File:Stairs_to_Red_Line_at_Jackson.jpg) — License: CC BY-SA 2.0 — Author: Jacob G. from Cleveland, United States
 
