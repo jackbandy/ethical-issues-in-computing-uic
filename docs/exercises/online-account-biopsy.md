@@ -2,6 +2,8 @@
 layout: exercise
 title: 'Online Account Biopsy'
 exercise_number: 2
+summary: 'Request the trace data a platform holds about you, explore what is in it, and write a one-page reflection on the profile it builds.'
+ai_policy: yellow-over-red
 ---
 
 Big Tech companies [don't need to listen through your microphone to serve you creepy ads](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads). Some ads make it seem like they are listening, but in reality, these companies are _simulating_ the kinds of conversations, purchases, and other behaviors you will carry out in the real world. These simulations are based on a digital profile made up of extensive online trace data -- digital "scraps" like locations, clicks, watch history, and more -- which are combined to create a [doll-like](https://futurism.com/the-byte/google-company-voodoo-doll-avatar) model of you.
@@ -19,16 +21,15 @@ First, retrieve some of the data these companies have about you. You can choose 
 
 | # | Platform | Download Your Data Guide |
 | :-- | :-- | :-- |
-| 1 | Google | [Google Takeout](https://support.google.com/accounts/answer/3024190?hl=en) |
-| 2 | TikTok | [TikTok Help: Requesting Your Data](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data) |
-| 3 | Instagram | [Instagram Data Download](https://www.multcloud.com/explore/what-is-included-in-instagram-data-download-0121-ac.html) |
-| 4 | YouTube | [Your Data in YouTube](https://support.google.com/youtube/answer/9315727?hl=en) |
-| 5 | Facebook | [Facebook Data Download](https://www.pandasecurity.com/en/mediacenter/how-to-download-your-personal-data-from-facebook-a-step-by-step-guide/) |
-| 6 | Apple | [Get a Copy of Your Apple Account Data](https://www.macrumors.com/how-to/get-a-copy-of-your-apple-account-data/) |
-| 7 | Snapchat | [Snapchat: How to Download My Data](https://help.snapchat.com/hc/en-us/articles/7012305371156-How-do-I-download-my-data-from-Snapchat) |
-| 8 | Reddit | [Reddit Data Request](https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information) |
-| 9 | Twitter (X) | [Twitter Data Download](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive) |
-| 10 | LinkedIn | [LinkedIn Data Download](https://www.linkedin.com/help/linkedin/answer/a1343196/downloading-your-account-data?lang=en) |
+| 1 | Google (including YouTube) | [How to download your Google data](https://support.google.com/accounts/answer/3024190?hl=en) |
+| 2 | TikTok | [Requesting your data](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data) |
+| 3 | Instagram | [Review and export a copy of your Instagram information](https://help.instagram.com/181231772500920) |
+| 4 | Facebook | [Export a copy of your Facebook information](https://www.facebook.com/help/212802592074644) |
+| 5 | Apple | [Get a copy of the data associated with your Apple Account](https://support.apple.com/en-us/102208) |
+| 6 | Snapchat | [How do I download my data from Snapchat?](https://help.snapchat.com/hc/en-us/articles/7012305371156-How-do-I-download-my-data-from-Snapchat) |
+| 7 | Reddit | [How do I request a copy of my Reddit data and information?](https://support.reddithelp.com/hc/en-us/articles/360043048352-How-do-I-request-a-copy-of-my-Reddit-data-and-information) |
+| 8 | X (Twitter) | [How to download your X archive](https://help.x.com/en/managing-your-account/how-to-download-your-x-archive) |
+| 9 | LinkedIn | [Downloading your account data](https://www.linkedin.com/help/linkedin/answer/a1343196/downloading-your-account-data?lang=en) |
 
 
 ## Part 2: Review Trace Data
@@ -72,4 +73,4 @@ Finally, in addition to these quantitative questions, consider the substance rep
 
 ## Submission
 
-Submit a **1-page PDF reflection** in canvas, which should include about 200-400 words, written in complete sentences. Make sure your reflection is grounded in the data you collected and analyzed. Charts and graphs are welcome but not required (if you do include them, your report can be more than 1 page).
+Turn in a **1-page PDF reflection** through Canvas, which should include about 200-400 words, written in complete sentences. Make sure your reflection is grounded in the data you collected and analyzed. Charts and graphs are welcome but not required (if you do include them, your report can be more than 1 page).
