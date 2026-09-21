@@ -44,7 +44,7 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 :::: columns
 ::: {.column width="40%"}
-![](../assets/dewitt-clinton-morse.jpg)
+![](../assets/dewitt-clinton-morse.jpg){style="max-height:430px;"}
 
 ::: {.caption}
 Samuel F. B. Morse, *DeWitt Clinton*, c. 1826. [Metropolitan Museum of Art via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:De_Witt_Clinton_MET_DT2056.jpg), public domain (CC0)
@@ -197,7 +197,7 @@ The engrossed Bill of Rights, 1789 — the First Amendment is the third article 
 :::
 
 ::: {.column width="38%"}
-![](../assets/covers/custodians-of-the-internet.jpg)
+![](../assets/covers/custodians-of-the-internet.jpg){style="max-height:400px;"}
 
 ::: {.caption}
 *Custodians of the Internet*, [Yale University Press](https://yalebooks.yale.edu/book/9780300261431/custodians-of-the-internet/), 2018 ; [full PDF](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) from the author, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -480,7 +480,7 @@ Artwork by José Baetas for *Kasma Magazine*
 
 ---
 
-## Exercise Preview: Online Account Biopsy {.embed-slide}
+## Exercise Preview: Online Account Biopsy (Due Sept 27, 11:59pm) {.embed-slide}
 
 ::: {.embed-frame style="width:100%;height:100%;margin:0;"}
 <iframe
