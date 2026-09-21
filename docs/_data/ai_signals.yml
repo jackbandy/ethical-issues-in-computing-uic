@@ -1,0 +1,21 @@
+# The three AI/LLM signals of the course, named after CTA rail signal aspects (see the syllabus and the FAQ).
+# Kept here in one place so every exercise page labels an aspect the same way, and so the drawings shown are
+# the same rulebook drawings the FAQ and syllabus use.
+double-red:
+  label: "Double red"
+  meaning: "Stop and stay — no AI/LLM use at all."
+  image: /assets/signals/signal-01-stop-stay.svg
+  alt: 'Two red lamps stacked vertically. CTA rulebook: "Stop and stay."'
+  faq: /faq.html#double-red-no-aillm-based-tools
+yellow-over-red:
+  label: "Yellow over red"
+  meaning: "Proceed with caution on main route — limited, optional, specific use, with citation."
+  image: /assets/signals/signal-02-caution-main.svg
+  alt: 'A yellow lamp above a red lamp. CTA rulebook: "Proceed with caution on main route, prepared to stop at next signal."'
+  faq: /faq.html#yellow-over-red-limited-specific-use-of-aillm-based-tools
+double-yellow:
+  label: "Double yellow"
+  meaning: "Proceed with caution at restricted speed — you choose where the tools fit, with citation."
+  image: /assets/signals/signal-09-caution-restricted.svg
+  alt: 'Two yellow lamps stacked vertically. CTA rulebook: "Proceed with caution at restricted speed."'
+  faq: /faq.html#double-yellow-choose-carefully-where-you-use-it-use-it-carefully

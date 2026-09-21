@@ -17,6 +17,10 @@ Yes, an actual doll! Consider your observations from reviewing your trace data i
 ## Examples
 
 
+## Submission
+
+Bring the doll to class. Turn in a photo of it through Canvas -- no written reflection needed for this one.
+
 ## Class Discussion Questions
 * What material did you use for your doll, and why?
 * How did you capture the data in your doll?

@@ -17,7 +17,7 @@ For this exercise, I am drawing on an assignment from [Adam Waytz](https://www.a
   * Melodramatic example: "I will dedicate every waking moment to fighting injustice."
 
 
-Your submission will have two parts:
+Turn in your work through Canvas. Your submission will have two parts:
 
 1. **Personal commitments** — your ethics commitment statements. There is no strict length requirement, however, the main statements should fit on a page. If you find yourself writing more, consider moving some of it to the reflection. 
 

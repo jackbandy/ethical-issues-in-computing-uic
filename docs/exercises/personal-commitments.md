@@ -2,6 +2,8 @@
 layout: exercise
 title: 'Personal Commitment'
 exercise_number: 6
+summary: 'Write your own ethics statement for professional practice, plus a one-page reflection on how you arrived at it.'
+ai_policy: double-red
 ---
 
 This is your final out-of-class exercise for this class! If we have been (at least somewhat) successful this semester, you will be leaving with a sense of social responsibility. We have talked a lot about acting well in the world -- ethics. At this point, you hopefully have developed "a means and a process for achieving your own moral judgments" ([Callahan 1980](https://link.springer.com/chapter/10.1007/978-1-4613-3138-4_2), as cited by [Computing and Technology Ethics](https://mitpress.mit.edu/9780262048064/computing-and-technology-ethics/), Chapter 1, page 5).
@@ -21,7 +23,7 @@ For this exercise, I am drawing on an assignment from [Adam Waytz](https://www.a
   * Melodramatic example: "I will dedicate every waking moment to fighting injustice."
 
 
-Your submission will have two parts:
+Turn in your work through Canvas. Your submission will have two parts:
 
 1. **Personal commitments** — your ethics commitment statements. There is no strict length requirement, however, the main statements should fit on a page. If you find yourself writing more, consider moving some of it to the reflection. 
 

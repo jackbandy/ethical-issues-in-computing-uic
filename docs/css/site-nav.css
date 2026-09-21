@@ -123,6 +123,99 @@
   border-bottom-color: #00A1DE;
 }
 
+/* --- The More menu -------------------------------------------------------
+   A plain <details>, so it opens without script and stays keyboard-operable.
+   The panel is absolutely positioned: the nav is measured for the compact
+   breakpoint (see _includes/site-nav-script.html) and an open menu must not
+   change that measurement. */
+.site-nav-more {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.site-nav-more > summary {
+  font-family: 'ITC Franklin Gothic', 'Libre Franklin', 'Franklin Gothic', 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #555;
+  padding: 4px 0;
+  border-bottom: 3px solid transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  list-style: none;   /* the default triangle; the chevron below replaces it */
+}
+
+.site-nav-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav-more > summary::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: -3px 0 0 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  vertical-align: middle;
+  transform: rotate(45deg);
+  transition: transform 0.18s ease;
+}
+
+.site-nav-more[open] > summary::after {
+  transform: translateY(3px) rotate(-135deg);
+}
+
+.site-nav-more > summary:hover {
+  color: #00A1DE;
+}
+
+/* The current page is inside the menu: mark the closed summary the same way an
+   active top-level link is marked. */
+.site-nav-more[data-current="true"] > summary {
+  color: #222;
+  border-bottom-color: #00A1DE;
+}
+
+.site-nav-more-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+  margin-top: 8px;
+  padding: 6px 0;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.site-nav-more-menu a {
+  font-size: 16px;
+  padding: 9px 16px;
+  border-bottom: none;
+  border-left: 3px solid transparent;
+}
+
+.site-nav-more-menu a:hover {
+  background: #f2fafd;
+}
+
+.site-nav-more-menu a[aria-current="page"] {
+  border-bottom-color: transparent;
+  border-left-color: #00A1DE;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav-more > summary::after {
+    transition: none;
+  }
+}
+
 /* --- Meta links (GitHub Source, About) ------------------------------------
    On the wide nav they are not here at all: the footer carries them. They
    appear only in the compact menu, which covers the page and puts the footer
@@ -243,6 +336,33 @@
   border-bottom-color: #eee;
   border-left-color: #00A1DE;
   padding-left: 12px;
+}
+
+/* In the compact menu the panel is part of the flow: a plain indented group of
+   rows under the More row, rather than a floating panel. */
+.site-masthead.is-compact.is-open .site-nav-more > summary {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.site-masthead.is-compact.is-open .site-nav-more-menu {
+  position: static;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.site-masthead.is-compact.is-open .site-nav-more-menu a {
+  padding: 12px 0 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.site-masthead.is-compact.is-open .site-nav-more-menu a[aria-current="page"] {
+  border-bottom-color: #eee;
+  border-left-color: #00A1DE;
+  padding-left: 13px;
 }
 
 /* The compact menu covers the footer, so it ends with the same two meta links:

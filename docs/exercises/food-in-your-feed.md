@@ -2,6 +2,8 @@
 layout: exercise
 title: 'The "Food" in your "Feed"'
 exercise_number: 1
+summary: 'A guided media diary: log twenty posts from an algorithmic feed, then write a short reflection to bring to class discussion.'
+ai_policy: double-red
 ---
 
 For this exercise, you will collect data from an algorithmic feed as a starting point for class discussion and reflection.
@@ -48,3 +50,7 @@ Review the posts and write a brief reflection (100–200 words) to help you prep
 * Was there any "borderline" content in your feed?
 * Who shaped this feed, and how?
 * What questions do you have about your feed?
+
+## Submission
+
+Turn in your completed table and reflection through Canvas (a photo or scan of the paper version is fine).

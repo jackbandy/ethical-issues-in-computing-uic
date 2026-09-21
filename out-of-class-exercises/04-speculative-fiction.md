@@ -43,6 +43,10 @@ Finally, use [the templates in these slides](https://docs.google.com/presentatio
 
 For the photo, as with the text, you must take/make it yourself. You can ask your roommate to take a picture of you, or ask to take a picture of your roommate, or just take a picture of something relevant to the story. Whatever the case, do not use an AI-generated image.
 
+## Submission
+
+Turn in your story and your promotional slide through Canvas.
+
 # Examples
 More topic ideas and examples available in [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing)
 

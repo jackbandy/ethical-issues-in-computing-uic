@@ -2,6 +2,8 @@
 layout: exercise
 title: 'Speculative Fiction'
 exercise_number: 4
+summary: 'Write an episode of Black Mirror -- a short story plus a promotional slide -- as practice in ethical speculation.'
+ai_policy: double-red
 ---
 
 The premise for this exercise is simple: **write an episode of Black Mirror**.
@@ -46,6 +48,10 @@ Again, you must write the story yourself -- all the words must come from _you_! 
 Finally, use [the templates in these slides](https://docs.google.com/presentation/d/1Hymy6t7a-QonYuLuoU-nQ8yIcQKvAJB__gAB4J3E1fg/edit?usp=sharing) to create a promotional slide for your episode. Specifically, be sure to (1) choose a title, (2) write a "log line" for the episode, and (3) take a photo that goes with the story you wrote.
 
 For the photo, as with the text, you must take/make it yourself. You can ask your roommate to take a picture of you, or ask to take a picture of your roommate, or just take a picture of something relevant to the story. Whatever the case, do not use an AI-generated image.
+
+## Submission
+
+Turn in your story and your promotional slide through Canvas.
 
 ## Examples
 More topic ideas and examples available in [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing)

@@ -17,10 +17,9 @@ Exports vary a lot in what they contain. Platforms built on watching, listening,
 
 | Platform | Download Your Data Guide |
 | :-- | :-- |
-| Google | [Google Takeout](https://support.google.com/accounts/answer/3024190?hl=en) |
+| Google (including YouTube) | [How to Download Your Google Data](https://support.google.com/accounts/answer/3024190?hl=en) |
 | TikTok | [TikTok Help: Requesting Your Data](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data) |
 | Instagram | [Review and Export a Copy of Your Instagram Information](https://help.instagram.com/181231772500920) |
-| YouTube | [Your Data in YouTube](https://support.google.com/youtube/answer/9315727?hl=en) |
 | Facebook | [Export a Copy of Your Facebook Information](https://www.facebook.com/help/212802592074644) |
 | Apple | [Get a Copy of the Data Associated with Your Apple Account](https://support.apple.com/en-us/102208) |
 | Snapchat | [Snapchat: How to Download My Data](https://help.snapchat.com/hc/en-us/articles/7012305371156-How-do-I-download-my-data-from-Snapchat) |

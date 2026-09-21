@@ -44,5 +44,9 @@ Review the posts and write a brief reflection (100-200 words) to help you prepar
 * Who shaped this feed, and how?
 * What questions do you have about your feed?
 
+## Submission
+
+Turn in your completed table and reflection through Canvas (a photo or scan of the paper version is fine).
+
 
 

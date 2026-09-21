@@ -2,6 +2,8 @@
 layout: exercise
 title: 'Fairness Definition'
 exercise_number: 5
+summary: 'Collect at least ten definitions of algorithmic fairness, then pick one and defend it as a working definition of "the opposite of bias."'
+ai_policy: yellow-over-red
 ---
 
 ## Background on Algorithmic Bias

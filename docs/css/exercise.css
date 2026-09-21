@@ -38,6 +38,72 @@
   line-height: 1.2;
 }
 
+/* ── Header card: summary + AI/LLM signal ──
+   Sits between the title and the instructions, so a student sees what the
+   exercise is and which signal it carries before reading any of it. Filled
+   from each page's front matter and _data/ai_signals.yml by
+   _layouts/exercise.html. */
+.exercise-card {
+  border-top: 4px solid #00A1DE;
+  background: #fafafa;
+  padding: 16px 18px;
+  margin-bottom: 32px;
+}
+
+.exercise-summary {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: #444;
+  margin: 0 0 16px;
+}
+
+.exercise-meta {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+/* One fact per row: the signal drawing is tall enough to read, so a single
+   flex line would squeeze the policy text into a column. */
+.exercise-meta > div {
+  margin-bottom: 14px;
+}
+
+.exercise-meta > div:last-child {
+  margin-bottom: 0;
+}
+
+.exercise-meta dt {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 2px;
+}
+
+.exercise-meta dd {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.55;
+}
+
+.exercise-meta dd a {
+  color: #00A1DE;
+  font-weight: 700;
+}
+
+/* The aspect is named in words first; the drawing sits under that line rather
+   than beside it, so the reading order is label -> meaning -> picture. */
+.exercise-meta .signal-badge {
+  display: block;
+  height: 9.2em;
+  width: auto;
+  margin: 8px 0 2px;
+  border: 1px solid #565a5c; /* CTA Sign Grey */
+  border-radius: 2px;
+}
+
 /* ── Markdown content ── */
 .exercise-body h2 {
   font-size: 1.2rem;

@@ -2,6 +2,8 @@
 layout: exercise
 title: 'Online Account Scrap Doll'
 exercise_number: 3
+summary: 'Build an actual doll out of the trace data from your account biopsy, then bring it to class to discuss what it does and does not capture.'
+ai_policy: double-red
 ---
 
 ## Make a Doll
@@ -19,6 +21,10 @@ Yes, an actual doll! Consider your observations from reviewing your trace data i
 
 ## Examples
 
+
+## Submission
+
+Bring the doll to class. Turn in a photo of it through Canvas (no written reflection needed).
 
 ## Class Discussion Questions
 * What material did you use for your doll, and why?

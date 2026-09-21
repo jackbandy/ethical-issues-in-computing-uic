@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/site-nav.css">
 </head>
 <body>
-  {% include site-nav.html %}
+  {% include site-nav.html nav_current="exercises" %}
   <div class="container">
 
     <p class="breadcrumb"><a href="{{ site.baseurl }}/">Blue Line Ethics</a> &rsaquo; <a href="{{ site.baseurl }}/exercises/">Out-of-Class Exercises</a></p>
@@ -30,6 +30,20 @@
     {% endif %}
 
     <h1>{{ page.title }}</h1>
+
+    {%- comment -%}
+    Header card: the one-line summary plus the exercise's AI/LLM signal, so both are visible before the instructions. The aspects live in _data/ai_signals.yml and each page names one with `ai_policy:` in its front matter; the drawing and wording therefore can never drift from the FAQ and the syllabus. Styles: css/exercise.css.
+    {%- endcomment -%}
+    {%- assign signal = site.data.ai_signals[page.ai_policy] -%}
+    <div class="exercise-card">
+      {% if page.summary %}<p class="exercise-summary">{{ page.summary }}</p>{% endif %}
+      <dl class="exercise-meta">
+        {% if signal %}<div><dt>AI/LLM use</dt>
+          <dd><a href="{{ site.baseurl }}{{ signal.faq }}">{{ signal.label }}</a> &mdash; {{ signal.meaning }}
+            {% if signal.image %}<img class="signal-badge" src="{{ site.baseurl }}{{ signal.image }}" alt="{{ signal.alt | escape }}">{% endif %}</dd></div>{% endif %}
+        <div><dt>Turn in</dt><dd>Through Canvas</dd></div>
+      </dl>
+    </div>
 
     <div class="exercise-body">
       {{ content }}

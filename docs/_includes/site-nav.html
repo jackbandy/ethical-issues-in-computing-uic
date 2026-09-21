@@ -8,6 +8,10 @@
   runs tags even inside HTML comments, so that example can't be spelled out
   here: it would include this file inside itself.)
 
+  Everything past Books lives in the More menu, a plain <details> so it opens with
+  no script and stays keyboard-operable. `morenav` below lists the keys it holds,
+  and the summary is marked active whenever the current page is one of them.
+
   The menu sits on a single line at every width it fits on. When it no longer
   fits, the script in _includes/site-nav-script.html puts `is-compact` on
   `.site-masthead`, which shrinks the title and swaps the links for the round
@@ -33,9 +37,16 @@
     <a href="{{ site.baseurl }}/syllabus/"{% if nav_current == "syllabus" %} aria-current="page"{% endif %}>Syllabus</a>
     <a href="{{ site.baseurl }}/slides/"{% if nav_current == "slides" %} aria-current="page"{% endif %}>Slides</a>
     <a href="{{ site.baseurl }}/dilemmas/"{% if nav_current == "dilemmas" %} aria-current="page"{% endif %}>Dilemmas</a>
+    <a href="{{ site.baseurl }}/exercises/"{% if nav_current == "exercises" %} aria-current="page"{% endif %}>Exercises</a>
     <a href="{{ site.baseurl }}/books.html"{% if nav_current == "books" %} aria-current="page"{% endif %}>Books</a>
-    <a href="{{ site.baseurl }}/faq.html"{% if nav_current == "faq" %} aria-current="page"{% endif %}>FAQ</a>
-    <a class="is-external" href="{{ site.baseurl }}/timer/" target="_blank" rel="noopener">Timer</a>
+    {%- assign morenav = "timer,faq" | split: "," -%}
+    <details class="site-nav-more"{% if morenav contains nav_current %} data-current="true"{% endif %}>
+      <summary>More</summary>
+      <div class="site-nav-more-menu">
+        <a href="{{ site.baseurl }}/faq.html"{% if nav_current == "faq" %} aria-current="page"{% endif %}>FAQ</a>
+        <a class="is-external" href="{{ site.baseurl }}/timer/" target="_blank" rel="noopener"{% if nav_current == "timer" %} aria-current="page"{% endif %}>Timer</a>
+      </div>
+    </details>
     {%- comment -%}
     Meta links, hidden on the wide nav (they live in the footer there) and shown
     at the bottom of the compact menu, which covers the footer. Styles: css/site-nav.css.
