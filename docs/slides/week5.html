@@ -6,8 +6,8 @@
 <script src="week5_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="week5_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="week5_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="week5_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.37">
+<link href="week5_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>week5</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,10 +19,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -339,9 +342,9 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <div class="columns">
 <div class="column" style="width:58%;">
 <ul>
-<li>Tarleton Gillespie, Microsoft Research New England</li>
-<li>Moderation usually looks <strong>peripheral</strong> — “a custodial task, like turning the lights on and off and sweeping the floors”</li>
-<li>The book’s claim: it is <strong>central</strong> to what a platform is</li>
+<li>Tarleton Gillespie, Microsoft Research</li>
+<li>Moderation usually looks <strong>peripheral</strong> (“a custodial task, like turning the lights on and off and sweeping the floors”)</li>
+<li>What if it is <strong>central</strong> to what a platform is?</li>
 </ul>
 </div><div class="column" style="width:38%;">
 <p><img data-src="../assets/covers/custodians-of-the-internet.jpg"></p>
@@ -367,7 +370,7 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <li>~40,000 in trust and safety</li>
 </ul>
 <div class="figure-caption">
-<p>Moderator count via <em>The New York Times</em>; the 40,000 figure from Meta’s testimony at the <a href="https://www.judiciary.senate.gov/committee-activity/hearings/big-tech-and-the-online-child-sexual-exploitation-crisis">Senate Judiciary hearing</a> (January 2024). Enforcement volumes: <a href="https://transparency.meta.com/reports/community-standards-enforcement/">Meta Community Standards Enforcement Report</a></p>
+<p>Moderator count via <em>The New York Times</em>; 40,000 figure from Meta’s testimony at the <a href="https://www.judiciary.senate.gov/committee-activity/hearings/big-tech-and-the-online-child-sexual-exploitation-crisis">Senate Judiciary hearing</a> (January 2024). See <a href="https://transparency.meta.com/reports/community-standards-enforcement/">Meta Community Standards Enforcement Report</a></p>
 </div>
 </div><div class="column" style="width:46%;">
 <p><img data-src="../assets/logos/meta-plate.svg" alt="Meta logo"></p>
@@ -378,7 +381,7 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>Claims <strong>40,000</strong> in global trust and safety</li>
+<li>Claims <strong>40,000</strong> workers in global trust and safety</li>
 <li>Stated focus on “minor safety”</li>
 <li>~81% of removals automated</li>
 </ul>
@@ -399,7 +402,7 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <li><strong>842.8 million</strong> comments removed</li>
 </ul>
 <div class="figure-caption">
-<p>Removal counts: <a href="https://transparencyreport.google.com/youtube-policy/removals">Google Transparency Report — YouTube Community Guidelines enforcement</a>. Moderator count is an outside estimate, not a YouTube figure.</p>
+<p>Removal counts: <a href="https://transparencyreport.google.com/youtube-policy/removals">Google Transparency Report: YouTube Community Guidelines enforcement</a>. Moderator count is an outside estimate.</p>
 </div>
 </div><div class="column" style="width:46%;">
 <p><img data-src="../assets/logos/youtube-plate.svg" alt="YouTube logo"></p>
@@ -415,11 +418,13 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 </section>
 <section id="content-notice" class="slide level2">
 <h2>Content Notice</h2>
+<div>
 <ul>
-<li class="fragment">The next slide shows a graphic image of war violence, including injured children.</li>
-<li class="fragment">A later slide reproduces a leaked Facebook training slide whose examples include misogynistic and violent language.</li>
-<li class="fragment">They are here because they are the cases that forced platforms to rewrite their rules.</li>
+<li>The next slide shows a graphic image of war violence, including injured children.</li>
+<li>A later slide reproduces a leaked Facebook training slide with some misogynistic and violent language.</li>
+<li>They are cases that forced platforms to rewrite their rules.</li>
 </ul>
+</div>
 </section>
 <section id="example-the-terror-of-war-1972" class="slide level2 figure-slide framed-figure">
 <h2>Example: “The Terror of War” (1972)</h2>
@@ -455,7 +460,7 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 </div>
 <p><img data-src="../assets/moderation/fb-credible-violence-2017.png" style="max-height:440px;" alt="A Facebook moderator training slide headed &quot;Credible Violence: Calls for Action,&quot; listing five example posts, each marked with a green tick to keep it up or a red cross to delete it"></p>
 <div class="figure-caption">
-<p>“Facebook’s policy on threats of violence. A tick means something can stay on the site; a cross means it should be deleted.” Photograph: Guardian. One slide from the internal moderator training materials leaked to <em>The Guardian</em> in 2017 — the rulebook Meta’s public <a href="https://transparency.meta.com/policies/community-standards/violence-incitement/">Violence and Incitement</a> standard grew out of.</p>
+<p>“Facebook’s policy on threats of violence. A green check means something can stay on the site; a red cross means it should be deleted.” See <em>The Guardian</em> in 2017, the start of Meta’s public <a href="https://transparency.meta.com/policies/community-standards/violence-incitement/">Violence and Incitement</a> policy.</p>
 </div>
 </section>
 <section id="ethical-questions-in-content-moderation" class="slide level2">
@@ -577,13 +582,15 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <div class="source-top">
 <p><a href="https://www.usna.edu/CoreEthics/Essays/Omelas.pdf">Ursula K. Le Guin, “The Ones Who Walk Away from Omelas” (1973)</a></p>
 </div>
+<div>
 <ul>
-<li class="fragment">That dilemma is the premise of a short story</li>
-<li class="fragment">Omelas is a city of genuine happiness</li>
-<li class="fragment">Everyone is told about the child when they come of age</li>
-<li class="fragment">Le Guin credited the idea to William James’ <a href="https://www.gutenberg.org/cache/epub/26659/pg26659.txt">“The Moral Philosopher and the Moral Life”</a> (1891)</li>
-<li class="fragment">Said she had forgotten Dostoyevsky’s <a href="https://www.gutenberg.org/cache/epub/28054/pg28054.txt">earlier version</a> when she wrote it.</li>
+<li>That dilemma is the premise of a short story</li>
+<li>Omelas is a city of genuine happiness</li>
+<li>Everyone is told about the child when they come of age</li>
+<li>Le Guin credited the idea to William James’ <a href="https://www.gutenberg.org/cache/epub/26659/pg26659.txt">“The Moral Philosopher and the Moral Life”</a> (1891)</li>
+<li>Said she had forgotten Dostoyevsky’s <a href="https://www.gutenberg.org/cache/epub/28054/pg28054.txt">earlier version</a> when she wrote it.</li>
 </ul>
+</div>
 </section>
 <section id="the-next-story-here-and-now" class="slide level2">
 <h2>The Next Story: “Here and Now”</h2>
@@ -597,8 +604,8 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <li>Main character is Aaron</li>
 <li>Centers around an app that facilitates anonymous requests for “information” of any kind</li>
 <li>Made by Centillion, Inc.</li>
-<li>Web link on site; PDF in Canvas</li>
-<li>Read before Wednesday!</li>
+<li><a href="https://archive.ph/p7w46">Web link</a> on site; PDF in Canvas</li>
+<li>Reading + reflection!</li>
 </ul>
 </div><div class="column" style="width:45%;">
 <p><img data-src="../assets/moderation/here-and-now-baetas.jpg"></p>
@@ -1135,7 +1142,7 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md</a>.</li>
-<li>Last modified and compiled September 21, 12:05h.</li>
+<li>Last modified and compiled September 21, 17:15h.</li>
 <li>Tarleton Gillespie, <a href="https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf"><em>Custodians of the Internet</em></a> (Yale University Press, 2018) — full text released by the author under CC BY-NC-SA 4.0; cover art from <a href="https://yalebooks.yale.edu/book/9780300261431/custodians-of-the-internet/">Yale University Press</a>, © Yale University Press.</li>
 <li>Tarleton Gillespie, <a href="https://doi.org/10.1177/2053951720943234">“Content Moderation, AI, and the Question of Scale”</a>, <em>Big Data &amp; Society</em> (2020).</li>
 <li>Nick Hopkins, <a href="https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence">“Revealed: Facebook’s internal rulebook on sex, terrorism and violence”</a>, <em>The Guardian</em> (2017) — the “Credible Violence” training slide reproduced here is that story’s figure, © Guardian News &amp; Media / Facebook, used for classroom commentary on the leaked rulebook.</li>
