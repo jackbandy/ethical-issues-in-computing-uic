@@ -105,8 +105,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 5, Day 1 (2026-09-21)
 
-* Algorithmic Feeds and Content Moderation, Continued
-* Intro to Privacy
+* Content Moderation, Continued
+* Moderation case studies
 * **Ethics through Fiction:** read and discuss short story (["The Ones Who Walk Away from Omelas" by Ursula K. Le Guin](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf))
   * Alternate PDF [here](https://users.manchester.edu/Facstaff/SSNaragon/Online/texts/201/-Essays/Leguin,%20Omelas.pdf)
 * Preview short story ("[Here and Now](https://archive.ph/p7w46)")
@@ -122,7 +122,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 5, Day 2 (2026-09-23)
 
-* Privacy, Continued
+* Intro to Privacy, and privacy as contextual integrity
+* Digital rights
 * **Ethics through Fiction:** discuss short story ("Here and Now")
 * Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
   * PDF available in Canvas

@@ -7,7 +7,7 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 ---
 
-# Content Moderation and Intro to Privacy {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop12-clinton-old-post-office.jpg" background-size="cover" data-menu-title="Week 5, Day 1"}
+# Content Moderation, Intro to Stories {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop12-clinton-old-post-office.jpg" background-size="cover" data-menu-title="Week 5, Day 1"}
 
 CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
@@ -24,12 +24,13 @@ CS 377, Week 5, Day 1 🟦 Clinton 🟦
 
 :::: columns
 ::: {.column width="55%"}
-- Administrivia / Schedule / Questions
+- Ethics in the news
 - Shuffle seats
-- Notes on Unit 2
+- Warm-up: book check-in
 - Mini-lecture: content moderation
-- Discuss Le Guin Short Story
-- Preview next short story ("Here and Now")
+- Moderation case studies
+- Discuss "Omelas" (Le Guin)
+- Preview "Here and Now" + exercise
 :::
 
 ::: {.column width="40%"}
@@ -56,6 +57,40 @@ Samuel F. B. Morse, *DeWitt Clinton*, c. 1826. [Metropolitan Museum of Art via W
 ::: {.caption}
 Anthony Imbert, *Grand Canal Celebration*, New York, 1825. [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png), public domain
 :::
+:::
+::::
+
+---
+
+## Ethics in the News {.news-cards}
+
+::: {.source-top}
+September 21, 2026: two of the day's AI stories — a payout for a feature that shipped late, and an argument about how dangerous the technology is.
+:::
+
+:::: columns
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/axios-logo.svg" alt="Axios"></div>
+<div class="news-kicker">Technology</div>
+<div class="news-headline"><a href="https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility">Here's how iPhone users can get up to $95 from Apple's AI delay</a></div>
+<div class="news-deck">Apple customers can now file claims in a massive class-action settlement over Siri's delayed AI rollout. The deadline to file is Dec. 21, 2026.</div>
+<img src="../assets/news/apple-store-iphone16-2025.jpg" alt="iPhone 16 handsets on display stands, the nearest screen reading &quot;Built for Apple Intelligence&quot;">
+<div class="news-credit">Apple iPhone 16 models are displayed at an Apple store in New York on April 4, 2025. (Michael M. Santiago/Getty Images)</div>
+<div class="news-byline">By Herb Scribner · September 21, 2026 · <a href="https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility">axios.com</a></div>
+</div>
+:::
+
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead stacked"><img src="../assets/news/guardian-logo.svg" alt="The Guardian"></div>
+<div class="news-kicker">Artificial intelligence</div>
+<div class="news-headline"><a href="https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic">Nvidia boss says there is '0% chance' AI destroys the world by 2030</a></div>
+<div class="news-deck">Jensen Huang dismisses warnings from former Anthropic researcher and others as "doomsday narratives."</div>
+<img src="../assets/news/huang-tokyo-reception.jpg" alt="Jensen Huang speaking in front of a large illuminated Nvidia logo">
+<div class="news-credit">Nvidia's Jensen Huang said predictions of an extinction-level event caused by AI were "not grounded in science." (Manami Yamada/Reuters)</div>
+<div class="news-byline">By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic">theguardian.com</a></div>
+</div>
 :::
 ::::
 
@@ -152,11 +187,31 @@ The engrossed Bill of Rights, 1789 — the First Amendment is the third article 
 
 ---
 
+## Custodians of the Internet
+
+:::: columns
+::: {.column width="58%"}
+- Tarleton Gillespie, Microsoft Research
+- Moderation usually looks **peripheral** ("a custodial task, like turning the lights on and off and sweeping the floors")
+- What if it is **central** to what a platform is?
+:::
+
+::: {.column width="38%"}
+![](../assets/covers/custodians-of-the-internet.jpg)
+
+::: {.caption}
+*Custodians of the Internet*, [Yale University Press](https://yalebooks.yale.edu/book/9780300261431/custodians-of-the-internet/), 2018 ; [full PDF](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) from the author, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+:::
+:::
+::::
+
+---
+
 ## Moderation as the Product {.quote-slide}
 
 > "Moderation is, in many ways, the commodity that platforms offer."
 >
-> — Tarleton Gillespie, *Custodians of the Internet*
+> — Tarleton Gillespie, *Custodians of the Internet* (2018), p. 13
 
 ---
 
@@ -169,7 +224,7 @@ The engrossed Bill of Rights, 1789 — the First Amendment is the third article 
 - ~40,000 in trust and safety
 
 ::: {.figure-caption}
-Moderator count via *The New York Times*; the 40,000 figure from Meta's testimony at the [Senate Judiciary hearing](https://www.judiciary.senate.gov/committee-activity/hearings/big-tech-and-the-online-child-sexual-exploitation-crisis) (January 2024). Enforcement volumes: [Meta Community Standards Enforcement Report](https://transparency.meta.com/reports/community-standards-enforcement/)
+Moderator count via *The New York Times*; 40,000 figure from Meta's testimony at the [Senate Judiciary hearing](https://www.judiciary.senate.gov/committee-activity/hearings/big-tech-and-the-online-child-sexual-exploitation-crisis) (January 2024). See [Meta Community Standards Enforcement Report](https://transparency.meta.com/reports/community-standards-enforcement/)
 :::
 :::
 
@@ -184,7 +239,7 @@ Moderator count via *The New York Times*; the 40,000 figure from Meta's testimon
 
 :::: columns
 ::: {.column width="50%"}
-- Claims **40,000** in global trust and safety
+- Claims **40,000** workers in global trust and safety
 - Stated focus on "minor safety"
 - ~81% of removals automated
 
@@ -209,7 +264,7 @@ Source: [TikTok Community Guidelines Enforcement Report, Q4 2024](https://www.ti
 - **842.8 million** comments removed
 
 ::: {.figure-caption}
-Removal counts: [Google Transparency Report — YouTube Community Guidelines enforcement](https://transparencyreport.google.com/youtube-policy/removals). Moderator count is an outside estimate, not a YouTube figure.
+Removal counts: [Google Transparency Report: YouTube Community Guidelines enforcement](https://transparencyreport.google.com/youtube-policy/removals). Moderator count is an outside estimate.
 :::
 :::
 
@@ -226,9 +281,10 @@ Removal counts: [Google Transparency Report — YouTube Community Guidelines enf
 
 ## Content Notice
 
-::: {.incremental}
+::: {}
 - The next slide shows a graphic image of war violence, including injured children.
-- They are here because they are the cases that forced platforms to rewrite their rules.
+- A later slide reproduces a leaked Facebook training slide with some misogynistic and violent language.
+- They are cases that forced platforms to rewrite their rules.
 :::
 
 ---
@@ -271,6 +327,20 @@ Meta's current public rule, successor to the internal "credible violence" rulebo
 
 ---
 
+## Example: The Leaked Rulebook (2017) {.figure-slide .framed-figure}
+
+::: {.source-top}
+[Nick Hopkins, "Revealed: Facebook's internal rulebook on sex, terrorism and violence," *The Guardian* (May 21, 2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
+:::
+
+![](../assets/moderation/fb-credible-violence-2017.png){style="max-height:440px;" alt="A Facebook moderator training slide headed \"Credible Violence: Calls for Action,\" listing five example posts, each marked with a green tick to keep it up or a red cross to delete it"}
+
+::: {.figure-caption}
+"Facebook's policy on threats of violence. A green check means something can stay on the site; a red cross means it should be deleted." See *The Guardian* in 2017, the start of Meta's public [Violence and Incitement](https://transparency.meta.com/policies/community-standards/violence-incitement/) policy.
+:::
+
+---
+
 ## Ethical Questions in Content Moderation
 
 :::: columns
@@ -294,18 +364,11 @@ Meta's current public rule, successor to the internal "credible violence" rulebo
 
 ---
 
-
-## TODO fill in examples
-
-- TODO
-
----
-
 ## Thoughts or Questions on Algorithmic Feeds? Moderation?
 
 ---
 
-# A Story {.title-slide .section-header}
+# Intro to Stories {.title-slide .section-header}
 
 ---
 
@@ -380,7 +443,7 @@ Ursula K. Le Guin, August 1995. Photo: [Marian Wood Kolisch, Oregon State Univer
 [Ursula K. Le Guin, "The Ones Who Walk Away from Omelas" (1973)](https://www.usna.edu/CoreEthics/Essays/Omelas.pdf)
 :::
 
-::: {.incremental}
+::: {}
 - That dilemma is the premise of a short story
 - Omelas is a city of genuine happiness
 - Everyone is told about the child when they come of age
@@ -402,8 +465,8 @@ Ursula K. Le Guin, August 1995. Photo: [Marian Wood Kolisch, Oregon State Univer
 - Main character is Aaron
 - Centers around an app that facilitates anonymous requests for "information" of any kind
 - Made by Centillion, Inc.
-- Web link on site; PDF in Canvas
-- Read before Wednesday!
+- [Web link](https://archive.ph/p7w46) on site; PDF in Canvas
+- Reading + reflection!
 :::
 
 ::: {.column width="45%"}
@@ -417,7 +480,7 @@ Artwork by José Baetas for *Kasma Magazine*
 
 ---
 
-## Exercise Preview {.embed-slide}
+## Exercise Preview: Online Account Biopsy {.embed-slide}
 
 ::: {.embed-frame style="width:100%;height:100%;margin:0;"}
 <iframe
@@ -925,9 +988,9 @@ There is no single comprehensive federal privacy law — coverage is sectoral.
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md>.
-2. Tarleton Gillespie, [*Custodians of the Internet*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) (2018).
+2. Tarleton Gillespie, [*Custodians of the Internet*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) (Yale University Press, 2018) — full text released by the author under CC BY-NC-SA 4.0; cover art from [Yale University Press](https://yalebooks.yale.edu/book/9780300261431/custodians-of-the-internet/), © Yale University Press.
 3. Tarleton Gillespie, ["Content Moderation, AI, and the Question of Scale"](https://doi.org/10.1177/2053951720943234), *Big Data & Society* (2020).
-4. Nick Hopkins, ["Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017).
+4. Nick Hopkins, ["Revealed: Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017) — the "Credible Violence" training slide reproduced here is that story's figure, © Guardian News & Media / Facebook, used for classroom commentary on the leaked rulebook.
 5. Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585), *IEEE Security & Privacy* (2022).
 6. White House OSTP, [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/) (2022).
 7. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
@@ -941,4 +1004,5 @@ There is no single comprehensive federal privacy law — coverage is sectoral.
 15. [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (United Nations, 1948).
 16. Eleanor Roosevelt with UDHR photo, 1949, [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg), CC BY 2.0.
 17. Samuel F. B. Morse, *DeWitt Clinton*, [Metropolitan Museum of Art via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:De_Witt_Clinton_MET_DT2056.jpg), CC0; Anthony Imbert, *Grand Canal Celebration* (1825), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png), public domain.
-18. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+18. Ethics in the news: Herb Scribner, ["Here's how iPhone users can get up to $95 from Apple's AI delay"](https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility), *Axios* (September 21, 2026), lead photo by Michael M. Santiago/Getty Images; Mark Sweney and Robert Booth, ["Nvidia boss says there is '0% chance' AI destroys the world by 2030"](https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic), *The Guardian* (September 21, 2026), lead photo by Manami Yamada/Reuters. Both cards are facsimiles built from each story's own headline, deck, photo, and byline — not captures of the publications' page designs.
+19. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

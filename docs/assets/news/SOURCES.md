@@ -25,3 +25,13 @@ Publication wordmarks, used to identify the source of each story. Both are text 
 The Claude mark, used as the lead image on the Bloomberg card. Bloomberg's own social card for that story uses a Claude app icon rather than a news photograph; this is a clean, openly-licensed equivalent rather than a copy of their asset.
 
 - **claude-app-icon.svg** — Assembled for this deck from the Claude starburst symbol plus a warm gradient background, matching the app-icon thumbnail Bloomberg's own social card uses for the same story. The path data comes from [Wikimedia Commons: Claude AI symbol.svg](https://commons.wikimedia.org/wiki/File:Claude_AI_symbol.svg) — License: CC0 (symbol); the Claude name and starburst are trademarks of Anthropic PBC, used here only to identify the AI system the story is about
+
+Lead photographs from the September 21, 2026 coverage used in the week 5 day 1 "Ethics in the News" slide. Both are rights-managed agency photographs reproduced at slide size for classroom commentary on the coverage itself; neither is CC-licensed, and neither should be reused outside that context.
+
+- **apple-store-iphone16-2025.jpg** — Lead photo of ["Here's how iPhone users can get up to $95 from Apple's AI delay"](https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility), *Axios*, September 21, 2026 — "Apple iPhone 16 models are displayed at an Apple store in New York on April 4, 2025." — Photo: Michael M. Santiago/Getty Images — License: © Getty Images, all rights reserved; classroom use only — downscaled to 900px wide
+
+- **huang-tokyo-reception.jpg** — Lead photo of ["Nvidia boss says there is '0% chance' AI destroys the world by 2030"](https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic), *The Guardian*, September 21, 2026 — "Nvidia CEO Jensen Huang speaks after attending the AI Ecosystem Reception in Tokyo." — Photo: Manami Yamada/Reuters — License: © Reuters, all rights reserved; classroom use only — cropped to landscape and downscaled to 900px wide
+
+- **axios-logo.svg** — [Wikimedia Commons: Axios logo (2020).svg](https://commons.wikimedia.org/wiki/File:Axios_logo_(2020).svg) — 2020 wordmark of *Axios* — License: Public domain (PD-textlogo); trademark of Axios Media Inc.
+
+- **guardian-logo.svg** — [Wikimedia Commons: The Guardian 2018.svg](https://commons.wikimedia.org/wiki/File:The_Guardian_2018.svg) — 2018 stacked wordmark of *The Guardian* — License: Public domain (PD-textlogo); trademark of Guardian News & Media. Stacked rather than single-line, so the slide gives it the `.stacked` masthead modifier to keep its per-line cap height in step with the single-line mastheads.

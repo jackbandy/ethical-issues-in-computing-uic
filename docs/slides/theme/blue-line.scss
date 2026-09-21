@@ -768,6 +768,12 @@ $photo-only-footer-opacity: 0.6;
       max-width: 70%;
       margin: 0;
     }
+
+    // A two-line wordmark (e.g. the Guardian's) needs a taller box for its per-line cap height to match the single-line mastheads beside it.
+    &.stacked img {
+      height: 42px;
+      max-height: 42px;
+    }
   }
 
   .news-kicker {
