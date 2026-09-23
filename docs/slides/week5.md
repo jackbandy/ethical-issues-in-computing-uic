@@ -886,16 +886,10 @@ Nalo Hopkinson at the Hugo Award Ceremony, August 2017. Photo: [Sanna Pudas](htt
 
 # Appendix: Leftover Slides {.title-slide .section-header}
 
-Slides cut from the running order or still missing a visual, grouped by topic. Not part of the planned sequence.
+Slides that need to be re-organized...
 
 ---
 
-## Notes on Unit 2
-
-<!-- image: Unit 2 overview / structure slide -->
-- TODO: add image — *Unit 2 overview / structure slide*
-
----
 
 # More on Content Moderation {.title-slide .section-header .no-index}
 
@@ -920,16 +914,7 @@ Background on moderation labor: Sarah T. Roberts, [*Behind the Screen*](https://
 
 ---
 
-## Marginal Content at Twitter
 
-<!-- image: internal Twitter documentation — original source unknown; see links below for substitutes -->
-- TODO: add image — *Twitter internal moderation documentation example*
-
-::: {.figure-caption}
-On "borderline" content that approaches but does not cross the policy line: Mark Zuckerberg, ["A Blueprint for Content Governance and Enforcement"](https://web.archive.org/web/20200107062302/https://www.facebook.com/notes/mark-zuckerberg/a-blueprint-for-content-governance-and-enforcement/10156443129621634/) (2018, via the Internet Archive — the original Facebook note is gone). On how platforms write and phrase these rules: [Schaffner et al., *CHI 2024*](https://doi.org/10.1145/3613904.3642333)
-:::
-
----
 
 # More on Privacy {.title-slide .section-header .no-index}
 
