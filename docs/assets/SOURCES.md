@@ -18,6 +18,10 @@
 
 - **deontic-square-remix-v2.svg** — Based on Wikipedia deontic square (remixed by Jack Bandy) — License: inherits from source
 
+- **contextual-integrity.svg** — Original diagram of contextual integrity after Helen Nissenbaum, ["Privacy as Contextual Integrity"](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/) (2004), with parameters as named in Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585) (2023); drawn by an LLM (Claude Code) — License: same as the course materials
+
+- **contextual-integrity-v2.svg** — Revision of contextual-integrity.svg (larger text, single near-black emphasis on the transmission principle, which now spans the whole flow); drawn by an LLM (Claude Code) — License: same as the course materials; embeds a subset of Big Shoulders (SIL OFL 1.1, see `fonts/big-shoulders/OFL.txt`)
+
 - **troyon-pasture-normandy.jpg** — [Art Institute of Chicago: *Pasture in Normandy*](https://www.artic.edu/artworks/897) — Constant Troyon (French, 1810–1865), 1852, oil on panel; Henry Field Memorial Collection — License: Public Domain (CC0) — downloaded via the AIC IIIF endpoint at 1280px wide
 
 - **feeds/** — illustrations for the week 4 "Feed Algorithms" and "Values in Ranking" slides:

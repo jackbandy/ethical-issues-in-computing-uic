@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Original diagram of contextual integrity (Nissenbaum 2004), parameters as named in Malkin, "Contextual Integrity, Explained," IEEE Security & Privacy 21(1), 2023. v2 of contextual-integrity.svg.
+  Embedded font: Big Shoulders (SIL OFL 1.1, see fonts/big-shoulders/OFL.txt), instanced at wght 700 / opsz 36 and subset to A–Z, colon, space, so headings render the same where the font is not installed.
+  NOTICE: drawn by an LLM (Claude Code) in the house style of docs/assets/STYLE.md.
+-->
+<svg width="1000" height="618" viewBox="0 0 1000 618" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ci-title ci-desc">
+    <title id="ci-title">Contextual integrity: five parameters of an information flow</title>
+    <desc id="ci-desc">Inside a health-care context governed by norms, a sender (the patient) shares an information type (symptoms) with a recipient (the doctor). The information is about a subject (the patient). A transmission principle (confidentiality) spans the whole flow from sender to recipient.</desc>
+    <defs>
+        <marker id="head" viewBox="0 0 5 5" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" markerUnits="strokeWidth" orient="auto">
+            <path d="M 0 0 L 5 2.5 L 0 5 z" fill="#111111"/>
+        </marker>
+    </defs>
+    <style>
+        @font-face { font-family: "CI Big Shoulders"; font-weight: 700; src: url("data:font/woff2;base64,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") format("woff2"); }
+        .h { font-family: "CI Big Shoulders", "Big Shoulders", "Arial Narrow", "Helvetica Neue Condensed", sans-serif; font-weight: 700; font-size: 34px; letter-spacing: 1px; }
+        .t { font-family: "Mulish", Helvetica, Arial, sans-serif; font-weight: 400; font-size: 24px; }
+        .e { font-family: "Mulish", Helvetica, Arial, sans-serif; font-weight: 400; font-size: 24px; font-style: italic; }
+    </style>
+    <rect width="1000" height="618" fill="#ffffff"/>
+
+    <!-- context frame -->
+    <rect x="20" y="20" width="960" height="578" rx="6" fill="none" stroke="#aaaaaa" stroke-width="3" stroke-dasharray="9 8"/>
+    <text x="44" y="62" class="h" fill="#666666">CONTEXT: HEALTH CARE</text>
+    <text x="354" y="62" class="t" fill="#666666">governed by norms (expectations)</text>
+
+    <!-- subject -->
+    <rect x="385" y="118" width="230" height="110" rx="6" fill="#eeeeee" stroke="#111111" stroke-width="3"/>
+    <text x="500" y="158" text-anchor="middle" class="h" fill="#111111">SUBJECT</text>
+    <text x="500" y="188" text-anchor="middle" class="t" fill="#111111">who it is about</text>
+    <text x="500" y="216" text-anchor="middle" class="e" fill="#555555">e.g., the patient</text>
+    <line x1="500" y1="232" x2="500" y2="286" stroke="#111111" stroke-width="3" stroke-dasharray="9 8"/>
+
+    <!-- sender -->
+    <rect x="50" y="290" width="230" height="110" rx="6" fill="#eeeeee" stroke="#111111" stroke-width="3"/>
+    <text x="165" y="330" text-anchor="middle" class="h" fill="#111111">SENDER</text>
+    <text x="165" y="360" text-anchor="middle" class="t" fill="#111111">who shares it</text>
+    <text x="165" y="388" text-anchor="middle" class="e" fill="#555555">e.g., the patient</text>
+
+    <!-- information type -->
+    <rect x="360" y="290" width="280" height="110" rx="6" fill="#eeeeee" stroke="#111111" stroke-width="3"/>
+    <text x="500" y="330" text-anchor="middle" class="h" fill="#111111">INFORMATION TYPE</text>
+    <text x="500" y="360" text-anchor="middle" class="t" fill="#111111">what is shared</text>
+    <text x="500" y="388" text-anchor="middle" class="e" fill="#555555">e.g., symptoms</text>
+
+    <!-- recipient -->
+    <rect x="720" y="290" width="230" height="110" rx="6" fill="#eeeeee" stroke="#111111" stroke-width="3"/>
+    <text x="835" y="330" text-anchor="middle" class="h" fill="#111111">RECIPIENT</text>
+    <text x="835" y="360" text-anchor="middle" class="t" fill="#111111">who receives it</text>
+    <text x="835" y="388" text-anchor="middle" class="e" fill="#555555">e.g., the doctor</text>
+
+    <!-- flow arrows -->
+    <line x1="284" y1="345" x2="348" y2="345" stroke="#111111" stroke-width="3" marker-end="url(#head)"/>
+    <line x1="644" y1="345" x2="708" y2="345" stroke="#111111" stroke-width="3" marker-end="url(#head)"/>
+
+    <!-- transmission principle (focal): bracket spans the whole sender-to-recipient flow -->
+    <path d="M 165 404 V 422 H 835 V 404" fill="none" stroke="#111111" stroke-width="3"/>
+    <line x1="500" y1="422" x2="500" y2="456" stroke="#111111" stroke-width="3"/>
+    <rect x="290" y="460" width="420" height="110" rx="6" fill="#222222" stroke="#111111" stroke-width="3"/>
+    <text x="500" y="500" text-anchor="middle" class="h" fill="#ffffff">TRANSMISSION PRINCIPLE</text>
+    <text x="500" y="530" text-anchor="middle" class="t" fill="#ffffff">the conditions on the flow</text>
+    <text x="500" y="558" text-anchor="middle" class="e" fill="#ffffff">e.g., confidentiality</text>
+</svg>

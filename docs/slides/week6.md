@@ -45,8 +45,6 @@ CS 377, Week 6, Day 1 🟦 Jackson 🟦
 - Upcoming due dates
 - Privacy in data (de-anonymization, k-anonymity)
 - Why short stories?
-- Discuss "Here and Now"
-- Preview "Message in a Bottle"
 :::
 
 ::: {.column width="40%"}
@@ -353,52 +351,6 @@ Public reviews carry names. Matching a handful of titles and dates re-attaches t
 ## Recall: Normative and Descriptive Ethics
 
 Stories give us both at once — the **normative** question ("was that right?") and the **descriptive** one ("who was involved, what were the stakes, what led here?").
-
----
-
-# "Here and Now" {.title-slide .section-header}
-
----
-
-## "Here and Now"
-
----
-
-## Table Questions: Characters in "Here and Now"
-
-- What do we know about Aaron?
-  - What does he enjoy? How do you know?
-  - What does he want? What are his goals?
-  - What are his relationships?
-- How are Lucas and Aaron similar? Different?
-- What other characters did you notice?
-
----
-
-## Table Questions: The App in "Here and Now"
-
-- Would you use Tilly Here-and-Now? Explain.
-- Which use cases seemed comfortable or innocuous?
-- Which use cases made you feel uncomfortable?
-- What do you think of Centillion?
-
----
-
-## Connecting "Here and Now" to Privacy
-
-- What data does Centillion collect about users?
-- Apply contextual integrity: sender, recipient, subject, data type, transmission principle
-- Is this an appropriate information flow within the social context?
-
----
-
-## Preview: "Message in a Bottle"
-
-- Written by Nalo Hopkinson
-- Central character is Greg
-- Addresses challenges of utilitarian ethics
-- Longer than the first story!
-- Read by Sunday — complete reflection before Monday's class
 
 ---
 

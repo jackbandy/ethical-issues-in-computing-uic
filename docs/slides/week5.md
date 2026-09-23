@@ -506,21 +506,21 @@ Artwork by José Baetas for *Kasma Magazine*
 
 ---
 
-# Privacy as Contextual Integrity {.title-slide data-menu-title="Week 5, Day 2"}
+# Here and Now, Privacy as Contextual Integrity {.title-slide data-menu-title="Week 5, Day 2"}
 
 CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 ---
 
-# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover" data-menu-title="Week 5, Day 2"}
+# Privacy as Contextual Integrity {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop13-lasalle-st-station-postcard.jpg" background-size="cover" data-menu-title="Week 5, Day 2"}
 
 CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
-<!-- image source: LaSalle station, photo by Cragin Spring -->
+<!-- image source: LaSalle Street Station postcard, Detroit Publishing Co. (1907–1908), public domain -->
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop13-lasalle-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop13-lasalle-st-station-postcard.jpg" background-size="cover"}
 
 ---
 
@@ -531,11 +531,11 @@ CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 :::: columns
 ::: {.column width="55%"}
 - Shuffle seats
-- Preview "online account biopsy" exercise
-- Mini-lecture: contextual integrity
-- Privacy policy demo
-- Privacy policy exercise
-- Digital rights and proposed laws
+- Warm-up discussion: free will
+- "Here and Now" discussion
+- Intro to privacy as "contextual integrity"
+- Preview "Message in a Bottle"
+- Reflection: I like / I wish
 :::
 
 ::: {.column width="40%"}
@@ -582,190 +582,79 @@ CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 
 ---
 
-## Online Account Biopsy
+## Warm-up Discussion: Free Will {.embed-slide}
 
-- Introduce yourselves at your table
-- Discuss which app or website you want to use
-- Find the "request my data" option in the app
-- This will be used for your "online account biopsy" exercise
-- Should only take ~5 minutes
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Do you believe in free will?
+- Are you sure?
+- Did you freely and willingly decide to come to class today?
+- Did you freely decide to enroll in CS 377?
+- Did you freely decide to attend UIC?
+:::
 
----
-
-# Digital Rights {.title-slide .section-header}
-
----
-
-## Warm-up Discussion: What Are Rights?
-
-- What comes to mind when you hear the word "rights"?
-- What are some examples of rights you have?
-- What are some rights you want to have, but are unsure whether you have?
-- What are some examples of "human rights"?
-- Where do these rights come from?
-- What is a privilege compared to a right?
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-
-
-## Rights and Laws
-
-- Where do rights come from? Declarations, constitutions, statutes, courts
-- A right without an enforcement mechanism behaves differently from one with it
-- What is a privilege compared to a right?
+# "Here and Now" {.title-slide .section-header}
 
 ---
 
-## Eleanor Roosevelt and the UDHR {.figure-slide .framed-figure}
+## "Here and Now"
 
 ::: {.source-top}
-[Universal Declaration of Human Rights (United Nations, 1948)](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+[Ken Liu, "Here and Now," *Kasma Magazine*](https://archive.ph/p7w46)
 :::
 
-![](../assets/portraits/eleanor-roosevelt.jpg){style="max-height:520px;"}
-
-::: {.figure-caption}
-Eleanor Roosevelt with the English-language text of the UDHR, Lake Success, New York, November 1949. [FDR Presidential Library via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg), CC BY 2.0
+:::: columns
+::: {.column width="52%"}
+- Written by Ken Liu
+- Main character is Aaron
+- Centers around an app that facilitates anonymous requests for "information" of any kind
+- Made by Centillion, Inc.
 :::
 
----
+::: {.column width="45%"}
+![](../assets/moderation/here-and-now-baetas.jpg)
 
-## Eleanor Roosevelt on the UDHR {.quote-slide}
-
-> "It is not a treaty; it is not an international agreement. It is not and does not purport
-> to be a statement of law or of legal obligation. It is a declaration of basic principles
-> of human rights and freedoms, to be stamped with the approval of the General Assembly
-> by formal vote of its members, and to serve as a common standard of achievement for
-> all peoples of all nations."
->
-> — Eleanor Roosevelt
+::: {.caption}
+Artwork by José Baetas for *Kasma Magazine*
+:::
+:::
+::::
 
 ---
 
-## Blueprint for an "AI Bill of Rights"
+## Table Discussion: "Here and Now" {.embed-slide}
 
-- Office of Science and Technology Policy (2022)
-- "Intended to support the development of policies and practices that protect civil rights and promote democratic values in the building, deployment, and governance of automated systems"
-
----
-
-## Activity: Proposed Digital Rights
-
-Review each proposed right — strengths? Weaknesses? Examples where it would come into play?
-
-::: {.incremental}
-- A: "You should be protected from unsafe or ineffective systems."
-- B: "You should not face discrimination by algorithms and systems should be used and designed in an equitable way."
-- C: "You should be protected from abusive data practices via built-in protections and you should have agency over how data about you is used."
-- D: "You should know that an automated system is being used and understand how and why it contributes to outcomes that impact you."
-- E: "You should be able to opt out, where appropriate, and have access to a person who can quickly consider and remedy problems you encounter."
-- F: "You should have the ability to request deletion of your personal data and digital traces from automated systems and databases."
-- G: "You should have the right to repair, modify, and maintain automated systems that you own or that significantly impact your daily life."
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- What do we know about Aaron? (What does he enjoy? What does he want?)
+- What other characters did you notice?
+- Would you use Tilly Here-and-Now? 
+- Which use cases seemed comfortable or innocuous?
+- Which use cases made you feel uncomfortable?
+- What do you think of Centillion?
 :::
 
----
-
-## That's all for today!
-
-See you next week!
-
----
-
-# Appendix: Leftover Slides {.title-slide .section-header}
-
-Slides still missing a visual, or cut from the running order. Not part of the planned sequence.
-
----
-
-## Notes on Unit 2
-
-<!-- image: Unit 2 overview / structure slide -->
-- TODO: add image — *Unit 2 overview / structure slide*
-
----
-
-## What Is Content Moderation?
-
-<!-- image: content moderation framing diagram -->
-- TODO: add image — *content moderation framing diagram*
-
----
-
-## Moderation Labor at OpenAI
-
-- Moderators label and filter toxic and/or explicit text for model training
-- Violence, hate speech, explicit material
-- Larger projects in 2021–2022
-
-::: {.source-top}
-[Billy Perrigo, "Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic," *TIME* (January 18, 2023)](https://time.com/6247678/openai-chatgpt-kenya-workers/)
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
 :::
-
-<!-- image: TIME's lead photo is copyrighted; link above stands in until a licensed image is chosen -->
-- TODO: add image — *reporting on OpenAI content moderation labor (TIME lead photo is © — needs a licensed substitute)*
-
-::: {.figure-caption}
-Background on moderation labor: Sarah T. Roberts, [*Behind the Screen*](https://yalebooks.yale.edu/book/9780300261479/behind-the-screen/) (Yale University Press, 2019)
 :::
-
----
-
-## Marginal Content at Twitter
-
-<!-- image: internal Twitter documentation — original source unknown; see links below for substitutes -->
-- TODO: add image — *Twitter internal moderation documentation example*
-
-::: {.figure-caption}
-On "borderline" content that approaches but does not cross the policy line: Mark Zuckerberg, ["A Blueprint for Content Governance and Enforcement"](https://web.archive.org/web/20200107062302/https://www.facebook.com/notes/mark-zuckerberg/a-blueprint-for-content-governance-and-enforcement/10156443129621634/) (2018, via the Internet Archive — the original Facebook note is gone). On how platforms write and phrase these rules: [Schaffner et al., *CHI 2024*](https://doi.org/10.1145/3613904.3642333)
-:::
-
----
-
-## Contextual Integrity Preview
-
-<!-- image: no openly-licensed CI diagram located; the published figures (Nissenbaum 2004, Malkin 2022) are under publisher copyright. Candidate: draw an original SVG in the house style. -->
-- TODO: add image — *contextual integrity diagram (subject, sender, receiver, data category, transmission principles)*
-
-::: {.figure-caption}
-Primary source: Helen Nissenbaum, ["Privacy as Contextual Integrity,"](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/) *Washington Law Review* 79(1), 2004 — open access
-:::
-
----
-
-## Contextual Integrity: The Five-Tuple Model
-
-<!-- image: contextual integrity improved figure (Nathan Malkin) -->
-- TODO: add image — *contextual integrity improved figure (Nathan Malkin)*
-
-- **(subject, sender, recipient, information type, transmission principle)**
-
-| Element | Description |
-|---|---|
-| Subject | The individual the information is about |
-| Sender | Person/entity sending the information |
-| Recipient | Person/entity receiving the information |
-| Type | Category of information |
-| Principle | Conditions or constraints for sharing |
-
-*From Nathan Malkin, "Contextual Integrity, Explained: A More Usable Privacy Definition"*
-
----
-
-## From 1949 to 2022
-
-<!-- image: side-by-side of the two documents; both are freely reproducible (UN + US government works) -->
-- TODO: add image — *UDHR 1949 → AI Bill of Rights 2022 comparison*
-
-::: {.figure-caption}
-Both primary documents: [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (United Nations, 1948) and [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/) (OSTP, 2022 — served from the Biden White House archive since the live whitehouse.gov page was taken down)
-:::
-
----
-
-## Privacy — parked
-
-The privacy sections below were pulled out of the running order. Reinstate before Day 2.
 
 ---
 
@@ -773,11 +662,7 @@ The privacy sections below were pulled out of the running order. Reinstate befor
 
 ---
 
-## Intro to Privacy
-
----
-
-## Table Discussion: What Is Privacy?
+## What Is Privacy?
 
 - What comes to mind when you think of privacy?
 - What are some examples of privacy controls?
@@ -791,7 +676,7 @@ The privacy sections below were pulled out of the running order. Reinstate befor
 - Often conceptualized as a **right**
 - Often associated with protection, security, safety
 - In celebrity / paparazzi context: "the right to be left alone"
-- Framework we will explore: **contextual integrity**
+- Framework for this class: **contextual integrity**
   - "Appropriate flows of information"
   - Subject, sender, and receiver
 
@@ -801,34 +686,21 @@ Background reading: [SEP, *Privacy*](https://plato.stanford.edu/entries/privacy/
 
 ---
 
-# Contextual Integrity {.title-slide .section-header}
-
----
-
-## Mini-lecture: Privacy as Contextual Integrity
-
----
-
-## Perspectives on Privacy
-
-- **Control over information** — analogous to property rights, managing "data boundaries"
-- **Adherence to rules** (contextual norms)
-- Something else?
-
----
-
 ## Contextual Integrity
+
+::: {.source-top}
+[Nissenbaum, "Privacy as Contextual Integrity," *Washington Law Review* 79(1), 2004](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/)
+:::
 
 :::: columns
 ::: {.column width="58%"}
 - Privacy as **appropriate data flows**
 - Beyond binary (e.g. public/private)
-- Appropriateness depends on **specific contexts**
+- Depends on specific contexts
 - Contexts are governed by **norms** (also called expectations)
 - Theorized by **Helen Nissenbaum**
   - University of the Witwatersrand → M.A. and PhD from Stanford
 
-[Nissenbaum, "Privacy as Contextual Integrity," *Washington Law Review* 79(1), 2004](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/)
 :::
 
 ::: {.column .portrait-solo width="38%"}
@@ -839,6 +711,20 @@ Helen Nissenbaum. Photo: [CMU CyLab](https://www.cylab.cmu.edu/events/2023/02/15
 :::
 :::
 ::::
+
+---
+
+## Contextual Integrity: Five Parameters {.figure-slide .framed-figure}
+
+::: {.source-top}
+[Nathan Malkin, "Contextual Integrity, Explained," *IEEE Security & Privacy* 21(1), 2023](https://doi.org/10.1109/MSEC.2022.3201585)
+:::
+
+![](../assets/contextual-integrity-v2.svg){style="max-height:480px;" fig-alt="Diagram of contextual integrity in a health-care context governed by norms: a sender (the patient) shares an information type (symptoms) with a recipient (the doctor); the information is about a subject (the patient); a transmission principle (confidentiality) spans the whole flow from sender to recipient."}
+
+::: {.figure-caption}
+An information flow is appropriate when it matches the norms of its context. The same flow can become a violation when a parameter changes. Original diagram, based on Nissenbaum (2004) and Malkin (2023).
+:::
 
 ---
 
@@ -869,10 +755,10 @@ Information about a data subject can be varied:
 
 ---
 
-## Two Principles, Illustrated
+## Defining Two Principles
 
-- **Consent** — the data subject makes an informed agreement
-- **Confidentiality** — the recipient keeps the information secret
+- **Consent**: the data subject makes an informed agreement
+- **Confidentiality**: the recipient keeps the information secret
   - Example: a therapist keeps client sessions confidential
 
 ---
@@ -883,7 +769,7 @@ Information about a data subject can be varied:
 
 ## Example: Student Grades (1)
 
-Dr. Bandy is offered $100 from a marketing corporation seeking email addresses and grades from all students in CS 377.
+A professor is offered $100 from a marketing corporation seeking email addresses and grades from all students in CS 377.
 
 - Sender? Recipient? Subject? Data type? Principle? Purpose?
 
@@ -891,7 +777,7 @@ Dr. Bandy is offered $100 from a marketing corporation seeking email addresses a
 
 ## Example: Student Grades (2)
 
-Dr. Bandy is approached by the chair of the CS department, who requests recent grades for CS 377.
+A professor is approached by the chair of the CS department, who requests recent grades for CS 377.
 
 - Sender? Recipient? Subject? Data type? Principle? Purpose?
 
@@ -905,12 +791,165 @@ In job interviews, interviewers are not allowed to ask candidates about their re
 
 ---
 
-## Example: Raine v. OpenAI
+## Example: Raine v. OpenAI {#raine-v-openai .news-cards}
 
+:::: columns
+::: {.column width="54%"}
 - Ongoing lawsuit (filed August 2025) by parents of Adam Raine
 - OpenAI: *"We are currently not referring self-harm cases to law enforcement to respect people's privacy given the uniquely private nature of ChatGPT interactions"*
 - Chat logs later shared by family
-- Transmission principles at issue: parental/guardian consent, legal compulsion, "greater good"
+:::
+
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/nbc-news-logo.svg" alt="NBC News"></div>
+<div class="news-kicker">Tech News</div>
+<div class="news-headline"><a href="https://www.nbcnews.com/tech/tech-news/openai-denies-allegation-chatgpt-teenagers-death-adam-raine-lawsuit-rcna245946">OpenAI denies allegations that ChatGPT is to blame for a teenager's suicide</a></div>
+<div class="news-deck">Adam Raine's family sued the AI company in August. On Tuesday, OpenAI said in a new court filing that it isn't responsible for the teen's death.</div>
+<img src="../assets/news/raine-chatgpt-nbc.jpg" alt="The ChatGPT app icon beside a portrait of Adam Raine">
+<div class="news-credit">The parents of Adam Raine filed a lawsuit against OpenAI in August claiming that the teenager used ChatGPT as his "suicide coach." (Getty Images; Courtesy Raine Family)</div>
+<div class="news-byline">By Angela Yang · November 25, 2025 · <a href="https://www.nbcnews.com/tech/tech-news/openai-denies-allegation-chatgpt-teenagers-death-adam-raine-lawsuit-rcna245946">nbcnews.com</a></div>
+</div>
+:::
+::::
+
+---
+
+## Privacy Here and Now
+
+:::: columns
+::: {.column width="52%"}
+- What data does Centillion collect about users?
+- Sender, recipient, subject, data type, transmission principle?
+- Are there any (in)appropriate information flows within the social context(s)?
+:::
+
+::: {.column width="45%"}
+![](../assets/moderation/here-and-now-baetas.jpg)
+
+::: {.caption}
+Artwork by José Baetas for *Kasma Magazine*
+:::
+:::
+::::
+
+---
+
+## Preview: "Message in a Bottle"
+
+:::: columns
+::: {.column width="50%"}
+- Written by Nalo Hopkinson
+- Central character is Greg
+- Longer than the first story!
+- Annotation due Sunday, 11:59pm
+:::
+
+::: {.column .portrait-solo width="50%"}
+![](../assets/portraits/nalo-hopkinson.jpg)
+
+::: {.caption}
+Nalo Hopkinson at the Hugo Award Ceremony, August 2017. Photo: [Sanna Pudas](https://commons.wikimedia.org/wiki/File:Nalo_Hopkinson_at_the_Hugo_Award_Ceremony_2017,_Worldcon_in_Helsinki.jpg), CC BY 4.0
+:::
+:::
+::::
+
+---
+
+## Group Reflection: I Like / I Wish {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Share something you like about the course so far
+- Share something you wish were different
+- Discuss at your table and write down ("We like / We wish")
+- You can leave when finished
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+# That's all for today, see you Monday! {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop13-lasalle-platform-2004.jpg" background-size="cover"}
+
+<!-- image source: LaSalle Blue Line platform, 2004, photo by David Wilson, CC BY 2.0 -->
+
+---
+
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+Slides cut from the running order or still missing a visual, grouped by topic. Not part of the planned sequence.
+
+---
+
+## Notes on Unit 2
+
+<!-- image: Unit 2 overview / structure slide -->
+- TODO: add image — *Unit 2 overview / structure slide*
+
+---
+
+# More on Content Moderation {.title-slide .section-header .no-index}
+
+---
+
+## Moderation Labor at OpenAI
+
+::: {.source-top}
+[Billy Perrigo, "Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic," *TIME* (January 18, 2023)](https://time.com/6247678/openai-chatgpt-kenya-workers/)
+:::
+
+- Moderators label and filter toxic and/or explicit text for model training
+- Violence, hate speech, explicit material
+- Larger projects in 2021–2022
+
+<!-- image: TIME's lead photo is copyrighted; link above stands in until a licensed image is chosen -->
+- TODO: add image — *reporting on OpenAI content moderation labor (TIME lead photo is © — needs a licensed substitute)*
+
+::: {.figure-caption}
+Background on moderation labor: Sarah T. Roberts, [*Behind the Screen*](https://yalebooks.yale.edu/book/9780300261479/behind-the-screen/) (Yale University Press, 2019)
+:::
+
+---
+
+## Marginal Content at Twitter
+
+<!-- image: internal Twitter documentation — original source unknown; see links below for substitutes -->
+- TODO: add image — *Twitter internal moderation documentation example*
+
+::: {.figure-caption}
+On "borderline" content that approaches but does not cross the policy line: Mark Zuckerberg, ["A Blueprint for Content Governance and Enforcement"](https://web.archive.org/web/20200107062302/https://www.facebook.com/notes/mark-zuckerberg/a-blueprint-for-content-governance-and-enforcement/10156443129621634/) (2018, via the Internet Archive — the original Facebook note is gone). On how platforms write and phrase these rules: [Schaffner et al., *CHI 2024*](https://doi.org/10.1145/3613904.3642333)
+:::
+
+---
+
+# More on Privacy {.title-slide .section-header .no-index}
+
+---
+
+## Perspectives on Privacy
+
+- **Control over information** — analogous to property rights, managing "data boundaries"
+- **Adherence to rules** (contextual norms)
+- Something else?
+
+---
+
+## Online Account Biopsy
+
+- Introduce yourselves at your table
+- Discuss which app or website you want to use
+- Find the "request my data" option in the app
+- This will be used for your "online account biopsy" exercise
+- Should only take ~5 minutes
 
 ---
 
@@ -985,13 +1024,105 @@ There is no single comprehensive federal privacy law — coverage is sectoral.
 
 ---
 
+# Digital Rights {.title-slide .section-header}
+
+---
+
+## Warm-up Discussion: What Are Rights?
+
+- What comes to mind when you hear the word "rights"?
+- What are some examples of rights you have?
+- What are some rights you want to have, but are unsure whether you have?
+- What are some examples of "human rights"?
+- Where do these rights come from?
+- What is a privilege compared to a right?
+
+---
+
+## Rights and Laws
+
+- Where do rights come from? Declarations, constitutions, statutes, courts
+- A right without an enforcement mechanism behaves differently from one with it
+- What is a privilege compared to a right?
+
+---
+
+## From 1949 to 2022
+
+<!-- image: side-by-side of the two documents; both are freely reproducible (UN + US government works) -->
+- TODO: add image — *UDHR 1949 → AI Bill of Rights 2022 comparison*
+
+::: {.figure-caption}
+Both primary documents: [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (United Nations, 1948) and [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/) (OSTP, 2022 — served from the Biden White House archive since the live whitehouse.gov page was taken down)
+:::
+
+---
+
+## Eleanor Roosevelt and the UDHR {.figure-slide .framed-figure}
+
+::: {.source-top}
+[Universal Declaration of Human Rights (United Nations, 1948)](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+:::
+
+![](../assets/portraits/eleanor-roosevelt.jpg){style="max-height:520px;"}
+
+::: {.figure-caption}
+Eleanor Roosevelt with the English-language text of the UDHR, Lake Success, New York, November 1949. [FDR Presidential Library via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg), CC BY 2.0
+:::
+
+---
+
+## Eleanor Roosevelt on the UDHR {.quote-slide}
+
+> "It is not a treaty; it is not an international agreement. It is not and does not purport
+> to be a statement of law or of legal obligation. It is a declaration of basic principles
+> of human rights and freedoms, to be stamped with the approval of the General Assembly
+> by formal vote of its members, and to serve as a common standard of achievement for
+> all peoples of all nations."
+>
+> — Eleanor Roosevelt
+
+---
+
+## Blueprint for an "AI Bill of Rights"
+
+- Office of Science and Technology Policy (2022)
+- "Intended to support the development of policies and practices that protect civil rights and promote democratic values in the building, deployment, and governance of automated systems"
+
+---
+
+## Activity: Proposed Digital Rights (A–D)
+
+Review each proposed right — strengths? Weaknesses? Examples where it would come into play?
+
+::: {.incremental}
+- A: "You should be protected from unsafe or ineffective systems."
+- B: "You should not face discrimination by algorithms and systems should be used and designed in an equitable way."
+- C: "You should be protected from abusive data practices via built-in protections and you should have agency over how data about you is used."
+- D: "You should know that an automated system is being used and understand how and why it contributes to outcomes that impact you."
+:::
+
+---
+
+## Activity: Proposed Digital Rights (E–G)
+
+Review each proposed right — strengths? Weaknesses? Examples where it would come into play?
+
+::: {.incremental}
+- E: "You should be able to opt out, where appropriate, and have access to a person who can quickly consider and remedy problems you encounter."
+- F: "You should have the ability to request deletion of your personal data and digital traces from automated systems and databases."
+- G: "You should have the right to repair, modify, and maintain automated systems that you own or that significantly impact your daily life."
+:::
+
+---
+
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md>.
 2. Tarleton Gillespie, [*Custodians of the Internet*](https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf) (Yale University Press, 2018) — full text released by the author under CC BY-NC-SA 4.0; cover art from [Yale University Press](https://yalebooks.yale.edu/book/9780300261431/custodians-of-the-internet/), © Yale University Press.
 3. Tarleton Gillespie, ["Content Moderation, AI, and the Question of Scale"](https://doi.org/10.1177/2053951720943234), *Big Data & Society* (2020).
 4. Nick Hopkins, ["Revealed: Facebook's internal rulebook on sex, terrorism and violence"](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence), *The Guardian* (2017) — the "Credible Violence" training slide reproduced here is that story's figure, © Guardian News & Media / Facebook, used for classroom commentary on the leaked rulebook.
-5. Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585), *IEEE Security & Privacy* (2022).
+5. Nathan Malkin, ["Contextual Integrity, Explained"](https://doi.org/10.1109/MSEC.2022.3201585), *IEEE Security & Privacy* 21(1) (2023).
 6. White House OSTP, [Blueprint for an AI Bill of Rights](https://bidenwhitehouse.archives.gov/ostp/ai-bill-of-rights/) (2022).
 7. Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet"](https://doi.org/10.1145/3613904.3642333), *CHI 2024*.
 8. Helen Nissenbaum, ["Privacy as Contextual Integrity"](https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/), *Washington Law Review* 79(1) (2004) — open access.
@@ -1005,4 +1136,7 @@ There is no single comprehensive federal privacy law — coverage is sectoral.
 16. Eleanor Roosevelt with UDHR photo, 1949, [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg), CC BY 2.0.
 17. Samuel F. B. Morse, *DeWitt Clinton*, [Metropolitan Museum of Art via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:De_Witt_Clinton_MET_DT2056.jpg), CC0; Anthony Imbert, *Grand Canal Celebration* (1825), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png), public domain.
 18. Ethics in the news: Herb Scribner, ["Here's how iPhone users can get up to $95 from Apple's AI delay"](https://www.axios.com/2026/09/21/apple-iphone-siri-ai-settlement-paid-eligibility), *Axios* (September 21, 2026), lead photo by Michael M. Santiago/Getty Images; Mark Sweney and Robert Booth, ["Nvidia boss says there is '0% chance' AI destroys the world by 2030"](https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic), *The Guardian* (September 21, 2026), lead photo by Manami Yamada/Reuters. Both cards are facsimiles built from each story's own headline, deck, photo, and byline — not captures of the publications' page designs.
-19. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+19. LaSalle Street Station postcard, [Detroit Publishing Co. (1907–1908), via NYPL and Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LaSalle_Street_Station,_Chicago,_Ill_(NYPL_b12647398-69531).tiff), public domain; David Wilson, [LaSalle Blue Line platform (2004)](https://commons.wikimedia.org/wiki/File:20040405_02_Blue_Line_LaSalle_L_stop.jpg), CC BY 2.0.
+20. Angela Yang, ["OpenAI denies allegations that ChatGPT is to blame for a teenager's suicide"](https://www.nbcnews.com/tech/tech-news/openai-denies-allegation-chatgpt-teenagers-death-adam-raine-lawsuit-rcna245946), *NBC News* (November 25, 2025), lead image Getty Images / courtesy Raine family. The card is a facsimile built from the story's own headline, deck, image, and byline.
+21. Sanna Pudas, [Nalo Hopkinson at the Hugo Award Ceremony 2017, Worldcon in Helsinki](https://commons.wikimedia.org/wiki/File:Nalo_Hopkinson_at_the_Hugo_Award_Ceremony_2017,_Worldcon_in_Helsinki.jpg), CC BY 4.0.
+22. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

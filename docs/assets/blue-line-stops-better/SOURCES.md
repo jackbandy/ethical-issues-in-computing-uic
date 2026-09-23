@@ -43,6 +43,10 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 ### 12. Clinton
 - **stop12-clinton-old-post-office.jpg** — [Wikimedia Commons: Old Post Office Chicago 2022.jpg](https://commons.wikimedia.org/wiki/File:Old_Post_Office_Chicago_2022.jpg) — License: CC BY-SA 4.0 — Author: Sea Cow — 3869×2176 — nearby landmark rather than the stop itself: the Old Main Post Office straddling the Eisenhower, one block east of the Clinton platform
 
+### 13. LaSalle
+- **stop13-lasalle-st-station-postcard.jpg** — [Wikimedia Commons: LaSalle Street Station, Chicago, Ill (NYPL b12647398-69531).tiff](https://commons.wikimedia.org/wiki/File:LaSalle_Street_Station,_Chicago,_Ill_(NYPL_b12647398-69531).tiff) — License: Public domain — Author: Detroit Publishing Company — 2392×1569, converted from TIFF — nearby landmark rather than the stop itself: postcard of LaSalle Street Station next to the Blue Line stop, from the Detroit Publishing Co. divided-back series (1907–1908)
+- **stop13-lasalle-platform-2004.jpg** — [Wikimedia Commons: 20040405 02 Blue Line LaSalle L stop.jpg](https://commons.wikimedia.org/wiki/File:20040405_02_Blue_Line_LaSalle_L_stop.jpg) — License: CC BY 2.0 — Author: David Wilson from Oak Park, Illinois, USA — 2560×1920
+
 ### 14. Jackson
 - **stop14-jackson-c.jpg** — [Wikimedia Commons: Stairs to Red Line at Jackson.jpg](https://commons.wikimedia.org/wiki/File:Stairs_to_Red_Line_at_Jackson.jpg) — License: CC BY-SA 2.0 — Author: Jacob G. from Cleveland, United States
 
