@@ -800,7 +800,7 @@ Care Ethics
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week7.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week7.md</a>.</li>
-<li>Last modified and compiled September 21, 17:21h.</li>
+<li>Last modified and compiled September 23, 16:50h.</li>
 <li>Day 1 title photo: <a href="https://commons.wikimedia.org/wiki/File:Chicago-20240927-110_(54285583882).jpg">Clark/Lake</a> by Nairn McWilliams, via Wikimedia Commons, CC BY-SA 2.0.</li>
 <li>Buolamwini, J. &amp; Gebru, T. (2018). <a href="https://proceedings.mlr.press/v81/buolamwini18a.html">“Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.”</a> <em>FAccT 2018</em>.</li>
 <li>Joy Buolamwini, <a href="https://www.youtube.com/watch?v=UG_X_7g63rY">“How I’m fighting bias in algorithms”</a>, TED (2017).</li>
@@ -1375,6 +1375,234 @@ Care Ethics
 
       document.addEventListener("DOMContentLoaded", boot);
       window.addEventListener("load", boot);
+    })();
+    </script>
+    <script>
+    // Shrink any slide whose body spills behind the footer band until it fits.
+    //
+    // The alternative is tagging decks by hand with .smaller / .dense / a bespoke
+    // width, which has to be re-guessed every time a slide's content changes and
+    // says nothing about whether the result actually clears the footer. This
+    // measures the rendered slide instead and scales the body down by only as much
+    // as that slide needs, so a deck stays at the theme's sizes wherever it already
+    // fits.
+    //
+    // CSS `zoom` (not `transform: scale`) does the shrinking: zoom affects layout,
+    // so the children below a shrunk block reflow up into the space it gave back,
+    // and percentage widths inside the subtree still resolve against the full slide
+    // width. A transform would leave the freed space behind as a gap.
+    //
+    // The heading is left at full size. A title that shrinks with its slide makes
+    // the deck's typography look accidental, and the body is where the height
+    // actually goes.
+    (() => {
+      const GAP = 12;          // breathing room above the footer, in px
+      const MIN_ZOOM = 0.5;    // floor: below this, the slide needs editing, not scaling
+      const PASSES = 8;        // bisection rounds over [MIN_ZOOM, 1] -- resolution 0.002
+
+      // Slide types that already own their vertical layout: the theme gives these
+      // `display: flex; height: 100%` and a bottom padding that reserves the footer,
+      // so their content is sized by the flex box rather than by how tall it happens
+      // to be. Scaling them would fight that. `.sources` is likewise skipped --
+      // sources-fit-after-body.html fits those reference lists on its own.
+      function managed(slide) {
+        if (slide.classList.contains("sources")) return true;
+        const display = window.getComputedStyle(slide).display;
+        return display === "flex" || display === "grid" || display === "none";
+      }
+
+      function headingLike(el) {
+        return /^H[1-6]$/.test(el.tagName);
+      }
+
+      function laidOut(el) {
+        const cs = window.getComputedStyle(el);
+        return cs.display !== "none" && cs.position !== "absolute" && cs.position !== "fixed";
+      }
+
+      // Everything under the title: what this slide is allowed to shrink. Zoom is
+      // set on these and nothing deeper, so one factor applies to the whole body.
+      function bodyOf(slide) {
+        return Array.from(slide.children).filter((el) => !headingLike(el) && laidOut(el));
+      }
+
+      // What to measure the body's height by. It is not enough to take the boxes of
+      // the elements zoom is applied to: pandoc renders a `::: {.columns}` block as
+      // a plain `<div>` holding `inline-block` columns, and with no rule making that
+      // wrapper a block it computes to `display: inline`. Its own box is then a bare
+      // two-line inline box while the columns inside it run hundreds of pixels
+      // further down, so the wrapper reports no overflow on exactly the slides most
+      // likely to have some -- every two-column slide in the deck.
+      //
+      // So walk the rendered subtree and measure that. The walk stops at anything
+      // that clips or scrolls its own content (an inline SVG with a viewBox, say):
+      // that element's box is the honest bottom, and its children may sit far
+      // outside it in user units that have nothing to do with page pixels.
+      //
+      // Collected once per fit, at zoom 1, and re-measured on each pass: zooming
+      // moves these boxes but never changes which elements exist.
+      function measurable(roots) {
+        const nodes = [];
+        roots.forEach((root) => {
+          (function walk(el) {
+            nodes.push(el);
+            const cs = window.getComputedStyle(el);
+            if (cs.overflowX !== "visible" || cs.overflowY !== "visible") return;
+            Array.from(el.children).forEach((child) => { if (laidOut(child)) walk(child); });
+          })(root);
+        });
+        return nodes;
+      }
+
+      function footerHeight() {
+        const footer = document.querySelector(".reveal .footer");
+        const height = footer ? footer.getBoundingClientRect().height : 0;
+        // A hidden footer (data-footer="false") reports zero height.
+        return height > 0 ? height : 0;
+      }
+
+      // The lowest the body may reach. On screen the footer is fixed to the
+      // viewport, so its top is the floor. In print view the slides are stacked down
+      // a long scrolling document and the footer repeats per page, so the floor is
+      // the bottom of this slide's own page.
+      function floorPx(slide) {
+        const page = slide.closest(".pdf-page");
+        if (page) return page.getBoundingClientRect().bottom - footerHeight() - GAP;
+
+        const footer = document.querySelector(".reveal .footer");
+        if (footer) {
+          const rect = footer.getBoundingClientRect();
+          if (rect.height > 0) return rect.top - GAP;
+        }
+        return window.innerHeight - GAP;
+      }
+
+      // How far down the slide the body actually reaches. -Infinity when nothing on
+      // it has a box, which reads as "fits" everywhere this is compared to a floor.
+      function lowestPx(nodes) {
+        let bottom = -Infinity;
+        nodes.forEach((el) => {
+          const rect = el.getBoundingClientRect();
+          if (rect.width === 0 && rect.height === 0) return;
+          bottom = Math.max(bottom, rect.bottom);
+        });
+        return bottom;
+      }
+
+      function apply(body, zoom) {
+        body.forEach((el) => { el.style.zoom = zoom === 1 ? "" : zoom.toFixed(4); });
+      }
+
+      function fit(slide) {
+        if (managed(slide)) return;
+        const body = bodyOf(slide);
+        if (!body.length) return;
+
+        apply(body, 1);
+        const limit = floorPx(slide);
+        const nodes = measurable(body);
+        if (lowestPx(nodes) <= limit) return;
+
+        const fits = (zoom) => {
+          apply(body, zoom);
+          return lowestPx(nodes) <= limit;
+        };
+
+        // Bisect for the largest zoom that still clears the footer, so a slide is
+        // never shrunk further than its own content requires. Straight bisection
+        // rather than a height-ratio first guess: shrinking rewraps text, so a
+        // slide at zoom k is not k times its full-size height in either direction,
+        // and a guess that overshoots leaves the slide overflowing anyway.
+        if (!fits(MIN_ZOOM)) return;  // at the floor and still spilling: needs editing
+
+        let lo = MIN_ZOOM;
+        let hi = 1;
+        for (let pass = 0; pass < PASSES; pass++) {
+          const mid = (lo + hi) / 2;
+          if (fits(mid)) lo = mid; else hi = mid;
+        }
+        apply(body, lo);
+      }
+
+      function fitCurrent() {
+        const slide = window.Reveal && Reveal.getCurrentSlide();
+        if (slide) fit(slide);
+      }
+
+      function fitAll() {
+        document.querySelectorAll(".reveal .slides section.slide").forEach(fit);
+      }
+
+      // Reveal builds the .pdf-page boxes after it reports ready, and those boxes
+      // are what a print fit measures against. Fitting before they are sized reads
+      // an unbounded page, finds no overflow, and leaves every slide alone -- so
+      // wait for a page height that holds still for two frames.
+      function whenPrintLayoutSettles(done) {
+        let last = -1;
+        let stable = 0;
+        let frames = 0;
+        (function poll() {
+          const page = document.querySelector(".pdf-page");
+          const height = page ? Math.round(page.getBoundingClientRect().height) : 0;
+          stable = height > 0 && height === last ? stable + 1 : 0;
+          last = height;
+          if (stable >= 2 || ++frames > 240) { done(); return; }
+          window.requestAnimationFrame(poll);
+        })();
+      }
+
+      // Reveal stamps `reveal-print` on <html> during its print setup, which happens
+      // after it reports ready -- so a boot-time class check reads false and the
+      // whole deck gets fitted as if it were on screen. The query string is set from
+      // the start, so ask that first.
+      function printing() {
+        return /(^|[?&])print-pdf($|[=&])/.test(window.location.search)
+          || document.documentElement.classList.contains("reveal-print");
+      }
+
+      // In print view every slide is laid out at once; on screen only the current
+      // slide has a measurable box, so refit on each visit.
+      function refit() {
+        if (printing()) fitAll(); else fitCurrent();
+      }
+
+      // MathJax typesets after Reveal reports ready and after `load`, and typeset
+      // math is taller than the raw TeX it replaces -- so a slide fitted before
+      // then was measured against the wrong height and lands back in the footer
+      // once the math appears. Refit when the typesetting queue drains. Decks
+      // without math never load MathJax, so only wait when the page has some.
+      function refitAfterMath() {
+        if (!document.querySelector(".math")) return;
+        let tries = 0;
+        (function look() {
+          const mj = window.MathJax;
+          if (mj && mj.startup && mj.startup.promise) { mj.startup.promise.then(refit, refit); return; }
+          if (mj && mj.Hub && typeof mj.Hub.Queue === "function") { mj.Hub.Queue(refit); return; }
+          if (++tries > 200) return;   // 10s: MathJax is not coming
+          window.setTimeout(look, 50);
+        })();
+      }
+
+      function boot() {
+        if (!window.Reveal || !Reveal.isReady()) { window.setTimeout(boot, 50); return; }
+        if (printing()) whenPrintLayoutSettles(refit); else refit();
+        Reveal.on("slidechanged", fitCurrent);
+        Reveal.on("resize", refit);
+        window.addEventListener("resize", refit);
+        // Fonts and images settle after the first layout and both change heights.
+        // Reveal often reports ready after `load` has already fired, so check
+        // rather than only listening -- a fit is idempotent, so extra runs are free.
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(refit);
+        if (document.readyState === "complete") refit();
+        window.addEventListener("load", refit);
+        refitAfterMath();
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", boot);
+      } else {
+        boot();
+      }
     })();
     </script>
     <script id="quarto-html-after-body" type="application/javascript">

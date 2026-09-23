@@ -6,8 +6,8 @@
 <script src="week5_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="week5_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="week5_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="week5_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.37">
+<link href="week5_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>week5</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,10 +19,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -631,15 +634,15 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 
 </section></section>
 <section>
-<section id="privacy-as-contextual-integrity" class="title-slide slide level1 center" data-menu-title="Week 5, Day 2">
-<h1>Privacy as Contextual Integrity</h1>
+<section id="here-and-now-privacy-as-contextual-integrity" class="title-slide slide level1 center" data-menu-title="Week 5, Day 2">
+<h1>Here and Now, Privacy as Contextual Integrity</h1>
 <p>CS 377, Week 5, Day 2 🟦 LaSalle 🟦</p>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="privacy-as-contextual-integrity-1" class="title-slide slide level1 photo-title center" data-state="photo-title" data-background-image="../assets/blue-line-stops-better/stop13-lasalle-st-station-postcard.jpg" data-background-size="cover" data-menu-title="Week 5, Day 2">
+<section id="privacy-as-contextual-integrity" class="title-slide slide level1 photo-title center" data-state="photo-title" data-background-image="../assets/blue-line-stops-better/stop13-lasalle-st-station-postcard.jpg" data-background-size="cover" data-menu-title="Week 5, Day 2">
 <h1>Privacy as Contextual Integrity</h1>
 <p>CS 377, Week 5, Day 2 🟦 LaSalle 🟦</p>
 <!-- image source: LaSalle Street Station postcard, Detroit Publishing Co. (1907–1908), public domain -->
@@ -654,8 +657,8 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <ul>
 <li>Shuffle seats</li>
 <li>Warm-up discussion: free will</li>
-<li>“Here and Now” overview and discussion</li>
-<li>Intro to privacy: contextual integrity</li>
+<li>“Here and Now” discussion</li>
+<li>Intro to privacy as “contextual integrity”</li>
 <li>Preview “Message in a Bottle”</li>
 <li>Reflection: I like / I wish</li>
 </ul>
@@ -788,6 +791,9 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 </section>
 <section id="contextual-integrity" class="slide level2">
 <h2>Contextual Integrity</h2>
+<div class="source-top">
+<p><a href="https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/">Nissenbaum, “Privacy as Contextual Integrity,” <em>Washington Law Review</em> 79(1), 2004</a></p>
+</div>
 <div class="columns">
 <div class="column" style="width:58%;">
 <ul>
@@ -800,7 +806,6 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <li>University of the Witwatersrand → M.A.&nbsp;and PhD from Stanford</li>
 </ul></li>
 </ul>
-<p><a href="https://digitalcommons.law.uw.edu/wlr/vol79/iss1/10/">Nissenbaum, “Privacy as Contextual Integrity,” <em>Washington Law Review</em> 79(1), 2004</a></p>
 </div><div class="column portrait-solo" style="width:38%;">
 <p><img data-src="../assets/portraits/helen-nissenbaum.jpg"></p>
 <div class="caption">
@@ -813,9 +818,9 @@ By Mark Sweney and Robert Booth · September 21, 2026 · <a href="https://www.th
 <div class="source-top">
 <p><a href="https://doi.org/10.1109/MSEC.2022.3201585">Nathan Malkin, “Contextual Integrity, Explained,” <em>IEEE Security &amp; Privacy</em> 21(1), 2023</a></p>
 </div>
-<p><img data-src="../assets/contextual-integrity.svg" style="max-height:480px;"></p>
+<p><img data-src="../assets/contextual-integrity-v2.svg" style="max-height:480px;" alt="Diagram of contextual integrity in a health-care context governed by norms: a sender (the patient) shares an information type (symptoms) with a recipient (the doctor); the information is about a subject (the patient); a transmission principle (confidentiality) spans the whole flow from sender to recipient."></p>
 <div class="figure-caption">
-<p>An information flow is appropriate when it matches the norms of its context. Change any one parameter (a different recipient, a different principle) and the same flow can become a violation. Original diagram, after Nissenbaum (2004) and Malkin (2023).</p>
+<p>An information flow is appropriate when it matches the norms of its context. The same flow can become a violation when a parameter changes. Original diagram, based on Nissenbaum (2004) and Malkin (2023).</p>
 </div>
 </section>
 <section id="data-types" class="slide level2">
@@ -922,8 +927,8 @@ By Angela Yang · November 25, 2025 · <a href="https://www.nbcnews.com/tech/tec
 <div class="column" style="width:52%;">
 <ul>
 <li>What data does Centillion collect about users?</li>
-<li>Sender, recipient, subject, data type, transmission principle</li>
-<li>Is this an appropriate information flow within the social context?</li>
+<li>Sender, recipient, subject, data type, transmission principle?</li>
+<li>Are there any (in)appropriate information flows within the social context(s)?</li>
 </ul>
 </div><div class="column" style="width:45%;">
 <p><img data-src="../assets/moderation/here-and-now-baetas.jpg"></p>
@@ -954,8 +959,9 @@ By Angela Yang · November 25, 2025 · <a href="https://www.nbcnews.com/tech/tec
 <div class="embed-layout golden-columns">
 <div class="embed-copy">
 <ul>
-<li>Share one thing you like about the course so far, and one thing you wish were different</li>
-<li>Discuss at your table then combine into “We like / We wish”</li>
+<li>Share something you like about the course so far</li>
+<li>Share something you wish were different</li>
+<li>Discuss at your table and write down (“We like / We wish”)</li>
 <li>You can leave when finished</li>
 </ul>
 </div>
@@ -1239,6 +1245,7 @@ By Angela Yang · November 25, 2025 · <a href="https://www.nbcnews.com/tech/tec
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week5.md</a>.</li>
+<li>Last modified and compiled September 23, 16:50h.</li>
 <li>Tarleton Gillespie, <a href="https://tarletongillespie.org/Gillespie_CUSTODIANS_print.pdf"><em>Custodians of the Internet</em></a> (Yale University Press, 2018) — full text released by the author under CC BY-NC-SA 4.0; cover art from <a href="https://yalebooks.yale.edu/book/9780300261431/custodians-of-the-internet/">Yale University Press</a>, © Yale University Press.</li>
 <li>Tarleton Gillespie, <a href="https://doi.org/10.1177/2053951720943234">“Content Moderation, AI, and the Question of Scale”</a>, <em>Big Data &amp; Society</em> (2020).</li>
 <li>Nick Hopkins, <a href="https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence">“Revealed: Facebook’s internal rulebook on sex, terrorism and violence”</a>, <em>The Guardian</em> (2017) — the “Credible Violence” training slide reproduced here is that story’s figure, © Guardian News &amp; Media / Facebook, used for classroom commentary on the leaked rulebook.</li>
