@@ -16,7 +16,7 @@ This repo holds the raw files (mostly markdown) that get assembled and published
 | --- | --- | --- |
 | Slides | `docs/slides/week*.md` | [/slides/](https://doethics.fun/slides/) |
 | Syllabus text | `syllabus_source/syllabus.md` | [/syllabus/](https://doethics.fun/syllabus/) |
-| Week-by-week schedule | `docs/_includes/schedule.csv` | [/schedule.html](https://doethics.fun/schedule.html) + syllabus |
+| Week-by-week schedule | `docs/_data/schedule.csv` | [/schedule.html](https://doethics.fun/schedule.html) + syllabus |
 | What happens each day | `docs/_includes/schedule-topics.md` | [/schedule.html](https://doethics.fun/schedule.html) + syllabus |
 | Dilemmas | `dilemmas/*.md` | [/dilemmas/](https://doethics.fun/dilemmas/) |
 | FAQ | `docs/faq.md` | [/faq.html](https://doethics.fun/faq.html) |
@@ -57,7 +57,7 @@ The semester generally proceeds in three units, one for each major segment/branc
   * Nudges and dark design patterns
   * Book presentations
 
-The "ground truth" for the week-by-week schedule is [`docs/_includes/schedule.csv`](docs/_includes/schedule.csv) and [`docs/_includes/schedule-topics.md`](docs/_includes/schedule-topics.md) — see the schedule section below.
+The "ground truth" for the week-by-week schedule is [`docs/_data/schedule.csv`](docs/_data/schedule.csv) and [`docs/_includes/schedule-topics.md`](docs/_includes/schedule-topics.md) — see the schedule section below.
 
 ## Note on AI/LLM use
 
@@ -103,7 +103,8 @@ ethical-issues-in-computing-uic/
 │   ├── books.html               # Book gallery
 │   ├── dilemmas.html            # Dilemma gallery
 │   ├── _config.yml              # Jekyll config
-│   ├── _includes/               # schedule.csv, schedule-topics.md, nav, masthead, footer, head tags
+│   ├── _data/                   # schedule.csv (the calendar; Jekyll reads it as site.data.schedule)
+│   ├── _includes/               # schedule-topics.md, nav, masthead, footer, head tags
 │   ├── _layouts/                # page, schedule, dilemma, exercise, read-a-book
 │   ├── css/                     # Shared stylesheets
 │   ├── assets/, images/         # Photos, figures, station maps
@@ -135,7 +136,7 @@ The published schedule is at [doethics.fun/schedule.html](https://doethics.fun/s
 - a spreadsheet-shaped calendar
 - a markdown file with day-by-day details
 
-### `docs/_includes/schedule.csv` — the calendar
+### `docs/_data/schedule.csv` — the calendar
 
 One row per class meeting. This is the file to change when the course moves to a new semester.
 
@@ -146,10 +147,10 @@ One row per class meeting. This is the file to change when the course moves to a
 | `Date` | ISO `YYYY-MM-DD`; the page formats it as "Monday, August 24, 2026". |
 | `Station` | Blank on no-class days, which drops the 🟦 marker. |
 | `Due` | Work due that day. Feeds the syllabus's "Readings / Work Due" column. |
-| `Notes` | Scratch column (nothing publishes it at the moment) |
+| `Notes` | Mostly a scratch column. The homepage table shows it in place of `Topic` when `Topic` is blank (e.g. "Labor day (no class)"). |
 | `Topic` | One short phrase summarizing the day. Feeds the Topics column of the [slides index](https://doethics.fun/slides/); blank on no-class days. |
 
-**Add new columns only at the end.** `syllabus_source/schedule.lua` validates the header positionally, and the schedule layout addresses the first five columns by index, so inserting a column in the middle breaks both.
+**Add new columns only at the end.** `syllabus_source/schedule.lua` validates the header positionally, so inserting a column in the middle breaks the syllabus build. Any cell may contain commas as long as it is quoted (`"like, this"`); Jekyll, the syllabus build, and the slides script all use real CSV parsers.
 
 ### `docs/_includes/schedule-topics.md` — the content
 
@@ -234,7 +235,7 @@ Sources are in `syllabus_source/`; outputs go to `docs/syllabus/`.
 [syllabus_source/syllabus.md]
             |
             |  (pandoc + schedule.lua)
-            |     docs/_includes/schedule.csv ------+
+            |     docs/_data/schedule.csv ----------+
             |     docs/_includes/schedule-topics.md +--> per-week table
             |
    +--------+--------+

@@ -235,3 +235,115 @@
     height: 22px;
   }
 }
+
+/* ── Schedule overview table (homepage, above the full schedule) ── */
+/* Adapted from the Data Science site's homepage table. The Week column carries
+   the same Blue Line rail as the full schedule below, with one dot per week;
+   each dot links down to that week's details. Station names reuse the plaque
+   style above, minus the emoji, since the rail already supplies the blue.
+   Note: this section was largely written by an LLM (Claude Code). */
+.schedule-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 0 8px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #e5e5e5;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.schedule-table thead th {
+  background: #2e2e2e;
+  color: #fff;
+  font-weight: 800;
+}
+
+.schedule-table tbody th {
+  position: relative;
+  width: 58px;
+  background: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.schedule-table tbody th::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 6px;
+  background: #00A1DE;
+  content: "";
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+/* The line starts at the first week's dot and ends at the last week's. */
+.schedule-table tbody th.rail-start::before {
+  top: 50%;
+}
+
+.schedule-table tbody th.rail-end::before {
+  bottom: 50%;
+}
+
+.schedule-body a.schedule-week-dot {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #00A1DE;
+  border-radius: 50%;
+  background: #fff;
+  color: #1a1a1a;
+  font-size: 0.85rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.schedule-body a.schedule-week-dot:hover,
+.schedule-body a.schedule-week-dot:focus-visible {
+  background: #00A1DE;
+  color: #fff;
+  border-color: #00A1DE;
+}
+
+.schedule-table td:first-of-type {
+  width: 92px;
+  color: #444;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+}
+
+.schedule-day-date {
+  display: block;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 0;
+}
+
+.schedule-table code {
+  margin: 0;
+  font-size: 0.72rem;
+}
+
+/* Cancelled meetings (no station): the note reads as an aside, not a topic. */
+.schedule-table tr.schedule-no-class td {
+  color: #888;
+  font-style: italic;
+}

@@ -1,6 +1,7 @@
 ---
 layout: schedule
 title: Full Schedule
+heading: Schedule Overview
 nav_current: schedule
 description: Day-by-day schedule for Ethical Issues in Computing (CS 377), Fall 2026. One "blue line" stop per class meeting, with slides and source materials.
 subtitle: Fall 2026 — Each meeting day links to its slides and source materials.
@@ -9,7 +10,42 @@ alert_detail: Hello! This is the first semester of maintaining a live site for t
 ---
 
 <!-- The schedule itself lives in two files, the source of truth for both this
-     page and the syllabus: _includes/schedule.csv (weeks, dates, stations) and
+     page and the syllabus: _data/schedule.csv (weeks, dates, stations) and
      _includes/schedule-topics.md (what happens each day). Edit those; the
      layout (_layouts/schedule.html) renders them. Anything typed below this
      comment appears above the unit links on the published page. -->
+
+<!-- At-a-glance table, read from the same _data/schedule.csv as the full
+     schedule below. Clicking a week number jumps to that week in the full
+     schedule. Note: this table was largely written by an LLM (Claude Code). -->
+{%- assign weeks = site.data.schedule | group_by: "Week" %}
+<div class="schedule-table-wrap">
+<table class="schedule-table">
+  <thead>
+    <tr>
+      <th scope="col">Week</th>
+      <th scope="col">Class Day</th>
+      <th scope="col">Station</th>
+      <th scope="col">Topic</th>
+      <th scope="col">Due</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for week in weeks -%}
+    {%- for row in week.items %}
+    <tr{% unless row.Station %} class="schedule-no-class"{% endunless %}>
+      {%- if forloop.first %}
+      <th scope="row" rowspan="{{ week.items | size }}"{% if forloop.parentloop.first %} class="rail-start"{% elsif forloop.parentloop.last %} class="rail-end"{% endif %}><a class="schedule-week-dot" href="#week-{{ week.name }}" aria-label="Week {{ week.name }}: jump to details">{{ week.name }}</a></th>
+      {%- endif %}
+      <td>{{ row.Date | date: "%A" }}<span class="schedule-day-date">({{ row.Date | date: "%b %-d" | replace: "Sep ", "Sept " }})</span></td>
+      <td>{% if row.Station %}<code>{{ row.Station | escape }}</code>{% endif %}</td>
+      <td>{{ row.Topic | default: row.Notes | escape }}</td>
+      <td>{{ row.Due | escape }}</td>
+    </tr>
+    {%- endfor -%}
+  {%- endfor %}
+  </tbody>
+</table>
+</div>
+
+<h2 id="full-schedule">Full Schedule</h2>

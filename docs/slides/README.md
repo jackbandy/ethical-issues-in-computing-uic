@@ -43,7 +43,7 @@ python3 sync_slide_index.py
 
 Days come from each deck's `CS 377, Week N, Day M 🟦 Station 🟦` subtitle line.
 Meetings the decks say nothing about still get a stop, from
-`_includes/schedule.csv`: a cancelled class shows the reason from
+`_data/schedule.csv`: a cancelled class shows the reason from
 `_includes/schedule-topics.md`, and a class whose slides are not written yet is
 marked "slides to come". The summary table's Topic column is that CSV's `Topic`
 field, one short phrase per class day.

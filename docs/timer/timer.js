@@ -13,27 +13,18 @@
     "Montrose","Jefferson Park","Harlem","Cumberland","Rosemont","O'Hare"
   ];
 
-  // Class date -> station, parsed from _includes/schedule.csv (the same
-  // source the /schedule page renders from). Rows with no station (no class
-  // that day) are skipped. Used below to default the picker to whichever
-  // stop is nearest to today.
-  {% capture newline %}
-{% endcapture -%}
-  {%- capture schedulecsv %}{% include schedule.csv %}{% endcapture -%}
-  {%- assign csvrows = schedulecsv | strip | split: newline -%}
+  // Class date -> station, from _data/schedule.csv (the same source the
+  // /schedule page renders from). Rows with no station (no class that day)
+  // are skipped. Used below to default the picker to whichever stop is
+  // nearest to today.
   var scheduleStations = [
     {%- assign first = true -%}
-    {%- for row in csvrows -%}
-      {%- unless forloop.first -%}
-        {%- assign cells = row | split: "," -%}
-        {%- assign entrydate = cells[3] -%}
-        {%- assign entrystation = cells[4] -%}
-        {%- if entrystation and entrystation != "" -%}
-          {%- unless first %},{% endunless %}
-    { date: "{{ entrydate }}", station: "{{ entrystation }}" }
-          {%- assign first = false -%}
-        {%- endif -%}
-      {%- endunless -%}
+    {%- for row in site.data.schedule -%}
+      {%- if row.Station -%}
+        {%- unless first %},{% endunless %}
+    { date: "{{ row.Date }}", station: "{{ row.Station }}" }
+        {%- assign first = false -%}
+      {%- endif -%}
     {%- endfor %}
   ];
 

@@ -2,7 +2,7 @@
 
 -- Pandoc Lua filter: expands an empty ```schedule code block into the course
 -- schedule table, read from the same two files the website's schedule page
--- uses — docs/_includes/schedule.csv for the spine (weeks, dates, work due)
+-- uses — docs/_data/schedule.csv for the spine (weeks, dates, work due)
 -- and docs/_includes/schedule-topics.md for what happens each day. Neither
 -- table is ever written by hand.
 --
@@ -11,7 +11,7 @@
 -- and everything under "### Sources", are detail that belongs on the website).
 
 local ROOT = PANDOC_SCRIPT_FILE:gsub("[^/]*$", "")
-local CSV = ROOT .. "../docs/_includes/schedule.csv"
+local CSV = ROOT .. "../docs/_data/schedule.csv"
 local TOPICS = ROOT .. "../docs/_includes/schedule-topics.md"
 -- Notes is a scratch column for the course author; nothing renders it. Topic is
 -- a one-line summary of the day, read by the slides index (docs/slides/
