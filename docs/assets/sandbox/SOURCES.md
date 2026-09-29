@@ -1,6 +1,6 @@
 # Sources & Licenses — sandbox
 
-NOTICE: These files were collected by an LLM coding agent (Claude Code) on 2026-09-24 as candidate backgrounds for upcoming class meetings, chosen for being near a Blue Line stop on the schedule. Not yet reviewed. Each was downloaded from a WTTW *Chicago Stories* page, which licenses them from the credited archive; WTTW is the finding aid, not the rights holder. Only pre-1930 images were kept (the 1966–1992 photos in the same stories would need permission). Before promoting any file out of `sandbox/`, confirm the rights at the original archive and, ideally, re-download a full-resolution copy from there instead of WTTW's crop.
+NOTICE: These files were collected by an LLM-based coding system on 2026-09-24 as candidate backgrounds for upcoming class meetings, chosen for being near a Blue Line stop on the schedule. Not yet reviewed. Each was downloaded from a WTTW *Chicago Stories* page, which licenses them from the credited archive; WTTW is the finding aid, not the rights holder. Only pre-1930 images were kept (the 1966–1992 photos in the same stories would need permission). Before promoting any file out of `sandbox/`, confirm the rights at the original archive and, ideally, re-download a full-resolution copy from there instead of WTTW's crop.
 
 ## Files in this directory
 

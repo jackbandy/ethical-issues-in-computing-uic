@@ -8,7 +8,7 @@
    a station dot per meeting, and the station names — written as `code` spans in
    the markdown — render as CTA-style station plaques.
 
-   Note: this file was largely written by an LLM. It was tested and reviewed before being published. */
+   Note: this file was largely written by an LLM-based coding system. It was tested and reviewed before being published. */
 
 /* css/site-nav.css centers a 760px masthead column, but this page's content
    column is 860px, so the title and menu sit 50px right of everything below
@@ -238,10 +238,11 @@
 
 /* ── Schedule overview table (homepage, above the full schedule) ── */
 /* Adapted from the Data Science site's homepage table. The Week column carries
-   the same Blue Line rail as the full schedule below, with one dot per week;
-   each dot links down to that week's details. Station names reuse the plaque
-   style above, minus the emoji, since the rail already supplies the blue.
-   Note: this section was largely written by an LLM (Claude Code). */
+   the same Blue Line rail as the full schedule below, with one CTA-map-style
+   stop per class day; each stop links down to that day's details. Station
+   names reuse the plaque style above, minus the emoji, since the rail already
+   supplies the blue.
+   Note: this section was largely written by an LLM-based coding system. */
 .schedule-table-wrap {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -289,7 +290,7 @@
   z-index: 0;
 }
 
-/* The line starts at the first week's dot and ends at the last week's. */
+/* The line starts at the first stop and ends at the last. */
 .schedule-table tbody th.rail-start::before {
   top: 50%;
 }
@@ -304,15 +305,13 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
   border: 4px solid #00A1DE;
   border-radius: 50%;
   background: #fff;
-  color: #1a1a1a;
-  font-size: 0.85rem;
-  font-weight: 900;
-  line-height: 1;
+  vertical-align: middle;
 }
 
 .schedule-body a.schedule-week-dot:hover,

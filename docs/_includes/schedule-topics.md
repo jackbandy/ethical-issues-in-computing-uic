@@ -145,10 +145,10 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 6, Day 2 (2026-09-30)
 
-* Inequality and Justice
+* Discuss online account biopsy
 * **Ethics through Fiction:** discuss short story ("Dolly")
-* Preview short story (["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/))
-  * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
+* Preview next week(s)
+  * Film: [*The Iron Giant*](https://en.wikipedia.org/wiki/The_Iron_Giant) (1999)
 
 ### Sources
 
@@ -162,20 +162,20 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 7, Day 1 (2026-10-05)
 
 * **Asynchronous reading day.** No class meeting.
-* Read ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
-  * 34-minute audio version of "If an Algorithm Can Cast a Shadow" [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
+* Watch [*The Iron Giant*](https://en.wikipedia.org/wiki/The_Iron_Giant) (1999)
 
 ## Week 7, Day 2 (2026-10-07)
 
 * **Asynchronous reading day.** No class meeting.
-* Continued reading time
+* Continued viewing time
 * Work time for the online account scrap doll exercise
 
 ## Week 8, Day 1 (2026-10-12)
 
 * Computing and War
-* **Ethics through Fiction:** discuss short story ("If an Algorithm Can Cast a Shadow")
-* Also discuss short story ("[Codename Delphi](https://www.lightspeedmagazine.com/fiction/codename-delphi/)")
+* **Ethics through Fiction:** discuss film (*The Iron Giant*)
+* Preview short story (["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/))
+  * 34-minute audio version [here](https://www.youtube.com/watch?v=ZxilXEbyGIc)
 
 ### Sources
 
@@ -195,6 +195,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 * Medical and health technologies
 * Intro to CyberSecurity
+* **Ethics through Fiction:** discuss short story ("If an Algorithm Can Cast a Shadow")
 * Bridging fiction and non-fiction
 * Discuss Speculative Fiction Exercise
 

@@ -1,6 +1,6 @@
 ---
 ---
-/* NOTICE: This file was substantially generated/modified by an LLM.
+/* NOTICE: This file was substantially generated/modified by an LLM-based coding system.
    Adapted from jackbandy.com/extras/cta-style-timer */
 
 (function() {

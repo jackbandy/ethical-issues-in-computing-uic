@@ -1,4 +1,4 @@
--- NOTICE: This file created by an LLM coding system on 2026-08-15.
+-- NOTICE: This file created by an LLM-based coding system on 2026-08-15.
 
 -- Pandoc Lua filter: expands an empty ```schedule code block into the course
 -- schedule table, read from the same two files the website's schedule page

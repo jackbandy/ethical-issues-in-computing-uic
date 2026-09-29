@@ -2,7 +2,7 @@
 <!--
   Original diagram of contextual integrity (Nissenbaum 2004), parameters as named in Malkin, "Contextual Integrity, Explained," IEEE Security & Privacy 21(1), 2023. v2 of contextual-integrity.svg.
   Embedded font: Big Shoulders (SIL OFL 1.1, see fonts/big-shoulders/OFL.txt), instanced at wght 700 / opsz 36 and subset to A–Z, colon, space, so headings render the same where the font is not installed.
-  NOTICE: drawn by an LLM (Claude Code) in the house style of docs/assets/STYLE.md.
+  NOTICE: drawn by an LLM-based coding system in the house style of docs/assets/STYLE.md.
 -->
 <svg width="1000" height="618" viewBox="0 0 1000 618" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ci-title ci-desc">
     <title id="ci-title">Contextual integrity: five parameters of an information flow</title>

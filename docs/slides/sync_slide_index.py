@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# NOTICE: This file created by an LLM coding system on 2026-08-15.
+# NOTICE: This file created by an LLM-based coding system on 2026-08-15.
 """Generate the deck outline and summary table in slides/index.html.
 
 Everything between the generated-block markers in index.html is written by this

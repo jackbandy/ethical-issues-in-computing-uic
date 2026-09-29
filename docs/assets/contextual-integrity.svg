@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Original diagram of contextual integrity (Nissenbaum 2004), parameters as named in Malkin, "Contextual Integrity, Explained," IEEE Security & Privacy 21(1), 2023.
-  NOTICE: drawn by an LLM (Claude Code) in the house style of docs/assets/STYLE.md.
+  NOTICE: drawn by an LLM-based coding system in the house style of docs/assets/STYLE.md.
 -->
 <svg width="1000" height="618" viewBox="0 0 1000 618" xmlns="http://www.w3.org/2000/svg">
     <defs>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NOTICE: This file was written by an LLM coding system (Claude).
+"""NOTICE: This file was written by an LLM-based coding system.
 
 Builds the three "platform moderation at scale" plates for docs/slides/week5.md.
 

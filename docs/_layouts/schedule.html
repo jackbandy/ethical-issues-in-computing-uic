@@ -7,7 +7,7 @@
 
   The syllabus build reads the same two files, so the two can never disagree.
 
-  Note: this file was largely written by an LLM (Claude Code).
+  Note: this file was largely written by an LLM-based coding system.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -116,7 +116,7 @@
           {%- endif -%}
           {%- assign dayindex = dayindex | plus: 1 -%}
 
-          <li>{{ row.Date | date: "%A, %B %-d, %Y" }}
+          <li id="week-{{ week }}-day-{{ dayindex }}">{{ row.Date | date: "%A, %B %-d, %Y" }}
             {%- if station and station != "" %} <code>🟦 {{ station }} 🟦</code>{% endif -%}
             {%- assign key = "Week " | append: week | append: ", Day " | append: dayindex | append: " (" -%}
             {%- for section in sections -%}

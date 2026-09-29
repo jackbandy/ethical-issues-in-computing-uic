@@ -1,4 +1,4 @@
--- NOTICE: This file created by an LLM coding system on 2026-08-17.
+-- NOTICE: This file created by an LLM-based coding system on 2026-08-17.
 
 -- Pandoc Lua filter: lays out the CTA signal blocks in the "Use of Generative
 -- AI/LLMs" section as drawing-beside-rule, the way a signal reads trackside —

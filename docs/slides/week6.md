@@ -77,7 +77,7 @@ A few things due soon, see Canvas for details!
 
 - Use the data you requested (best if csv / json)
 - Plan some questions and plots
-- (Instructor used Python, pandas, seaborn, and Claude Code)
+- (Instructor used Python, pandas, seaborn, and an LLM-based coding system)
 - Turn in your top findings and a brief meta-reflection
 :::
 

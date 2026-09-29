@@ -43,7 +43,8 @@ The semester generally proceeds in three units, one for each major segment/branc
   * Utilitarian ethics
   * Care ethics
 * **Unit 2: Stories** 🟦 Milwaukee–Dearborn Subway 🟦
-  * Short stories: ("Here and Now," "Message in a Bottle," "Codename Delphi", more)
+  * Short stories: ("Here and Now," "Message in a Bottle," "If an Algorithm Can Cast a Shadow", more)
+  * Film: "The Iron Giant"
   * Famous case studies (e.g. Therac-25)
 * **Unit 3: Contemporary Issues** 🟦 O'Hare Branch 🟦
   * Algorithmic feeds, ranking, and content moderation
@@ -67,7 +68,7 @@ I do not use LLMs to draft or design the teaching materials themselves. I do use
 
 So for example, while would not prompt an LLM with "draft the slides for week 4," I sometimes give prompts like "Add a slide in week 4 with the picture at https://commons.wikimedia.org/wiki/File:Therac_25.png and add two blank placeholder slides with 'Therac-25' as the title"
 
-Files that were substantially modified by an LLM say so in a header, e.g. `NOTICE: This file modified by an LLM coding system...` or something like that.
+Files that were substantially modified by an LLM-based coding system say so in a header, e.g. `NOTICE: This file modified by an LLM-based coding system...` or something like that.
 
 I willingly take responsibility for what is in this repository, including files which were modified by LLMs. Any issues are my fault (please contact me if you notice any 🙂).
 

@@ -16,8 +16,9 @@ alert_detail: Hello! This is the first semester of maintaining a live site for t
      comment appears above the unit links on the published page. -->
 
 <!-- At-a-glance table, read from the same _data/schedule.csv as the full
-     schedule below. Clicking a week number jumps to that week in the full
-     schedule. Note: this table was largely written by an LLM (Claude Code). -->
+     schedule below. Each row is one stop on the rail (hover for its week and
+     day); clicking it jumps to that day in the full schedule. Note: this
+     table was largely written by an LLM-based coding system. -->
 {%- assign weeks = site.data.schedule | group_by: "Week" %}
 <div class="schedule-table-wrap">
 <table class="schedule-table">
@@ -34,9 +35,8 @@ alert_detail: Hello! This is the first semester of maintaining a live site for t
   {%- for week in weeks -%}
     {%- for row in week.items %}
     <tr{% unless row.Station %} class="schedule-no-class"{% endunless %}>
-      {%- if forloop.first %}
-      <th scope="row" rowspan="{{ week.items | size }}"{% if forloop.parentloop.first %} class="rail-start"{% elsif forloop.parentloop.last %} class="rail-end"{% endif %}><a class="schedule-week-dot" href="#week-{{ week.name }}" aria-label="Week {{ week.name }}: jump to details">{{ week.name }}</a></th>
-      {%- endif %}
+      {%- capture railclass %}{% if forloop.parentloop.first and forloop.first %}rail-start{% elsif forloop.parentloop.last and forloop.last %}rail-end{% endif %}{% endcapture %}
+      <th scope="row"{% if railclass != "" %} class="{{ railclass }}"{% endif %}><a class="schedule-week-dot" href="#week-{{ week.name }}-day-{{ forloop.index }}" title="Week {{ week.name }}, Day {{ forloop.index }}" aria-label="Week {{ week.name }}, Day {{ forloop.index }}: jump to details"></a></th>
       <td>{{ row.Date | date: "%A" }}<span class="schedule-day-date">({{ row.Date | date: "%b %-d" | replace: "Sep ", "Sept " }})</span></td>
       <td>{% if row.Station %}<code>{{ row.Station | escape }}</code>{% endif %}</td>
       <td>{{ row.Topic | default: row.Notes | escape }}</td>

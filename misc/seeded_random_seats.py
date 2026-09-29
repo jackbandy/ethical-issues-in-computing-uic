@@ -3,7 +3,7 @@ Seeded Random Seats
 Assign ~30 students randomly to 8 tables (max 4 per table)
 
 Author: Jack Bandy <jxb@uic.edu>
-With help from Claude for animation
+With help from an LLM-based coding system for animation
 
 Created October 2025 
 """

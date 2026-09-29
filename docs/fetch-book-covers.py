@@ -16,7 +16,7 @@ its original Bookshop URL in `sourceImage:` — that field is the provenance
 record and where this script looks for anything it hasn't downloaded yet, while
 `Image:` holds the local path the page actually loads.
 
-NOTICE: this file was largely written by an LLM (Claude Code).
+NOTICE: this file was largely written by an LLM-based coding system.
 """
 
 import argparse

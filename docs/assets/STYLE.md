@@ -1,6 +1,6 @@
 # Style Guide — `ethical-issues-in-computing` assets
 
-> _Note: this guide was edited by an LLM._
+> _Note: this guide was edited by an LLM-based coding system._
 
 Visual conventions for figures, diagrams, and slide assets. 
 
