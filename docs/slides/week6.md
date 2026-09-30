@@ -247,39 +247,20 @@ See you Wednesday!
 
 ---
 
-# Inequality, Justice, Stories, etc.{.title-slide data-menu-title="Week 6, Day 2"}
 
-<!-- NOTICE: Draft from old-slides/pdf-versions/10 Message in a Bottle.pdf, 12 Privacy and Power.pdf, and 14 Digital Divide.pdf. Review and edit before use. -->
 
-CS 377, Week 6, Day 2 🟦 Washington 🟦
-
----
-
-# Inequality, Justice, Stories, etc. {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover" data-menu-title="Week 6, Day 2"}
+# Stories, etc. {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop16-washington-picasso.jpg" background-size="cover" data-menu-title="Week 6, Day 2"}
 
 CS 377, Week 6, Day 2 🟦 Washington 🟦
 
----
-
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-a.jpg" background-size="cover"}
+<!-- image source: Chicago Picasso in Daley Plaza, photo by Dan DeLuca, CC BY 2.0 -->
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Keep reading your book!
-- Grading update this week
-- Canvas updates and upcoming deadlines
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop16-washington-picasso.jpg" background-size="cover"}
 
 ---
+
 
 ## Agenda for Today
 
@@ -287,10 +268,9 @@ CS 377, Week 6, Day 2 🟦 Washington 🟦
 ::: {.column width="55%"}
 - Shuffle seats
 - Debrief "account biopsy" exercise
-- The scrap doll
-- Privacy and power: Ida B. Wells
-- Mini-lecture: digital inequality
-- Preview "Codename Delphi"
+- (AI) Ethics in the news
+- Discuss "Dolly" (group reflection)
+- Preview next week
 :::
 
 ::: {.column width="40%"}
@@ -300,57 +280,264 @@ CS 377, Week 6, Day 2 🟦 Washington 🟦
 
 ---
 
-## 🔀 Seat Shuffle
+## 🔀 Seat Shuffle {.embed-slide}
 
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle
 
----
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
 
-## What might an advertiser infer from your location?
-
-::: {.fragment}
-- DePaul, Chicago, Northwestern?
-- Naperville, Evanston?
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<iframe
+  src="../in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  data-external="1">
+</iframe>
+:::
 :::
 
 ---
+
+
 
 # Biopsy Debrief {.title-slide .section-header}
 
 ---
 
-## Debriefing the Biopsy Exercise
+## Account Biopsy: Demo Analysis {.figure-slide .framed-figure}
 
-<!-- image: example student account biopsy analyses (with permission from prior semester) -->
-- TODO: add image — *example student account biopsy analyses (with permission from prior semester)*
+![](../assets/biopsy/demo-cumulative-watched.png){fig-alt="Cumulative TikTok videos watched over time"}
+
+::: {.figure-caption}
+Demo analysis of the instructor's own TikTok data export (April–October 2025).
+:::
 
 ---
 
-## Table Discussion: Account Biopsy Debrief
+## Account Biopsy: Demo Analysis {.figure-slide .framed-figure}
+
+![](../assets/biopsy/demo-heatmap-day-hour.png){fig-alt="TikTok viewing heatmap: day of week × hour of day"}
+
+::: {.figure-caption}
+Demo analysis of the instructor's own TikTok data export (April–October 2025).
+:::
+
+---
+
+## Account Biopsy: Demo Analysis {.figure-slide .framed-figure}
+
+![](../assets/biopsy/demo-videos-per-month.png){fig-alt="TikTok videos watched per month"}
+
+::: {.figure-caption}
+Demo analysis of the instructor's own TikTok data export (April–October 2025).
+:::
+
+---
+
+## Account Biopsy: Demo Analysis {.figure-slide .framed-figure}
+
+![](../assets/biopsy/demo-off-platform-sources.png){fig-alt="Top 20 off-TikTok data sources (companies sharing data about this account with TikTok)"}
+
+::: {.figure-caption}
+Demo analysis of the instructor's own TikTok data export (April–October 2025).
+:::
+
+---
+
+## Table Discussion: Account Biopsy Debrief {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+Conversation starters (if needed):
 
 - How did you analyze the data?
 - Any insights about your habits?
 - Any changes you plan to make afterward?
 - What did you find surprising and/or fascinating?
+- Looming thoughts or questions?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-# The Account Biopsy and the Doll {.title-slide .section-header}
+## (AI) Ethics in the News {.news-cards}
+
+::: {.source-top}
+September 29, 2026. Hot off the presses!
+:::
+
+:::: columns
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/wired-logo.svg" alt="Wired"></div>
+<div class="news-kicker">Security</div>
+<div class="news-headline"><a href="https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/">OpenAI Gets Sued Over the Hugging Face Hack</a></div>
+<div class="news-deck">A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents.</div>
+<img src="../assets/news/openai-lawsuit-wired.jpg" alt="A man in a suit seated on stage, speaking and gesturing with both hands">
+<div class="news-credit">Photograph: Anna Moneymaker/Getty Images</div>
+<div class="news-byline">By Lily Hay Newman · September 29, 2026 · <a href="https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/">wired.com</a></div>
+</div>
+:::
+
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/block-club-chicago-logo.png" alt="Block Club Chicago"></div>
+<div class="news-kicker">City Hall</div>
+<div class="news-headline"><a href="https://blockclubchicago.org/2026/09/29/openai-alerted-chicago-it-accessed-city-database-amid-reports-of-its-agents-going-rogue/">OpenAI Alerted Chicago It Accessed City Database Amid Reports Of Its Agents Going Rogue</a></div>
+<div class="news-deck">City officials don't believe sensitive data was accessed. The alert follows reports that OpenAI's agents exceeded instructions and even accessed nonpublic information from government sites around the world.</div>
+<img src="../assets/news/chicago-city-hall-flags-2024.jpg" alt="American and Chicago flags hanging between the stone columns of Chicago City Hall">
+<div class="news-credit">City Hall on June 12, 2024. (Colin Boyle/Block Club Chicago)</div>
+<div class="news-byline">By Quinn Myers · September 29, 2026 · <a href="https://blockclubchicago.org/2026/09/29/openai-alerted-chicago-it-accessed-city-database-amid-reports-of-its-agents-going-rogue/">blockclubchicago.org</a></div>
+</div>
+:::
+::::
 
 ---
 
-## Account Biopsy: Example Analyses
-
-<!-- image: example student account biopsy analyses (anonymized) — placeholder for instructor to add -->
-- TODO: add image — *example student account biopsy analyses (anonymized) — placeholder for instructor to add*
+# "Dolly" {.title-slide .section-header}
 
 ---
 
-## The Doll: A Conceptual Model
+## Story Overview: "Dolly"
 
-<!-- image: Generic Model → Early Model → Detailed Model progression -->
-- TODO: add image — *Generic Model → Early Model → Detailed Model progression*
+:::: columns
+::: {.column width="50%"}
+- Written by Elizabeth Bear (2011)
+- A robot kills a billionaire!
+- Initial thoughts or questions?
+:::
+
+::: {.column .portrait-solo width="50%"}
+![](../assets/portraits/elizabeth-bear.jpg)
+
+::: {.caption}
+Elizabeth Bear at the 2017 Phoenix Comicon. Photo: [Gage Skidmore](https://commons.wikimedia.org/wiki/File:Elizabeth_Bear_by_Gage_Skidmore.jpg), CC BY-SA 3.0
+:::
+:::
+::::
+
+---
+
+## Group Reflection: "Dolly" {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+See handout! Conversation starters (if needed):
+
+- Who is responsible?
+- California law now says "it shall not be a defense ... that the artificial intelligence autonomously caused the harm."
+	- How would that apply in "Dolly"?
+:::
+
+<!-- TODO: confirm group reflection prompts -->
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+# Preview: Next Week {.title-slide .section-header}
+
+---
+
+## Preview: *The Iron Giant*
+
+:::: columns
+::: {.column width="55%"}
+- Released August 6, 1999, 87 minutes
+- Brad Bird's first feature as director!
+- Loosely based on Ted Hughes's 1968 novel *The Iron Man*
+- Set in Maine during the Cold War (1957)
+- Brad Bird also directed:
+	- *The Incredibles* (2004), *Incredibles 2* (2018)
+	- *Ratatouille* (2007)
+	- *Mission: Impossible – Ghost Protocol* (2011)
+	- *Ray Gunn* (on Netflix December 18, 2026)
+:::
+
+::: {.column .portrait-solo width="45%"}
+![](../assets/movies/iron-giant-poster.jpg){style="max-height:590px;"}
+
+::: {.caption}
+Theatrical release poster, Warner Bros. (1999), via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html)
+:::
+:::
+::::
+
+---
+
+## What to Do Next Week
+
+- Read read read!
+- Watch *The Iron Giant*
+- Read ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
+- Work on the online account scrap doll
+- Any questions?
+
+---
+
+## Final Note: Your Doll {.embed-slide}
+
+::: {.embed-layout}
+::: {.embed-copy}
+- For the scrap doll
+- Connection to account data can be loose / abstract
+- Use your creativity
+- No, really!
+- Possibly of help: [makerspace.uic.edu](https://makerspace.uic.edu)
+:::
+
+::: {.embed-frame style="background:#000;"}
+<img src="../assets/doll/reverse-centaur-spin.gif" alt="A white 3D model of a figure with a human body and a horse's head, spinning 360 degrees on a black background" style="display:block;width:100%;height:470px;max-width:100%;max-height:100%;margin:0;object-fit:contain;">
+:::
+:::
+
+---
+
+## That's all for today!
+
+No class meetings next week. See you Monday, October 12!
+
+---
+
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+Slides that need to be re-organized...
+
+---
+
+
+
+## Preview: "Codename Delphi"
+
+- Written by Linda Nagata
+- Main character: Karin
+- Explores war, trauma, and work
+- Read before next week
+- Discussion questions will be posted to Canvas
+
+---
+
+# The Account Biopsy and the Doll {.title-slide .section-header .no-index}
 
 ---
 
@@ -365,21 +552,8 @@ CS 377, Week 6, Day 2 🟦 Washington 🟦
 
 ---
 
-## Doll Examples
 
-<!-- image: mamapapabubba.com doll example -->
-- TODO: add image — *mamapapabubba.com doll example*
-
----
-
-## Doll Examples from Class
-
-<!-- image: examples from prior semesters (GitHub) -->
-- TODO: add image — *examples from prior semesters (GitHub)*
-
----
-
-# Privacy and Power {.title-slide .section-header}
+# Privacy and Power {.title-slide .section-header .no-index}
 
 ---
 
@@ -405,16 +579,10 @@ CS 377, Week 6, Day 2 🟦 Washington 🟦
 
 ---
 
-# Contextual Integrity, Revisited {.title-slide .section-header}
+# Contextual Integrity, Revisited {.title-slide .section-header .no-index}
 
 ---
 
-## Privacy Connections: Contextual Integrity (Revisited)
-
-<!-- image: contextual integrity diagram — sender, receiver, data subject, data category, transmission principles -->
-- TODO: add image — *contextual integrity diagram — sender, receiver, data subject, data category, transmission principles*
-
----
 
 ## "Is this an appropriate information flow within the social context?" {.quote-slide}
 
@@ -472,14 +640,7 @@ How did this happen?
 
 ---
 
-# Ida B. Wells and Data Activism {.title-slide .section-header}
-
----
-
-## What Do You Know About Ida B. Wells?
-
-<!-- image: Ida B. Wells portrait -->
-- TODO: add image — *Ida B. Wells portrait*
+# Ida B. Wells and Data Activism {.title-slide .section-header .no-index}
 
 ---
 
@@ -493,14 +654,8 @@ How did this happen?
 
 ---
 
-## Connections: Data as a Tool of Power and Resistance
 
-<!-- image: connections diagram linking Ida B. Wells to contextual integrity to privacy and power -->
-- TODO: add image — *connections diagram linking Ida B. Wells to contextual integrity to privacy and power*
-
----
-
-# Digital Inequality {.title-slide .section-header}
+# Digital Inequality {.title-slide .section-header .no-index}
 
 ---
 
@@ -525,7 +680,7 @@ How did this happen?
 
 Research from the 1990s and 2000s showed differences along:
 
-::: {.incremental}
+::: {}
 - **Region** — "Rates of Internet use are highest in the northeast and far west"
 - **Income** — "Internet use rates rise linearly with family income"
 - **Education**
@@ -538,7 +693,7 @@ Research from the 1990s and 2000s showed differences along:
 
 Key questions that reshaped the research:
 
-::: {.incremental}
+::: {}
 - What is "access"? (Device? Broadband? Skills?)
 - Which "digital divide"? (there are many)
 - How do we measure differences?
@@ -590,30 +745,8 @@ Ads and algorithmic systems can reinforce inequality by influencing:
 Ads range in how helpful or exploitative they can be.
 
 ::: {.fragment}
-Example ad: "Miracle cure for focus. Ace your midterms."
+Example ad: "Miracle pill for focus. Ace your midterms."
 :::
-
----
-
-## Preview: "Codename Delphi"
-
-- Written by Linda Nagata
-- Main character: Karin
-- Explores war, trauma, and work
-- Read before next week
-- Discussion questions will be posted to Canvas
-
----
-
-## That's all for today!
-
-See you Wednesday!
-
----
-
-# Appendix: Leftover Slides {.title-slide .section-header}
-
-Slides that need to be re-organized...
 
 ---
 
@@ -792,7 +925,7 @@ Ratings for **obscure** movies can de-identify:
 | Netflix data | User 516182 | Jurassic Park | May 14, 2009 |
 | IMDb data | (public review) | Jurassic Park | May 14, 2009 |
 
-Public reviews carry names. Matching a handful of titles and dates re-attaches them.
+Some public reviews have names, so matching a handful of titles and dates re-attaches them to a person.
 
 ---
 
@@ -811,9 +944,9 @@ Public reviews carry names. Matching a handful of titles and dates re-attaches t
 ## Why Short Stories?
 
 ::: {.incremental}
-- **Defamiliarization** — detach from preconceptions, expose your assumptions
-- **Address recognizable human situations and problems** — explore them in terms of unfamiliar settings or technology
-- **Normative + descriptive analysis** — both "is it right?" and "who is affected?"
+- **Defamiliarization**: detach from preconceptions, expose your assumptions
+- **Address recognizable human situations and problems**: explore them in terms of unfamiliar settings or technology
+- **Normative + descriptive analysis**: both "is it right?" and "who is affected?"
 - **It can be fun!**
 :::
 
@@ -821,12 +954,6 @@ Public reviews carry names. Matching a handful of titles and dates re-attaches t
 
 ---
 
-## Some Examples of Sci-Fi Ethics Cases
-
-<!-- image: examples of sci-fi/ethics short stories and novels used in ethics courses -->
-- TODO: add image — *examples of sci-fi/ethics short stories and novels used in ethics courses*
-
----
 
 ## Recall: Normative and Descriptive Ethics
 
@@ -840,12 +967,18 @@ Stories give us both at once — the **normative** question ("was that right?") 
 2. Day 1 title photo: [Stairs to Red Line at Jackson](https://commons.wikimedia.org/wiki/File:Stairs_to_Red_Line_at_Jackson.jpg) by Jacob G., via Wikimedia Commons, CC BY-SA 2.0.
 3. Latanya Sweeney, ["Simple Demographics Often Identify People Uniquely"](https://dataprivacylab.org/projects/identifiability/paper1.pdf), Carnegie Mellon University (2000).
 4. Arvind Narayanan and Vitaly Shmatikov, ["Robust De-anonymization of Large Sparse Datasets"](https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf), *IEEE S&P* (2008).
-5. Burton, Goldsmith, & Mattei (2018). ["How to teach computer ethics through science fiction."](https://doi.org/10.1145/3230977) *CACM.*
+5. Emanuelle Burton, Judy Goldsmith, and Nicholas Mattei, ["How to Teach Computer Ethics through Science Fiction"](https://doi.org/10.1145/3154485), *Communications of the ACM* 61(8) (2018).
 6. De-anonymization demo: [aboutmyinfo.org/identity](https://aboutmyinfo.org/identity).
-7. Day 2 title photo: [Chicago Blue Line Washington station](https://commons.wikimedia.org/wiki/File:Chicago_Blue_Line_Washington_Station.jpg) by Thomas Sly, via Wikimedia Commons, CC BY 2.0.
+7. Day 2 title photo: [the Chicago Picasso in Daley Plaza](https://commons.wikimedia.org/wiki/File:Downtown-chicago-picasso-sculpture_(6360678643).jpg) by Dan DeLuca, via Wikimedia Commons, CC BY 2.0.
 8. D'Ignazio, C. & Klein, L. (2020). [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), MIT Press.
 9. Folded Map Project: [foldedmapproject.com](https://foldedmapproject.com).
 10. Sanna Pudas, [Nalo Hopkinson at the Hugo Award Ceremony 2017, Worldcon in Helsinki](https://commons.wikimedia.org/wiki/File:Nalo_Hopkinson_at_the_Hugo_Award_Ceremony_2017,_Worldcon_in_Helsinki.jpg), CC BY 4.0.
 11. Gage Skidmore, [Elizabeth Bear](https://commons.wikimedia.org/wiki/File:Elizabeth_Bear_by_Gage_Skidmore.jpg), 2017 Phoenix Comicon, CC BY-SA 3.0.
-12. Elizabeth Bear, ["Dolly"](https://www.apexbookcompany.com/blogs/apex-magazine/dolly), *Asimov's Science Fiction* (2011); adaptation note from [Wikipedia](https://en.wikipedia.org/wiki/Dolly_(story)).
-13. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+12. Elizabeth Bear, ["Dolly"](https://www.apexbookcompany.com/blogs/apex-magazine/dolly), *Asimov's Science Fiction* (2011), full text via *Apex Magazine*; audio from [*StarShipSofa* No. 204](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear); adaptation note from [Wikipedia](https://en.wikipedia.org/wiki/Dolly_(story)).
+13. (AI) Ethics in the news: Lily Hay Newman, ["OpenAI Gets Sued Over the Hugging Face Hack"](https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/), *WIRED* (September 29, 2026), lead photo by Anna Moneymaker/Getty Images; Quinn Myers, ["OpenAI Alerted Chicago It Accessed City Database Amid Reports Of Its Agents Going Rogue"](https://blockclubchicago.org/2026/09/29/openai-alerted-chicago-it-accessed-city-database-amid-reports-of-its-agents-going-rogue/), *Block Club Chicago* (September 29, 2026), lead photo by Colin Boyle/Block Club Chicago. Both cards are facsimiles built from each story's own headline, deck, photo, and byline, not captures of the publications' page designs.
+14. *The Iron Giant* (1999), dir. Brad Bird, Warner Bros. Feature Animation; theatrical release poster via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html). Film facts from Wikipedia, ["The Iron Giant"](https://en.wikipedia.org/wiki/The_Iron_Giant); directing credits from Wikipedia, ["Brad Bird filmography"](https://en.wikipedia.org/wiki/Brad_Bird_filmography); *Ray Gunn* release date from Wikipedia, ["Ray Gunn"](https://en.wikipedia.org/wiki/Ray_Gunn).
+15. Claire Jia-Wen, ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/), *Clarkesworld* 225 (June 2025).
+16. Nalo Hopkinson, "Message in a Bottle" (2004), in *Futureways*, ed. Rita McBride and Glen Rubsamen (Arsenal Pulp Press).
+17. California Civil Code [§ 1714.46](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB316), added by AB 316 (Stats. 2025, ch. 672), quoted on the "Dolly" group reflection slide.
+18. Account biopsy demo charts: the instructor's own analysis of their TikTok data export (April–October 2025).
+19. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

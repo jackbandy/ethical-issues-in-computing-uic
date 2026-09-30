@@ -52,6 +52,7 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 
 ### 16. Washington
 - **stop16-washington-a.jpg** — [Wikimedia Commons: Chicago Blue Line Washington Station.jpg](https://commons.wikimedia.org/wiki/File:Chicago_Blue_Line_Washington_Station.jpg) — License: CC BY 2.0 — Author: Thomas Sly from flickr.com
+- **stop16-washington-picasso.jpg** — [Wikimedia Commons: Downtown-chicago-picasso-sculpture (6360678643).jpg](https://commons.wikimedia.org/wiki/File:Downtown-chicago-picasso-sculpture_(6360678643).jpg) — License: CC BY 2.0 — Author: Dan DeLuca — 2000×1329 — nearby landmark rather than the stop itself: the Chicago Picasso in Daley Plaza, at Washington and Dearborn above the station
 
 ### 17. Clark/Lake
 - **stop17-clark-lake-c.jpg** — [Wikimedia Commons: Chicago-20240927-110 (54285583882).jpg](https://commons.wikimedia.org/wiki/File:Chicago-20240927-110_(54285583882).jpg) — License: CC BY-SA 2.0 — Author: Nairn McWilliams

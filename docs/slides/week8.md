@@ -191,7 +191,7 @@ Using both normative and descriptive lenses:
 
 ## Reminders
 
-- Speculative fiction due Sunday at 11:59pm
+- Speculative fiction due Monday, October 26
 - "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
 - Keep reading your book!
 
