@@ -147,6 +147,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 * Discuss online account biopsy
 * **Ethics through Fiction:** discuss short story ("Dolly")
+* Worksheet: ["Dolly" Group Reflection](assets/worksheets/11-dolly-reflection.pdf)
 * Preview next week(s)
   * Film: [*The Iron Giant*](https://en.wikipedia.org/wiki/The_Iron_Giant) (1999)
 
