@@ -491,13 +491,16 @@ Theatrical release poster, Warner Bros. (1999), via [IMP Awards](http://www.impa
 - Watch *The Iron Giant*
 - Read ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/)
 - Work on the online account scrap doll
+- Do something fun
+- Go to the art museum (?)
+
 - Any questions?
 
 ---
 
 ## Final Note: Your Doll {.embed-slide}
 
-::: {.embed-layout}
+::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
 - For the scrap doll
 - Connection to account data can be loose / abstract
@@ -506,8 +509,8 @@ Theatrical release poster, Warner Bros. (1999), via [IMP Awards](http://www.impa
 - Possibly of help: [makerspace.uic.edu](https://makerspace.uic.edu)
 :::
 
-::: {.embed-frame style="background:#000;"}
-<img src="../assets/doll/reverse-centaur-spin.gif" alt="A white 3D model of a figure with a human body and a horse's head, spinning 360 degrees on a black background" style="display:block;width:100%;height:470px;max-width:100%;max-height:100%;margin:0;object-fit:contain;">
+::: {.embed-frame style="background:#000;height:470px;aspect-ratio:1/1.618;justify-self:center;align-self:center;"}
+<img src="../assets/doll/reverse-centaur-spin.gif" alt="A white 3D model of a figure with a human body and a horse's head, spinning 360 degrees on a black background" style="display:block;width:100%;height:100%;max-width:100%;max-height:100%;margin:0;object-fit:contain;">
 :::
 :::
 
