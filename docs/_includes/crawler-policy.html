@@ -25,8 +25,9 @@ Deliberately NOT set: `notranslate`. Students read this site, some of them not
 in their first language, and blocking in-browser translation to discourage
 machines would take that away from people.
 
-TO REOPEN IN 2027: delete this file and the {% raw %}{% include crawler-policy.html %}{% endraw %}
-line from each layout and standalone page.
+TO REOPEN IN 2027: delete only the robots and googlebot <meta> lines below.
+Do NOT delete this file or its includes: it also carries the referrer policy and
+the Content-Security-Policy for every page.
 
 Note: this file was largely written by an LLM-based coding system.
 {%- endcomment -%}
@@ -40,20 +41,25 @@ document. A meta CSP covers everything a header one does except `frame-ancestors
 was going to use.
 
 Verified against every page that carries this include: they load no external
-script, style, font, image or iframe. The two escape hatches are deliberate:
+script, style, font, image or iframe, and no inline script -- page JavaScript
+lives in separate files (assets/js/, timer/embed.js), wired up with
+addEventListener rather than onclick= attributes. So, as on jackbandy.com,
+script-src is 'self' alone and an injected inline <script> or handler will not
+run. The two escape hatches left are styles:
 
-  'unsafe-inline' (script)  inline <script> blocks and onclick= attributes,
-                            e.g. the gallery controls in books.html
-  'unsafe-inline' (style)   inline <style> blocks in the standalone pages
+  'unsafe-inline' (style)   inline <style> blocks and style= attributes,
+                            e.g. the cover placeholders built in assets/js/books.js
   data: (img)               inline SVG backgrounds in spectrogram.css/timer.css
 
-So this does not stop an injected inline handler. What it does stop is script
-loaded from an origin that isn't this one -- which is exactly the shape of the
-old unpinned CDN <script> that used to sit in in-progress/visual-seat-shuffle.html,
-and of most third-party compromises. Together with escaping the values that
-reach innerHTML in books.html, that is the achievable half of the problem.
+base-uri 'none' blocks <base>-tag hijacking of every relative URL on the page.
+
+Redirect stubs (read/, chairs/) pass csp=false and carry their own stricter
+policy that allows their one inline line by sha256 hash.
 
 If a page ever needs an outside embed (a YouTube iframe, a hosted font), relax
 the one directive it needs here rather than dropping the tag from that page.
 {%- endcomment -%}
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+{%- unless include.csp == false %}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; frame-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'">
+{%- endunless %}

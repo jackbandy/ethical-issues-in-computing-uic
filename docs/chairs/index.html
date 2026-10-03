@@ -9,7 +9,8 @@ sitemap: false
   <title>Redirecting to the Seat Shuffler…</title>
   <link rel="canonical" href="https://doethics.fun/in-progress/visual-seat-shuffle.html">
   <meta http-equiv="refresh" content="0; url=/in-progress/visual-seat-shuffle.html">
-  {% include crawler-policy.html %}
+  {% include crawler-policy.html csp=false %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-4CpZ05SLvOoRSrL+RTpkA9222Az4u+gAa+9pZwLVhPw='; base-uri 'none'; form-action 'none';">
   <script>window.location.replace("/in-progress/visual-seat-shuffle.html");</script>
 </head>
 <body>

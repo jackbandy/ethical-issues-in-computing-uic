@@ -9,7 +9,8 @@ sitemap: false
   <title>Redirecting to Read a Book…</title>
   <link rel="canonical" href="https://doethics.fun/read-a-book/">
   <meta http-equiv="refresh" content="0; url=/read-a-book/">
-  {% include crawler-policy.html %}
+  {% include crawler-policy.html csp=false %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-uYX9gawe2MZckf/QCFCh9r54Nn/eTKGkTG9yOxSPMxY='; base-uri 'none'; form-action 'none';">
   <script>window.location.replace("/read-a-book/");</script>
 </head>
 <body>

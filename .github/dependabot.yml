@@ -4,8 +4,9 @@ updates:
   # Keeps the action versions in .github/workflows/ up to date. Both workflows
   # here run with `contents: write` and push back to main, so a compromised or
   # abandoned action is the one dependency on this repo that could rewrite it.
-  # The versions are pinned to mutable major tags (@v6, @v2), which move under
-  # us; this is what notices when they do.
+  # Each action is pinned to a full commit SHA (with its release in a trailing
+  # comment), so a moved or hijacked tag cannot change what runs. Dependabot
+  # understands that format and bumps the SHA and the comment together.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:

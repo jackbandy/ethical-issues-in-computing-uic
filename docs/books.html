@@ -15,16 +15,16 @@
 {% include site-nav.html nav_current="books" %}
 <div class="top-bar">
   <h1>Book Gallery – Ethical Issues in Computing</h1>
-  <button onclick="shuffleBooks()">🔀 Shuffle</button>
-  <button onclick="sortBooks()">Sort A–Z</button>
-  <label class="show-all"><input type="checkbox" id="showAll" onchange="renderCurrent()"> Show All Books</label>
-  <label class="show-all"><input type="checkbox" id="showCovers" onchange="renderCurrent()"> Show Covers</label>
+  <button id="shuffleBtn">🔀 Shuffle</button>
+  <button id="sortBtn">Sort A–Z</button>
+  <label class="show-all"><input type="checkbox" id="showAll"> Show All Books</label>
+  <label class="show-all"><input type="checkbox" id="showCovers"> Show Covers</label>
 </div>
 <div class="gallery" id="gallery"></div>
 
-<div class="overlay" id="overlay" onclick="closePanel()"></div>
+<div class="overlay" id="overlay"></div>
 <div class="side-panel" id="sidePanel">
-  <button class="panel-close" onclick="closePanel()">&times;</button>
+  <button class="panel-close" id="panelClose">&times;</button>
   <div id="panelContent"></div>
 </div>
 
@@ -36,164 +36,6 @@
   <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
   <a href="https://bookshop.org/lists/ethical-issues-in-computing" target="_blank" rel="noopener">View on Bookshop (this gallery includes affiliate links)</a>
 </div>
-<script>
-const AFFILIATE_ID = "122922";
-
-// Every value below is interpolated into innerHTML. books-data.js is
-// hand-maintained, but the `reviews:` blocks are student writing pasted in
-// verbatim, so a review reading `<img src=x onerror=...>` would otherwise run
-// as script on this domain. Escape at the point of use rather than trusting
-// the data file.
-function esc(value) {
-  return String(value ?? "").replace(/[&<>"']/g, (c) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  }[c]));
-}
-
-// Escaping alone still lets a `javascript:` URL through an href. Cover paths in
-// books-data.js are bare and relative ("assets/book-cover-cache/…"), so the
-// rule is: keep http(s) and any relative path, drop anything that carries its
-// own scheme. Whitespace and control characters come out first, since browsers
-// ignore them when resolving a URL ("java\nscript:" is a live scheme to them).
-function escUrl(value) {
-  const url = String(value ?? "").replace(/[\u0000-\u0020\u007f-\u00a0]/g, "");
-  if (/^https?:\/\//i.test(url)) return esc(url);
-  if (/^[a-z][a-z0-9+.-]*:/i.test(url)) return "";
-  return esc(url);
-}
-
-// `color` is written by sandbox/cover-colors.py as a hex triple. It goes into
-// a style attribute, so anything else falls back to the neutral placeholder.
-function escColor(value) {
-  return /^#[0-9a-fA-F]{3,8}$/.test(String(value ?? "")) ? String(value) : "#d8d8d8";
-}
-
-function affiliateLink(isbn) {
-  return `https://bookshop.org/a/${AFFILIATE_ID}/${encodeURIComponent(isbn ?? "")}`;
-}
-
-// The same book on Bookshop, with no referral tag attached. Prefers the
-// product URL recorded in books-data.js; falls back to an ISBN search.
-function plainLink(book) {
-  return book.Link || `https://bookshop.org/search?keywords=${encodeURIComponent(book.ISBN ?? "")}`;
-}
-
-// A handful of books -- one too new to be listed, two long out of print --
-// aren't on Bookshop at all, so both Bookshop links would dead-end. Those
-// carry an `offsite:` URL instead (the publisher, or used copies), and the
-// panel shows that single link rather than two broken ones.
-function panelLinks(book) {
-  if (!book.Link && book.offsite) {
-    return `
-      <div class="panel-links">
-        <a class="panel-link" href="${escUrl(book.offsite)}" target="_blank" rel="noopener noreferrer">${esc(book.offsiteLabel || "Where to find it")} &rarr;</a>
-      </div>
-      <p class="panel-links-note">(Bookshop.org doesn't list this title, so this link goes elsewhere and earns the course nothing.)</p>`;
-  }
-  return `
-      <div class="panel-links">
-        <a class="panel-link" href="${escUrl(affiliateLink(book.ISBN))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; affiliate link &rarr;</a>
-        <a class="panel-link" href="${escUrl(plainLink(book))}" target="_blank" rel="noopener noreferrer">Bookshop.org &mdash; plain link &rarr;</a>
-      </div>
-      <p class="panel-links-note">(Both go to the same book for the same price. The affiliate link credits this course; the plain link has no referral tag.)</p>`;
-}
-
-function renderGallery(bookList) {
-  const gallery = document.getElementById("gallery");
-  gallery.innerHTML = "";
-  if (bookList.length === 0) {
-    gallery.innerHTML = '<p class="gallery-empty">No books are featured right now \u2014 check "Show All Books" to see the full shelf.</p>';
-    return;
-  }
-  const withCovers = showCovers();
-  bookList.forEach(book => {
-    const card = document.createElement("div");
-    card.className = "card";
-    // Covers off: a block in the jacket's dominant color stands in (see
-    // sandbox/cover-colors.py), so the shelf stays recognizable without
-    // loading a cover for every book. Same footprint either way.
-    const cover = withCovers
-      ? `<img src="${escUrl(book.Image)}" alt="${esc(book.Title)}" loading="lazy">`
-      : `<div class="cover-placeholder" style="background: ${escColor(book.color)}" aria-hidden="true"></div>`;
-    card.innerHTML = `
-      ${cover}
-      <h3>${esc(book.Title)}</h3>
-      <p>${esc(book.Author)}</p>
-    `;
-    card.addEventListener("click", () => openPanel(book));
-    gallery.appendChild(card);
-  });
-}
-
-function stars(n) {
-  // Clamped because `rating` comes in with the review text: repeat() throws on
-  // a negative and renders nonsense on anything non-numeric.
-  const filled = Math.min(5, Math.max(0, Math.round(Number(n) || 0)));
-  return "\u2605".repeat(filled) + "\u2606".repeat(5 - filled);
-}
-
-function openPanel(book) {
-  const reviews = book.reviews && book.reviews.length > 0
-    ? book.reviews.map(r => `
-        <div class="review">
-          <div class="review-meta">${esc(r.reviewer)} <span class="review-stars">${stars(r.rating)}</span></div>
-          <p>${esc(r.text)}</p>
-        </div>`).join("")
-    : '<p class="no-reviews">No reviews yet.</p>';
-
-  document.getElementById("panelContent").innerHTML = `
-    <img class="panel-cover" src="${escUrl(book.Image)}" alt="${esc(book.Title)}">
-    <h2 class="panel-title">${esc(book.Title)}</h2>
-    <p class="panel-author">${esc(book.Author)}</p>
-    <p class="panel-isbn">ISBN: ${esc(book.ISBN)}</p>
-    ${panelLinks(book)}
-    <div class="reviews-heading">
-      <h3>Reviews from students who chose this book (${book.reviews ? book.reviews.length : 0})</h3>
-      ${reviews}
-    </div>
-  `;
-  document.getElementById("sidePanel").classList.add("open");
-  document.getElementById("overlay").classList.add("visible");
-}
-
-function closePanel() {
-  document.getElementById("sidePanel").classList.remove("open");
-  document.getElementById("overlay").classList.remove("visible");
-}
-
-function showCovers() {
-  return document.getElementById("showCovers").checked;
-}
-
-// Books marked `curated: true` are always on display. The rest are held back
-// until "Show All Books" is checked.
-function visibleBooks() {
-  const showAll = document.getElementById("showAll").checked;
-  return showAll ? books : books.filter(b => b.curated);
-}
-
-// Which ordering the gallery is currently in, so toggling the checkbox
-// re-filters without silently reshuffling the shelf under the reader.
-let currentOrder = "shuffle";
-
-function renderCurrent() {
-  if (currentOrder === "sort") sortBooks(); else shuffleBooks();
-}
-
-function shuffleBooks() {
-  currentOrder = "shuffle";
-  const shuffled = [...visibleBooks()].sort(() => Math.random() - 0.5);
-  renderGallery(shuffled);
-}
-
-function sortBooks() {
-  currentOrder = "sort";
-  const sorted = [...visibleBooks()].sort((a, b) => a.Title.localeCompare(b.Title));
-  renderGallery(sorted);
-}
-
-document.addEventListener("keydown", e => { if (e.key === "Escape") closePanel(); });
-shuffleBooks();
-</script>
+<script src="{{ site.baseurl }}/assets/js/books.js"></script>
 </body>
 </html>

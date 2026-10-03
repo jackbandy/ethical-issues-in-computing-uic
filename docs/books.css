@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap');
+/* Self-hosted (the same file the slide theme uses), not Google Fonts: the
+   page's CSP allows font-src 'self' only, so the old @import never loaded. */
+@font-face {
+  font-family: 'Mulish';
+  src: url('/assets/fonts/mulish/Mulish-wght.ttf') format('truetype-variations');
+  font-weight: 200 1000;
+  font-display: swap;
+}
 
 *,*::before,*::after { box-sizing: border-box; }
 body {

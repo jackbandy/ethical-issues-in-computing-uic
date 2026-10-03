@@ -1,4 +1,7 @@
+Contact: mailto:jxb@uic.edu
 Contact: https://github.com/jackbandy/ethical-issues-in-computing-uic/issues
-Expires: 2027-01-01T00:00:00.000Z
+Encryption: https://jackbandy.com/pgp-key.txt
+Expires: 2027-09-14T00:00:00.000Z
 Canonical: https://doethics.fun/.well-known/security.txt
+Policy: https://doethics.fun/security.html
 Preferred-Languages: en

@@ -6,3 +6,15 @@
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
 <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
 <link rel="author" type="text/plain" href="/humans.txt">
+<!-- Privacy/security half, mirroring docs/_includes/crawler-policy.html but
+     scoped to what the decks actually load. Quarto writes inline <script>
+     blocks into every deck, so script-src keeps 'unsafe-inline' here. Every
+     outside origin is named for one reason:
+       media-src    us2.maindigitalstream.com  UIC Radio stream (radio-player-after-body.html)
+       connect-src  www.random.org             attendance letter draw (random-letter-after-body.html)
+       frame-src    the sites framed on individual slides; add a host here when
+                    a new slide embeds one, or the frame will stay blank.
+                    https://doethics.fun is 'self' once deployed; it is named so the
+                    absolute timer/dilemma iframes still work in quarto preview. -->
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' https://us2.maindigitalstream.com; connect-src 'self' https://www.random.org; frame-src 'self' https://doethics.fun https://www.youtube-nocookie.com https://www.cj2026.northwestern.edu https://plato.stanford.edu https://en.wikipedia.org https://jackbandy.com; form-action 'none'">

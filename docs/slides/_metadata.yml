@@ -19,6 +19,9 @@ format:
     height: 720
     margin: 0
     slide-number: c/t
+    # MathML is written by Pandoc at build time. Without this, Quarto's Reveal
+    # math plugin fetched MathJax 2.7.9 from jsDelivr on every deck, math or not.
+    html-math-method: mathml
     controls: true
     progress: false
     transition: fade

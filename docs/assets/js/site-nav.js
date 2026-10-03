@@ -1,0 +1,75 @@
+// NOTICE: Moved verbatim out of an inline <script> in _includes/site-nav-script.html by an LLM coding
+// system (Claude Code), so the Content-Security-Policy can drop 'unsafe-inline'.
+
+(function () {
+  var masthead = document.querySelector('.site-masthead');
+  if (!masthead) return;
+  var nav = masthead.querySelector('.site-nav');
+  var toggle = masthead.querySelector('.site-nav-toggle');
+  var more = masthead.querySelector('.site-nav-more');
+  if (!nav || !toggle) return;
+
+  function closeMore() {
+    if (more) more.open = false;
+  }
+
+  // Opts the header into the JS-driven layout. Without this class the nav keeps
+  // the plain wrapping behavior, so a page with scripting off is still usable.
+  masthead.classList.add('has-js-nav');
+
+  function close() {
+    masthead.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    closeMore();
+  }
+
+  /* Does the whole nav fit on one line? Measured with the compact layout off,
+     since that layout hides the links. Both class changes happen inside one
+     task, so the browser never paints the intermediate state. */
+  function measure() {
+    /* The open panel is absolutely positioned in the wide layout but part of
+       the flow in the compact one, so close it before switching between them. */
+    closeMore();
+    masthead.classList.remove('is-compact');
+    if (nav.scrollWidth > nav.clientWidth + 1) {
+      masthead.classList.add('is-compact');
+    } else {
+      close();   // back on one line: there is no menu left to have open
+    }
+  }
+
+  toggle.addEventListener('click', function () {
+    var open = masthead.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    if (more && more.open && !masthead.classList.contains('is-compact')) {
+      closeMore();
+      more.querySelector('summary').focus();
+      return;
+    }
+    if (masthead.classList.contains('is-open')) {
+      close();
+      toggle.focus();
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (masthead.classList.contains('is-open') && !masthead.contains(e.target)) close();
+    // The wide More panel behaves like a menu: a click anywhere else dismisses it.
+    if (more && more.open && !more.contains(e.target)) closeMore();
+  });
+
+  var pending = false;
+  window.addEventListener('resize', function () {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(function () { pending = false; measure(); });
+  });
+
+  measure();
+  // The webfont is wider than the fallback, so remeasure once it has swapped in.
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+})();
