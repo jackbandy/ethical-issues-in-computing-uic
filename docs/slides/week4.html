@@ -155,6 +155,18 @@
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <link rel="author" type="text/plain" href="/humans.txt">
+  <!-- Privacy/security half, mirroring docs/_includes/crawler-policy.html but
+       scoped to what the decks actually load. Quarto writes inline <script>
+       blocks into every deck, so script-src keeps 'unsafe-inline' here. Every
+       outside origin is named for one reason:
+         media-src    us2.maindigitalstream.com  UIC Radio stream (radio-player-after-body.html)
+         connect-src  www.random.org             attendance letter draw (random-letter-after-body.html)
+         frame-src    the sites framed on individual slides; add a host here when
+                      a new slide embeds one, or the frame will stay blank.
+                      https://doethics.fun is 'self' once deployed; it is named so the
+                      absolute timer/dilemma iframes still work in quarto preview. -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' https://us2.maindigitalstream.com; connect-src 'self' https://www.random.org; frame-src 'self' https://doethics.fun https://www.youtube-nocookie.com https://www.cj2026.northwestern.edu https://plato.stanford.edu https://en.wikipedia.org https://jackbandy.com; form-action 'none'">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -1157,7 +1169,7 @@ Care Ethics
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week4.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week4.md</a>.</li>
-<li>Last modified and compiled September 30, 15:52h.</li>
+<li>Last modified and compiled October 3, 17:14h.</li>
 <li>Day 1 title photo: <a href="https://commons.wikimedia.org/wiki/File:Racine_CTA_080216.jpg">Racine CTA</a> by JeremyA, via Wikimedia Commons, CC BY-SA 3.0.</li>
 <li>Knight-Georgetown Institute, <a href="https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf"><em>Recommender Systems 101</em></a> (March 2025) — the four-stage pipeline and the per-stage item counts; part of KGI’s <a href="https://kgi.georgetown.edu/wp-content/uploads/2025/02/Better-Feeds_-Algorithms-That-Put-People-First.pdf"><em>Better Feeds: Algorithms That Put People First</em></a> report.</li>
 <li>Johan Galtung and Mari Holmboe Ruge, “The Structure of Foreign News” (1965); Tony Harcup and Deirdre O’Neill, “What is News? News values revisited (again)” (2017).</li>
@@ -1203,7 +1215,6 @@ Care Ethics
   <script src="week4_files/libs/revealjs/plugin/notes/notes.js"></script>
   <script src="week4_files/libs/revealjs/plugin/search/search.js"></script>
   <script src="week4_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="week4_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -1371,27 +1382,9 @@ Care Ethics
         // Factor of the display size that should remain empty around the content
         margin: 0,
 
-        math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
-          config: 'TeX-AMS_HTML-full',
-          tex2jax: {
-            inlineMath: [['\\(','\\)']],
-            displayMath: [['\\[','\\]']],
-            balanceBraces: true,
-            processEscapes: false,
-            processRefs: true,
-            processEnvironments: true,
-            preview: 'TeX',
-            skipTags: ['script','noscript','style','textarea','pre','code'],
-            ignoreClass: 'tex2jax_ignore',
-            processClass: 'tex2jax_process'
-          },
-        },
-
         // reveal.js plugins
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
-          RevealMath,
           RevealNotes,
           RevealSearch,
           RevealZoom
