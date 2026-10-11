@@ -1,18 +1,11 @@
-# Draft — Needs Review {.draft-notice}
+# Computing and War {.title-slide data-menu-title="Week 8, Day 1"}
 
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
-
-# Ethical Issues in Medical Technology {.title-slide data-menu-title="Week 8, Day 1"}
-
-<!-- NOTICE: Draft from old-slides/pdf-versions/16 Medical Tech.pdf. Review and edit before use. -->
 
 CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-# Ethical Issues in Medical Technology {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover" data-menu-title="Week 8, Day 1"}
+# Computing and War {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover" data-menu-title="Week 8, Day 1"}
 
 CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
@@ -28,9 +21,11 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 :::: columns
 ::: {.column width="55%"}
-- Write your story by Sunday at 11:59pm
-- Read "If an Algorithm Can Cast a Shadow" — complete discussion by Tuesday at 11:59pm
-- Canvas updates
+- Due: online account scrap doll (turn in via photo on Canvas)
+- Due: *The Iron Giant* reflection
+- "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
+- Speculative fiction due Monday, October 26
+- Keep reading your book!
 :::
 
 ::: {.column width="40%"}
@@ -44,11 +39,10 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 :::: columns
 ::: {.column width="55%"}
-- Follow-up on "Codename Delphi"
-- Group exercise: Therac-25
-- Real-world ethical dilemmas
-- Ethics in medical technology
-- Intro to cybersecurity
+- Scrap doll debrief
+- Computing and war
+- Discuss *The Iron Giant*
+- Preview "If an Algorithm Can Cast a Shadow"
 :::
 
 ::: {.column width="40%"}
@@ -58,142 +52,267 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-## Follow-up on "Codename Delphi"
-
-Seemed like we did not get to everyone's questions… lingering thoughts?
-
-<!-- image: discussion board student responses or highlights from Canvas -->
-- TODO: add image — *discussion board student responses or highlights from Canvas*
+# Scrap Doll Debrief {.title-slide .section-header}
 
 ---
 
-## Group Exercise: Therac-25
+## Table Discussion: Scrap Doll Debrief
 
-- See handout
-- The Therac-25 was a radiation therapy machine responsible for several patient deaths in the mid-1980s due to software errors
-- A landmark case study in software engineering ethics and accountability
+- How did you make the scrap doll? What were the materials?
+- What connections did you make between data and doll?
+- When was the last time you made / worked on a craft?
+- General thoughts/ideas from this exercise?
 
----
-
-# Revisiting Ethics {.title-slide .section-header}
-
----
-
-## A Brief Aside: What Is "Ethics"?
-
-- Many papers say ethics is "right vs. wrong"
-- This is just one branch: **normative ethics** — prescriptive moral standards
-- Other branches: applied, meta-ethics, descriptive ethics
-- Etymology: from ancient Greek *ethos* — "relating to one's character"
+<!-- image: example dolls from prior semesters (with permission) -->
+- TODO: add image — *example dolls from prior semesters (with permission)*
 
 ---
 
-## Ethics and Engineering
-
-The papers we read use "ethical" as a verdict. In this class we keep asking the descriptive questions alongside it: who is involved, what are the stakes, what decisions led here?
+# Computing and War in the News {.title-slide .section-header}
 
 ---
 
-## Table Discussion: Real-World Ethical Dilemmas
+## War and Computing in Recent News
 
-Using both normative and descriptive lenses:
-
-- What ethical dilemma(s) have you encountered recently?
-- Who was involved? What were the stakes?
-- What was done? What should have been done?
+<!-- image: recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal) -->
+- TODO: add image — *recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal)*
 
 ---
 
-# Ethics in Medical Technology {.title-slide .section-header}
+## In (Very) Recent News
+
+- Pentagon banned Anthropic on February 27, designating it a "supply-chain risk"
+- OpenAI announced a Pentagon deal hours later
+- February 28 – March 1: U.S.–Israel strikes on Iran
+- Reports: Anthropic services were used in the attacks
 
 ---
 
-## Ethical Issues in Medical Technology
+## Anthropic's "Red Lines"
+
+:::: columns
+::: {.column width="48%"}
+**Mass domestic surveillance**
+
+"Using these systems for mass domestic surveillance is incompatible with democratic values. AI-driven mass surveillance presents serious, novel risks to our fundamental liberties."
+:::
+
+::: {.column width="48%"}
+**Fully autonomous weapons**
+
+"Frontier AI systems are simply not reliable enough to power fully autonomous weapons. We will not knowingly provide a product that puts America's warfighters and civilians at risk."
+:::
+::::
 
 ---
 
-## AI in the Operating Room
+## Candidate Story: Claude Code and Missile Guidance
 
-- Reuters (2026): "As AI enters the operating room, reports arise of botched surgeries and misidentified body parts"
-- What went wrong? Who is responsible?
+<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
 
----
+- Anthropic's September 2026 threat-intelligence report: a Yemen-based cell used Claude Code to build weapons software
+- A guided rocket with final-phase homing, a multi-stage ballistic missile, and a multi-variant "R2000" set
 
-## Electronic Health Records
+> "The actors used Claude Code in place of human software engineers"
 
-- California Healthline: "Death By 1,000 Clicks: Where Electronic Health Records Went Wrong"
-- "Botched Operation" YouTube series on EHR failures (4 parts — link in Canvas)
-- Key issues: interoperability, usability, clinical burden, patient safety
+> "Our safeguards blocked many of their requests, but not all of them."
 
----
-
-## Pacemaker Security (IoMT)
-
-- *Internet of Medical Things* — pacemakers, home monitors, connected devices
-- Researchers demonstrated ability to:
-  - Gain control over home monitoring device
-  - Perform man-in-the-middle attacks
-  - Bypass hardware security protections
-  - Perform remote denial-of-service attacks
-
-<!-- image: diagram of pacemaker ecosystem (programmer → pacemaker → HMU → operator network → backend server) -->
-- TODO: add image — *diagram of pacemaker ecosystem (programmer → pacemaker → HMU → operator network → backend server)*
-
-*Source: Bour et al., SINTEF Digital / Springer (2023)*
+*Source: Anthropic, "Detecting and countering misuse of AI: September 2026"*
 
 ---
 
-## Robot-Assisted Surgery: Ethics Landscape
+## Candidate Story: An "Autonomous Warfare Command"
 
-- ~6,000 Da Vinci surgical systems in operation worldwide
-- Seven major ethical strands identified in systematic review:
-  - Harms and benefits
-  - Responsibility and control
-  - Professional-patient relationship
-  - Surgical training and learning
-  - Justice
-  - Translational questions
-  - Economic considerations
+<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
 
-*Source: Haltaufderheide et al., Journal of Robotic Surgery (2025)*
+- September 30, 2026: Defense Secretary Pete Hegseth announces AUTOWARCOM, a new four-star command for drones, AI, and robotics
+- A Pentagon memo targets October 2027 to establish it
 
----
+> "service-like authorities built to scale autonomous and robotic capabilities across the joint force"
+>
+> — Pete Hegseth
 
-## Bias in Medical AI
-
-- Biases arise and compound throughout the AI lifecycle
-- Can lead to substandard clinical decisions and worsened healthcare disparities
-- Key bias sources: data features/labels, model development, deployment, publication
-- "Prior to real-world implementation in clinical settings, rigorous validation through clinical trials is critical"
-
-*Source: Cross, Choma, Onofrey, PLOS Digital Health (2024)*
+*Source: Ashley Roque, Breaking Defense (September 30, 2026)*
 
 ---
 
-## Ethical Questions in Medical Technology
+## Candidate Story: Congress Considers Safeguards
 
-- **Virtue ethics**: What virtues should medical software engineers cultivate?
-- **Deontological**: What duties do engineers have to patients who depend on their systems?
-- **Care ethics**: How does caring for patients differ from optimizing clinical outcomes?
-- **Utilitarian**: When is an acceptable error rate acceptable? Who decides?
+<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
 
----
+- Provisions added to the annual defense bill would:
+  - Require human oversight of AI-controlled weapons
+  - "ban the use of AI for nuclear launch or detonation"
+  - Bar AI use for domestic surveillance
 
-# Intro to CyberSecurity {.title-slide .section-header}
+> "The consequences of getting it wrong could be really bad."
+>
+> — Paul Scharre, Center for a New American Security
 
----
-
-## Mini-lecture: Intro to CyberSecurity
-
-- TODO: fill in — new topic for this semester
+*Source: Jay Price, WUNC / American Homefront Project (October 5, 2026)*
 
 ---
 
-## Reminders
+## Candidate Story: AI "Designed to Rarely Say No"?
 
-- Speculative fiction due Monday, October 26
-- "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
-- Keep reading your book!
+<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
+
+- The Intercept obtained Pentagon contract documents (signed July 2025, up to $200 million each) with Anthropic, Google, OpenAI, and xAI
+- A draft OpenAI document defined "OpenAI Mission Models" as:
+
+> "OpenAI models that are designed for national security use cases and have minimal refusal rates."
+
+- OpenAI: "This language does not appear in our executed contract."
+
+*Source: Sam Biddle, The Intercept (September 8, 2026)*
+
+---
+
+## Candidate Story: Google and "Any Lawful Purpose"
+
+<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
+
+- May 2026: Google agreed to let its models be used on classified U.S. military networks for "any lawful purpose"
+- Hundreds of employees signed an open letter opposing the deal
+- Compare: Project Maven (2018), when sustained worker pressure led Google not to renew
+- Why might worker leverage look different in 2026?
+
+*Source: Beatrice Nolan, Fortune (May 4, 2026)*
+
+---
+
+## Candidate Story: Ukraine's AI Drone Ecosystem
+
+<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
+
+- Ukraine's Defense Ministry: more than 200 companies are developing AI-powered drone technologies
+
+> "AI systems are already being used on the front line for autonomous drone targeting"
+
+- The ministry "aims to equip all drones deployed at the front with machine vision and AI capabilities"
+
+*Source: Tania Myronyshena, Kyiv Independent (April 19, 2026)*
+
+---
+
+# Computing and War Before LLMs {.title-slide .section-header}
+
+---
+
+## Computing and War: Before LLMs
+
+*(This was supposed to be the "stories" unit…)*
+
+---
+
+## ARPANET
+
+- U.S. DoD Advanced Research Projects Agency Network
+- Originally linked Pentagon-funded research computers
+- Needed robust / redundant communication tools during the Cold War
+- ARPANET went live in 1969
+- TCP/IP protocol launched in the 1970s, standardized in 1983
+- Civilian / academic networks evolved to become the Internet
+
+---
+
+## Alan Turing and World War II
+
+- During WW2 (1939–1945), Turing worked at Bletchley Park to break German military ciphers
+- Automated search over Enigma keys, led to large-scale computational machinery ("Colossus")
+- Historians estimate this shortened the war by 2 years
+
+---
+
+## Project Maven (2018)
+
+- Google provided image classification services to label objects from military drone videos
+- Thousands of Google employees signed petitions; some resigned
+- Google chose not to renew Project Maven; added AI ethics principles
+- Changes were largely a result of sustained worker pressure
+
+---
+
+## Stuxnet (2009)
+
+- Computer worm used to sabotage Iran's nuclear program
+- Targeted Siemens industrial control systems (ICS) at Natanz
+- Caused centrifuges to spin irregularly but report normal readings to operators
+- *Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon* (Kim Zetter)
+
+---
+
+# "Not Without Us" {.title-slide .section-header}
+
+---
+
+## Not Without Us {.quote-slide}
+
+> "None of the weapon systems which today threaten murder on a genocidal scale,
+> and whose design, manufacture and sale condemns countless people, especially
+> children, to poverty and starvation, that none of these devices could be developed
+> without the earnest, even enthusiastic, cooperation of computer professionals.
+> It cannot go on without us!"
+>
+> — Joseph Weizenbaum, "Not Without Us" (1986)
+
+---
+
+## "Not Without Us": Key Arguments
+
+- 1986 speech by MIT computer scientist Joseph Weizenbaum
+- Argued that computing professionals must actively resist uses of computing that dehumanize
+- Warned about dissolved responsibility for harmful outcomes
+- "The machine said…" — humans must own moral decisions
+
+---
+
+# *The Iron Giant* {.title-slide .section-header}
+
+---
+
+## *The Iron Giant*
+
+:::: columns
+::: {.column width="55%"}
+- Released August 6, 1999, 87 minutes
+- Brad Bird's first feature as director!
+- Loosely based on Ted Hughes's 1968 novel *The Iron Man*
+- Set in Maine during the Cold War (1957)
+- Brad Bird also directed:
+	- *The Incredibles* (2004), *Incredibles 2* (2018)
+	- *Ratatouille* (2007)
+	- *Mission: Impossible – Ghost Protocol* (2011)
+	- *Ray Gunn* (on Netflix December 18, 2026)
+:::
+
+::: {.column .portrait-solo width="45%"}
+![](../assets/movies/iron-giant-poster.jpg){style="max-height:590px;"}
+
+::: {.caption}
+Theatrical release poster, Warner Bros. (1999), via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html)
+:::
+:::
+::::
+
+---
+
+## Table Discussion: *The Iron Giant*
+
+- TODO: add discussion questions
+
+---
+
+# "If an Algorithm Can Cast a Shadow" {.title-slide .section-header}
+
+---
+
+## Preview: "If an Algorithm Can Cast a Shadow"
+
+- Written by Claire Jia-Wen
+- 34-minute audio version available (link in Canvas)
+- Read before Wednesday's class
+- Complete the Canvas discussion by Tuesday at 11:59pm
 
 ---
 
@@ -527,16 +646,212 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
+# Appendix: Medical Technology Draft {.title-slide .section-header}
+
+<!-- NOTICE: Draft from old-slides/pdf-versions/16 Medical Tech.pdf. Review and edit before use. -->
+
+Former Week 8, Day 1 draft ("Ethical Issues in Medical Technology"), moved here; medical tech and cybersecurity are now on Day 2 in the schedule.
+
+---
+
+## Administrivia
+
+:::: columns
+::: {.column width="55%"}
+- Write your story by Sunday at 11:59pm
+- Read "If an Algorithm Can Cast a Shadow" — complete discussion by Tuesday at 11:59pm
+- Canvas updates
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-full-path.svg)
+:::
+::::
+
+---
+
+## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- Follow-up on "Codename Delphi"
+- Group exercise: Therac-25
+- Real-world ethical dilemmas
+- Ethics in medical technology
+- Intro to cybersecurity
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop19-chicago.svg)
+:::
+::::
+
+---
+
+## Follow-up on "Codename Delphi"
+
+Seemed like we did not get to everyone's questions… lingering thoughts?
+
+<!-- image: discussion board student responses or highlights from Canvas -->
+- TODO: add image — *discussion board student responses or highlights from Canvas*
+
+---
+
+## Group Exercise: Therac-25
+
+- See handout
+- The Therac-25 was a radiation therapy machine responsible for several patient deaths in the mid-1980s due to software errors
+- A landmark case study in software engineering ethics and accountability
+
+---
+
+# Revisiting Ethics {.title-slide .section-header .no-index}
+
+---
+
+## A Brief Aside: What Is "Ethics"?
+
+- Many papers say ethics is "right vs. wrong"
+- This is just one branch: **normative ethics** — prescriptive moral standards
+- Other branches: applied, meta-ethics, descriptive ethics
+- Etymology: from ancient Greek *ethos* — "relating to one's character"
+
+---
+
+## Ethics and Engineering
+
+The papers we read use "ethical" as a verdict. In this class we keep asking the descriptive questions alongside it: who is involved, what are the stakes, what decisions led here?
+
+---
+
+## Table Discussion: Real-World Ethical Dilemmas
+
+Using both normative and descriptive lenses:
+
+- What ethical dilemma(s) have you encountered recently?
+- Who was involved? What were the stakes?
+- What was done? What should have been done?
+
+---
+
+# Ethics in Medical Technology {.title-slide .section-header .no-index}
+
+---
+
+## Ethical Issues in Medical Technology
+
+---
+
+## AI in the Operating Room
+
+- Reuters (2026): "As AI enters the operating room, reports arise of botched surgeries and misidentified body parts"
+- What went wrong? Who is responsible?
+
+---
+
+## Electronic Health Records
+
+- California Healthline: "Death By 1,000 Clicks: Where Electronic Health Records Went Wrong"
+- "Botched Operation" YouTube series on EHR failures (4 parts — link in Canvas)
+- Key issues: interoperability, usability, clinical burden, patient safety
+
+---
+
+## Pacemaker Security (IoMT)
+
+- *Internet of Medical Things* — pacemakers, home monitors, connected devices
+- Researchers demonstrated ability to:
+  - Gain control over home monitoring device
+  - Perform man-in-the-middle attacks
+  - Bypass hardware security protections
+  - Perform remote denial-of-service attacks
+
+<!-- image: diagram of pacemaker ecosystem (programmer → pacemaker → HMU → operator network → backend server) -->
+- TODO: add image — *diagram of pacemaker ecosystem (programmer → pacemaker → HMU → operator network → backend server)*
+
+*Source: Bour et al., SINTEF Digital / Springer (2023)*
+
+---
+
+## Robot-Assisted Surgery: Ethics Landscape
+
+- ~6,000 Da Vinci surgical systems in operation worldwide
+- Seven major ethical strands identified in systematic review:
+  - Harms and benefits
+  - Responsibility and control
+  - Professional-patient relationship
+  - Surgical training and learning
+  - Justice
+  - Translational questions
+  - Economic considerations
+
+*Source: Haltaufderheide et al., Journal of Robotic Surgery (2025)*
+
+---
+
+## Bias in Medical AI
+
+- Biases arise and compound throughout the AI lifecycle
+- Can lead to substandard clinical decisions and worsened healthcare disparities
+- Key bias sources: data features/labels, model development, deployment, publication
+- "Prior to real-world implementation in clinical settings, rigorous validation through clinical trials is critical"
+
+*Source: Cross, Choma, Onofrey, PLOS Digital Health (2024)*
+
+---
+
+## Ethical Questions in Medical Technology
+
+- **Virtue ethics**: What virtues should medical software engineers cultivate?
+- **Deontological**: What duties do engineers have to patients who depend on their systems?
+- **Care ethics**: How does caring for patients differ from optimizing clinical outcomes?
+- **Utilitarian**: When is an acceptable error rate acceptable? Who decides?
+
+---
+
+# Intro to CyberSecurity {.title-slide .section-header .no-index}
+
+---
+
+## Mini-lecture: Intro to CyberSecurity
+
+- TODO: fill in — new topic for this semester
+
+---
+
+## Reminders
+
+- Speculative fiction due Monday, October 26
+- "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
+- Keep reading your book!
+
+---
+
+## That's all for today!
+
+See you Wednesday!
+
+---
+
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week8.md>.
-2. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
-3. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
-4. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
-5. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
-6. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
-7. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
-8. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
-9. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
-10. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (2026).
-11. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+2. Ross Andersen, ["Inside Anthropic's Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/), *The Atlantic* (2026).
+3. Anthropic, ["Detecting and countering misuse of AI: September 2026"](https://www.anthropic.com/threat-intelligence-report-september-2026) (2026).
+4. Ashley Roque, ["Hegseth announces plans for new 4-star drone command, among other initiatives"](https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/), *Breaking Defense* (September 30, 2026).
+5. Jay Price, ["As the military plans to speed up the use of drones and AI in warfare, Congress considers safeguards"](https://www.wunc.org/military/2026-10-05/drones-ai-warfare-congress-considers-safeguards), WUNC / American Homefront Project (October 5, 2026).
+6. Sam Biddle, ["The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No"](https://theintercept.com/2026/09/08/pentagon-openai-military-contract/) and ["AI Giants Work Hand-in-Hand With the Pentagon, Contracts Reveal"](https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/), *The Intercept* (September 8, 2026).
+7. Beatrice Nolan, ["A new Google AI deal with the Pentagon has sparked employee backlash. Their leverage appears limited"](https://fortune.com/2026/05/04/google-employee-backlash-pentagon-ai-contract-power-waned-since-project-maven/), *Fortune* (May 4, 2026).
+8. Tania Myronyshena, ["Ukraine builds AI-driven defense ecosystem as over 200 companies develop drone technologies"](https://kyivindependent.com/ukraine-builds-ai-driven-defense-ecosystem-as-over-200-companies-develop-drone-technologies/), *Kyiv Independent* (April 19, 2026).
+9. Joseph Weizenbaum, ["Not Without Us"](https://www.jstor.org/stable/48617451) (1986).
+10. *The Iron Giant* (1999), dir. Brad Bird, Warner Bros. Feature Animation; theatrical release poster via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html). Film facts from Wikipedia, ["The Iron Giant"](https://en.wikipedia.org/wiki/The_Iron_Giant); directing credits from Wikipedia, ["Brad Bird filmography"](https://en.wikipedia.org/wiki/Brad_Bird_filmography); *Ray Gunn* release date from Wikipedia, ["Ray Gunn"](https://en.wikipedia.org/wiki/Ray_Gunn).
+11. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
+12. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
+13. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
+14. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
+15. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
+16. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
+17. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
+18. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
+19. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (2026).
+20. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

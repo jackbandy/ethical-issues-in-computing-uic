@@ -6,6 +6,11 @@
   - Primary source: Anthropic, "Detecting and countering misuse of AI: September 2026" (GTG-87001) — https://www.anthropic.com/threat-intelligence-report-september-2026
   - News coverage: Bloomberg / LA Times, Sept 11 2026 — https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software ; Reuters — https://www.reuters.com/3fec1b0a85a0/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/
   - Fits alongside the existing Week 8 Day 1 sources on the Anthropic/Pentagon dispute and the Claude-in-Iran-strikes reporting; also relevant to Week 4 "Ethics in the News".
+- [ ] Add to Week 8 (2026-10-12 / 2026-10-14) as a news story: a 16-year-old following Claude-generated route instructions got stranded on Crown Mountain's Widowmaker Arête (North Vancouver) and needed a helicopter long-line rescue by North Shore Rescue.
+  - Source: James Paracy, "Teenager rescued from B.C.'s 'Widowmaker' after getting stranded using AI instructions," CTV News Vancouver, Oct 5 2026 — https://www.ctvnews.ca/vancouver/article/teenager-rescued-from-bcs-widowmaker-after-getting-stranded-using-ai-instructions/
+  - Quote (NSR Search Manager Paul Markey): "Claude has never been in that specific area, has never been on that route, and has never been in the outdoors—do your own research and gain your own knowledge of the area and supplement it with training and navigation."
+  - Quote (Markey): "A fall would have resulted in significant injury or potentially death."
+  - Also a natural fit for Week 9 Day 1 (Intro to LLMs, 2026-10-19), on overreliance and confident-but-wrong output.
 
 ## GitHub Pages
 - [x] Seat shuffler needs way to mark absences / empty seats — click a seat to erase it; erased seats are left out of the shuffle, a fully-erased table drops out of the room, and destinations still get 3–4 students each
@@ -53,6 +58,7 @@ Convert the PDFs to have markdown/LaTeX source files (similar to syllabus):
 - [x] Fix timer embed in slides - added `data-external="1"` to the iframe in `week0.md`; Quarto skips embedding it and loads from jackbandy.com directly
 - [ ] Point the "Embedded Web Page" timer slide in `week0.md` at `/timer/` like the "Discussion Template" slide below it — the jackbandy.com copy doesn't have the embed-aware styling (hidden footnotes, "Open in new tab" link)
 - [ ] Tweak/polish the Visual Seat Shuffle embedding in `week0.md` (scale, layout, sizing)
+- [ ] Better title background for Week 8, Day 1 (Chicago stop) — try again later to get the architect's renderings/photos from Altus Works: https://altusworks.com/project/cta-grand-chicago-and-division-blue-line-stations-renovation/ 
 
 ### Review drafted decks
 Every deck below is drafted in `docs/slides/weekN.md` and built to HTML. Each one
