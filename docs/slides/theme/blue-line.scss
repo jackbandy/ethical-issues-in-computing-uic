@@ -123,7 +123,6 @@ $code-block-border-color: $border;
   code {
     color: $cta-blue-deep;
     background: $soft;
-    border-radius: 3px;
     padding: 0.08em 0.2em;
   }
 
@@ -254,7 +253,8 @@ $code-block-border-color: $border;
   iframe + .caption,
   p:has(> img) + .caption,
   p:has(> svg) + .caption,
-  .columns:has(img) + .caption {
+  .columns:has(img) + .caption,
+  .embed-layout + .caption {
     text-align: center;
   }
 
@@ -390,7 +390,6 @@ $code-block-border-color: $border;
       width: 70%;
       max-width: 760px;
       border: 1px solid $border;
-      border-radius: 6px;
       box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
       background: $paper;
     }
@@ -457,7 +456,6 @@ $code-block-border-color: $border;
     a {
       background: rgba(255, 255, 255, 0.9);
       border: 1px solid $border;
-      border-radius: 4px;
       padding: 0.35em 0.8em;
     }
   }
@@ -473,7 +471,6 @@ $code-block-border-color: $border;
     min-height: 0;
     overflow: hidden;
     border: 2px solid $border;
-    border-radius: 6px;
     background: $soft;
     box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
 
@@ -725,7 +722,6 @@ $photo-only-footer-opacity: 0.6;
 // charts are drawn on white themselves, so without an edge they bleed into it.
 .reveal .framed-figure img {
   border: 1px solid $border;
-  border-radius: 6px;
   box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
   background: $paper;
 }
@@ -746,7 +742,6 @@ $photo-only-footer-opacity: 0.6;
     height: 100%;
     padding: 14px 18px 16px;
     border: 1px solid $border;
-    border-radius: 6px;
     background: $paper;
     box-shadow: 0 12px 30px rgba(35, 31, 32, 0.12);
     text-align: left;

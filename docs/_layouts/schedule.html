@@ -79,6 +79,15 @@
       {%- endfor -%}
       </ul>
 
+      {%- comment -%} Each cell jumps to that week's heading in the full schedule below. {%- endcomment -%}
+      {%- assign jumpweeks = site.data.schedule | group_by: "Week" -%}
+      <p class="week-jump-label">Click to jump to week</p>
+      <div class="week-jump-wrap">
+        <table class="week-jump">
+          <tr>{%- for w in jumpweeks -%}<td><a href="#week-{{ w.name }}">{{ w.name }}</a></td>{%- endfor -%}</tr>
+        </table>
+      </div>
+
       {%- comment -%}
         One pass down the CSV, opening a heading whenever the unit or week
         changes. Each day's bullets come from schedule-topics.md, whose

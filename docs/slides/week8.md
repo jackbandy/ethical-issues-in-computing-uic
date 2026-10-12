@@ -5,44 +5,29 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-# Computing and War {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover" data-menu-title="Week 8, Day 1"}
+# Computing and War {.title-slide .photo-title data-state="photo-title" background-image="../assets/altus-renderings/cta-chicago-station-15.jpg" background-size="cover" data-menu-title="Week 8, Day 1"}
 
 CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
-<!-- image source: Rendering via altusworks.com -->
+<!-- image source: AltusWorks photograph of the Chicago (Blue Line) station (CTA-ChicagoStation-15.jpg), https://altusworks.com/project/cta-grand-chicago-and-division-blue-line-stations-renovation/ -->
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop19-chicago-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/altus-renderings/cta-chicago-station-15.jpg" background-size="cover"}
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Due: online account scrap doll (turn in via photo on Canvas)
-- Due: *The Iron Giant* reflection
-- "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
-- Speculative fiction due Monday, October 26
-- Keep reading your book!
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
 
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
-- Scrap doll debrief
-- Computing and war
+- Free write
+- Discuss digital scrap doll
+- Intro to computing and war
 - Discuss *The Iron Giant*
 - Preview "If an Algorithm Can Cast a Shadow"
+	- discussion due Tuesday at 11:59pm
 :::
 
 ::: {.column width="40%"}
@@ -52,19 +37,53 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-# Scrap Doll Debrief {.title-slide .section-header}
+## Free Write {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Turn off phones, laptops, etc.
+- Get out your notebooks!
+- Write whatever!
+- If you need a prompt:
+	- What happened yesterday?
+	- Did you see anything unusual?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-## Table Discussion: Scrap Doll Debrief
+# Digital Scrap Doll Debrief {.title-slide .section-header}
 
+---
+
+## Table Discussion: Digital Scrap Doll Debrief {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
 - How did you make the scrap doll? What were the materials?
 - What connections did you make between data and doll?
 - When was the last time you made / worked on a craft?
 - General thoughts/ideas from this exercise?
+:::
 
-<!-- image: example dolls from prior semesters (with permission) -->
-- TODO: add image — *example dolls from prior semesters (with permission)*
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
@@ -72,126 +91,131 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-## War and Computing in Recent News
 
-<!-- image: recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal) -->
-- TODO: add image — *recent news headlines on AI and military (e.g. Anthropic/Pentagon, OpenAI Pentagon deal)*
 
----
-
-## In (Very) Recent News
-
-- Pentagon banned Anthropic on February 27, designating it a "supply-chain risk"
-- OpenAI announced a Pentagon deal hours later
-- February 28 – March 1: U.S.–Israel strikes on Iran
-- Reports: Anthropic services were used in the attacks
-
----
-
-## Anthropic's "Red Lines"
+## Anthropic's "Red Lines" {.news-cards}
 
 :::: columns
-::: {.column width="48%"}
+::: {.column width="54%"}
 **Mass domestic surveillance**
 
 "Using these systems for mass domestic surveillance is incompatible with democratic values. AI-driven mass surveillance presents serious, novel risks to our fundamental liberties."
-:::
 
-::: {.column width="48%"}
 **Fully autonomous weapons**
 
 "Frontier AI systems are simply not reliable enough to power fully autonomous weapons. We will not knowingly provide a product that puts America's warfighters and civilians at risk."
+:::
+
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/anthropic-logo.svg" alt="Anthropic"></div>
+<div class="news-kicker">Policy</div>
+<div class="news-headline"><a href="https://www.anthropic.com/news/statement-department-of-war">Statement from Dario Amodei on our discussions with the Department of War</a></div>
+<div class="news-deck">A statement from Anthropic CEO Dario Amodei on our discussions with the Department of War and national security uses of AI.</div>
+<img src="../assets/news/anthropic-dow-statement.jpg" alt="Black card reading &quot;A statement on our discussions with the Department of War&quot;">
+<div class="news-credit">The statement's social card. (Anthropic)</div>
+<div class="news-byline">By Dario Amodei · February 26, 2026 · <a href="https://www.anthropic.com/news/statement-department-of-war">anthropic.com</a></div>
+</div>
 :::
 ::::
 
 ---
 
-## Candidate Story: Claude Code and Missile Guidance
+## Claude Code and Missile Guidance {.news-cards}
 
-<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
-
+:::: columns
+::: {.column width="54%"}
 - Anthropic's September 2026 threat-intelligence report: a Yemen-based cell used Claude Code to build weapons software
-- A guided rocket with final-phase homing, a multi-stage ballistic missile, and a multi-variant "R2000" set
+- Including a guided rocket with final-phase homing and a multi-stage ballistic missile
+- "Our safeguards blocked many of their requests, but not all of them."
+:::
 
-> "The actors used Claude Code in place of human software engineers"
-
-> "Our safeguards blocked many of their requests, but not all of them."
-
-*Source: Anthropic, "Detecting and countering misuse of AI: September 2026"*
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/latimes-logo.svg" alt="Los Angeles Times"></div>
+<div class="news-kicker">Business</div>
+<div class="news-headline"><a href="https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software">Anthropic says Yemeni weapons cell used its AI to try to build missile guidance software</a></div>
+<div class="news-deck">The Yemen-based group used Claude to help develop guidance, navigation and control software, effectively replacing some tasks typically performed by software engineers.</div>
+<img src="../assets/news/amodei-code-with-claude.jpg" alt="Dario Amodei on stage at the Code with Claude conference">
+<div class="news-credit">Anthropic CEO Dario Amodei at the Code with Claude conference. (Don Feria / AP Content Services for Anthropic)</div>
+<div class="news-byline">By Loni Prinsloo and Omar El Chmouri · September 11, 2026 · <a href="https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software">latimes.com</a></div>
+</div>
+:::
+::::
 
 ---
 
-## Candidate Story: An "Autonomous Warfare Command"
+## An "Autonomous Warfare Command" {.news-cards}
 
-<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
-
-- September 30, 2026: Defense Secretary Pete Hegseth announces AUTOWARCOM, a new four-star command for drones, AI, and robotics
+:::: columns
+::: {.column width="54%"}
+- September 30, 2026: Defense Secretary Pete Hegseth announces AUTOWARCOM
+- command for drones, AI, and robotics
 - A Pentagon memo targets October 2027 to establish it
+:::
 
-> "service-like authorities built to scale autonomous and robotic capabilities across the joint force"
->
-> — Pete Hegseth
-
-*Source: Ashley Roque, Breaking Defense (September 30, 2026)*
-
----
-
-## Candidate Story: Congress Considers Safeguards
-
-<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
-
-- Provisions added to the annual defense bill would:
-  - Require human oversight of AI-controlled weapons
-  - "ban the use of AI for nuclear launch or detonation"
-  - Bar AI use for domestic surveillance
-
-> "The consequences of getting it wrong could be really bad."
->
-> — Paul Scharre, Center for a New American Security
-
-*Source: Jay Price, WUNC / American Homefront Project (October 5, 2026)*
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead stacked"><img src="../assets/news/breaking-defense-logo.svg" alt="Breaking Defense"></div>
+<div class="news-kicker">Pentagon</div>
+<div class="news-headline"><a href="https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/">Hegseth announces plans for new 4-star drone command, among other initiatives</a></div>
+<div class="news-deck">Hegseth also announced a new study group led by Elon Musk, Palmer Luckey and Newt Gingrich.</div>
+<img src="../assets/news/hegseth-quantico-2026.jpg" alt="Pete Hegseth speaking at a lectern">
+<div class="news-credit">U.S. Secretary of Defense Pete Hegseth gives a State of the Force address at Marine Corps Base Quantico on September 30, 2026. (Alex Wong/Getty Images)</div>
+<div class="news-byline">By Ashley Roque · September 30, 2026 · <a href="https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/">breakingdefense.com</a></div>
+</div>
+:::
+::::
 
 ---
 
-## Candidate Story: AI "Designed to Rarely Say No"?
 
-<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
+## Google and "Any Lawful Purpose" {.news-cards}
 
-- The Intercept obtained Pentagon contract documents (signed July 2025, up to $200 million each) with Anthropic, Google, OpenAI, and xAI
-- A draft OpenAI document defined "OpenAI Mission Models" as:
-
-> "OpenAI models that are designed for national security use cases and have minimal refusal rates."
-
-- OpenAI: "This language does not appear in our executed contract."
-
-*Source: Sam Biddle, The Intercept (September 8, 2026)*
-
----
-
-## Candidate Story: Google and "Any Lawful Purpose"
-
-<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
-
+:::: columns
+::: {.column width="54%"}
 - May 2026: Google agreed to let its models be used on classified U.S. military networks for "any lawful purpose"
 - Hundreds of employees signed an open letter opposing the deal
-- Compare: Project Maven (2018), when sustained worker pressure led Google not to renew
-- Why might worker leverage look different in 2026?
+- Compare with Project Maven (2018) sustained worker pressure led Google not to renew
+- Worker leverage in 2018 versus 2026...?
+:::
 
-*Source: Beatrice Nolan, Fortune (May 4, 2026)*
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/fortune-logo.svg" alt="Fortune"></div>
+<div class="news-kicker">AI</div>
+<div class="news-headline"><a href="https://fortune.com/2026/05/04/google-employee-backlash-pentagon-ai-contract-power-waned-since-project-maven/">Employee revolt once forced Google to back off on military contracts. But, in the wake of a new Pentagon AI contract, their leverage appears limited</a></div>
+<div class="news-deck">An employee revolt forced Google to exit Project Maven. This time, employee power over the tech giant's actions appears to have waned.</div>
+<img src="../assets/news/pichai-fortune-2026.jpg" alt="Sundar Pichai">
+<div class="news-credit">Google CEO Sundar Pichai. (Prakash Singh/Bloomberg via Getty Images)</div>
+<div class="news-byline">By Beatrice Nolan · May 4, 2026 · <a href="https://fortune.com/2026/05/04/google-employee-backlash-pentagon-ai-contract-power-waned-since-project-maven/">fortune.com</a></div>
+</div>
+:::
+::::
 
 ---
 
-## Candidate Story: Ukraine's AI Drone Ecosystem
+## Ukraine's AI Drone Ecosystem {.news-cards}
 
-<!-- NOTICE: LLM-found candidate story. Verify quotes against the source before use. -->
-
+:::: columns
+::: {.column width="54%"}
 - Ukraine's Defense Ministry: more than 200 companies are developing AI-powered drone technologies
-
-> "AI systems are already being used on the front line for autonomous drone targeting"
-
+- "AI systems are already being used on the front line for autonomous drone targeting"
 - The ministry "aims to equip all drones deployed at the front with machine vision and AI capabilities"
+:::
 
-*Source: Tania Myronyshena, Kyiv Independent (April 19, 2026)*
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead stacked"><img src="../assets/news/kyiv-independent-logo.svg" alt="The Kyiv Independent"></div>
+<div class="news-kicker">War</div>
+<div class="news-headline"><a href="https://kyivindependent.com/ukraine-builds-ai-driven-defense-ecosystem-as-over-200-companies-develop-drone-technologies/">Ukraine builds AI-driven defense ecosystem as over 200 companies develop drone technologies</a></div>
+<div class="news-deck">Over 300 AI-related developments are registered on the Brave1 platform, while more than 70 systems based on artificial intelligence and computer vision are already in active use on the battlefield, according to the ministry.</div>
+<img src="../assets/news/ukraine-ai-drone-illustration.jpg" alt="Aerial drone view of a ruined city with AI targeting boxes labeling vehicles and personnel">
+<div class="news-credit">The illustration shows how artificial intelligence is already performing combat tasks on the battlefield. (Ukraine's Defense Ministry)</div>
+<div class="news-byline">By Tania Myronyshena · April 19, 2026 · <a href="https://kyivindependent.com/ukraine-builds-ai-driven-defense-ecosystem-as-over-200-companies-develop-drone-technologies/">kyivindependent.com</a></div>
+</div>
+:::
+::::
 
 ---
 
@@ -199,79 +223,129 @@ CS 377, Week 8, Day 1 🟦 Chicago 🟦
 
 ---
 
-## Computing and War: Before LLMs
+## ARPANET {.framed-figure}
 
-*(This was supposed to be the "stories" unit…)*
-
----
-
-## ARPANET
-
+:::: columns
+::: {.column width="55%"}
 - U.S. DoD Advanced Research Projects Agency Network
-- Originally linked Pentagon-funded research computers
-- Needed robust / redundant communication tools during the Cold War
+- Originally linked research computers
+- Built for [resource sharing](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) between research sites; its builders call the "survive a nuclear war" origin story a "false rumor"
 - ARPANET went live in 1969
 - TCP/IP protocol launched in the 1970s, standardized in 1983
-- Civilian / academic networks evolved to become the Internet
+- Academic networks evolved to become the Internet
+:::
+
+::: {.column width="40%"}
+![](../assets/war/arpanet-logical-map-1977.png)
+
+::: {.caption}
+ARPANET logical map, March 1977 ([Commons](https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png)), public domain
+:::
+:::
+::::
 
 ---
 
-## Alan Turing and World War II
+## Alan Turing and World War II {.framed-figure}
 
-- During WW2 (1939–1945), Turing worked at Bletchley Park to break German military ciphers
-- Automated search over Enigma keys, led to large-scale computational machinery ("Colossus")
-- Historians estimate this shortened the war by 2 years
+:::: columns
+::: {.column width="55%"}
+- Turing worked at Bletchley Park to break German military ciphers
+- *The Imitation Game* (2014 film)
+- Automated the search for Enigma keys with the "Bombe," machine designed with Gordon Welchman
+- Historian Harry Hinsley [argued](https://www.kcl.ac.uk/library/assets/archives/1992-lecture.pdf) that without Bletchley's codebreaking, D-Day would have been "deferred till 1946" (about 2 years later)
+:::
+
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/alan-turing.jpg)
+
+::: {.caption}
+Turing ([Elliott & Fry, 1951](https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg)), public domain
+:::
+:::
+::::
 
 ---
 
-## Project Maven (2018)
+## Project Maven (2018) {.framed-figure}
 
+:::: columns
+::: {.column width="55%"}
 - Google provided image classification services to label objects from military drone videos
 - Thousands of Google employees signed petitions; some resigned
 - Google chose not to renew Project Maven; added AI ethics principles
 - Changes were largely a result of sustained worker pressure
+:::
+
+::: {.column width="40%"}
+![](../assets/war/mq9-reaper-2007.jpg)
+
+::: {.caption}
+MQ-9 Reaper drone, Afghanistan, 2007 ([U.S. Air Force / Staff Sgt. Brian Ferguson](https://commons.wikimedia.org/wiki/File:MQ-9_Reaper_in_flight_(2007).jpg)), public domain
+:::
+:::
+::::
 
 ---
 
-## Stuxnet (2009)
+## Stuxnet (2009) {.framed-figure}
 
+:::: columns
+::: {.column width="55%"}
 - Computer worm used to sabotage Iran's nuclear program
 - Targeted Siemens industrial control systems (ICS) at Natanz
 - Caused centrifuges to spin irregularly but report normal readings to operators
-- *Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon* (Kim Zetter)
+- 📕 *Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon* (Kim Zetter)
+:::
+
+::: {.column width="40%"}
+![](../assets/war/siemens-s7-300.jpg)
+
+::: {.caption}
+Siemens SIMATIC S7-300 controller, the PLC family Stuxnet targeted ([Ulli1105](https://commons.wikimedia.org/wiki/File:S7300.JPG)), CC BY-SA 2.5
+:::
+:::
+::::
 
 ---
 
-# "Not Without Us" {.title-slide .section-header}
-
----
 
 ## Not Without Us {.quote-slide}
 
-> "None of the weapon systems which today threaten murder on a genocidal scale,
-> and whose design, manufacture and sale condemns countless people, especially
-> children, to poverty and starvation, that none of these devices could be developed
-> without the earnest, even enthusiastic, cooperation of computer professionals.
-> It cannot go on without us!"
+> none of these [weapons] could be developed without the earnest, even enthusiastic, cooperation of computer professionals. It cannot go on without us!"
 >
-> — Joseph Weizenbaum, "Not Without Us" (1986)
+> — Joseph Weizenbaum, ["Not Without Us"](https://dl.acm.org/doi/pdf/10.1145/15483.15484) (1986)
 
 ---
 
-## "Not Without Us": Key Arguments
-
-- 1986 speech by MIT computer scientist Joseph Weizenbaum
-- Argued that computing professionals must actively resist uses of computing that dehumanize
-- Warned about dissolved responsibility for harmful outcomes
-- "The machine said…" — humans must own moral decisions
-
----
 
 # *The Iron Giant* {.title-slide .section-header}
 
 ---
 
-## *The Iron Giant*
+## *The Iron Giant* Trailer {.embed-slide}
+
+:::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://player.vimeo.com/video/61017830?title=0&byline=0&portrait=0"
+  title="The Iron Giant theatrical trailer (1999)"
+  loading="lazy"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+::::
+
+::: {.caption}
+Theatrical trailer, Warner Bros. (1999), via [Vimeo](https://vimeo.com/61017830)
+:::
+
+---
+
+## *The Iron Giant* {.framed-figure}
 
 :::: columns
 ::: {.column width="55%"}
@@ -297,9 +371,26 @@ Theatrical release poster, Warner Bros. (1999), via [IMP Awards](http://www.impa
 
 ---
 
-## Table Discussion: *The Iron Giant*
+## Table Discussion: *The Iron Giant* {.embed-slide}
 
-- TODO: add discussion questions
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Favorite part(s)?
+- Favorite character(s)?
+- Which parts did you remember, and/or not remember, from previous watches?
+- What do you think are the main themes, messages, and/or lessons from the film?
+- Any other observations?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
@@ -307,12 +398,24 @@ Theatrical release poster, Warner Bros. (1999), via [IMP Awards](http://www.impa
 
 ---
 
-## Preview: "If an Algorithm Can Cast a Shadow"
+## Preview: "If an Algorithm Can Cast a Shadow" {.framed-figure}
 
+:::: columns
+::: {.column width="55%"}
 - Written by Claire Jia-Wen
-- 34-minute audio version available (link in Canvas)
+- 34-minute audio version available
 - Read before Wednesday's class
-- Complete the Canvas discussion by Tuesday at 11:59pm
+- Complete the Perusall annotation by Tuesday at 11:59pm
+:::
+
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/claire-jia-wen.jpg)
+
+::: {.caption}
+Claire Jia-Wen ([Clarkesworld](https://clarkesworldmagazine.com/author/claire-jia-wen/)); personal site: [clairejiawen.com](https://www.clairejiawen.com/)
+:::
+:::
+::::
 
 ---
 
@@ -837,21 +940,30 @@ See you Wednesday!
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week8.md>.
 2. Ross Andersen, ["Inside Anthropic's Killer-Robot Dispute With the Pentagon"](https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/), *The Atlantic* (2026).
-3. Anthropic, ["Detecting and countering misuse of AI: September 2026"](https://www.anthropic.com/threat-intelligence-report-september-2026) (2026).
-4. Ashley Roque, ["Hegseth announces plans for new 4-star drone command, among other initiatives"](https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/), *Breaking Defense* (September 30, 2026).
-5. Jay Price, ["As the military plans to speed up the use of drones and AI in warfare, Congress considers safeguards"](https://www.wunc.org/military/2026-10-05/drones-ai-warfare-congress-considers-safeguards), WUNC / American Homefront Project (October 5, 2026).
-6. Sam Biddle, ["The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No"](https://theintercept.com/2026/09/08/pentagon-openai-military-contract/) and ["AI Giants Work Hand-in-Hand With the Pentagon, Contracts Reveal"](https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/), *The Intercept* (September 8, 2026).
-7. Beatrice Nolan, ["A new Google AI deal with the Pentagon has sparked employee backlash. Their leverage appears limited"](https://fortune.com/2026/05/04/google-employee-backlash-pentagon-ai-contract-power-waned-since-project-maven/), *Fortune* (May 4, 2026).
-8. Tania Myronyshena, ["Ukraine builds AI-driven defense ecosystem as over 200 companies develop drone technologies"](https://kyivindependent.com/ukraine-builds-ai-driven-defense-ecosystem-as-over-200-companies-develop-drone-technologies/), *Kyiv Independent* (April 19, 2026).
-9. Joseph Weizenbaum, ["Not Without Us"](https://www.jstor.org/stable/48617451) (1986).
-10. *The Iron Giant* (1999), dir. Brad Bird, Warner Bros. Feature Animation; theatrical release poster via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html). Film facts from Wikipedia, ["The Iron Giant"](https://en.wikipedia.org/wiki/The_Iron_Giant); directing credits from Wikipedia, ["Brad Bird filmography"](https://en.wikipedia.org/wiki/Brad_Bird_filmography); *Ray Gunn* release date from Wikipedia, ["Ray Gunn"](https://en.wikipedia.org/wiki/Ray_Gunn).
-11. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
-12. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
-13. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
-14. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
-15. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
-16. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
-17. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
-18. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
-19. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (2026).
-20. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+3. Dario Amodei, ["Statement from Dario Amodei on our discussions with the Department of War"](https://www.anthropic.com/news/statement-department-of-war), Anthropic (February 26, 2026).
+4. Anthropic, ["Detecting and countering misuse of AI: September 2026"](https://www.anthropic.com/threat-intelligence-report-september-2026) (2026).
+5. Loni Prinsloo and Omar El Chmouri, ["Anthropic says Yemeni weapons cell used its AI to try to build missile guidance software"](https://www.latimes.com/business/story/2026-09-11/anthropic-says-yemeni-weapons-cell-used-its-ai-to-try-to-build-missile-guidance-software), *Los Angeles Times* (September 11, 2026).
+6. Ashley Roque, ["Hegseth announces plans for new 4-star drone command, among other initiatives"](https://breakingdefense.com/2026/09/hegseth-announces-plans-for-new-4-star-drone-command-further-general-officer-cuts/), *Breaking Defense* (September 30, 2026).
+7. Jay Price, ["As the military plans to speed up the use of drones and AI in warfare, Congress considers safeguards"](https://www.wunc.org/military/2026-10-05/drones-ai-warfare-congress-considers-safeguards), WUNC / American Homefront Project (October 5, 2026).
+8. Sam Biddle, ["The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No"](https://theintercept.com/2026/09/08/pentagon-openai-military-contract/) and ["AI Giants Work Hand-in-Hand With the Pentagon, Contracts Reveal"](https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/), *The Intercept* (September 8, 2026).
+9. Beatrice Nolan, ["Employee revolt once forced Google to back off on military contracts. But, in the wake of a new Pentagon AI contract, their leverage appears limited"](https://fortune.com/2026/05/04/google-employee-backlash-pentagon-ai-contract-power-waned-since-project-maven/), *Fortune* (May 4, 2026).
+10. Tania Myronyshena, ["Ukraine builds AI-driven defense ecosystem as over 200 companies develop drone technologies"](https://kyivindependent.com/ukraine-builds-ai-driven-defense-ecosystem-as-over-200-companies-develop-drone-technologies/), *Kyiv Independent* (April 19, 2026).
+11. Barry M. Leiner, Vinton G. Cerf, David D. Clark, Robert E. Kahn, Leonard Kleinrock, Daniel C. Lynch, Jon Postel, Larry G. Roberts, and Stephen Wolff, ["A Brief History of the Internet"](https://www.internetsociety.org/internet/history-internet/brief-history-internet/), Internet Society (1997).
+12. Imperial War Museums, ["How Alan Turing Cracked the Enigma Code"](https://www.iwm.org.uk/history/how-alan-turing-cracked-the-enigma-code) (2018).
+13. Harry Hinsley, ["The Influence of ULTRA in the Second World War"](https://www.kcl.ac.uk/library/assets/archives/1992-lecture.pdf), Liddell Hart Centre for Military Archives Lecture, King's College London (February 18, 1992).
+14. Daisuke Wakabayashi and Scott Shane, ["Google Will Not Renew Pentagon Contract That Upset Employees"](https://www.nytimes.com/2018/06/01/technology/google-pentagon-project-maven.html), *The New York Times* (June 1, 2018); Sundar Pichai, ["AI at Google: our principles"](https://blog.google/technology/ai/ai-principles/), Google (June 7, 2018).
+15. Kim Zetter, [*Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon*](https://www.penguinrandomhouse.com/books/219931/countdown-to-zero-day-by-kim-zetter/) (Crown, 2014); excerpted as ["An Unprecedented Look at Stuxnet, the World's First Digital Weapon"](https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet/), *Wired* (November 3, 2014).
+16. Photos: [ARPANET logical map, March 1977](https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png) (public domain); Alan Turing by [Elliott & Fry (1951)](https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg) (public domain); MQ-9 Reaper by [U.S. Air Force / Staff Sgt. Brian Ferguson (2007)](https://commons.wikimedia.org/wiki/File:MQ-9_Reaper_in_flight_(2007).jpg) (public domain); Siemens SIMATIC S7-300 by [Ulli1105](https://commons.wikimedia.org/wiki/File:S7300.JPG) (CC BY-SA 2.5), all via Wikimedia Commons.
+17. Joseph Weizenbaum, ["Not Without Us"](https://dl.acm.org/doi/pdf/10.1145/15483.15484), *ACM SIGCAS Computers and Society* 16(2–3): 2–7 (1986); also on [JSTOR](https://www.jstor.org/stable/48617451).
+18. *The Iron Giant* (1999), dir. Brad Bird, Warner Bros. Feature Animation; theatrical release poster via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html); theatrical trailer via [Vimeo](https://vimeo.com/61017830). Film facts from Wikipedia, ["The Iron Giant"](https://en.wikipedia.org/wiki/The_Iron_Giant); directing credits from Wikipedia, ["Brad Bird filmography"](https://en.wikipedia.org/wiki/Brad_Bird_filmography); *Ray Gunn* release date from Wikipedia, ["Ray Gunn"](https://en.wikipedia.org/wiki/Ray_Gunn).
+19. Claire Jia-Wen, ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/), *Clarkesworld* 225 (June 2025); author photo from her [Clarkesworld author page](https://clarkesworldmagazine.com/author/claire-jia-wen/); personal site [clairejiawen.com](https://www.clairejiawen.com/).
+20. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
+21. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
+22. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
+23. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
+24. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
+25. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
+26. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
+27. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
+28. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (2026).
+29. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

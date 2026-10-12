@@ -66,6 +66,40 @@
   line-height: 1.9;
 }
 
+/* ── "Click to jump to week": one cell per week, here under the unit links and on /slides/ ── */
+.week-jump-label {
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.week-jump-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 24px;
+}
+
+.week-jump {
+  border-collapse: collapse;
+}
+
+.week-jump td {
+  border: 1px solid #e5e5e5;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.schedule-body .week-jump a {
+  display: block;
+  min-width: 2.4em;
+  padding: 8px 10px;
+  border-bottom: none;
+}
+
+.schedule-body .week-jump a:hover {
+  background: #f5f5f5;
+}
+
 /* ── Unit headings ── */
 .schedule-body h2 {
   font-size: 1.5rem;

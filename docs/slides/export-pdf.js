@@ -13,6 +13,7 @@
 // DevTools protocol directly rather than depending on puppeteer.
 const { spawn } = require("node:child_process");
 const fs = require("node:fs/promises");
+const os = require("node:os");
 const path = require("node:path");
 
 const chrome = process.env.CHROME_CMD;
@@ -36,6 +37,7 @@ const printUrl = `${baseUrl}?print-pdf&controls=false&progress=false&margin=0.1`
 let chromeStderr = "";
 let chromeExit = null;
 
+// build.sh pins HOME to a sandbox with no Library/Keychains, where Chrome's keychain write fails (errSecNoDefaultKeychain) and macOS pops a prompt; give Chrome the real home.
 const browser = spawn(chrome, [
   "--headless=new",
   "--disable-gpu",
@@ -44,6 +46,7 @@ const browser = spawn(chrome, [
   "--no-sandbox",
   "--no-first-run",
   "--no-default-browser-check",
+  "--use-mock-keychain",
   "--force-color-profile=srgb",
   `--user-data-dir=${userData}`,
   "--remote-debugging-address=127.0.0.1",
@@ -53,7 +56,7 @@ const browser = spawn(chrome, [
   // decks are self-contained HTML several MB wide, and navigating into one can
   // leave the renderer too busy to answer the navigate call at all.
   printUrl,
-], { stdio: ["ignore", "ignore", "pipe"] });
+], { stdio: ["ignore", "ignore", "pipe"], env: { ...process.env, HOME: os.userInfo().homedir } });
 
 browser.stderr.on("data", (chunk) => {
   chromeStderr += chunk.toString();
