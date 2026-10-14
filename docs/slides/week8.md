@@ -529,7 +529,7 @@ Claire Jia-Wen ([Clarkesworld](https://clarkesworldmagazine.com/author/claire-ji
 
 ---
 
-## Table Discussion: "If an Algorithm Can Cast a Shadow" {.embed-slide}
+## Table Discussion: "If an Algorithm Can Cast a Shadow" {.embed-slide .smaller}
 
 ::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
