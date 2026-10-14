@@ -13,3 +13,9 @@ Candidate art for the Odysseus / whirlpool (Charybdis) slide that accompanies `o
 Poster for the week 6 day 2 *The Iron Giant* preview slide.
 
 - **iron-giant-poster.jpg** — Theatrical release poster for *The Iron Giant* (Warner Bros., 1999), the same one-sheet Wikipedia's [film article](https://en.wikipedia.org/wiki/The_Iron_Giant) uses at 269px — high-resolution scan from [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html) (`iron_giant_ver1_xlg.jpg`) — License: © Warner Bros., all rights reserved; classroom use only — 1007 × 1500, unmodified
+
+Logo for the week 8 day 2 "Exercise Preview: Speculative Fiction" slide.
+
+- **black-mirror-logo.svg** — [Wikimedia Commons: Black Mirror logo.svg](https://commons.wikimedia.org/wiki/File:Black_Mirror_logo.svg) — approximation of the *Black Mirror* title card (white wordmark with a crack, on black), set in Proxima Nova Bold (font by Mark Simonson); vectorised by Commons user EEIM — License: Public domain (text logo); the *Black Mirror* name is a trademark, used nominatively — unmodified
+
+- **black-mirror-iphone-4s.png** — composite of [Wikimedia Commons: IPhone 4S No shadow.png](https://commons.wikimedia.org/wiki/File:IPhone_4S_No_shadow.png) (Zach Vega, 12 October 2011, CC BY-SA 3.0; the infobox image on Wikipedia's [iPhone 4S](https://en.wikipedia.org/wiki/IPhone_4S) article) with the wordmark PNG embedded in `black-mirror-logo.svg`, resized to 570px wide and screen-blended onto the phone's display (about 124–771 × 284–1256 px) so the glass glare stays on top. The iPhone 4S (released October 14, 2011) was Apple's newest iPhone when *Black Mirror* premiered on Channel 4 in December 2011 — License: CC BY-SA 3.0 (share-alike, inherited from the phone photo); attribute Zach Vega via Wikimedia Commons — 895 × 1552, transparent background

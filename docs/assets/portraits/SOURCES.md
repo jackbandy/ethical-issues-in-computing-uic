@@ -45,6 +45,7 @@ below follow each Commons file page.
 | cathy-oneil.jpg | Cathy O'Neil | [Commons](https://commons.wikimedia.org/wiki/File:Cathy_O%27Neil_at_Google_Cambridge.jpg) | CC BY-SA 4.0 | GRuban, Google Cambridge, 3 October 2016 |
 | johan-galtung.jpg | Johan Galtung | [Commons](https://commons.wikimedia.org/wiki/File:Johan_Galtung.jpg) | CC BY 2.0 | David Lisbona, 2 September 2007 |
 | william-james.jpg | William James | [Commons](https://commons.wikimedia.org/wiki/File:William_James,_from_The_Story_of_Philosophy.jpg) | Public Domain | Unknown; from Will Durant, *The Story of Philosophy* (1926) |
+| emily-m-bender.jpg | Emily M. Bender | [Commons](https://commons.wikimedia.org/wiki/File:Emily_M_Bender_CHM_Mountain_View_March_2025.jpg) | CC BY-SA 4.0 | King of Hearts, 25 March 2025; "The Great Chatbot Debate," Computer History Museum, Mountain View — cropped square and downscaled from 2600px to 800px |
 
 ## Non-freely-licensed
 
@@ -70,6 +71,8 @@ any external distribution.
 | ursula-k-le-guin-kolisch.jpg | Ursula K. Le Guin | [Commons](https://commons.wikimedia.org/wiki/File:Ursula_Le_Guin_(3551195631)_-_Restoration.jpg) | CC BY-SA 2.0 | Photo by Marian Wood Kolisch, August 1995; via Oregon State University; restoration by Adam Cuerden — downscaled from 3185px to 2000px wide |
 | ursula-k-le-guin.jpg | Ursula K. Le Guin | [Poetry Foundation poet page](https://www.poetryfoundation.org/poets/ursula-k-le-guin) | Institutional/publisher photo | Poetry Foundation |
 | virginia-held-2.jpg | Virginia Held | [Vineyard Gazette obituary](https://vineyardgazette.com/obituaries/2026/06/03/virginia-potter-held) | Editorial/family photo, uncredited; alternate to the Commons portrait | Uncredited; Vineyard Gazette, June 2026 |
+| margaret-mitchell.jpg | Margaret Mitchell | Instructor's earlier "Intro to LLMs" Keynote deck | Press-style portrait reused from the earlier slides; the original publication and photographer were not recorded (the only Commons photo, `File:MargaretMitchell2022.jpg`, is a low-resolution webcam still). Downscaled from 3780px to 1200px wide | Photographer unknown |
+| angelina-mcmillan-major.jpg | Angelina McMillan-Major | Instructor's earlier "Intro to LLMs" Keynote deck | Headshot reused from the earlier slides; the original source was not recorded and no Commons photo exists | Photographer unknown |
 
 ---
 

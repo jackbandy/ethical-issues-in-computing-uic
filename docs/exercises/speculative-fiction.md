@@ -55,3 +55,12 @@ Turn in your story and your promotional slide through Canvas.
 
 ## Examples
 More topic ideas and examples available in [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing)
+
+## References
+Casey Fiesler and her collaborators have written about the Black Mirror Writers Room and ethical speculation in several places. More resources are on the [Internet Rules Lab's speculative ethics page](https://www.internetruleslab.com/black-mirror-writers-room).
+* Casey Fiesler. [Black Mirror, Light Mirror: Teaching Technology Ethics Through Speculation](https://www.howwegettonext.com/black-mirror-light-mirror-teaching-technology-ethics-through-speculation/). _How We Get To Next_, 2018.
+* Casey Fiesler. [Innovating Like an Optimist, Preparing Like a Pessimist: Ethical Speculation and the Legal Imagination](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3779036). _Colorado Technology Law Journal_ 19(1), 2021.
+* Casey Fiesler. [Ethical Speculation in the Computing Classroom](https://doi.org/10.1109/RESPECT51740.2021.9620641). _RESPECT 2021_.
+* Shamika Klassen and Casey Fiesler. ["Run Wild a Little With Your Imagination": Ethical Speculation in Computing Education with Black Mirror](https://doi.org/10.1145/3478431.3499308). _SIGCSE 2022_.
+* Casey Fiesler. [The Black Mirror Writers Room: The Case (and Caution) for Ethical Speculation in CS Education](https://medium.com/cuinfoscience/the-black-mirror-writers-room-the-case-and-caution-for-ethical-speculation-in-cs-education-5c81d05d2c67). _Medium_, 2022.
+* Shamika Klassen, Joanna J.E. Mendy, and Casey Fiesler. [Putting the "Black" in Black Mirror: Ethical Speculation via Design Fiction from Black Women and Femmes](https://doi.org/10.1145/3799450). _Proceedings of the ACM on Human-Computer Interaction_ 10(1), 2026.

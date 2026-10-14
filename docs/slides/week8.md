@@ -425,39 +425,21 @@ See you Wednesday!
 
 ---
 
-# Ethical Challenges from LLMs {.title-slide data-menu-title="Week 8, Day 2"}
-
-<!-- NOTICE: Draft from old-slides/pdf-versions/17 Intro to LLMs.pdf. Review and edit before use. -->
+# Intro to Ethical Challenges from LLMs {.title-slide data-menu-title="Week 8, Day 2"}
 
 CS 377, Week 8, Day 2 🟦 Division 🟦
 
 ---
 
-# Ethical Challenges from LLMs {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover" data-menu-title="Week 8, Day 2"}
+# Intro to Ethical Challenges from LLMs {.title-slide .photo-title data-state="photo-title" background-image="../assets/altus-renderings/cta-division-jcl6800f.jpg" background-size="cover" data-menu-title="Week 8, Day 2"}
 
 CS 377, Week 8, Day 2 🟦 Division 🟦
 
-<!-- image source: picture from altusworks.com -->
+<!-- image source: AltusWorks photograph of the Division (Blue Line) station entrance (CTA-division_JCL6800F.jpg), https://altusworks.com/project/cta-grand-chicago-and-division-blue-line-stations-renovation/ -->
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop20-division-a.jpg" background-size="cover"}
-
----
-
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Read "If an Algorithm Can Cast a Shadow" for next class
-- Keep reading your book!
-- Keep an eye on published grades
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
+## {.photo-only data-state="photo-only" background-image="../assets/altus-renderings/cta-division-jcl6800f.jpg" background-size="cover"}
 
 ---
 
@@ -466,9 +448,9 @@ CS 377, Week 8, Day 2 🟦 Division 🟦
 :::: columns
 ::: {.column width="55%"}
 - Shuffle seats
-- Speculative fiction activity
-- What is a (large) language model?
-- "Stochastic Parrots" — four key issues
+- Free write
+- Story overview: "If an Algorithm Can Cast a Shadow"
+- Exercise preview: Speculative Fiction
 :::
 
 ::: {.column width="40%"}
@@ -478,19 +460,161 @@ CS 377, Week 8, Day 2 🟦 Division 🟦
 
 ---
 
-## 🔀 Seat Shuffle
+## 🔀 Seat Shuffle {.embed-slide}
 
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<iframe
+  src="../in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-## Table Activity: Speculative Fiction
+## Free Write {.embed-slide}
 
-<!-- image: student speculative fiction submissions / vote slide -->
-- TODO: add image — *student speculative fiction submissions / vote slide*
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Turn off phones, laptops, etc.
+- Get out your notebooks!
+- Write whatever!
+- If you need a prompt:
+	- What would make you buy a digital double?
+	- For who? When? Where? How much?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
+
+## Story Overview: "If an Algorithm Can Cast a Shadow" {.framed-figure .smaller}
+
+:::: columns
+::: {.column width="55%"}
+- Written by Claire Jia-Wen
+	- Speculative fiction writer "originally from the 626"
+	- PhD student studying human-computer interaction
+- Published in [*Clarkesworld* 225](https://clarkesworldmagazine.com/jia-wen_06_25/) (June 2025), with a 34-minute audio version
+	- In February 2023, it temporarily closed submissions after [a surge of AI-generated stories](https://neil-clarke.com/a-concerning-trend/)
+- After her son Oscar's death, Maxine buys his "Digital Double" from Datalogs
+	- Sold in tiers
+:::
+
+::: {.column .portrait-solo width="40%"}
+![](../assets/portraits/claire-jia-wen.jpg)
+
+::: {.caption}
+Claire Jia-Wen ([Clarkesworld](https://clarkesworldmagazine.com/author/claire-jia-wen/)); personal site: [clairejiawen.com](https://www.clairejiawen.com/)
+:::
+:::
+::::
+
+---
+
+## Table Discussion: "If an Algorithm Can Cast a Shadow" {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- What happened in the story?
+- What would make you buy a digital double?
+- For who? When? Where? How much? Which tier?
+- How does Glencreek High compare to your high school?
+- What else stuck out to you?
+- **Write down two questions you would be willing to pose to the class.**
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## Exercise Preview: Speculative Fiction
+
+:::: columns
+::: {.column width="59%"}
+::: {.incremental}
+- Write an episode of Black Mirror
+	- a short story plus a promotional slide
+- Practice "ethical speculation"
+- All the words must come from your own fleshy brain
+- Due Monday, October 26
+- Details, templates, and examples on the [exercise page](https://doethics.fun/exercises/speculative-fiction.html)
+- Adapted from Casey Fiesler's ["Black Mirror Writers Room"](https://medium.com/cuinfoscience/the-black-mirror-writers-room-the-case-and-caution-for-ethical-speculation-in-cs-education-5c81d05d2c67)
+- We will vote on the best stories
+:::
+:::
+
+::: {.column width="36.5%"}
+![](../assets/movies/black-mirror-iphone-4s.png){style="max-height:580px;" fig-alt="An iPhone 4S showing the Black Mirror logo on its screen, under the glass glare"}
+
+::: {.caption}
+(phone: [Zach Vega](https://commons.wikimedia.org/wiki/File:IPhone_4S_No_shadow.png), CC BY-SA 3.0; logo: [Commons](https://commons.wikimedia.org/wiki/File:Black_Mirror_logo.svg), public domain)
+:::
+:::
+::::
+
+---
+
+## Schedule Overview {.embed-slide}
+
+::: {.embed-layout .embed-full}
+::: {.embed-frame style="width:100%;height:100%;margin:0;"}
+<iframe
+  src="https://doethics.fun/"
+  title="Course homepage"
+  loading="lazy"
+  style="width:100%;height:100%;border:none;display:block;"
+  data-external="1">
+</iframe>
+:::
+
+::: {.embed-overlay}
+[Open in new tab](https://doethics.fun/)
+:::
+:::
+
+---
+
+## That's all for today!
+
+See you next week!
+
+---
+
+# Appendix: More LLMs Stuff {.title-slide .section-header}
+
+<!-- NOTICE: Draft from old-slides/pdf-versions/17 Intro to LLMs.pdf. Review and edit before use. -->
+
+Former Week 8, Day 2 draft ("Ethical Challenges from LLMs")
+
+---
+
+
 
 # What Is a Language Model? {.title-slide .section-header}
 
@@ -514,10 +638,24 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ---
 
-## From Text to Model
+## From Text to Model {.framed-figure}
 
-<!-- image: diagram showing training text → next-token probability model (Dickens example) -->
-- TODO: add image — *diagram showing training text → next-token probability model (Dickens example)*
+:::: columns
+::: {.column width="40%"}
+Training text: *"it was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness"*
+
+- Each word is a node
+- Each arrow is a next-word probability learned from the text
+:::
+
+::: {.column width="55%"}
+![](../assets/llms/dickens-next-word-graph.svg){fig-alt="Directed graph of next-word transitions with percentage labels, e.g. 'the' goes to 'best' 25%, 'worst' 25%, and 'age' 50%"}
+
+::: {.caption}
+Next-word graph from the opening of *A Tale of Two Cities* (Charles Dickens, 1859)
+:::
+:::
+::::
 
 ---
 
@@ -541,15 +679,72 @@ Training text: *"it was the best of times, it was the worst of times"*
 - Google admin asked that the paper be retracted
 - Published in February 2021 at FAccT
 
-<!-- image: photos of the four authors (Emily Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell) -->
-- TODO: add image — *photos of the four authors (Emily Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell)*
+---
+
+## The Authors {.portrait-row .smaller}
+
+:::: columns
+::: {.column width="23%"}
+![](../assets/portraits/emily-m-bender.jpg)
+
+**Emily M. Bender**
+
+::: {.caption}
+Linguist, University of Washington ([King of Hearts](https://commons.wikimedia.org/wiki/File:Emily_M_Bender_CHM_Mountain_View_March_2025.jpg), CC BY-SA 4.0)
+:::
+:::
+
+::: {.column width="23%"}
+![](../assets/portraits/timnit-gebru.jpg)
+
+**Timnit Gebru**
+
+::: {.caption}
+Then co-lead of Google's Ethical AI team ([TechCrunch](https://commons.wikimedia.org/wiki/File:Timnit_Gebru_crop.jpg), CC BY 2.0)
+:::
+:::
+
+::: {.column width="23%"}
+![](../assets/portraits/angelina-mcmillan-major.jpg)
+
+**Angelina McMillan-Major**
+
+::: {.caption}
+Then a PhD student in computational linguistics, University of Washington
+:::
+:::
+
+::: {.column width="23%"}
+![](../assets/portraits/margaret-mitchell.jpg)
+
+**"Shmargaret Shmitchell"**
+
+::: {.caption}
+Margaret Mitchell's pseudonym; then co-lead of Google's Ethical AI team
+:::
+:::
+::::
 
 ---
 
-## Behind the Research: AI Ethics at Google
+## Behind the Research: AI Ethics at Google {.framed-figure}
 
-<!-- image: context on Timnit Gebru's departure from Google and the broader story of AI ethics research in industry -->
-- TODO: add image — *context on Timnit Gebru's departure from Google and the broader story of AI ethics research in industry*
+:::: columns
+::: {.column width="55%"}
+- December 3, 2020: Gebru says Google fired her over the paper
+- December 4, 2020: *MIT Technology Review* publishes ["We read the paper that forced Timnit Gebru out of Google. Here's what it says."](https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/)
+- February 19, 2021: Google fires Margaret Mitchell, the team's other co-lead
+- June 2021: Vox, "Google says it's committed to ethical AI research. Its ethical AI team isn't so sure."
+:::
+
+::: {.column width="40%"}
+![](../assets/llms/gebru-mitchell-news-timeline.png){style="max-height:560px;"}
+
+::: {.caption}
+News coverage, December 2020 to June 2021 (Google News)
+:::
+:::
+::::
 
 ---
 
@@ -564,10 +759,10 @@ Training text: *"it was the best of times, it was the worst of times"*
 ## Four Key Issues in "Stochastic Parrots"
 
 ::: {.incremental}
-1. **Cost** — environmental and financial
-2. **"Unfathomable" training data** — scale makes auditing impossible
-3. **Misdirected research** — opportunity cost of pursuing scale
-4. **Human interactions** — the "ELIZA effect" and dangerous queries
+1. **Cost**: environmental and financial
+2. **"Unfathomable" training data**: scale makes auditing impossible
+3. **Misdirected research**: i.e. opportunity costs
+4. **Human interactions**: the "ELIZA effect" and dangerous queries
 :::
 
 ---
@@ -617,9 +812,7 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 ## On Filtering Marginalized Voices {.quote-slide}
 
-> "If we filter out the discourse of marginalized populations, we fail to provide
-> training data that reclaims slurs and otherwise describes marginalized identities
-> in a positive light."
+> "If we filter out the discourse of marginalized populations, we fail to provide training data that reclaims slurs and otherwise describes marginalized identities in a positive light."
 >
 > — Bender and Gebru et al., "Stochastic Parrots" (2021)
 
@@ -637,15 +830,25 @@ Training text: *"it was the best of times, it was the worst of times"*
   - Example: passing AP exams posted on the internet
 - Scaling LLMs consumes resources that could be directed elsewhere
 
-<!-- image: chart via Stanford HAI showing research investment distribution -->
-- TODO: add image — *chart via Stanford HAI showing research investment distribution*
+---
+
+## Where the Money Goes {.figure-slide .framed-figure}
+
+![](../assets/llms/genai-private-investment-ai-index-2025.png){fig-alt="Bar chart of global private investment in generative AI, 2019 to 2024, rising from under $1 billion to $33.94 billion"}
+
+::: {.figure-caption}
+Global private investment in generative AI, 2019–24 ([2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report), Stanford HAI; data from Quid), CC BY-ND 4.0
+:::
 
 ---
 
-## Human Interactions (4 of 4): ELIZA
+## Human Interactions (4 of 4): ELIZA {.figure-slide .framed-figure}
 
-<!-- image: ELIZA interface screenshot -->
-- TODO: add image — *ELIZA interface screenshot*
+![](../assets/llms/eliza-conversation.png){fig-alt="Terminal transcript: ELIZA asks 'Is something troubling you?' and the user replies 'Men are all alike.'"}
+
+::: {.figure-caption}
+A conversation with ELIZA, using the dialogue from Weizenbaum's 1966 paper; JavaScript implementation by Norbert Landsteiner, 2005 ([Commons](https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png)), public domain
+:::
 
 ---
 
@@ -666,14 +869,15 @@ Training text: *"it was the best of times, it was the worst of times"*
 
 - The ELIZA effect: what we project onto a system
 - New extension: is the system itself "awake," a "moral patient," a legal person?
-- Chowdhury's argument
-- https://archive.ph/Bbs6p
-- TK
+- Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (August 20, 2026)
+	- AI is "corporate-built software," not "a natural phenomenon"
+	- AI personhood would move "moral outsourcing" (her 2018 term) "from linguistic sleight-of-hand to legal strategy"
+	- Victims suing over a faulty "product" could lose that claim if the AI is a "being"
 
 
 ---
 
-## Consciousness as "Moral Oursourcing" {.quote-slide}
+## Consciousness as "Moral Outsourcing" {.quote-slide}
 
 > "Discussing AI in anthropomorphic terms is a trap, distorting a legal system intended to protect us into one that protects corporate interests at the cost of countless human lives."
 >
@@ -724,14 +928,6 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-## Which Risk(s) to Learn More About?
-
-- [A] Environmental and financial costs
-- [B] "Unfathomable" training data
-- [C] Misdirected research
-- [D] Human interactions
-
----
 
 ## Laptop/Phone Policy Check-in
 
@@ -741,62 +937,22 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-## Reminders
 
-- Read "If an Algorithm Can Cast a Shadow" by Claire Jia-Wen
-- Audio version is ~34 minutes (link in Canvas)
-- See you next week!
-
----
 
 # Appendix: Medical Technology Draft {.title-slide .section-header}
 
 <!-- NOTICE: Draft from old-slides/pdf-versions/16 Medical Tech.pdf. Review and edit before use. -->
 
-Former Week 8, Day 1 draft ("Ethical Issues in Medical Technology"), moved here; medical tech and cybersecurity are now on Day 2 in the schedule.
+Former Week 8, Day 1 draft ("Ethical Issues in Medical Technology")
 
 ---
 
-## Administrivia
 
-:::: columns
-::: {.column width="55%"}
-- Write your story by Sunday at 11:59pm
-- Read "If an Algorithm Can Cast a Shadow" — complete discussion by Tuesday at 11:59pm
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
-## Agenda for Today
-
-:::: columns
-::: {.column width="55%"}
-- Follow-up on "Codename Delphi"
-- Group exercise: Therac-25
-- Real-world ethical dilemmas
-- Ethics in medical technology
-- Intro to cybersecurity
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-map-stops/stop19-chicago.svg)
-:::
-::::
-
----
 
 ## Follow-up on "Codename Delphi"
 
-Seemed like we did not get to everyone's questions… lingering thoughts?
+Seemed like we did not get to everyone's questions... lingering thoughts?
 
-<!-- image: discussion board student responses or highlights from Canvas -->
-- TODO: add image — *discussion board student responses or highlights from Canvas*
 
 ---
 
@@ -823,7 +979,7 @@ Seemed like we did not get to everyone's questions… lingering thoughts?
 
 ## Ethics and Engineering
 
-The papers we read use "ethical" as a verdict. In this class we keep asking the descriptive questions alongside it: who is involved, what are the stakes, what decisions led here?
+The papers we read use "ethical" as a verdict. In this class we keep asking descriptive questions: who is involved, what are the stakes, what decisions led here?
 
 ---
 
@@ -869,10 +1025,15 @@ Using both normative and descriptive lenses:
   - Bypass hardware security protections
   - Perform remote denial-of-service attacks
 
-<!-- image: diagram of pacemaker ecosystem (programmer → pacemaker → HMU → operator network → backend server) -->
-- TODO: add image — *diagram of pacemaker ecosystem (programmer → pacemaker → HMU → operator network → backend server)*
+---
 
-*Source: Bour et al., SINTEF Digital / Springer (2023)*
+## The Pacemaker Ecosystem {.figure-slide .framed-figure}
+
+![](../assets/medical/pacemaker-ecosystem-bour-2023.png){fig-alt="Diagram: a clinician's programmer and a home monitoring unit (HMU) talk wirelessly to the patient's pacemaker; the HMU reaches the vendor's servers over a mobile network, and a doctor reads data from those servers"}
+
+::: {.figure-caption}
+Fig. 1 from Bour et al., ["Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem"](https://doi.org/10.1007/978-3-031-38854-5_5), Springer (2023)
+:::
 
 ---
 
@@ -912,29 +1073,7 @@ Using both normative and descriptive lenses:
 
 ---
 
-# Intro to CyberSecurity {.title-slide .section-header .no-index}
 
----
-
-## Mini-lecture: Intro to CyberSecurity
-
-- TODO: fill in — new topic for this semester
-
----
-
-## Reminders
-
-- Speculative fiction due Monday, October 26
-- "If an Algorithm Can Cast a Shadow" discussion due Tuesday at 11:59pm
-- Keep reading your book!
-
----
-
-## That's all for today!
-
-See you Wednesday!
-
----
 
 # References & Credits {.sources}
 
@@ -956,14 +1095,14 @@ See you Wednesday!
 16. Photos: [ARPANET logical map, March 1977](https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png) (public domain); Alan Turing by [Elliott & Fry (1951)](https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg) (public domain); MQ-9 Reaper by [U.S. Air Force / Staff Sgt. Brian Ferguson (2007)](https://commons.wikimedia.org/wiki/File:MQ-9_Reaper_in_flight_(2007).jpg) (public domain); Siemens SIMATIC S7-300 by [Ulli1105](https://commons.wikimedia.org/wiki/File:S7300.JPG) (CC BY-SA 2.5), all via Wikimedia Commons.
 17. Joseph Weizenbaum, ["Not Without Us"](https://dl.acm.org/doi/pdf/10.1145/15483.15484), *ACM SIGCAS Computers and Society* 16(2–3): 2–7 (1986); also on [JSTOR](https://www.jstor.org/stable/48617451).
 18. *The Iron Giant* (1999), dir. Brad Bird, Warner Bros. Feature Animation; theatrical release poster via [IMP Awards](http://www.impawards.com/1999/iron_giant_ver1.html); theatrical trailer via [Vimeo](https://vimeo.com/61017830). Film facts from Wikipedia, ["The Iron Giant"](https://en.wikipedia.org/wiki/The_Iron_Giant); directing credits from Wikipedia, ["Brad Bird filmography"](https://en.wikipedia.org/wiki/Brad_Bird_filmography); *Ray Gunn* release date from Wikipedia, ["Ray Gunn"](https://en.wikipedia.org/wiki/Ray_Gunn).
-19. Claire Jia-Wen, ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/), *Clarkesworld* 225 (June 2025); author photo from her [Clarkesworld author page](https://clarkesworldmagazine.com/author/claire-jia-wen/); personal site [clairejiawen.com](https://www.clairejiawen.com/).
+19. Claire Jia-Wen, ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/), *Clarkesworld* 225 (June 2025); author photo from her [Clarkesworld author page](https://clarkesworldmagazine.com/author/claire-jia-wen/); personal site [clairejiawen.com](https://www.clairejiawen.com/). On *Clarkesworld*: Wikipedia, ["Clarkesworld Magazine"](https://en.wikipedia.org/wiki/Clarkesworld_Magazine); Neil Clarke, ["A Concerning Trend"](https://neil-clarke.com/a-concerning-trend/) (February 15, 2023). Speculative fiction exercise adapted from Casey Fiesler's ["Black Mirror Writers Room"](https://medium.com/cuinfoscience/the-black-mirror-writers-room-the-case-and-caution-for-ethical-speculation-in-cs-education-5c81d05d2c67) assignment (Medium); see also Shamika Klassen and Casey Fiesler, ["'Run Wild a Little With Your Imagination': Ethical Speculation in Computing Education with Black Mirror"](https://doi.org/10.1145/3478431.3499308), *SIGCSE 2022*: 836–842.
 20. Reuters, ["As AI enters the operating room…"](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/) (2026).
 21. California Healthline, ["Death By 1,000 Clicks"](https://californiahealthline.org/news/death-by-a-thousand-clicks/).
-22. Bour et al., "Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem," *BIOSTEC / Springer* (2023).
+22. Guillaume Bour, Anniken Wium Lie, Jakob Stenersen Kok, Bendik Markussen, Marie Elisabeth Gaup Moe, and Ravishankar Borgaonkar, ["Security Analysis of the Internet of Medical Things (IoMT): Case Study of the Pacemaker Ecosystem"](https://doi.org/10.1007/978-3-031-38854-5_5), *Biomedical Engineering Systems and Technologies*, Springer (2023): 73–96.
 23. Haltaufderheide et al., "The ethical landscape of robot-assisted surgery: a systematic review," *Journal of Robotic Surgery* (2025).
 24. Cross, Choma, Onofrey, "Bias in medical AI: Implications for clinical decision-making," *PLOS Digital Health* (2024).
 25. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
 26. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
 27. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
-28. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (2026).
+28. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (August 20, 2026).
 29. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

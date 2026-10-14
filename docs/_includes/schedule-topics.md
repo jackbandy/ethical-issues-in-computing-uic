@@ -194,22 +194,10 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 8, Day 2 (2026-10-14)
 
-* Medical and health technologies
-* Intro to CyberSecurity
 * **Ethics through Fiction:** discuss short story ("If an Algorithm Can Cast a Shadow")
 * Bridging fiction and non-fiction
 * Discuss Speculative Fiction Exercise
-
-### Sources
-
-* Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) (revisit from Week 3)
-* Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
-* California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
-  * "Botched Operaion" YouTube Series about electronic health records:
-    * [Part 1](https://www.youtube.com/watch?v=-45n_0Rl8M4)
-    * [Part 2](https://www.youtube.com/watch?v=UjFFaN0Ue2E)
-    * [Part 3](https://www.youtube.com/watch?v=-3EJdWDMCa0)
-    * [Part 4](https://www.youtube.com/watch?v=g3te10iU9Vk)
+* Intro to LLMs
 
 ## Week 9, Day 1 (2026-10-19)
 
@@ -237,6 +225,22 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 9, Day 2 (2026-10-21)
 
+* Medical and health technologies
+* Intro to CyberSecurity
+
+### Sources
+
+* Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) (revisit from Week 3)
+* Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
+* California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
+  * "Botched Operaion" YouTube Series about electronic health records:
+    * [Part 1](https://www.youtube.com/watch?v=-45n_0Rl8M4)
+    * [Part 2](https://www.youtube.com/watch?v=UjFFaN0Ue2E)
+    * [Part 3](https://www.youtube.com/watch?v=-3EJdWDMCa0)
+    * [Part 4](https://www.youtube.com/watch?v=g3te10iU9Vk)
+
+## Week 10, Day 1 (2026-10-26)
+
 * Intellectual property
 
 ### Sources
@@ -245,10 +249,6 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * Ashley Belanger, [OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million.](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/)
 * Matt O'Brien, [Anthropic to pay authors $1.5 billion to settle lawsuit over pirated books used to train AI chatbots](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164)
 * The New York Times’s Complaint against Microsoft and OpenAI, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/)
-
-## Week 10, Day 1 (2026-10-26)
-
-* Intellectual property
 
 ## Week 10, Day 2 (2026-10-28)
 

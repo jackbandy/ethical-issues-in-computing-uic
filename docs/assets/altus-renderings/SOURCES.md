@@ -6,4 +6,4 @@ Architectural renderings of the street-level entrance canopies, from the AltusWo
 - **DSDIV_STREET.jpg** — Division station entrance, dusk street view — <https://altusworks.com/wp-content/uploads/2022/12/DSDIV_STREET.jpg> — 2000 × 1467
 - **DSGRN_STREET.jpg** — Grand station entrance, aerial view — <https://altusworks.com/wp-content/uploads/2022/12/DSGRN_STREET.jpg> — 2000 × 1427
 
-The station photographs (`cta-*.jpg`) are listed in `README.md`; same source page and license. `cta-chicago-station-15.jpg` is the week 8 day 1 title background.
+The station photographs (`cta-*.jpg`) are listed in `README.md`; same source page and license. `cta-chicago-station-15.jpg` is the week 8 day 1 title background; `cta-division-jcl6800f.jpg` is the week 8 day 2 title background.
