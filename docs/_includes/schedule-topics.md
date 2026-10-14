@@ -17,7 +17,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 * [Virtue Ethics, Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/ethics-virtue/)
 * [*After Virtue* by Alasdair MacIntyre](https://archive.org/details/isbn_0268006040)
-* [List of Moral Virtues, Wikipedia](https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted)
+* [List of Moral Virtues, Wikipedia](https://en.wikipedia.org/wiki/Virtue_ethics#Moral_virtues)
 * [Adventures from the Book of Virtues, IMDB](https://www.imdb.com/title/tt0227868/)
   * Some episodes available online, e.g. [Generosity](https://archive.org/details/adventures-from-the-book-of-virtues-generosity-full-true-1997-vhs-rip-converted)
 
@@ -74,8 +74,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ### Sources
 
-* Stanford Encyclopedia of Philosophy, [Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/), [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/), and [Consequentialism](https://plato.stanford.edu/entries/consequentialism/); Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) — the four theories, and the many flavors of each
-* Elinor Ostrom, [*Governing the Commons: The Evolution of Institutions for Collective Action*](https://doi.org/10.1017/CBO9780511807763) (1990) — the eight design principles
+* Stanford Encyclopedia of Philosophy, [Virtue Ethics](https://plato.stanford.edu/entries/ethics-virtue/), [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/), and [Consequentialism](https://plato.stanford.edu/entries/consequentialism/); Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/): the four theories, and the many flavors of each
+* Elinor Ostrom, [*Governing the Commons: The Evolution of Institutions for Collective Action*](https://doi.org/10.1017/CBO9780511807763) (1990): the eight design principles
 * Garrett Hardin, [The Tragedy of the Commons](https://doi.org/10.1126/science.162.3859.1243), _Science_ (1968)
 * The [1% Button dilemma](dilemmas/utilitarian-button-matrix/)
 * Caleb Williams [responds to a trolley problem](https://www.youtube.com/watch?v=iM3Bu_S82Jc)
@@ -92,15 +92,15 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ### Sources
 
 * Nick Hopkins, [Facebook's internal rulebook on sex, terrorism and violence (2017)](https://www.theguardian.com/news/2017/may/21/revealed-facebook-internal-rulebook-sex-terrorism-violence)
-* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
+* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/): two researchers investigate racial bias built into widely used search engines
 * UChicago [Online Content Moderation Policies from 43 Platforms](https://ocmp43.cs.uchicago.edu)
 * Schaffner et al., ["Community Guidelines Make this the Best Party on the Internet": An In-Depth Study of Online Platforms' Content Moderation Policies](https://doi.org/10.1145/3613904.3642333)
-* Knight-Georgetown Institute, [Recommender Systems 101](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf) (March 2025) — the four stages of a feed pipeline, and how many items survive each one; from KGI's [Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Better-Feeds_-Algorithms-That-Put-People-First.pdf) report
-* Akos Lada, Meihong Wang, and Tak Yan, [How Does News Feed Predict What You Want to See? (Meta, 2021)](https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/) — Facebook's own walkthrough of News Feed ranking
+* Knight-Georgetown Institute, [Recommender Systems 101](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Recommender-Systems-101.pdf) (March 2025): the four stages of a feed pipeline, and how many items survive each one; from KGI's [Better Feeds: Algorithms That Put People First](https://kgi.georgetown.edu/wp-content/uploads/2025/02/Better-Feeds_-Algorithms-That-Put-People-First.pdf) report
+* Akos Lada, Meihong Wang, and Tak Yan, [How Does News Feed Predict What You Want to See? (Meta, 2021)](https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/): Facebook's own walkthrough of News Feed ranking
 * Evan Miller, [How Not To Sort By Average Rating](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
-* Cathy O'Neil, [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end) (TED2017) — "algorithms are opinions embedded in code"
-* Manon Revel et al., [Representative Ranking for Deliberation in the Public Sphere](https://arxiv.org/abs/2503.18962) (ICML 2025) — what civility ranking does to minority viewpoints in comment sections
-* Meta Engineering, [A New Ranking Framework for Better Notification Quality on Instagram](https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/) (September 2025) — a diversity constraint bolted onto an engagement model
+* Cathy O'Neil, [The era of blind faith in big data must end](https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end) (TED2017): "algorithms are opinions embedded in code"
+* Manon Revel et al., [Representative Ranking for Deliberation in the Public Sphere](https://arxiv.org/abs/2503.18962) (ICML 2025): what civility ranking does to minority viewpoints in comment sections
+* Meta Engineering, [A New Ranking Framework for Better Notification Quality on Instagram](https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/) (September 2025): a diversity constraint bolted onto an engagement model
 * Tony Harcup and Deirdre O'Neill, [What is News? News values revisited (again)](https://doi.org/10.1080/1461670X.2016.1150193), *Journalism Studies* (2017)
 
 ## Week 5, Day 1 (2026-09-21)
@@ -154,8 +154,6 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ### Sources
 
 * Stanford Encyclopedia of Philosophy, [Deontological Ethics](https://plato.stanford.edu/entries/ethics-deontological/) (revisit from Week 2)
-* (2016) [Illinois Panhandling Laws Face Renewed Legal Challenges](https://www.nprillinois.org/legal/2016-04-07/illinois-issues-panhandling-laws-face-renewed-legal-challenges)
-* (2023) [Rockford mayor responds after anti-panhandling billboard campaign gets mixed reviews](https://www.wglt.org/illinois/2023-01-11/rockford-mayor-responds-after-anti-panhandling-billboard-campaign-gets-mixed-reviews)
 * Elizabeth Bear's ["Dolly"](https://www.apexbookcompany.com/blogs/apex-magazine/dolly), full text at Apex Magazine
   * Audio version via [StarShipSofa episode 204 (34 minutes)](https://shows.acast.com/starshipsofa/episodes/starshipsofa-no-204-paul-cornell-elizabeth-bear)
 * Wikipedia, ["Dolly" (story)](https://en.wikipedia.org/wiki/Dolly_(story))
@@ -199,6 +197,13 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * Discuss Speculative Fiction Exercise
 * Intro to LLMs
 
+### Sources
+
+* Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) (revisit from Week 3)
+* Claire Jia-Wen, ["If an Algorithm Can Cast a Shadow"](https://clarkesworldmagazine.com/jia-wen_06_25/), _Clarkesworld_ 225 (June 2025)
+* Casey Fiesler, ["The Black Mirror Writers Room"](https://medium.com/cuinfoscience/the-black-mirror-writers-room-the-case-and-caution-for-ethical-speculation-in-cs-education-5c81d05d2c67) assignment
+  * Shamika Klassen and Casey Fiesler, ["Run Wild a Little With Your Imagination": Ethical Speculation in Computing Education with Black Mirror](https://doi.org/10.1145/3478431.3499308) (SIGCSE 2022)
+
 ## Week 9, Day 1 (2026-10-19)
 
 * Intro to Ethical Challenges from LLMs
@@ -230,10 +235,9 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ### Sources
 
-* Internet Encyclopedia of Philosophy, [Care Ethics](https://iep.utm.edu/care-ethics/) (revisit from Week 3)
 * Reuters, [As AI enters the operating room, reports arise of botched surgeries and misidentified body parts](https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/)
 * California Healthline, [Death By 1,000 Clicks: Where Electronic Health Records Went Wrong](https://californiahealthline.org/news/death-by-a-thousand-clicks/)
-  * "Botched Operaion" YouTube Series about electronic health records:
+  * "Botched Operation" YouTube Series about electronic health records:
     * [Part 1](https://www.youtube.com/watch?v=-45n_0Rl8M4)
     * [Part 2](https://www.youtube.com/watch?v=UjFFaN0Ue2E)
     * [Part 3](https://www.youtube.com/watch?v=-3EJdWDMCa0)
@@ -282,7 +286,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * [Joy Buolamwini's TED Talk (9 minutes)](https://www.youtube.com/watch?v=UG_X_7g63rY)
 * Report by Algorithmic Justice League, [Facial Recognition Technologies: A Primer](https://global-uploads.webflow.com/5e027ca188c99e3515b404b7/5ed1002058516c11edc66a14_FRTsPrimerMay2020.pdf)
 * _New York Times_, [Meta Plans to Add Facial Recognition Technology to Its Smart Glasses](https://archive.ph/hwGd4)
-* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) — two researchers investigate racial bias built into widely used search engines
+* NOVA, [Search Engine Breakdown (21 minutes)](https://www.pbs.org/video/search-engine-breakdown-79wcbc/): two researchers investigate racial bias built into widely used search engines
 
 ## Week 12, Day 1 (2026-11-09)
 

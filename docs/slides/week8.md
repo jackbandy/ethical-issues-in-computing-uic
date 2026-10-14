@@ -748,13 +748,6 @@ News coverage, December 2020 to June 2021 (Google News)
 
 ---
 
-## Table Activity: Learn About the Authors
-
-- Education? Early life?
-- Previous jobs / positions?
-- Major contributions / projects?
-
----
 
 ## Four Key Issues in "Stochastic Parrots"
 
@@ -904,29 +897,6 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-# Managing the Risks {.title-slide .section-header}
-
----
-
-## Managing the Risks
-
----
-
-## Table Discussion: Ideas for Managing Risks?
-
-:::: columns
-::: {.column width="48%"}
-- **Environmental and financial costs** — what kind of metrics could be useful (or unhelpful)?
-- **Misdirected research** — better ways to approach and manage it?
-:::
-
-::: {.column width="48%"}
-- **Human interactions** — what are the practical, everyday benefits of language models?
-- How do we know when we reach over-reliance on a "responsible LLM" checklist?
-:::
-::::
-
----
 
 
 ## Laptop/Phone Policy Check-in
