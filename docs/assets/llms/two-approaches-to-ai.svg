@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-18T09:56:23.741783</dc:date>
+    <dc:date>2026-10-18T11:24:12.416746</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -31,51 +31,51 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 149.312788 106.92798 
-Q 208.090627 106.92798 264.632397 106.92798 
+    <path d="M 163.931668 127.8977 
+Q 209.645827 127.8977 253.123917 127.8977 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 251.432397 100.32798 
-L 264.632397 106.92798 
-L 251.432397 113.52798 
+    <path d="M 239.923917 121.2977 
+L 253.123917 127.8977 
+L 239.923917 134.4977 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_3">
-    <path d="M 315.5328 132.850727 
-Q 315.5328 182.505348 315.5328 229.9239 
+    <path d="M 303.0912 153.820448 
+Q 303.0912 203.475068 303.0912 250.893621 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 322.1328 216.7239 
-L 315.5328 229.9239 
-L 308.9328 216.7239 
+    <path d="M 309.6912 237.693621 
+L 303.0912 250.893621 
+L 296.4912 237.693621 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_4">
-    <path d="M 91.584 232.159968 
-Q 91.584 182.548004 91.584 135.172108 
+    <path d="M 107.136 253.129689 
+Q 107.136 203.517724 107.136 156.141828 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 84.984 148.372108 
-L 91.584 135.172108 
-L 98.184 148.372108 
+    <path d="M 100.536 169.341828 
+L 107.136 156.141828 
+L 113.736 169.341828 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_1">
     <g id="patch_5">
-     <path d="M 50.770172 126.45798 
-L 132.397828 126.45798 
-Q 141.847828 126.45798 141.847828 117.00798 
-L 141.847828 96.84798 
-Q 141.847828 87.39798 132.397828 87.39798 
-L 50.770172 87.39798 
-Q 41.320172 87.39798 41.320172 96.84798 
-L 41.320172 117.00798 
-Q 41.320172 126.45798 50.770172 126.45798 
+     <path d="M 66.322172 147.4277 
+L 147.949828 147.4277 
+Q 157.399828 147.4277 157.399828 137.9777 
+L 157.399828 117.8177 
+Q 157.399828 108.3677 147.949828 108.3677 
+L 66.322172 108.3677 
+Q 56.872172 108.3677 56.872172 117.8177 
+L 56.872172 137.9777 
+Q 56.872172 147.4277 66.322172 147.4277 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- Chicago -->
-    <g style="fill: #231f20" transform="translate(50.770172 112.302667) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(66.322172 133.272388) scale(0.21 -0.21)">
      <defs>
       <path id="Mulish-Bold-43" d="M 2598 -64 
 Q 1894 -64 1392 221 
@@ -266,20 +266,20 @@ z
    </g>
    <g id="text_2">
     <g id="patch_6">
-     <path d="M 283.783425 126.372667 
-L 347.282175 126.372667 
-Q 356.732175 126.372667 356.732175 116.922667 
-L 356.732175 96.933292 
-Q 356.732175 87.483292 347.282175 87.483292 
-L 283.783425 87.483292 
-Q 274.333425 87.483292 274.333425 96.933292 
-L 274.333425 116.922667 
-Q 274.333425 126.372667 283.783425 126.372667 
+     <path d="M 271.341825 147.342388 
+L 334.840575 147.342388 
+Q 344.290575 147.342388 344.290575 137.892388 
+L 344.290575 117.903013 
+Q 344.290575 108.453013 334.840575 108.453013 
+L 271.341825 108.453013 
+Q 261.891825 108.453013 261.891825 117.903013 
+L 261.891825 137.892388 
+Q 261.891825 147.342388 271.341825 147.342388 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- Illinois -->
-    <g style="fill: #231f20" transform="translate(283.783425 112.38798) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(271.341825 133.3577) scale(0.21 -0.21)">
      <defs>
       <path id="Mulish-Bold-49" d="M 499 0 
 L 499 4512 
@@ -363,20 +363,20 @@ z
    </g>
    <g id="text_3">
     <g id="patch_7">
-     <path d="M 247.313972 277.527403 
-L 383.751628 277.527403 
-Q 393.201628 277.527403 393.201628 268.077403 
-L 393.201628 248.088028 
-Q 393.201628 238.638028 383.751628 238.638028 
-L 247.313972 238.638028 
-Q 237.863972 238.638028 237.863972 248.088028 
-L 237.863972 268.077403 
-Q 237.863972 277.527403 247.313972 277.527403 
+     <path d="M 234.872372 298.497124 
+L 371.310028 298.497124 
+Q 380.760028 298.497124 380.760028 289.047124 
+L 380.760028 269.057749 
+Q 380.760028 259.607749 371.310028 259.607749 
+L 234.872372 259.607749 
+Q 225.422372 259.607749 225.422372 269.057749 
+L 225.422372 289.047124 
+Q 225.422372 298.497124 234.872372 298.497124 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- United States -->
-    <g style="fill: #231f20" transform="translate(247.313972 263.542716) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(234.872372 284.512436) scale(0.21 -0.21)">
      <defs>
       <path id="Mulish-Bold-55" d="M 2381 -64 
 Q 1414 -64 944 419 
@@ -529,20 +529,20 @@ z
    </g>
    <g id="text_4">
     <g id="patch_8">
-     <path d="M 46.005797 277.527403 
-L 137.162203 277.527403 
-Q 146.612203 277.527403 146.612203 268.077403 
-L 146.612203 248.088028 
-Q 146.612203 238.638028 137.162203 238.638028 
-L 46.005797 238.638028 
-Q 36.555797 238.638028 36.555797 248.088028 
-L 36.555797 268.077403 
-Q 36.555797 277.527403 46.005797 277.527403 
+     <path d="M 61.557797 298.497124 
+L 152.714203 298.497124 
+Q 162.164203 298.497124 162.164203 289.047124 
+L 162.164203 269.057749 
+Q 162.164203 259.607749 152.714203 259.607749 
+L 61.557797 259.607749 
+Q 52.107797 259.607749 52.107797 269.057749 
+L 52.107797 289.047124 
+Q 52.107797 298.497124 61.557797 298.497124 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- Blue Line -->
-    <g style="fill: #231f20" transform="translate(46.005797 263.542716) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(61.557797 284.512436) scale(0.21 -0.21)">
      <defs>
       <path id="Mulish-Bold-42" d="M 499 0 
 L 499 4512 
@@ -620,7 +620,7 @@ z
    </g>
    <g id="text_5">
     <!-- located in -->
-    <g style="fill: #666666" transform="translate(163.213088 83.247032) scale(0.18 -0.18)">
+    <g style="fill: #666666" transform="translate(164.768288 104.216753) scale(0.18 -0.18)">
      <defs>
       <path id="Mulish-Italic-6c" d="M 250 0 
 L 998 4710 
@@ -840,7 +840,7 @@ z
    </g>
    <g id="text_6">
     <!-- state of -->
-    <g style="fill: #666666" transform="translate(239.914013 187.185348) scale(0.18 -0.18)">
+    <g style="fill: #666666" transform="translate(229.027613 229.748602) scale(0.18 -0.18)">
      <defs>
       <path id="Mulish-Italic-73" d="M 1363 -58 
 Q 998 -58 678 41 
@@ -914,7 +914,7 @@ z
    </g>
    <g id="text_7">
     <!-- runs through -->
-    <g style="fill: #666666" transform="translate(104.0256 187.122066) scale(0.18 -0.18)">
+    <g style="fill: #666666" transform="translate(118.0224 186.498253) scale(0.18 -0.18)">
      <defs>
       <path id="Mulish-Italic-72" d="M 237 0 
 L 627 2438 
@@ -1034,394 +1034,8 @@ z
     </g>
    </g>
    <g id="text_8">
-    <!-- Facts and relations you can inspect -->
-    <g style="fill: #666666" transform="translate(8.64 340.445051) scale(0.19 -0.19)">
-     <defs>
-      <path id="Mulish-Regular-46" d="M 563 0 
-L 563 4512 
-L 3379 4512 
-L 3379 4077 
-L 1094 4077 
-L 1094 2496 
-L 3238 2496 
-L 3238 2061 
-L 1094 2061 
-L 1094 0 
-L 563 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-61" d="M 1728 -58 
-Q 1299 -58 979 144 
-Q 659 346 483 717 
-Q 307 1088 307 1606 
-Q 307 2131 483 2502 
-Q 659 2874 979 3072 
-Q 1299 3270 1728 3270 
-Q 2163 3270 2480 3049 
-Q 2797 2829 2899 2451 
-L 2822 2451 
-L 2893 3213 
-L 3392 3213 
-Q 3373 3027 3357 2838 
-Q 3341 2650 3341 2470 
-L 3341 0 
-L 2822 0 
-L 2822 755 
-L 2893 755 
-Q 2790 378 2470 160 
-Q 2150 -58 1728 -58 
-z
-M 1830 365 
-Q 2291 365 2560 681 
-Q 2829 998 2829 1606 
-Q 2829 2221 2560 2537 
-Q 2291 2854 1830 2854 
-Q 1376 2854 1104 2537 
-Q 832 2221 832 1606 
-Q 832 998 1104 681 
-Q 1376 365 1830 365 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-63" d="M 1856 -58 
-Q 1382 -58 1033 147 
-Q 685 352 496 729 
-Q 307 1107 307 1626 
-Q 307 2150 499 2518 
-Q 691 2886 1040 3078 
-Q 1389 3270 1856 3270 
-Q 2163 3270 2454 3161 
-Q 2746 3053 2938 2854 
-L 2752 2483 
-Q 2560 2669 2333 2758 
-Q 2106 2848 1888 2848 
-Q 1389 2848 1113 2534 
-Q 838 2221 838 1619 
-Q 838 1024 1113 697 
-Q 1389 371 1888 371 
-Q 2099 371 2326 454 
-Q 2554 538 2752 730 
-L 2938 365 
-Q 2739 160 2444 51 
-Q 2150 -58 1856 -58 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-74" d="M 1645 -58 
-Q 1171 -58 921 214 
-Q 672 486 672 1037 
-L 672 2810 
-L 45 2810 
-L 45 3213 
-L 672 3213 
-L 672 4090 
-L 1190 4237 
-L 1190 3213 
-L 2112 3213 
-L 2112 2810 
-L 1190 2810 
-L 1190 1094 
-Q 1190 710 1321 547 
-Q 1453 384 1715 384 
-Q 1837 384 1933 406 
-Q 2029 429 2106 461 
-L 2106 26 
-Q 2016 -13 1891 -35 
-Q 1766 -58 1645 -58 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-73" d="M 1574 -58 
-Q 1190 -58 857 48 
-Q 525 154 307 346 
-L 486 710 
-Q 723 525 1001 435 
-Q 1280 346 1581 346 
-Q 1965 346 2160 483 
-Q 2355 621 2355 864 
-Q 2355 1050 2230 1162 
-Q 2106 1274 1824 1338 
-L 1229 1459 
-Q 819 1549 614 1763 
-Q 410 1978 410 2310 
-Q 410 2592 557 2806 
-Q 704 3021 985 3145 
-Q 1267 3270 1645 3270 
-Q 1997 3270 2294 3164 
-Q 2592 3059 2790 2861 
-L 2605 2502 
-Q 2413 2688 2166 2781 
-Q 1920 2874 1658 2874 
-Q 1280 2874 1091 2723 
-Q 902 2573 902 2330 
-Q 902 2144 1020 2025 
-Q 1139 1907 1389 1850 
-L 1984 1728 
-Q 2419 1632 2633 1430 
-Q 2848 1229 2848 890 
-Q 2848 602 2688 387 
-Q 2528 173 2243 57 
-Q 1958 -58 1574 -58 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-20" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-6e" d="M 506 0 
-L 506 2470 
-Q 506 2650 490 2838 
-Q 474 3027 454 3213 
-L 954 3213 
-L 1018 2509 
-L 941 2509 
-Q 1082 2880 1392 3075 
-Q 1702 3270 2112 3270 
-Q 2682 3270 2973 2966 
-Q 3264 2662 3264 2010 
-L 3264 0 
-L 2746 0 
-L 2746 1978 
-Q 2746 2432 2563 2640 
-Q 2381 2848 1997 2848 
-Q 1549 2848 1286 2573 
-Q 1024 2298 1024 1837 
-L 1024 0 
-L 506 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-64" d="M 1722 -58 
-Q 1299 -58 979 144 
-Q 659 346 483 717 
-Q 307 1088 307 1606 
-Q 307 2131 483 2502 
-Q 659 2874 979 3072 
-Q 1299 3270 1722 3270 
-Q 2157 3270 2473 3052 
-Q 2790 2835 2899 2464 
-L 2822 2464 
-L 2822 4710 
-L 3341 4710 
-L 3341 0 
-L 2829 0 
-L 2829 768 
-L 2899 768 
-Q 2797 384 2477 163 
-Q 2157 -58 1722 -58 
-z
-M 1830 365 
-Q 2285 365 2560 681 
-Q 2835 998 2835 1606 
-Q 2835 2221 2560 2537 
-Q 2285 2854 1830 2854 
-Q 1376 2854 1104 2537 
-Q 832 2221 832 1606 
-Q 832 998 1104 681 
-Q 1376 365 1830 365 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-72" d="M 493 0 
-L 493 2438 
-Q 493 2630 483 2828 
-Q 474 3027 454 3213 
-L 954 3213 
-L 1018 2432 
-L 928 2426 
-Q 992 2714 1152 2899 
-Q 1312 3085 1529 3177 
-Q 1747 3270 1984 3270 
-Q 2080 3270 2153 3264 
-Q 2227 3258 2291 3232 
-L 2285 2771 
-Q 2189 2803 2109 2812 
-Q 2029 2822 1926 2822 
-Q 1645 2822 1437 2688 
-Q 1229 2554 1123 2342 
-Q 1018 2131 1018 1894 
-L 1018 0 
-L 493 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-65" d="M 1933 -58 
-Q 1178 -58 742 380 
-Q 307 819 307 1600 
-Q 307 2106 499 2480 
-Q 691 2854 1036 3062 
-Q 1382 3270 1830 3270 
-Q 2272 3270 2573 3084 
-Q 2874 2899 3034 2556 
-Q 3194 2214 3194 1747 
-L 3194 1555 
-L 704 1555 
-L 704 1882 
-L 2854 1882 
-L 2746 1798 
-Q 2746 2310 2515 2598 
-Q 2285 2886 1830 2886 
-Q 1350 2886 1081 2550 
-Q 813 2214 813 1645 
-L 813 1587 
-Q 813 986 1110 675 
-Q 1408 365 1946 365 
-Q 2234 365 2486 451 
-Q 2739 538 2970 736 
-L 3149 371 
-Q 2938 166 2614 54 
-Q 2291 -58 1933 -58 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-6c" d="M 506 0 
-L 506 4710 
-L 1024 4710 
-L 1024 0 
-L 506 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-69" d="M 506 0 
-L 506 3213 
-L 1024 3213 
-L 1024 0 
-L 506 0 
-z
-M 442 3942 
-L 442 4525 
-L 1082 4525 
-L 1082 3942 
-L 442 3942 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-6f" d="M 1824 -58 
-Q 1363 -58 1020 144 
-Q 678 346 492 720 
-Q 307 1094 307 1606 
-Q 307 2125 492 2496 
-Q 678 2867 1020 3068 
-Q 1363 3270 1824 3270 
-Q 2291 3270 2633 3068 
-Q 2976 2867 3165 2496 
-Q 3354 2125 3354 1606 
-Q 3354 1094 3165 720 
-Q 2976 346 2633 144 
-Q 2291 -58 1824 -58 
-z
-M 1824 365 
-Q 2285 365 2553 681 
-Q 2822 998 2822 1606 
-Q 2822 2221 2550 2537 
-Q 2278 2854 1824 2854 
-Q 1370 2854 1101 2537 
-Q 832 2221 832 1606 
-Q 832 998 1101 681 
-Q 1370 365 1824 365 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-79" d="M 378 -1453 
-L 256 -1024 
-Q 557 -954 758 -861 
-Q 960 -768 1094 -614 
-Q 1229 -461 1325 -230 
-L 1491 147 
-L 1478 -70 
-L 77 3213 
-L 640 3213 
-L 1798 390 
-L 1632 390 
-L 2778 3213 
-L 3322 3213 
-L 1837 -269 
-Q 1709 -576 1555 -784 
-Q 1402 -992 1226 -1123 
-Q 1050 -1254 838 -1331 
-Q 627 -1408 378 -1453 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-75" d="M 1638 -58 
-Q 1069 -58 777 256 
-Q 486 570 486 1216 
-L 486 3213 
-L 1005 3213 
-L 1005 1229 
-Q 1005 787 1184 579 
-Q 1363 371 1741 371 
-Q 2163 371 2419 646 
-Q 2675 922 2675 1382 
-L 2675 3213 
-L 3194 3213 
-L 3194 0 
-L 2688 0 
-L 2688 723 
-L 2771 723 
-Q 2637 352 2339 147 
-Q 2042 -58 1638 -58 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-70" d="M 506 -1382 
-L 506 2470 
-Q 506 2650 490 2838 
-Q 474 3027 454 3213 
-L 954 3213 
-L 1024 2451 
-L 947 2451 
-Q 1050 2829 1363 3049 
-Q 1677 3270 2112 3270 
-Q 2547 3270 2864 3072 
-Q 3181 2874 3360 2502 
-Q 3539 2131 3539 1606 
-Q 3539 1088 3363 717 
-Q 3187 346 2867 144 
-Q 2547 -58 2112 -58 
-Q 1683 -58 1369 160 
-Q 1056 378 954 755 
-L 1024 755 
-L 1024 -1382 
-L 506 -1382 
-z
-M 2010 365 
-Q 2470 365 2742 681 
-Q 3014 998 3014 1606 
-Q 3014 2221 2742 2537 
-Q 2470 2854 2010 2854 
-Q 1555 2854 1283 2537 
-Q 1011 2221 1011 1606 
-Q 1011 998 1283 681 
-Q 1555 365 2010 365 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Mulish-Regular-46"/>
-     <use xlink:href="#Mulish-Regular-61" transform="translate(56.199997 0)"/>
-     <use xlink:href="#Mulish-Regular-63" transform="translate(116.199982 0)"/>
-     <use xlink:href="#Mulish-Regular-74" transform="translate(165.699966 0)"/>
-     <use xlink:href="#Mulish-Regular-73" transform="translate(200.699951 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(250.299942 0)"/>
-     <use xlink:href="#Mulish-Regular-61" transform="translate(276.399933 0)"/>
-     <use xlink:href="#Mulish-Regular-6e" transform="translate(336.399918 0)"/>
-     <use xlink:href="#Mulish-Regular-64" transform="translate(394.999908 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(454.999893 0)"/>
-     <use xlink:href="#Mulish-Regular-72" transform="translate(481.099884 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(517.399872 0)"/>
-     <use xlink:href="#Mulish-Regular-6c" transform="translate(571.799866 0)"/>
-     <use xlink:href="#Mulish-Regular-61" transform="translate(595.599854 0)"/>
-     <use xlink:href="#Mulish-Regular-74" transform="translate(655.599838 0)"/>
-     <use xlink:href="#Mulish-Regular-69" transform="translate(690.599823 0)"/>
-     <use xlink:href="#Mulish-Regular-6f" transform="translate(714.399811 0)"/>
-     <use xlink:href="#Mulish-Regular-6e" transform="translate(771.499802 0)"/>
-     <use xlink:href="#Mulish-Regular-73" transform="translate(830.099792 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(879.699783 0)"/>
-     <use xlink:href="#Mulish-Regular-79" transform="translate(905.799774 0)"/>
-     <use xlink:href="#Mulish-Regular-6f" transform="translate(958.899765 0)"/>
-     <use xlink:href="#Mulish-Regular-75" transform="translate(1015.999756 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(1073.699753 0)"/>
-     <use xlink:href="#Mulish-Regular-63" transform="translate(1099.799744 0)"/>
-     <use xlink:href="#Mulish-Regular-61" transform="translate(1149.299728 0)"/>
-     <use xlink:href="#Mulish-Regular-6e" transform="translate(1209.299713 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(1267.899704 0)"/>
-     <use xlink:href="#Mulish-Regular-69" transform="translate(1293.999695 0)"/>
-     <use xlink:href="#Mulish-Regular-6e" transform="translate(1317.799683 0)"/>
-     <use xlink:href="#Mulish-Regular-73" transform="translate(1376.399673 0)"/>
-     <use xlink:href="#Mulish-Regular-70" transform="translate(1425.999664 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(1485.999649 0)"/>
-     <use xlink:href="#Mulish-Regular-63" transform="translate(1540.399643 0)"/>
-     <use xlink:href="#Mulish-Regular-74" transform="translate(1589.899628 0)"/>
-    </g>
-   </g>
-   <g id="text_9">
     <!-- Structured knowledge -->
-    <g style="fill: #231f20" transform="translate(8.64 28.949534) scale(0.25 -0.25)">
+    <g style="fill: #231f20" transform="translate(34.56 49.919255) scale(0.25 -0.25)">
      <defs>
       <path id="Mulish-Bold-72" d="M 429 0 
 L 429 2406 
@@ -1507,61 +1121,61 @@ z
   </g>
   <g id="axes_2">
    <g id="patch_9">
-    <path d="M 141.018388 462.501501 
-Q 178.49347 462.501501 213.732485 462.501501 
+    <path d="M 156.674068 483.471222 
+Q 185.23267 483.471222 211.555205 483.471222 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 200.532485 455.901501 
-L 213.732485 462.501501 
-L 200.532485 469.101501 
+    <path d="M 198.355205 476.871222 
+L 211.555205 483.471222 
+L 198.355205 490.071222 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_10">
-    <path d="M 218.154989 482.224945 
-Q 156.27065 535.927907 96.07514 588.165312 
+    <path d="M 215.704404 505.357917 
+Q 162.646213 557.979254 111.175684 609.026 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 110.370417 584.498564 
-L 96.07514 588.165312 
-L 101.718908 574.529041 
+    <path d="M 125.19557 604.417011 
+L 111.175684 609.026 
+L 115.900424 595.044698 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_11">
-    <path d="M 240.8832 488.424249 
-Q 240.8832 538.078869 240.8832 585.497421 
+    <path d="M 237.7728 509.393969 
+Q 237.7728 559.04859 237.7728 606.467142 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 247.4832 572.297421 
-L 240.8832 585.497421 
-L 234.2832 572.297421 
+    <path d="M 244.3728 593.267142 
+L 237.7728 606.467142 
+L 231.1728 593.267142 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="patch_12">
-    <path d="M 261.227111 487.217603 
-Q 303.043261 538.020627 343.438364 587.097202 
+    <path d="M 255.573722 508.187324 
+Q 292.162853 558.990347 327.445181 607.978911 
 " style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 340.145419 572.711218 
-L 343.438364 587.097202 
-L 329.95381 581.099968 
+    <path d="M 325.086417 593.410581 
+L 327.445181 607.978911 
+L 314.375259 601.124924 
 z
 " style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
    </g>
-   <g id="text_10">
+   <g id="text_9">
     <g id="patch_13">
-     <path d="M 42.475772 482.031501 
-L 124.103428 482.031501 
-Q 133.553428 482.031501 133.553428 472.581501 
-L 133.553428 452.421501 
-Q 133.553428 442.971501 124.103428 442.971501 
-L 42.475772 442.971501 
-Q 33.025772 442.971501 33.025772 452.421501 
-L 33.025772 472.581501 
-Q 33.025772 482.031501 42.475772 482.031501 
+     <path d="M 59.064572 503.001222 
+L 140.692228 503.001222 
+Q 150.142228 503.001222 150.142228 493.551222 
+L 150.142228 473.391222 
+Q 150.142228 463.941222 140.692228 463.941222 
+L 59.064572 463.941222 
+Q 49.614572 463.941222 49.614572 473.391222 
+L 49.614572 493.551222 
+Q 49.614572 503.001222 59.064572 503.001222 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- Chicago -->
-    <g style="fill: #231f20" transform="translate(42.475772 467.876189) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(59.064572 488.845909) scale(0.21 -0.21)">
      <use xlink:href="#Mulish-Bold-43"/>
      <use xlink:href="#Mulish-Bold-68" transform="translate(68.499985 0)"/>
      <use xlink:href="#Mulish-Bold-69" transform="translate(128.799973 0)"/>
@@ -1571,84 +1185,84 @@ z
      <use xlink:href="#Mulish-Bold-6f" transform="translate(329.499939 0)"/>
     </g>
    </g>
-   <g id="text_11">
+   <g id="text_10">
     <g id="patch_14">
-     <path d="M 232.883513 481.946189 
-L 248.882888 481.946189 
-Q 258.332888 481.946189 258.332888 472.496189 
-L 258.332888 452.506814 
-Q 258.332888 443.056814 248.882888 443.056814 
-L 232.883513 443.056814 
-Q 223.433513 443.056814 223.433513 452.506814 
-L 223.433513 472.496189 
-Q 223.433513 481.946189 232.883513 481.946189 
+     <path d="M 229.773113 502.915909 
+L 245.772488 502.915909 
+Q 255.222488 502.915909 255.222488 493.465909 
+L 255.222488 473.476534 
+Q 255.222488 464.026534 245.772488 464.026534 
+L 229.773113 464.026534 
+Q 220.323113 464.026534 220.323113 473.476534 
+L 220.323113 493.465909 
+Q 220.323113 502.915909 229.773113 502.915909 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- is -->
-    <g style="fill: #231f20" transform="translate(232.883513 467.961501) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(229.773113 488.931222) scale(0.21 -0.21)">
      <use xlink:href="#Mulish-Bold-69"/>
      <use xlink:href="#Mulish-Bold-73" transform="translate(26.099991 0)"/>
     </g>
    </g>
-   <g id="text_12">
+   <g id="text_11">
     <g id="patch_15">
-     <path d="M 45.941972 633.100925 
-L 87.459628 633.100925 
-Q 96.909628 633.100925 96.909628 623.650925 
-L 96.909628 603.66155 
-Q 96.909628 594.21155 87.459628 594.21155 
-L 45.941972 594.21155 
-Q 36.491972 594.21155 36.491972 603.66155 
-L 36.491972 623.650925 
-Q 36.491972 633.100925 45.941972 633.100925 
+     <path d="M 64.604372 654.070645 
+L 106.122028 654.070645 
+Q 115.572028 654.070645 115.572028 644.620645 
+L 115.572028 624.63127 
+Q 115.572028 615.18127 106.122028 615.18127 
+L 64.604372 615.18127 
+Q 55.154372 615.18127 55.154372 624.63127 
+L 55.154372 644.620645 
+Q 55.154372 654.070645 64.604372 654.070645 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- cold -->
-    <g style="fill: #231f20" transform="translate(45.941972 619.116237) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(64.604372 640.085958) scale(0.21 -0.21)">
      <use xlink:href="#Mulish-Bold-63"/>
      <use xlink:href="#Mulish-Bold-6f" transform="translate(50.399994 0)"/>
      <use xlink:href="#Mulish-Bold-6c" transform="translate(109.599991 0)"/>
      <use xlink:href="#Mulish-Bold-64" transform="translate(135.699982 0)"/>
     </g>
    </g>
-   <g id="text_13">
+   <g id="text_12">
     <g id="patch_16">
-     <path d="M 231.812184 633.100925 
-L 249.954216 633.100925 
-Q 259.404216 633.100925 259.404216 623.650925 
-L 259.404216 603.66155 
-Q 259.404216 594.21155 249.954216 594.21155 
-L 231.812184 594.21155 
-Q 222.362184 594.21155 222.362184 603.66155 
-L 222.362184 623.650925 
-Q 222.362184 633.100925 231.812184 633.100925 
+     <path d="M 228.701784 654.070645 
+L 246.843816 654.070645 
+Q 256.293816 654.070645 256.293816 644.620645 
+L 256.293816 624.63127 
+Q 256.293816 615.18127 246.843816 615.18127 
+L 228.701784 615.18127 
+Q 219.251784 615.18127 219.251784 624.63127 
+L 219.251784 644.620645 
+Q 219.251784 654.070645 228.701784 654.070645 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- in -->
-    <g style="fill: #231f20" transform="translate(231.812184 619.116237) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(228.701784 640.085958) scale(0.21 -0.21)">
      <use xlink:href="#Mulish-Bold-69"/>
      <use xlink:href="#Mulish-Bold-6e" transform="translate(26.099991 0)"/>
     </g>
    </g>
-   <g id="text_14">
+   <g id="text_13">
     <g id="patch_17">
-     <path d="M 334.745841 633.217409 
-L 395.852559 633.217409 
-Q 405.302559 633.217409 405.302559 623.767409 
-L 405.302559 603.545065 
-Q 405.302559 594.095065 395.852559 594.095065 
-L 334.745841 594.095065 
-Q 325.295841 594.095065 325.295841 603.545065 
-L 325.295841 623.767409 
-Q 325.295841 633.217409 334.745841 633.217409 
+     <path d="M 316.083441 654.187129 
+L 377.190159 654.187129 
+Q 386.640159 654.187129 386.640159 644.737129 
+L 386.640159 624.514786 
+Q 386.640159 615.064786 377.190159 615.064786 
+L 316.083441 615.064786 
+Q 306.633441 615.064786 306.633441 624.514786 
+L 306.633441 644.737129 
+Q 306.633441 654.187129 316.083441 654.187129 
 z
 " style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
     </g>
     <!-- windy -->
-    <g style="fill: #231f20" transform="translate(334.745841 618.999753) scale(0.21 -0.21)">
+    <g style="fill: #231f20" transform="translate(316.083441 639.969473) scale(0.21 -0.21)">
      <defs>
       <path id="Mulish-Bold-79" d="M 371 -1453 
 L 186 -819 
@@ -1678,189 +1292,9 @@ z
      <use xlink:href="#Mulish-Bold-79" transform="translate(236.699951 0)"/>
     </g>
    </g>
-   <g id="text_15">
-    <!-- Likely next words, learned from text -->
-    <g style="fill: #666666" transform="translate(8.64 696.09576) scale(0.19 -0.19)">
-     <defs>
-      <path id="Mulish-Regular-4c" d="M 563 0 
-L 563 4512 
-L 1094 4512 
-L 1094 461 
-L 3373 461 
-L 3373 0 
-L 563 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-6b" d="M 506 0 
-L 506 4710 
-L 1024 4710 
-L 1024 1786 
-L 1037 1786 
-L 2528 3213 
-L 3181 3213 
-L 1421 1536 
-L 1434 1798 
-L 3347 0 
-L 2675 0 
-L 1037 1510 
-L 1024 1510 
-L 1024 0 
-L 506 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-78" d="M 70 0 
-L 1510 1786 
-L 1510 1530 
-L 147 3213 
-L 774 3213 
-L 1805 1901 
-L 1619 1901 
-L 2643 3213 
-L 3264 3213 
-L 1920 1536 
-L 1920 1773 
-L 3347 0 
-L 2714 0 
-L 1613 1402 
-L 1805 1402 
-L 691 0 
-L 70 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-77" d="M 1363 0 
-L 173 3213 
-L 723 3213 
-L 1715 384 
-L 1549 384 
-L 2573 3213 
-L 3021 3213 
-L 4026 384 
-L 3866 384 
-L 4864 3213 
-L 5389 3213 
-L 4192 0 
-L 3693 0 
-L 2656 2874 
-L 2912 2874 
-L 1869 0 
-L 1363 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-2c" d="M 672 -730 
-L 429 -544 
-Q 602 -365 656 -208 
-Q 710 -51 710 109 
-L 826 0 
-L 403 0 
-L 403 653 
-L 1056 653 
-L 1056 192 
-Q 1056 -64 973 -291 
-Q 890 -518 672 -730 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-66" d="M 672 0 
-L 672 2810 
-L 45 2810 
-L 45 3213 
-L 813 3213 
-L 672 3078 
-L 672 3616 
-Q 672 4160 947 4448 
-Q 1222 4736 1734 4736 
-Q 1862 4736 2000 4713 
-Q 2138 4691 2227 4653 
-L 2227 4224 
-Q 2150 4256 2038 4278 
-Q 1926 4301 1811 4301 
-Q 1613 4301 1472 4221 
-Q 1331 4141 1260 3981 
-Q 1190 3821 1190 3571 
-L 1190 3104 
-L 1107 3213 
-L 2086 3213 
-L 2086 2810 
-L 1190 2810 
-L 1190 0 
-L 672 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Mulish-Regular-6d" d="M 506 0 
-L 506 2470 
-Q 506 2650 490 2838 
-Q 474 3027 454 3213 
-L 954 3213 
-L 1018 2509 
-L 941 2509 
-Q 1069 2874 1347 3072 
-Q 1626 3270 2022 3270 
-Q 2426 3270 2678 3078 
-Q 2931 2886 3021 2483 
-L 2925 2483 
-Q 3046 2848 3353 3059 
-Q 3661 3270 4070 3270 
-Q 4602 3270 4870 2966 
-Q 5139 2662 5139 2010 
-L 5139 0 
-L 4621 0 
-L 4621 1978 
-Q 4621 2432 4461 2640 
-Q 4301 2848 3949 2848 
-Q 3546 2848 3312 2569 
-Q 3078 2291 3078 1824 
-L 3078 0 
-L 2560 0 
-L 2560 1978 
-Q 2560 2432 2400 2640 
-Q 2240 2848 1888 2848 
-Q 1485 2848 1254 2569 
-Q 1024 2291 1024 1824 
-L 1024 0 
-L 506 0 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Mulish-Regular-4c"/>
-     <use xlink:href="#Mulish-Regular-69" transform="translate(54.499985 0)"/>
-     <use xlink:href="#Mulish-Regular-6b" transform="translate(78.299973 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(129.799957 0)"/>
-     <use xlink:href="#Mulish-Regular-6c" transform="translate(184.199951 0)"/>
-     <use xlink:href="#Mulish-Regular-79" transform="translate(207.999939 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(261.09993 0)"/>
-     <use xlink:href="#Mulish-Regular-6e" transform="translate(287.199921 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(345.799911 0)"/>
-     <use xlink:href="#Mulish-Regular-78" transform="translate(400.199905 0)"/>
-     <use xlink:href="#Mulish-Regular-74" transform="translate(453.69989 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(488.699875 0)"/>
-     <use xlink:href="#Mulish-Regular-77" transform="translate(514.799866 0)"/>
-     <use xlink:href="#Mulish-Regular-6f" transform="translate(601.69986 0)"/>
-     <use xlink:href="#Mulish-Regular-72" transform="translate(658.79985 0)"/>
-     <use xlink:href="#Mulish-Regular-64" transform="translate(695.099838 0)"/>
-     <use xlink:href="#Mulish-Regular-73" transform="translate(755.099823 0)"/>
-     <use xlink:href="#Mulish-Regular-2c" transform="translate(804.699814 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(827.499802 0)"/>
-     <use xlink:href="#Mulish-Regular-6c" transform="translate(853.599792 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(877.39978 0)"/>
-     <use xlink:href="#Mulish-Regular-61" transform="translate(931.799774 0)"/>
-     <use xlink:href="#Mulish-Regular-72" transform="translate(991.799759 0)"/>
-     <use xlink:href="#Mulish-Regular-6e" transform="translate(1028.099747 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(1086.699738 0)"/>
-     <use xlink:href="#Mulish-Regular-64" transform="translate(1141.099731 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(1201.099716 0)"/>
-     <use xlink:href="#Mulish-Regular-66" transform="translate(1227.199707 0)"/>
-     <use xlink:href="#Mulish-Regular-72" transform="translate(1260.999695 0)"/>
-     <use xlink:href="#Mulish-Regular-6f" transform="translate(1297.299683 0)"/>
-     <use xlink:href="#Mulish-Regular-6d" transform="translate(1354.399673 0)"/>
-     <use xlink:href="#Mulish-Regular-20" transform="translate(1442.199661 0)"/>
-     <use xlink:href="#Mulish-Regular-74" transform="translate(1468.299652 0)"/>
-     <use xlink:href="#Mulish-Regular-65" transform="translate(1503.299637 0)"/>
-     <use xlink:href="#Mulish-Regular-78" transform="translate(1557.699631 0)"/>
-     <use xlink:href="#Mulish-Regular-74" transform="translate(1611.199615 0)"/>
-    </g>
-   </g>
-   <g id="text_16">
+   <g id="text_14">
     <!-- Next-word statistics -->
-    <g style="fill: #231f20" transform="translate(8.64 384.523056) scale(0.25 -0.25)">
+    <g style="fill: #231f20" transform="translate(34.56 405.492776) scale(0.25 -0.25)">
      <defs>
       <path id="Mulish-Bold-4e" d="M 499 0 
 L 499 4512 

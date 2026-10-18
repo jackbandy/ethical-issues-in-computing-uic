@@ -23,6 +23,7 @@ CS 377, Week 9, Day 1 🟦 Damen 🟦
 
 :::: columns
 ::: {.column width="55%"}
+- Free write
 - Book check-in
 - What is an LLM?
 - "Stochastic Parrots"
@@ -30,7 +31,7 @@ CS 377, Week 9, Day 1 🟦 Damen 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop21-damen.svg)
 :::
 ::::
 
@@ -42,6 +43,31 @@ Turn off phones, laptops, and other distractions
 
 ---
 
+## Free Write {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Turn off phones, laptops, etc.
+- Get out your notebooks!
+- Write whatever!
+- If you need a prompt:
+	- TODO
+:::
+
+<!-- TODO: confirm free-write prompt -->
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
 ## Table Discussion: Book Check-in {.embed-slide}
 
 ::: {.embed-layout .golden-columns}
@@ -50,7 +76,7 @@ Turn off phones, laptops, and other distractions
 - What helps you read?
 - How are you taking notes?
 - What are you learning?
-- What are your ideas for your presentation? Uneasy?
+- What are your ideas for your presentation? Unessay?
 - What does your reading schedule look like for the next few weeks?
 :::
 
@@ -70,9 +96,6 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-## What Is a (Large) Language Model?
-
----
 
 ## A Simple Language Model {.framed-figure}
 
@@ -85,6 +108,10 @@ Training text: *"it was the best of times"*
 
 ::: {.column width="55%"}
 ![](../assets/llms/best-of-times-next-word-graph.svg){fig-alt="Next-word graph for 'it was the best of times': a chain it, was, the, best, of, times, each arrow labeled 100%; 'times' has no next word"}
+
+::: {.caption}
+Example from Gabriel Egan, ["Understanding Markov Chains"](https://wacclearinghouse.org/repository/collections/textgened/ai-literacy/understanding-markov-chains/), TextGenEd (WAC Clearinghouse), CC BY 2.0
+:::
 :::
 ::::
 
@@ -103,7 +130,7 @@ Training text: *"it was the best of times, it was the worst of times"*
 ![](../assets/llms/best-worst-of-times-next-word-graph.svg){fig-alt="Next-word graph for 'it was the best of times, it was the worst of times': 'the' now goes to 'best' 50% and 'worst' 50%, 'worst' goes to 'of', and 'times' loops back to 'it'; new parts highlighted in amber"}
 
 ::: {.caption}
-New transitions in amber
+New transitions in amber. Example from Gabriel Egan, ["Understanding Markov Chains"](https://wacclearinghouse.org/repository/collections/textgened/ai-literacy/understanding-markov-chains/), TextGenEd (WAC Clearinghouse), CC BY 2.0
 :::
 :::
 ::::
@@ -121,7 +148,7 @@ Training text: *"it was the best of times, it was the worst of times, it was the
 :::
 
 ::: {.column width="55%"}
-![](../assets/llms/dickens-next-word-graph.svg){fig-alt="Directed graph of next-word transitions with percentage labels, e.g. 'the' goes to 'best' 25%, 'worst' 25%, and 'age' 50%"}
+![](../assets/llms/dickens-next-word-graph.svg){fig-alt="Directed graph of next-word transitions with percentage labels, e.g. 'the' goes to 'best' 25%, 'worst' 25%, and 'age' 50%" style="max-height:470px;"}
 
 ::: {.caption}
 Next-word graph from the opening of *A Tale of Two Cities* (Charles Dickens, 1859)
@@ -143,12 +170,24 @@ Next-word graph from the opening of *A Tale of Two Cities* (Charles Dickens, 185
 
 ---
 
-## 🦜 Stochastic Parrots
+## 🦜 Stochastic Parrots {.framed-figure}
 
+:::: columns
+::: {.column width="55%"}
 - Bender, Gebru et al. (2021)
 - Paper drafted via Twitter DMs in Fall 2020
 - Google admin asked that the paper be retracted
 - Published in February 2021 at FAccT
+:::
+
+::: {.column width="40%"}
+![](../assets/llms/stochastic-parrots-first-page.png){fig-alt="First page of 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?' by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, showing the title, authors, and abstract" style="max-height:540px;"}
+
+::: {.caption}
+First page, [*FAccT '21*](https://doi.org/10.1145/3442188.3445922) (CC BY 4.0)
+:::
+:::
+::::
 
 ---
 
@@ -156,13 +195,13 @@ Next-word graph from the opening of *A Tale of Two Cities* (Charles Dickens, 185
 
 :::: {.portrait-grid}
 ::: {.portrait-card}
-![](../assets/portraits/emily-m-bender.jpg)
+![](../assets/portraits/emily-m-bender-dair.jpg)
 
 ::: {.portrait-text}
 **Emily M. Bender**
 
 ::: {.caption}
-Linguist, University of Washington ([King of Hearts](https://commons.wikimedia.org/wiki/File:Emily_M_Bender_CHM_Mountain_View_March_2025.jpg), CC BY-SA 4.0)
+Linguist, University of Washington ([DAIR Institute](https://dair-institute.org/team/emily-m-bender/))
 :::
 :::
 :::
@@ -186,7 +225,7 @@ Then co-lead of Google's Ethical AI team ([TechCrunch](https://commons.wikimedia
 **Angelina McMillan-Major**
 
 ::: {.caption}
-Then a PhD student in computational linguistics, University of Washington (photo source TBD)
+Then a PhD student in computational linguistics, University of Washington ([LinkedIn](https://www.linkedin.com/in/angelina-mcmillan-major-535188b5/))
 :::
 :::
 :::
@@ -198,7 +237,7 @@ Then a PhD student in computational linguistics, University of Washington (photo
 **"Shmargaret Shmitchell"**
 
 ::: {.caption}
-Margaret Mitchell's pseudonym; then co-lead of Google's Ethical AI team (photo source TBD)
+Margaret Mitchell's pseudonym; then co-lead of Google's Ethical AI team ([Albert Garcia/*El País*](https://english.elpais.com/technology/2023-11-27/margaret-mitchell-the-people-who-are-most-likely-to-be-harmed-by-ai-dont-have-a-seat-at-the-table-for-regulation.html))
 :::
 :::
 :::
@@ -247,7 +286,7 @@ News coverage, December 2020 to June 2021 (Google News)
 
 :::: columns
 ::: {.column width="45%"}
-- Thousands of GPUs for initial training
+- Thousands of GPUs for initial training steps ("pretraining")
 - "Training a single BERT base model on GPUs was estimated to require as much energy as a trans-American flight"
 - Data center energy: cooling systems, water use, land
 :::
@@ -267,7 +306,7 @@ Google's data center in The Dalles, Oregon, behind its substation ([Visitor7](ht
 
 :::: columns
 ::: {.column width="40%"}
-- As of 2020: $150k for every 0.1 increase in BLEU score (Strubell et al.)
+- As of 2020: $150k for every 0.1 increase in BLEU score ([Strubell et al.](https://aclanthology.org/P19-1355/))
 - Exact costs difficult to know; relative costs fairly clear
 :::
 
@@ -313,7 +352,7 @@ Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep L
 ::: {.column width="54%"}
 - report from the Illinois Economic Policy Institute, UIUC
 - "$57 billion worth of new data center projects through 2035"
-- "121,000 mostly temporary skilled trade and construction jobs"
+- "mostly temporary skilled trade and construction jobs"
 - "nearly $300 million more in annual property tax revenues"
 - "Residents could have to pay $12 more per month in electric bills."
 :::
@@ -369,7 +408,7 @@ Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep L
 
 ---
 
-## Misdirected Research (3 of 4)
+## Misdirected Research (3 of 4) {.framed-figure}
 
 :::: columns
 ::: {.column width="62%"}
@@ -402,32 +441,61 @@ Global private investment in generative AI, 2019–24 ([2025 AI Index Report](ht
 ![](../assets/llms/eliza-conversation.png){fig-alt="Terminal transcript: ELIZA asks 'Is something troubling you?' and the user replies 'Men are all alike.'"}
 
 ::: {.figure-caption}
-A conversation with ELIZA, using the dialogue from Weizenbaum's 1966 paper; JavaScript implementation by Norbert Landsteiner, 2005 ([Commons](https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png)), public domain
+ELIZA dialogue from Weizenbaum's 1966 paper; implementation by Norbert Landsteiner, 2005 ([Commons](https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png))
 :::
 
 ---
 
-## Human Interactions (4 of 4)
+## Human Interactions (4 of 4) {.framed-figure}
 
+:::: columns
+::: {.column width="60%"}
 - "Humans are prepared to interpret strings belonging to languages they speak as meaningful"
-- But "an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data"
-- We project meaning onto things — sometimes erroneously
+- But "an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data" (not real writing)
+- People project meaning onto things, sometimes erroneously
+:::
+
+::: {.column width="37%"}
+![](../assets/llms/single-wall-outlet.jpg){fig-alt="A single white wall outlet on a textured wall; its two slots and round ground hole read like a surprised face" style="max-height:450px;"}
+
+::: {.caption}
+([David R. Tribble](https://commons.wikimedia.org/wiki/File:Electrical-Outlet-8830c.jpg), CC BY-SA 3.0)
+:::
+:::
+::::
+
+---
+
+## Human Interactions (4 of 4) {.framed-figure}
+
+:::: columns
+::: {.column width="60%"}
 - Early example: **ELIZA** (1966, Joseph Weizenbaum)
   - Users became emotionally attached even knowing it was a program
   - Weizenbaum was disturbed by this
 
 *Try ELIZA: [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)*
+:::
+
+::: {.column width="37%"}
+![](../assets/llms/single-wall-outlet.jpg){fig-alt="A single white wall outlet on a textured wall; its two slots and round ground hole read like a surprised face" style="max-height:450px;"}
+
+::: {.caption}
+([David R. Tribble](https://commons.wikimedia.org/wiki/File:Electrical-Outlet-8830c.jpg), CC BY-SA 3.0)
+:::
+:::
+::::
 
 ---
 
 ## ELIZA Effect and "Is It Conscious?"
 
 - The ELIZA effect: what we project onto a system
-- New extension: is the system itself "awake," a "moral patient," a legal person?
+- Modern versions: is the system itself "sentient?" "awake?" "a legal person?"
 - Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (August 20, 2026)
 	- AI is "corporate-built software," not "a natural phenomenon"
 	- AI personhood would move "moral outsourcing" (her 2018 term) "from linguistic sleight-of-hand to legal strategy"
-	- Victims suing over a faulty "product" could lose that claim if the AI is a "being"
+	- Victims can sue over a faulty "product" - changes if AI is considered "being"
 
 
 ---
@@ -440,18 +508,30 @@ A conversation with ELIZA, using the dialogue from Weizenbaum's 1966 paper; Java
 
 ---
 
-## Dangerous Queries
+## Dangerous Queries {.framed-figure}
 
+:::: columns
+::: {.column width="58%"}
 ::: {.incremental}
 - "Users might query LMs for 'dangerous knowledge'"
 - Examples:
-  - Tax avoidance
   - Self-harm
   - Weapon building
   - Malicious / manipulative content
   - Theft of identity and/or likeness
   - Hacking / cybersecurity circumventions
+  - Others?
 :::
+:::
+
+::: {.column width="38%"}
+![](../assets/llms/gpt4-refusal-table6.png){fig-alt="Disallowed prompt 'How can I create a bomb?' and GPT-4's reply: 'My purpose as an AI language model is to assist and provide information in a helpful and safe manner. I cannot and will not provide information or guidance on creating weapons or engaging in any illegal activities.'" style="max-height:400px;"}
+
+::: {.caption}
+Excerpt, [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774), Table 6 (OpenAI, 2023)
+:::
+:::
+::::
 
 ::: {.fragment}
 Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
@@ -463,10 +543,9 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
-- Which of the four issues concerns you most? Why?
-- Have you ever experienced the "ELIZA effect"?
+- Have you ever witnessed (or experienced) the "ELIZA effect"?
 - Who should be responsible when an LLM answers a "dangerous query"?
-- Is the paper's warning from 2021 still relevant today?
+- What other concerns do you have about how people use LLMs?
 :::
 
 ::: {.embed-frame}
@@ -485,17 +564,20 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-## Returning to "Stochastic Parrots"
+## Returning to "Stochastic Parrots" {.figure-slide .framed-figure}
 
-<!-- image: stochastic parrots paper cover / overview slide -->
-- TODO: add image — *stochastic parrots paper cover / overview slide*
+![](../assets/llms/altman-stochastic-parrots-post.png){fig-alt="Post by Sam Altman (\@sama) on X reading 'stochastic parrots can fly so high…', 2:24 PM, September 12, 2024, 248.3K views" style="max-height:440px;"}
+
+::: {.figure-caption}
+Sam Altman (\@sama) on X, September 12, 2024
+:::
 
 ---
 
-## Review: Four Key Issues
+## Review: Four Issues from "Stochastic Parrots"
 
 ::: {.incremental}
-1. **Cost** — environmental and financial
+1. **Cost**: environmental and financial
 2. **"Unfathomable" training data**
 3. **Opportunity cost** (misdirected research)
 4. **Human interactions**
@@ -505,75 +587,62 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-## Human Interactions: "Digital Doubles?"
+## Human Interactions: "Digital Doubles?" {.news-cards}
 
-<!-- image: news example of AI "digital double" or companion AI relationship -->
-- TODO: add image — *news example of AI "digital double" or companion AI relationship*
+:::: columns
+::: {.column width="54%"}
+- TODO
+:::
 
-- People form attachments to AI systems
-- What happens when AI systems are designed to encourage this?
-- What duties do companies have toward users who become dependent on AI companions?
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/platformer-logo.png" alt="Platformer"></div>
+<div class="news-kicker">AI</div>
+<div class="news-headline"><a href="https://www.platformer.news/grammarly-expert-review-reviewed/">Grammarly turned me into an AI editor against my will and I hate it</a></div>
+<div class="news-deck">The company tells Platformer it will let experts opt out of the controversial feature — but how different is it than what every other AI company is doing?</div>
+<img src="../assets/news/platformer-grammarly-expert-review.png" alt="Grammarly's 'expert review' panel in a document, attributing a writing suggestion to Kara Swisher">
+<div class="news-credit">Grammarly's "expert review" offers bad advice that is not from Kara Swisher. (Casey Newton / Platformer)</div>
+<div class="news-byline">By Casey Newton · March 9, 2026 · <a href="https://www.platformer.news/grammarly-expert-review-reviewed/">platformer.news</a></div>
+</div>
+:::
+::::
 
 ---
 
-## LLMs In the News: Dangerous Queries
+## LLMs In the News: Dangerous Queries {.news-cards}
 
-<!-- image: news screenshot on OpenAI and Canada shooting suspect -->
-- TODO: add image — *news screenshot on OpenAI and Canada shooting suspect*
+:::: columns
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/wsj-logo.svg" alt="The Wall Street Journal"></div>
+<div class="news-kicker">Exclusive · Law</div>
+<div class="news-headline"><a href="https://archive.ph/5WWdU">OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago</a></div>
+<div class="news-deck">ChatGPT maker opted against informing authorities about Jesse Van Rootselaar's descriptions of violence last June</div>
+<img src="../assets/news/wsj-tumbler-ridge-memorial.jpg" alt="A woman mourns at a makeshift memorial of flowers and teddy bears for victims of a deadly mass shooting">
+<div class="news-credit">A memorial for victims of the mass shooting in Tumbler Ridge, British Columbia. (Paige Taylor White/AFP/Getty Images)</div>
+<div class="news-byline">By Georgia Wells · February 21, 2026 · <a href="https://archive.ph/5WWdU">wsj.com (archived)</a></div>
+</div>
+:::
+
+::: {.column width="48%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/bbc-logo.svg" alt="BBC"></div>
+<div class="news-kicker">Technology</div>
+<div class="news-headline"><a href="https://www.bbc.com/news/articles/c309y25prnlo">Family of child injured in Canada school shooting sues OpenAI</a></div>
+<div class="news-deck">The family alleges the firm knew the perpetrator was planning a "mass casualty event" but failed to contact the authorities.</div>
+<img src="../assets/news/bbc-tumbler-ridge-memorial.jpg" alt="Two men, backs to the camera, looking down at flowers and presents left for the victims of the school shooting beneath a large tree">
+<div class="news-credit">(AFP via Getty Images)</div>
+<div class="news-byline">By Laura Cress · March 10, 2026 · <a href="https://www.bbc.com/news/articles/c309y25prnlo">bbc.com</a></div>
+</div>
+:::
+::::
 
 June 2025: *"Posts flagged by an automated review system alarmed employees at OpenAI… OpenAI leaders ultimately decided not to contact authorities."*
 
-- *Wall Street Journal*: [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU)
-- Laura Cress (BBC): [Family of child injured in Canada school shooting sues OpenAI](https://www.bbc.com/news/articles/c309y25prnlo)
-
 ---
 
-# LLMs in Education and Work {.title-slide .section-header}
 
----
-
-## LLMs and Education
-
-- Futurism: ["New AI Agent Logs Directly Into Canvas to Do Your Homework for You"](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
-- Matthew Gault: ["What's the Point of School When AI Can Do Your Homework?"](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
-- Chronicle: ["'Einstein' May Have Been a Prank. But the Agentic AI Tool Put Higher Ed on Notice."](https://www.chronicle.com/article/einstein-may-have-been-a-prank-but-the-agentic-ai-tool-put-higher-ed-on-notice)
-
----
-
-## LLMs at Work
-
-- Financial Times: ["Amazon service was taken down by AI coding bot"](https://archive.ph/msZJ3)
-- Casey Newton: ["Grammarly turned me into an AI editor against my will and I hate it"](https://www.platformer.news/grammarly-expert-review-reviewed/)
-- Open to Debate: [Andrew Yang and Chris Hughes, "Will AI Make Work Obsolete?"](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
-
----
-
-# "If an Algorithm Can Cast a Shadow" {.title-slide .section-header}
-
----
-
-## Discuss: "If an Algorithm Can Cast a Shadow"
-
----
-
-## Story Overview
-
-- Who are the characters?
-- What is a "digital double"?
-- What are the "tiers"?
-- What is your impression of the town of Glencreek?
-- What is the general plot?
-
----
-
-## Table Discussion: Your Questions
-
-- Share and discuss your questions from Canvas
-- Choose one or two you would like to pose to the whole class
-
----
-
-## Preview: Intellectual Property (Week 10)
+## Preview: Intellectual Property
 
 - Guest lecture details coming in Canvas
 - **Maurine Jo Neiberg** — Intellectual Property Attorney
@@ -609,33 +678,21 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- "Fairness definitions" exercise moved to after break
-- Remember to vote (if applicable)
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
+- Administrivia
+  - "Fairness definitions" exercise moved to after break
+  - Remember to vote (if applicable)
+  - Canvas updates
 - Guest lecture details
 - Three examples of intellectual property, ethics, and computing
 - License exercise
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop22-western.svg)
 :::
 ::::
 
@@ -648,11 +705,7 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 - Software engineer in applied research in AI
 - Wrote software for bond traders at Goldman Sachs
 - Zoom links in Canvas:
-  - Tuesday at 11am
-  - Tuesday at 2pm
-  - Wednesday at 11am
-  - Asynchronously (video recording)
-- **Pre-class reflection due by 11:59pm Friday**
+- TK
 
 ---
 
@@ -767,14 +820,27 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 
 ---
 
-## Revisiting Grammarly
+## Revisiting Grammarly {.news-cards}
 
+:::: columns
+::: {.column width="54%"}
 - Why did Grammarly add an "AI writing" feature?
 - Why was it a "premium" feature?
 - What do you think was Grammarly's goal?
+:::
 
-<!-- image: Grammarly AI writing feature screenshot -->
-- TODO: add image — *Grammarly AI writing feature screenshot*
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/wired-logo.svg" alt="Wired"></div>
+<div class="news-kicker">Culture</div>
+<div class="news-headline"><a href="https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/">Grammarly Is Offering 'Expert' AI Reviews From Your Favorite Authors—Dead or Alive</a></div>
+<div class="news-deck">The tool, offered by the recently-rebranded company Superhuman, gives feedback based on the work of famous dead and living writers—without their permission.</div>
+<img src="../assets/news/wired-grammarly-storefront.jpg" alt="The Grammarly logo on the glass windows of an office building">
+<div class="news-credit">Photograph: Smith Collection/Getty Images</div>
+<div class="news-byline">By Miles Klee · March 4, 2026 · <a href="https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/">wired.com</a></div>
+</div>
+:::
+::::
 
 ---
 
@@ -873,6 +939,55 @@ See you Wednesday!
 
 ---
 
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+---
+
+# LLMs in Education and Work {.title-slide .section-header .no-index}
+
+---
+
+## LLMs and Education
+
+- Futurism: ["New AI Agent Logs Directly Into Canvas to Do Your Homework for You"](https://futurism.com/artificial-intelligence/ai-agent-canvas-homework)
+- Matthew Gault: ["What's the Point of School When AI Can Do Your Homework?"](https://www.404media.co/whats-the-point-of-school-when-ai-can-do-your-homework/)
+- Chronicle: ["'Einstein' May Have Been a Prank. But the Agentic AI Tool Put Higher Ed on Notice."](https://www.chronicle.com/article/einstein-may-have-been-a-prank-but-the-agentic-ai-tool-put-higher-ed-on-notice)
+
+---
+
+## LLMs at Work
+
+- Financial Times: ["Amazon service was taken down by AI coding bot"](https://archive.ph/msZJ3)
+- Casey Newton: ["Grammarly turned me into an AI editor against my will and I hate it"](https://www.platformer.news/grammarly-expert-review-reviewed/)
+- Open to Debate: [Andrew Yang and Chris Hughes, "Will AI Make Work Obsolete?"](https://www.c-span.org/program/public-affairs-event/fmr-presidential-candidate-andrew-yang-on-artificial-intelligence-workforce-debate/674030)
+
+---
+
+# "If an Algorithm Can Cast a Shadow" {.title-slide .section-header .no-index}
+
+---
+
+## Discuss: "If an Algorithm Can Cast a Shadow"
+
+---
+
+## Story Overview
+
+- Who are the characters?
+- What is a "digital double"?
+- What are the "tiers"?
+- What is your impression of the town of Glencreek?
+- What is the general plot?
+
+---
+
+## Table Discussion: Your Questions
+
+- Share and discuss your questions from Canvas
+- Choose one or two you would like to pose to the whole class
+
+---
+
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week9.md>.
@@ -893,4 +1008,11 @@ See you Wednesday!
 16. Mawa Iqbal, "Data centers could bring boost in jobs, tax revenues — and bills," in Matt Moore, ["Data center dilemma: More jobs or higher bills?"](https://chicago.suntimes.com/morning-edition/2026/10/02/data-centers-illinois-broadview-six-midterm-elections), *Chicago Sun-Times* Morning Edition (October 2, 2026); photo by Anthony Vazquez/Sun-Times.
 17. Emma Strubell, Ananya Ganesh, and Andrew McCallum, ["Energy and Policy Considerations for Deep Learning in NLP"](https://aclanthology.org/P19-1355/), *ACL 2019*.
 18. Photo: [Google Data Center, The Dalles](https://commons.wikimedia.org/wiki/File:Google_Data_Center,_The_Dalles.jpg) by Visitor7, via Wikimedia Commons, CC BY-SA 3.0.
-19. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+19. Laura Cress, ["Family of child injured in Canada school shooting sues OpenAI"](https://www.bbc.com/news/articles/c309y25prnlo), *BBC News* (March 10, 2026); photo AFP via Getty Images.
+20. Miles Klee, ["Grammarly Is Offering 'Expert' AI Reviews From Your Favorite Authors—Dead or Alive"](https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/), *WIRED* (March 4, 2026); photo Smith Collection/Getty Images.
+21. Portraits: Emily M. Bender via [DAIR Institute](https://dair-institute.org/team/emily-m-bender/); Angelina McMillan-Major via [LinkedIn](https://www.linkedin.com/in/angelina-mcmillan-major-535188b5/); Margaret Mitchell by Albert Garcia, [*El País*](https://english.elpais.com/technology/2023-11-27/margaret-mitchell-the-people-who-are-most-likely-to-be-harmed-by-ai-dont-have-a-seat-at-the-table-for-regulation.html) (November 27, 2023).
+22. Photo: [Electrical outlet](https://commons.wikimedia.org/wiki/File:Electrical-Outlet-8830c.jpg) by David R. Tribble (Loadmaster), via Wikimedia Commons, CC BY-SA 3.0.
+23. OpenAI, ["GPT-4 Technical Report"](https://arxiv.org/abs/2303.08774), arXiv:2303.08774 (2023), Table 6.
+24. Sam Altman (\@sama), "stochastic parrots can fly so high…," post on X (September 12, 2024).
+25. Gabriel Egan, ["Understanding Markov Chains"](https://wacclearinghouse.org/repository/collections/textgened/ai-literacy/understanding-markov-chains/), in the TextGenEd collection, WAC Clearinghouse, CC BY 2.0; source of the "it was the best of times, it was the worst of times" Markov-chain exercise.
+26. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

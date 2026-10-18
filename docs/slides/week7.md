@@ -22,27 +22,15 @@ CS 377, Week 7, Day 1 🟦 Clark/Lake 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- **Asynchronous class.** Dr. Bandy away.
-- Keep reading your book!
-- Canvas updates and upcoming deadlines
-- Questions?
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
+- Administrivia
+  - **Asynchronous class.** Dr. Bandy away.
+  - Keep reading your book!
+  - Canvas updates and upcoming deadlines
+  - Questions?
 - Group exercise: midpoint check-in
 - Scrap doll debrief
 - Connecting some dots (ethical theories)
@@ -408,27 +396,15 @@ CS 377, Week 7, Day 2 🟦 Grand 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- **Asynchronous class.** Dr. Bandy away.
-- More grades released, more to come
-- Some of you will receive an attendance check-in email this week
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
+- Administrivia
+  - **Asynchronous class.** Dr. Bandy away.
+  - More grades released, more to come
+  - Some of you will receive an attendance check-in email this week
+  - Canvas updates
 - Shuffle seats
 - Your feedback from the midpoint check-in
 - Overview of speculative fiction exercise

@@ -14,14 +14,15 @@ CS 377, Week 6, Day 1 🟦 Jackson 🟦
 
 
 
-## Administrivia
+## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
-- Asynchronous classes next week
-	- Read read read!
-- Food in your Feed: some reflections still missing
-- Upcoming due dates
+- Administrivia
+	- Asynchronous classes next week
+		- Read read read!
+	- Food in your Feed: some reflections still missing
+	- Upcoming due dates
 - What you liked / wished
 - Discuss "Message in a Bottle"
 - Preview "Dolly"

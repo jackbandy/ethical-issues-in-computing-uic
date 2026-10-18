@@ -20,32 +20,20 @@ CS 377, Week 11, Day 1 🟦 Belmont 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Canvas updates
-- Fairness definitions exercise overview
-- Questions?
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
+- Administrivia
+  - Canvas updates
+  - Fairness definitions exercise overview
+  - Questions?
 - Book Presentations
 - Overview of Fairness Definitions Exercise
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop25-belmont.svg)
 :::
 ::::
 

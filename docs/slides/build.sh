@@ -52,7 +52,28 @@ if [[ "$BUILD_PDFS" == "false" ]]; then
 fi
 
 shopt -s nullglob
-decks=("$SLIDES_DIR"/*.md "$SLIDES_DIR"/*.qmd)
+# With arguments (./build.sh week9.md week10), build only those decks; a bare
+# name like "week9" finds week9.md or week9.qmd. Without, build every deck.
+if [[ $# -gt 0 ]]; then
+  decks=()
+  for arg in "$@"; do
+    name="$(basename "$arg")"
+    match=""
+    for candidate in "$SLIDES_DIR/$name" "$SLIDES_DIR/$name.md" "$SLIDES_DIR/$name.qmd"; do
+      if [[ -f "$candidate" && ( "$candidate" == *.md || "$candidate" == *.qmd ) ]]; then
+        match="$candidate"
+        break
+      fi
+    done
+    if [[ -z "$match" || "$(basename "$match")" == "README.md" ]]; then
+      echo "Error: no slide deck named '$arg' in $SLIDES_DIR" >&2
+      exit 1
+    fi
+    decks+=("$match")
+  done
+else
+  decks=("$SLIDES_DIR"/*.md "$SLIDES_DIR"/*.qmd)
+fi
 filtered_decks=()
 for deck in "${decks[@]}"; do
   [[ "$(basename "$deck")" == "README.md" ]] && continue

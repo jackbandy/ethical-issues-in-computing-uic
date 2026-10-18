@@ -11,7 +11,8 @@ Run `./build.sh` locally when you want to preview changes before pushing or
 when you want to generate PDFs on-device. The local build requires Quarto,
 Node.js 22+, Python with PyMuPDF, and Chrome or Chromium. Set `CHROME` to a
 browser executable if it is not found automatically, or set
-`BUILD_PDFS=false` for HTML-only local builds.
+`BUILD_PDFS=false` for HTML-only local builds. Pass deck names to build only
+those decks, e.g. `./build.sh week9.md` or `./build.sh week9 week10`.
 
 HTML output is CI-managed. PDFs are generated locally and ignored by default.
 

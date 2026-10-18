@@ -23,6 +23,11 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 :::: columns
 ::: {.column width="55%"}
 - Administrivia and questions
+  - Grades will trickle in through Canvas
+  - "Selfie with books" due tomorrow, 11:59pm!
+  - Reflections coming soon!
+  - Canvas questions?
+  - Book questions?
 - Shuffle seats
 - Discuss exemplars
 - A couple more words about virtue ethics
@@ -34,16 +39,6 @@ CS 377, Week 2, Day 1 🟦 Cicero 🟦
 ![](../assets/blue-line-map-stops/stop05-cicero.svg)
 :::
 ::::
-
----
-
-## Administrivia
-
-- Grades will trickle in through Canvas
-- "Selfie with books" due tomorrow, 11:59pm!
-- Reflections coming soon!
-- Canvas questions?
-- Book questions?
 
 ---
 

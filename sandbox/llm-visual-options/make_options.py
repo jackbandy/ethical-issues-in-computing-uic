@@ -70,7 +70,7 @@ def two_approaches():
     """Structured knowledge above next-word statistics, in a golden-ratio portrait box."""
     width = 6
     fig, (top, bottom) = plt.subplots(2, 1, figsize=(width, width * GOLDEN))
-    fig.subplots_adjust(left=0.02, right=0.98, top=0.95, bottom=0.05, hspace=0.3)
+    fig.subplots_adjust(left=0.08, right=0.92, top=0.92, bottom=0.02, hspace=0.3)
     for ax in (top, bottom):
         ax.set_xlim(0, 10)
         ax.set_ylim(0, 7.6)
@@ -90,8 +90,11 @@ def two_approaches():
         length = (dx**2 + dy**2) ** 0.5
         return cx + dx * t + gap * dx / length, cy + dy * t + gap * dy / length
 
-    def arrow(ax, a, b, label=None, side=1):
-        """Arrow that starts and ends just outside both boxes; label set beside its midpoint, off the line."""
+    def arrow(ax, a, b, label=None, side=1, nudge=0):
+        """Arrow that starts and ends just outside both boxes; label set beside its midpoint, off the line.
+
+        `nudge` shifts a side label up or down (data units) so two labels on parallel edges don't share a baseline.
+        """
         start = edge_point(ax, a, b.get_position())
         end = edge_point(ax, b, a.get_position())
         ax.annotate("", xy=end, xytext=start, zorder=2,
@@ -105,7 +108,7 @@ def two_approaches():
             ax.text(mx, my + 0.55 * side, label, ha="center", va="bottom" if side > 0 else "top",
                     fontsize=18, style="italic", color=MUTED)
         else:  # vertical edge: label to one side
-            ax.text(mx + 0.3 * side, my, label, ha="left" if side > 0 else "right", va="center",
+            ax.text(mx + 0.3 * side, my + nudge, label, ha="left" if side > 0 else "right", va="center",
                     fontsize=18, style="italic", color=MUTED)
 
     top.set_title("Structured knowledge", loc="left", fontsize=25, fontweight="bold", color=INK)
@@ -114,9 +117,8 @@ def two_approaches():
     us = node(top, (7.4, 1.4), "United States")
     blue = node(top, (2.0, 1.4), "Blue Line")
     arrow(top, chicago, illinois, "located in", side=1)
-    arrow(top, illinois, us, "state of", side=-1)
-    arrow(top, blue, chicago, "runs through", side=1)
-    top.text(0, -0.5, "Facts and relations you can inspect", fontsize=19, color=MUTED, va="top")
+    arrow(top, illinois, us, "state of", side=-1, nudge=-0.6)
+    arrow(top, blue, chicago, "runs through", side=1, nudge=0.6)
 
     bottom.set_title("Next-word statistics", loc="left", fontsize=25, fontweight="bold", color=INK)
     w_chicago = node(bottom, (1.8, 5.6), "Chicago")
@@ -127,7 +129,6 @@ def two_approaches():
     arrow(bottom, w_chicago, w_is)
     for w in (w_cold, w_in, w_windy):
         arrow(bottom, w_is, w)
-    bottom.text(0, -0.5, "Likely next words, learned from text", fontsize=19, color=MUTED, va="top")
     # Keep the golden-ratio box exactly: no tight bbox crop.
     fig.savefig(OUT / "two-approaches-to-ai.svg", transparent=True)
     plt.close(fig)

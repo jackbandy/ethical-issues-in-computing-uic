@@ -301,6 +301,11 @@ CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 :::: columns
 ::: {.column width="55%"}
 - Administrivia
+  - Canvas check-in
+    - Submission portals for all out-of-class exercises
+    - Updated grades, communication
+  - Some exercise details may still be updated in GitHub
+  - Start thinking about potential books you might want to read!
 - More schedule details
 - Warm-up discussion
 - Intro to Virtue Ethics
@@ -315,16 +320,6 @@ CS 377, Week 1, Day 2 🟦 Oak Park 🟦
 ---
 
 # Course Logistics {.title-slide .section-header}
-
----
-
-## Administrivia
-
-- Canvas check-in
-  - Submission portals for all out-of-class exercises
-  - Updated grades, communication
-- Some exercise details may still be updated in GitHub
-- Start thinking about potential books you might want to read!
 
 ---
 

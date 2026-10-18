@@ -22,26 +22,14 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Pre-class reflection due Friday at 11:59pm
-- Spring break next week — no classes
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
+- Administrivia
+  - Pre-class reflection due Friday at 11:59pm
+  - Spring break next week — no classes
+  - Canvas updates
 - Shuffle seats
 - Head start on ethics commitment exercise
 - Review licenses
@@ -50,7 +38,7 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop23-california.svg)
 :::
 ::::
 
@@ -365,26 +353,14 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- More grades incoming!
-- Presentations start Wednesday
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
-
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
+- Administrivia
+  - More grades incoming!
+  - Presentations start Wednesday
+  - Canvas updates
 - Book check-in
 - Mini-lecture: Nudges and Dark Design Patterns
 - Outdoor activity: find a nudge on campus
@@ -392,7 +368,7 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 :::
 
 ::: {.column width="40%"}
-![](../assets/blue-line-full-path-tweak.svg)
+![](../assets/blue-line-map-stops/stop24-logan-square.svg)
 :::
 ::::
 
