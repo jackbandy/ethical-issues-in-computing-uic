@@ -302,22 +302,60 @@ Google's data center in The Dalles, Oregon, behind its substation ([Visitor7](ht
 
 ---
 
-## Financial Costs of LLMs {.framed-figure}
+## Financial Costs of LLMs
 
-:::: columns
-::: {.column width="40%"}
 - As of 2020: $150k for every 0.1 increase in BLEU score ([Strubell et al.](https://aclanthology.org/P19-1355/))
 - Exact costs difficult to know; relative costs fairly clear
-:::
 
-::: {.column width="55%"}
-![](../assets/llms/strubell-rnd-cost.svg){fig-alt="Bar chart of the cloud cost to develop one NLP model: one model $52 to $175, tuning for a new dataset $1,238 to $4,205, all R&D for one paper $103,000 to $350,000"}
+---
+
+## Training Costs Since Strubell et al. (1 of 5) {.framed-figure}
+
+![](../assets/llms/training-cost/1-axes.svg){fig-alt="Empty chart: compute cost to train one model, with years 2017 to 2025 on the x-axis and cost from $100 to $1B on a log scale on the y-axis" style="max-height:520px;"}
 
 ::: {.caption}
-Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep Learning in NLP"](https://aclanthology.org/P19-1355/), ACL 2019, Table 4
+Compute cost to train one model, log scale
 :::
+
+---
+
+## Training Costs Since Strubell et al. (2 of 5) {.framed-figure}
+
+![](../assets/llms/training-cost/2-strubell.svg){fig-alt="The chart with Strubell et al.'s 2019 cost estimates: Transformer (big) $289 to $981 (2017), ELMo $433 to $1k and BERT $4k to $13k (2018), GPT-2 $13k to $43k and architecture search (NAS) $943k to $3.2M (2019)" style="max-height:520px;"}
+
+::: {.caption}
+Estimated cloud compute cost: [Strubell et al.](https://aclanthology.org/P19-1355/) (2019), Table 3
 :::
-::::
+
+---
+
+## Training Costs Since Strubell et al. (3 of 5) {.framed-figure}
+
+![](../assets/llms/training-cost/3-reported.svg){fig-alt="The same chart plus two developer-reported costs: DeepSeek-V3 (2024) $5.6M and DeepSeek-R1's reinforcement-learning step (2025) $294k" style="max-height:520px;"}
+
+::: {.caption}
+Developer-reported: [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437), Table 1; [DeepSeek-R1](https://www.nature.com/articles/s41586-025-09422-z), *Nature* (2025), Supp. Table 4; both "assuming the rental price of H800 is $2 per GPU hour"
+:::
+
+---
+
+## Training Costs Since Strubell et al. (4 of 5) {.framed-figure}
+
+![](../assets/llms/training-cost/4-estimates.svg){fig-alt="The full chart: Strubell et al. 2019 estimates rise from $289 to $981 for the Transformer (2017) to $943k to $3.2M for architecture search (2019); outside estimates since 2020 include GPT-3 $4.5M, Gopher $3.6M and Megatron-Turing NLG $6.7M (2021), BLOOM $2.0M and PaLM $14M (2022), GPT-4 $81M and Gemini 1.0 Ultra $206M (2023), Llama 3.1 $176M (2024), and Grok 3 $850M (2025); developer-reported DeepSeek-V3 $5.6M and DeepSeek-R1 RL step $294k" style="max-height:520px;"}
+
+::: {.caption}
+Outside estimates: [Strubell et al.](https://aclanthology.org/P19-1355/) (2019), Table 3; [Epoch AI](https://epoch.ai/data/ai-models) (CC BY 4.0); [Cottier et al.](https://arxiv.org/abs/2405.21015) (2025)
+:::
+
+---
+
+## Training Costs Since Strubell et al. (5 of 5) {.framed-figure}
+
+![](../assets/llms/training-cost/5-linear.svg){fig-alt="The same data on a linear scale from $0 to $1B: Grok 3 at $850M, Gemini 1.0 Ultra at $206M, Llama 3.1 at $176M, and GPT-4 at $81M stand out, while every other model from 2017 to 2025, each under $15M, sits on the baseline" style="max-height:520px;"}
+
+::: {.caption}
+Same data, linear scale
+:::
 
 ---
 
@@ -376,10 +414,10 @@ Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep L
 
 | Model | Year | Training Data |
 |---|---|---|
-| GPT-1 | 2018 | BookCorpus (7,000 books) |
-| GPT-2 | 2019 | WebText: Reddit posts (>2 karma), 8B web pages |
-| GPT-3 | 2020 | WebText2 + 500B tokens |
-| GPT-4 | 2023 | Undisclosed |
+| [GPT-1](https://en.wikipedia.org/wiki/GPT-1) | [2018](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | [BookCorpus](https://en.wikipedia.org/wiki/BookCorpus) (7,000 books) |
+| [GPT-2](https://en.wikipedia.org/wiki/GPT-2) | [2019](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | WebText: Reddit posts (>2 karma), 8B web pages |
+| [GPT-3](https://en.wikipedia.org/wiki/GPT-3) | [2020](https://arxiv.org/abs/2005.14165) | WebText2 + 500B tokens |
+| [GPT-4](https://en.wikipedia.org/wiki/GPT-4) | [2023](https://arxiv.org/abs/2303.08774) | Undisclosed |
 
 ---
 
@@ -408,7 +446,7 @@ Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep L
 
 ---
 
-## Misdirected Research (3 of 4) {.framed-figure}
+## (Potentially) Misdirected Research (3 of 4) {.framed-figure}
 
 :::: columns
 ::: {.column width="62%"}
@@ -428,10 +466,30 @@ Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep L
 
 ## Where the Money Goes {.figure-slide .framed-figure}
 
+::: {.r-stack}
 ![](../assets/llms/genai-private-investment-ai-index-2025.png){fig-alt="Bar chart of global private investment in generative AI, 2019 to 2024, rising from under $1 billion to $33.94 billion"}
 
-::: {.figure-caption}
+![](../assets/llms/genai-private-investment-ai-index-2026.png){.fragment fragment-index="1" fig-alt="Bar chart of global private investment in generative AI, 2019 to 2025, rising from under $1 billion to $170.87 billion"}
+:::
+
+::: {.r-stack}
+::: {.figure-caption .fragment .fade-out fragment-index="1"}
 Global private investment in generative AI, 2019–24 ([2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report), Stanford HAI; data from Quid), CC BY-ND 4.0
+:::
+
+::: {.figure-caption .fragment fragment-index="1"}
+Global private investment in generative AI, 2019–25 ([2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report), Stanford HAI, [Figure 4.2.3](https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf); data from Quid)
+:::
+:::
+
+---
+
+## Where the Money Goes: All AI {.figure-slide .framed-figure}
+
+![](../assets/llms/ai-private-investment-ai-index-2026.png){fig-alt="Bar chart of global private investment in AI, 2013 to 2025, rising from about $5 billion to $344.66 billion, with a dip in 2022 and 2023"}
+
+::: {.figure-caption}
+Global private investment in AI, 2013–25 ([2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report), Stanford HAI, [Figure 4.2.2](https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_4_economy.pdf); data from Quid)
 :::
 
 ---
@@ -656,7 +714,7 @@ June 2025: *"Posts flagged by an automated review system alarmed employees at Op
 
 ## That's all for today!
 
-See you next week!
+See you Wednesday!
 
 ---
 
@@ -1015,4 +1073,8 @@ See you Wednesday!
 23. OpenAI, ["GPT-4 Technical Report"](https://arxiv.org/abs/2303.08774), arXiv:2303.08774 (2023), Table 6.
 24. Sam Altman (\@sama), "stochastic parrots can fly so high…," post on X (September 12, 2024).
 25. Gabriel Egan, ["Understanding Markov Chains"](https://wacclearinghouse.org/repository/collections/textgened/ai-literacy/understanding-markov-chains/), in the TextGenEd collection, WAC Clearinghouse, CC BY 2.0; source of the "it was the best of times, it was the worst of times" Markov-chain exercise.
-26. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+26. DeepSeek-AI, ["DeepSeek-V3 Technical Report"](https://arxiv.org/abs/2412.19437), arXiv:2412.19437 (2024), Table 1.
+27. Daya Guo et al. (DeepSeek-AI), ["DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning"](https://www.nature.com/articles/s41586-025-09422-z), *Nature* 645 (2025), Supplementary Table 4.
+28. Epoch AI, ["Data on AI models"](https://epoch.ai/data/ai-models), accessed October 18, 2026, CC BY 4.0.
+29. Ben Cottier, Robi Rahman, Loredana Fattorini, Nestor Maslej, Tamay Besiroglu, and David Owen, ["The Rising Costs of Training Frontier AI Models"](https://arxiv.org/abs/2405.21015), arXiv:2405.21015 (2025).
+30. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
