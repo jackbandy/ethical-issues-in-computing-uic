@@ -1,8 +1,4 @@
-# Draft — Needs Review {.draft-notice}
 
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
 
 # LLMs, Continued {.title-slide data-menu-title="Week 9, Day 1"}
 
@@ -22,31 +18,15 @@ CS 377, Week 9, Day 1 🟦 Damen 🟦
 
 ---
 
-## Administrivia
-
-:::: columns
-::: {.column width="55%"}
-- Keep reading your book!
-- Grades incoming
-- Canvas updates
-:::
-
-::: {.column width="40%"}
-![](../assets/blue-line-full-path.svg)
-:::
-::::
-
----
 
 ## Agenda for Today
 
 :::: columns
 ::: {.column width="55%"}
 - Book check-in
-- Continue "Stochastic Parrots"
+- What is an LLM?
+- "Stochastic Parrots"
 - LLMs in the news
-- Discuss "If an Algorithm Can Cast a Shadow"
-- Preview next week (Intellectual Property)
 :::
 
 ::: {.column width="40%"}
@@ -62,12 +42,442 @@ Turn off phones, laptops, and other distractions
 
 ---
 
-## Table Discussion: Book Check-in
+## Table Discussion: Book Check-in {.embed-slide}
 
-- How much have you read? What helps you read?
-- How are you taking notes / keeping track of what you're learning?
-- What are your ideas for your presentation?
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- How much have you read?
+- What helps you read?
+- How are you taking notes?
+- What are you learning?
+- What are your ideas for your presentation? Uneasy?
 - What does your reading schedule look like for the next few weeks?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+# What Is a Language Model? {.title-slide .section-header}
+
+---
+
+## What Is a (Large) Language Model?
+
+---
+
+## A Simple Language Model {.framed-figure}
+
+:::: columns
+::: {.column width="40%"}
+Training text: *"it was the best of times"*
+
+- Model: predicts the next token based on preceding context
+:::
+
+::: {.column width="55%"}
+![](../assets/llms/best-of-times-next-word-graph.svg){fig-alt="Next-word graph for 'it was the best of times': a chain it, was, the, best, of, times, each arrow labeled 100%; 'times' has no next word"}
+:::
+::::
+
+---
+
+## A Simple Language Model {.framed-figure}
+
+:::: columns
+::: {.column width="40%"}
+Training text: *"it was the best of times, it was the worst of times"*
+
+- Model now has more transitions to learn from
+:::
+
+::: {.column width="55%"}
+![](../assets/llms/best-worst-of-times-next-word-graph.svg){fig-alt="Next-word graph for 'it was the best of times, it was the worst of times': 'the' now goes to 'best' 50% and 'worst' 50%, 'worst' goes to 'of', and 'times' loops back to 'it'; new parts highlighted in amber"}
+
+::: {.caption}
+New transitions in amber
+:::
+:::
+::::
+
+---
+
+## From Text to Model {.framed-figure}
+
+:::: columns
+::: {.column width="40%"}
+Training text: *"it was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness"*
+
+- Each word is a node
+- Each arrow is a next-word probability learned from the text
+:::
+
+::: {.column width="55%"}
+![](../assets/llms/dickens-next-word-graph.svg){fig-alt="Directed graph of next-word transitions with percentage labels, e.g. 'the' goes to 'best' 25%, 'worst' 25%, and 'age' 50%"}
+
+::: {.caption}
+Next-word graph from the opening of *A Tale of Two Cities* (Charles Dickens, 1859)
+:::
+:::
+::::
+
+---
+
+## Language Model Definition {.quote-slide}
+
+> "Systems which are trained on string prediction tasks: that is, predicting the likelihood of a token (character, word, or string) given its preceding context."
+>
+> — Bender and Gebru et al., "Stochastic Parrots" (2021)
+
+---
+
+# "Stochastic Parrots" {.title-slide .section-header}
+
+---
+
+## 🦜 Stochastic Parrots
+
+- Bender, Gebru et al. (2021)
+- Paper drafted via Twitter DMs in Fall 2020
+- Google admin asked that the paper be retracted
+- Published in February 2021 at FAccT
+
+---
+
+## The Authors {.smaller}
+
+:::: {.portrait-grid}
+::: {.portrait-card}
+![](../assets/portraits/emily-m-bender.jpg)
+
+::: {.portrait-text}
+**Emily M. Bender**
+
+::: {.caption}
+Linguist, University of Washington ([King of Hearts](https://commons.wikimedia.org/wiki/File:Emily_M_Bender_CHM_Mountain_View_March_2025.jpg), CC BY-SA 4.0)
+:::
+:::
+:::
+
+::: {.portrait-card}
+![](../assets/portraits/timnit-gebru.jpg)
+
+::: {.portrait-text}
+**Timnit Gebru**
+
+::: {.caption}
+Then co-lead of Google's Ethical AI team ([TechCrunch](https://commons.wikimedia.org/wiki/File:Timnit_Gebru_crop.jpg), CC BY 2.0)
+:::
+:::
+:::
+
+::: {.portrait-card}
+![](../assets/portraits/angelina-mcmillan-major.jpg)
+
+::: {.portrait-text}
+**Angelina McMillan-Major**
+
+::: {.caption}
+Then a PhD student in computational linguistics, University of Washington (photo source TBD)
+:::
+:::
+:::
+
+::: {.portrait-card}
+![](../assets/portraits/margaret-mitchell.jpg)
+
+::: {.portrait-text}
+**"Shmargaret Shmitchell"**
+
+::: {.caption}
+Margaret Mitchell's pseudonym; then co-lead of Google's Ethical AI team (photo source TBD)
+:::
+:::
+:::
+::::
+
+---
+
+## Behind the Research: AI Ethics at Google {.framed-figure}
+
+:::: columns
+::: {.column width="55%"}
+- December 3, 2020: Gebru says Google fired her over the paper
+- December 4, 2020: *MIT Technology Review* publishes ["We read the paper that forced Timnit Gebru out of Google. Here's what it says."](https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/)
+- February 19, 2021: Google fires Margaret Mitchell, the team's other co-lead
+- June 2021: Vox, "Google says it's committed to ethical AI research. Its ethical AI team isn't so sure."
+:::
+
+::: {.column width="40%"}
+![](../assets/llms/gebru-mitchell-news-timeline.png){style="max-height:560px;"}
+
+::: {.caption}
+News coverage, December 2020 to June 2021 (Google News)
+:::
+:::
+::::
+
+---
+
+
+## Four Key Issues in "Stochastic Parrots"
+
+::: {.incremental}
+1. **Cost**: environmental and financial
+2. **"Unfathomable" training data**: scale makes auditing impossible
+3. **Misdirected research**: i.e. opportunity costs
+4. **Human interactions**: the "ELIZA effect" and dangerous queries
+:::
+
+---
+
+# Costs and Training Data {.title-slide .section-header}
+
+---
+
+## Environmental Costs of LLMs {.framed-figure}
+
+:::: columns
+::: {.column width="45%"}
+- Thousands of GPUs for initial training
+- "Training a single BERT base model on GPUs was estimated to require as much energy as a trans-American flight"
+- Data center energy: cooling systems, water use, land
+:::
+
+::: {.column width="50%"}
+![](../assets/llms/the-dalles-data-center.jpg){fig-alt="Google's data center in The Dalles, Oregon, seen behind a fenced electrical substation and dry grass"}
+
+::: {.caption}
+Google's data center in The Dalles, Oregon, behind its substation ([Visitor7](https://commons.wikimedia.org/wiki/File:Google_Data_Center,_The_Dalles.jpg), CC BY-SA 3.0)
+:::
+:::
+::::
+
+---
+
+## Financial Costs of LLMs {.framed-figure}
+
+:::: columns
+::: {.column width="40%"}
+- As of 2020: $150k for every 0.1 increase in BLEU score (Strubell et al.)
+- Exact costs difficult to know; relative costs fairly clear
+:::
+
+::: {.column width="55%"}
+![](../assets/llms/strubell-rnd-cost.svg){fig-alt="Bar chart of the cloud cost to develop one NLP model: one model $52 to $175, tuning for a new dataset $1,238 to $4,205, all R&D for one paper $103,000 to $350,000"}
+
+::: {.caption}
+Data: Strubell, Ganesh & McCallum, ["Energy and Policy Considerations for Deep Learning in NLP"](https://aclanthology.org/P19-1355/), ACL 2019, Table 4
+:::
+:::
+::::
+
+---
+
+## "Moratorium" for Data Centers in Chicago {.news-cards}
+
+:::: columns
+::: {.column width="54%"}
+- September 23, 2026: Mayor and alderpeople introduced ordinance
+- "pause the construction of any new data center for 12 months"
+- It would also block the "material expansion" of existing ones
+- "Chicago is open for business, but we are not for sale." (Mayor Brandon Johnson)
+:::
+
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/block-club-chicago-logo.png" alt="Block Club Chicago"></div>
+<div class="news-kicker">Politics</div>
+<div class="news-headline"><a href="https://blockclubchicago.org/2026/09/23/year-long-ban-on-new-data-centers-pitched-by-chicago-mayor-brandon-johnson/">Year-Long Ban On New Data Centers Pitched By Chicago Mayor Brandon Johnson</a></div>
+<div class="news-deck">The moratorium would be in place while the city formulates additional regulations. An industry group has already blasted the proposal as bad for the economy.</div>
+<img src="../assets/news/block-club-lower-west-side-data-center-2025.jpg" alt="A building marked &quot;Data Centers&quot; behind trees and a fence on the Lower West Side">
+<div class="news-credit">A data center on the Lower West Side on Aug. 28, 2025. (Colin Boyle/Block Club Chicago)</div>
+<div class="news-byline">By Quinn Myers · September 23, 2026 · <a href="https://blockclubchicago.org/2026/09/23/year-long-ban-on-new-data-centers-pitched-by-chicago-mayor-brandon-johnson/">blockclubchicago.org</a></div>
+</div>
+:::
+::::
+
+---
+
+## Data Centers in Illinois {.news-cards}
+
+:::: columns
+::: {.column width="54%"}
+- report from the Illinois Economic Policy Institute, UIUC
+- "$57 billion worth of new data center projects through 2035"
+- "121,000 mostly temporary skilled trade and construction jobs"
+- "nearly $300 million more in annual property tax revenues"
+- "Residents could have to pay $12 more per month in electric bills."
+:::
+
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/sun-times-logo.svg" alt="Chicago Sun-Times"></div>
+<div class="news-kicker">Morning Edition</div>
+<div class="news-headline"><a href="https://chicago.suntimes.com/morning-edition/2026/10/02/data-centers-illinois-broadview-six-midterm-elections">Data centers could bring boost in jobs, tax revenues — and bills</a></div>
+<div class="news-deck">Data center projects planned in Illinois over the next decade could generate tens of thousands of new jobs and hundreds of millions of dollars in new tax revenues, but also drive up utility bills.</div>
+<img src="../assets/news/sun-times-t5-northlake-2024.jpg" alt="Excavators moving earth at the T5 data center construction site in Northlake">
+<div class="news-credit">Construction on T5 data center in Northlake in 2024. (Anthony Vazquez/Sun-Times file)</div>
+<div class="news-byline">Reporting by Mawa Iqbal · October 2, 2026 · <a href="https://chicago.suntimes.com/morning-edition/2026/10/02/data-centers-illinois-broadview-six-midterm-elections">suntimes.com</a></div>
+</div>
+:::
+::::
+
+---
+
+## "Unfathomable" Training Data (2 of 4)
+
+| Model | Year | Training Data |
+|---|---|---|
+| GPT-1 | 2018 | BookCorpus (7,000 books) |
+| GPT-2 | 2019 | WebText: Reddit posts (>2 karma), 8B web pages |
+| GPT-3 | 2020 | WebText2 + 500B tokens |
+| GPT-4 | 2023 | Undisclosed |
+
+---
+
+## Why "Unfathomable"?
+
+::: {.incremental}
+- Larger text datasets are inherently more difficult to understand
+- Training data from the Internet is often not representative
+  - Over-representation of men on Reddit (~67%), Wikipedia (~90%)
+- Efforts to "clean" datasets can have unintended consequences
+  - e.g. removing all pages mentioning the word "rapist"
+  - ["List of Dirty, Naughty, Obscene, and Otherwise Bad Words"](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
+:::
+
+---
+
+## On Filtering Marginalized Voices {.quote-slide}
+
+> "If we filter out the discourse of marginalized populations, we fail to provide training data that reclaims slurs and otherwise describes marginalized identities in a positive light."
+>
+> — Bender and Gebru et al., "Stochastic Parrots" (2021)
+
+---
+
+# Research Directions and Human Interactions {.title-slide .section-header}
+
+---
+
+## Misdirected Research (3 of 4)
+
+:::: columns
+::: {.column width="62%"}
+- Statistical language models are just one approach to AI
+- Other approaches emphasize understanding and structure
+  - Knowledge graphs, structured reasoning
+- Passing AP exams with answer keys on the internet... is this AI?
+- Scaling LLMs consumes resources that could be directed elsewhere
+:::
+
+::: {.column width="34%"}
+![](../assets/llms/two-approaches-to-ai.svg){fig-alt="Two small diagrams stacked: a knowledge graph (Chicago located in Illinois, Illinois state of United States, Blue Line runs through Chicago) above a next-word graph (Chicago, then is, then cold, in, or windy)" style="max-height:560px;"}
+:::
+::::
+
+---
+
+## Where the Money Goes {.figure-slide .framed-figure}
+
+![](../assets/llms/genai-private-investment-ai-index-2025.png){fig-alt="Bar chart of global private investment in generative AI, 2019 to 2024, rising from under $1 billion to $33.94 billion"}
+
+::: {.figure-caption}
+Global private investment in generative AI, 2019–24 ([2025 AI Index Report](https://hai.stanford.edu/ai-index/2025-ai-index-report), Stanford HAI; data from Quid), CC BY-ND 4.0
+:::
+
+---
+
+## Human Interactions (4 of 4): ELIZA {.figure-slide .framed-figure}
+
+![](../assets/llms/eliza-conversation.png){fig-alt="Terminal transcript: ELIZA asks 'Is something troubling you?' and the user replies 'Men are all alike.'"}
+
+::: {.figure-caption}
+A conversation with ELIZA, using the dialogue from Weizenbaum's 1966 paper; JavaScript implementation by Norbert Landsteiner, 2005 ([Commons](https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png)), public domain
+:::
+
+---
+
+## Human Interactions (4 of 4)
+
+- "Humans are prepared to interpret strings belonging to languages they speak as meaningful"
+- But "an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data"
+- We project meaning onto things — sometimes erroneously
+- Early example: **ELIZA** (1966, Joseph Weizenbaum)
+  - Users became emotionally attached even knowing it was a program
+  - Weizenbaum was disturbed by this
+
+*Try ELIZA: [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza)*
+
+---
+
+## ELIZA Effect and "Is It Conscious?"
+
+- The ELIZA effect: what we project onto a system
+- New extension: is the system itself "awake," a "moral patient," a legal person?
+- Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (August 20, 2026)
+	- AI is "corporate-built software," not "a natural phenomenon"
+	- AI personhood would move "moral outsourcing" (her 2018 term) "from linguistic sleight-of-hand to legal strategy"
+	- Victims suing over a faulty "product" could lose that claim if the AI is a "being"
+
+
+---
+
+## Consciousness as "Moral Outsourcing" {.quote-slide}
+
+> "Discussing AI in anthropomorphic terms is a trap, distorting a legal system intended to protect us into one that protects corporate interests at the cost of countless human lives."
+>
+> — Rumman Chowdhury, *MIT Technology Review* (2026)
+
+---
+
+## Dangerous Queries
+
+::: {.incremental}
+- "Users might query LMs for 'dangerous knowledge'"
+- Examples:
+  - Tax avoidance
+  - Self-harm
+  - Weapon building
+  - Malicious / manipulative content
+  - Theft of identity and/or likeness
+  - Hacking / cybersecurity circumventions
+:::
+
+::: {.fragment}
+Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
+:::
+
+---
+
+## Table Discussion: "Stochastic Parrots" {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Which of the four issues concerns you most? Why?
+- Have you ever experienced the "ELIZA effect"?
+- Who should be responsible when an LLM answers a "dangerous query"?
+- Is the paper's warning from 2021 still relevant today?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
@@ -471,11 +881,16 @@ See you Wednesday!
 4. Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922) *FAccT 2021*.
 5. [List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words), GitHub.
 6. [ELIZA Archaeology](https://sites.google.com/view/elizaarchaeology/try-eliza).
-7. Chiang and Zheng et al., ["An Open Platform for Evaluating LLMs by Human Preference"](https://openreview.net/forum?id=3MW8GKNyzI); [LMArena](https://lmarena.ai).
-8. Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU).
-9. Casey Newton, ["Grammarly turned me into an AI editor against my will"](https://www.platformer.news/grammarly-expert-review-reviewed/), *Platformer*.
-10. Digital Millennium Copyright Act (DMCA), [Section 1202](https://www.law.cornell.edu/uscode/text/17/1202).
-11. NYT's Complaint, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/).
-12. Ashley Belanger, ["OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million."](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/) *Ars Technica* (2025).
-13. Matt O'Brien, ["Anthropic to pay authors $1.5 billion to settle lawsuit…"](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164) *AP News*.
-14. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+7. Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (August 20, 2026).
+8. Chiang and Zheng et al., ["An Open Platform for Evaluating LLMs by Human Preference"](https://openreview.net/forum?id=3MW8GKNyzI); [LMArena](https://lmarena.ai).
+9. Wall Street Journal, [OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago](https://archive.ph/5WWdU).
+10. Casey Newton, ["Grammarly turned me into an AI editor against my will"](https://www.platformer.news/grammarly-expert-review-reviewed/), *Platformer*.
+11. Digital Millennium Copyright Act (DMCA), [Section 1202](https://www.law.cornell.edu/uscode/text/17/1202).
+12. NYT's Complaint, [Exhibit J on Memorized Content in GPT-4](https://chatgptiseatingtheworld.com/2023/12/27/exhibit-j-to-new-york-times-complaint-provides-one-hundred-examples-of-gpt-4-memorizing-content-from-the-new-york-times/).
+13. Ashley Belanger, ["OpenAI offers 20 million user chats in ChatGPT lawsuit. NYT wants 120 million."](https://arstechnica.com/tech-policy/2025/08/openai-offers-20-million-user-chats-in-chatgpt-lawsuit-nyt-wants-120-million/) *Ars Technica* (2025).
+14. Matt O'Brien, ["Anthropic to pay authors $1.5 billion to settle lawsuit…"](https://apnews.com/article/anthropic-copyright-authors-settlement-training-f294266bc79a16ec90d2ddccdf435164) *AP News*.
+15. Quinn Myers, ["Year-Long Ban On New Data Centers Pitched By Chicago Mayor Brandon Johnson"](https://blockclubchicago.org/2026/09/23/year-long-ban-on-new-data-centers-pitched-by-chicago-mayor-brandon-johnson/), *Block Club Chicago* (September 23, 2026); photo by Colin Boyle/Block Club Chicago.
+16. Mawa Iqbal, "Data centers could bring boost in jobs, tax revenues — and bills," in Matt Moore, ["Data center dilemma: More jobs or higher bills?"](https://chicago.suntimes.com/morning-edition/2026/10/02/data-centers-illinois-broadview-six-midterm-elections), *Chicago Sun-Times* Morning Edition (October 2, 2026); photo by Anthony Vazquez/Sun-Times.
+17. Emma Strubell, Ananya Ganesh, and Andrew McCallum, ["Energy and Policy Considerations for Deep Learning in NLP"](https://aclanthology.org/P19-1355/), *ACL 2019*.
+18. Photo: [Google Data Center, The Dalles](https://commons.wikimedia.org/wiki/File:Google_Data_Center,_The_Dalles.jpg) by Visitor7, via Wikimedia Commons, CC BY-SA 3.0.
+19. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

@@ -6,8 +6,8 @@
 <script src="week8_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="week8_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="week8_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="week8_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.10.19">
+<link href="week8_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
 
   <title>week8</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,13 +19,10 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
+    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: 1.5em;}
-    div.column{flex: auto;}
-    @media screen {
-    div.columns{gap: min(4vw, 1.5em);}
-    div.column{overflow-x: auto;}
-    }
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -767,290 +764,6 @@ By Tania Myronyshena · April 19, 2026 · <a href="https://kyivindependent.com/u
 <!-- NOTICE: Draft from old-slides/pdf-versions/17 Intro to LLMs.pdf. Review and edit before use. -->
 <p>Former Week 8, Day 2 draft (“Ethical Challenges from LLMs”)</p>
 </section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="what-is-a-language-model" class="title-slide slide level1 section-header center">
-<h1>What Is a Language Model?</h1>
-
-</section>
-<section id="what-is-a-large-language-model" class="slide level2">
-<h2>What Is a (Large) Language Model?</h2>
-</section>
-<section id="a-simple-language-model" class="slide level2">
-<h2>A Simple Language Model</h2>
-<p>Training text: <em>“it was the best of times”</em></p>
-<ul>
-<li>Model: predicts the next token based on preceding context</li>
-</ul>
-<div class="fragment">
-<p>Training text: <em>“it was the best of times, it was the worst of times”</em></p>
-<ul>
-<li>Model now has more transitions to learn from</li>
-</ul>
-</div>
-</section>
-<section id="from-text-to-model" class="slide level2 framed-figure">
-<h2>From Text to Model</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p>Training text: <em>“it was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness”</em></p>
-<ul>
-<li>Each word is a node</li>
-<li>Each arrow is a next-word probability learned from the text</li>
-</ul>
-</div><div class="column" style="width:55%;">
-<p><img data-src="../assets/llms/dickens-next-word-graph.svg" alt="Directed graph of next-word transitions with percentage labels, e.g. 'the' goes to 'best' 25%, 'worst' 25%, and 'age' 50%"></p>
-<div class="caption">
-<p>Next-word graph from the opening of <em>A Tale of Two Cities</em> (Charles Dickens, 1859)</p>
-</div>
-</div></div>
-</section>
-<section id="lm-definition" class="slide level2 quote-slide">
-<h2>LM Definition</h2>
-<blockquote>
-<p>“Systems which are trained on string prediction tasks: that is, predicting the likelihood of a token (character, word, or string) given its preceding context.”</p>
-<p>— Bender and Gebru et al., “Stochastic Parrots” (2021)</p>
-</blockquote>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="stochastic-parrots" class="title-slide slide level1 section-header center">
-<h1>“Stochastic Parrots”</h1>
-
-</section>
-<section id="stochastic-parrots-1" class="slide level2">
-<h2>🦜 Stochastic Parrots</h2>
-<ul>
-<li>Bender, Gebru et al.&nbsp;(2021)</li>
-<li>Paper drafted via Twitter DMs in Fall 2020</li>
-<li>Google admin asked that the paper be retracted</li>
-<li>Published in February 2021 at FAccT</li>
-</ul>
-</section>
-<section id="the-authors" class="slide level2 portrait-row smaller">
-<h2>The Authors</h2>
-<div class="columns">
-<div class="column" style="width:23%;">
-<p><img data-src="../assets/portraits/emily-m-bender.jpg"></p>
-<p><strong>Emily M. Bender</strong></p>
-<div class="caption">
-<p>Linguist, University of Washington (<a href="https://commons.wikimedia.org/wiki/File:Emily_M_Bender_CHM_Mountain_View_March_2025.jpg">King of Hearts</a>, CC BY-SA 4.0)</p>
-</div>
-</div><div class="column" style="width:23%;">
-<p><img data-src="../assets/portraits/timnit-gebru.jpg"></p>
-<p><strong>Timnit Gebru</strong></p>
-<div class="caption">
-<p>Then co-lead of Google’s Ethical AI team (<a href="https://commons.wikimedia.org/wiki/File:Timnit_Gebru_crop.jpg">TechCrunch</a>, CC BY 2.0)</p>
-</div>
-</div><div class="column" style="width:23%;">
-<p><img data-src="../assets/portraits/angelina-mcmillan-major.jpg"></p>
-<p><strong>Angelina McMillan-Major</strong></p>
-<div class="caption">
-<p>Then a PhD student in computational linguistics, University of Washington</p>
-</div>
-</div><div class="column" style="width:23%;">
-<p><img data-src="../assets/portraits/margaret-mitchell.jpg"></p>
-<p><strong>“Shmargaret Shmitchell”</strong></p>
-<div class="caption">
-<p>Margaret Mitchell’s pseudonym; then co-lead of Google’s Ethical AI team</p>
-</div>
-</div></div>
-</section>
-<section id="behind-the-research-ai-ethics-at-google" class="slide level2 framed-figure">
-<h2>Behind the Research: AI Ethics at Google</h2>
-<div class="columns">
-<div class="column" style="width:55%;">
-<ul>
-<li>December 3, 2020: Gebru says Google fired her over the paper</li>
-<li>December 4, 2020: <em>MIT Technology Review</em> publishes <a href="https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/">“We read the paper that forced Timnit Gebru out of Google. Here’s what it says.”</a></li>
-<li>February 19, 2021: Google fires Margaret Mitchell, the team’s other co-lead</li>
-<li>June 2021: Vox, “Google says it’s committed to ethical AI research. Its ethical AI team isn’t so sure.”</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="../assets/llms/gebru-mitchell-news-timeline.png" style="max-height:560px;"></p>
-<div class="caption">
-<p>News coverage, December 2020 to June 2021 (Google News)</p>
-</div>
-</div></div>
-</section>
-<section id="four-key-issues-in-stochastic-parrots" class="slide level2">
-<h2>Four Key Issues in “Stochastic Parrots”</h2>
-<ol type="1">
-<li class="fragment"><strong>Cost</strong>: environmental and financial</li>
-<li class="fragment"><strong>“Unfathomable” training data</strong>: scale makes auditing impossible</li>
-<li class="fragment"><strong>Misdirected research</strong>: i.e.&nbsp;opportunity costs</li>
-<li class="fragment"><strong>Human interactions</strong>: the “ELIZA effect” and dangerous queries</li>
-</ol>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="costs-and-training-data" class="title-slide slide level1 section-header center">
-<h1>Costs and Training Data</h1>
-
-</section>
-<section id="environmental-costs-of-llms" class="slide level2">
-<h2>Environmental Costs of LLMs</h2>
-<ul>
-<li>Thousands of GPUs for initial training</li>
-<li>“Training a single BERT base model on GPUs was estimated to require as much energy as a trans-American flight”</li>
-<li>Data center energy: cooling systems, water use, land</li>
-</ul>
-</section>
-<section id="financial-costs-of-llms" class="slide level2">
-<h2>Financial Costs of LLMs</h2>
-<ul>
-<li>As of 2020: $150k for every 0.1 increase in BLEU score (Strubell et al.)</li>
-<li>Exact costs difficult to know; relative costs fairly clear</li>
-</ul>
-</section>
-<section id="unfathomable-training-data-2-of-4" class="slide level2">
-<h2>“Unfathomable” Training Data (2 of 4)</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Model</th>
-<th>Year</th>
-<th>Training Data</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>GPT-1</td>
-<td>2018</td>
-<td>BookCorpus — 7,000 free books</td>
-</tr>
-<tr class="even">
-<td>GPT-2</td>
-<td>2019</td>
-<td>WebText — Reddit posts (&gt;2 karma), 8B web pages</td>
-</tr>
-<tr class="odd">
-<td>GPT-3</td>
-<td>2020</td>
-<td>WebText2 + 500B tokens</td>
-</tr>
-<tr class="even">
-<td>GPT-4</td>
-<td>2023</td>
-<td>Undisclosed</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="why-unfathomable" class="slide level2">
-<h2>Why “Unfathomable”?</h2>
-<ul>
-<li class="fragment">Larger text datasets are more difficult to understand, analyze, and audit</li>
-<li class="fragment">Training data from the Internet is often not representative
-<ul>
-<li class="fragment">Over-representation of men on Reddit (~67%), Wikipedia (~90%)</li>
-</ul></li>
-<li class="fragment">Efforts to “clean” datasets can have unintended consequences
-<ul>
-<li class="fragment">e.g.&nbsp;removing all pages mentioning the word “rapist”</li>
-<li class="fragment"><a href="https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words">“List of Dirty, Naughty, Obscene, and Otherwise Bad Words”</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="on-filtering-marginalized-voices" class="slide level2 quote-slide">
-<h2>On Filtering Marginalized Voices</h2>
-<blockquote>
-<p>“If we filter out the discourse of marginalized populations, we fail to provide training data that reclaims slurs and otherwise describes marginalized identities in a positive light.”</p>
-<p>— Bender and Gebru et al., “Stochastic Parrots” (2021)</p>
-</blockquote>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="research-directions-and-human-interactions" class="title-slide slide level1 section-header center">
-<h1>Research Directions and Human Interactions</h1>
-
-</section>
-<section id="misdirected-research-3-of-4" class="slide level2">
-<h2>Misdirected Research (3 of 4)</h2>
-<ul>
-<li>Statistical language models are just one approach to AI</li>
-<li>Other approaches emphasize understanding and structure
-<ul>
-<li>Knowledge graphs, structured reasoning</li>
-<li>Example: passing AP exams posted on the internet</li>
-</ul></li>
-<li>Scaling LLMs consumes resources that could be directed elsewhere</li>
-</ul>
-</section>
-<section id="where-the-money-goes" class="slide level2 figure-slide framed-figure">
-<h2>Where the Money Goes</h2>
-
-<img data-src="../assets/llms/genai-private-investment-ai-index-2025.png" alt="Bar chart of global private investment in generative AI, 2019 to 2024, rising from under $1 billion to $33.94 billion" class="r-stretch"><div class="figure-caption">
-<p>Global private investment in generative AI, 2019–24 (<a href="https://hai.stanford.edu/ai-index/2025-ai-index-report">2025 AI Index Report</a>, Stanford HAI; data from Quid), CC BY-ND 4.0</p>
-</div>
-</section>
-<section id="human-interactions-4-of-4-eliza" class="slide level2 figure-slide framed-figure">
-<h2>Human Interactions (4 of 4): ELIZA</h2>
-
-<img data-src="../assets/llms/eliza-conversation.png" alt="Terminal transcript: ELIZA asks 'Is something troubling you?' and the user replies 'Men are all alike.'" class="r-stretch"><div class="figure-caption">
-<p>A conversation with ELIZA, using the dialogue from Weizenbaum’s 1966 paper; JavaScript implementation by Norbert Landsteiner, 2005 (<a href="https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png">Commons</a>), public domain</p>
-</div>
-</section>
-<section id="human-interactions-4-of-4" class="slide level2">
-<h2>Human Interactions (4 of 4)</h2>
-<ul>
-<li>“Humans are prepared to interpret strings belonging to languages they speak as meaningful”</li>
-<li>But “an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data”</li>
-<li>We project meaning onto things — sometimes erroneously</li>
-<li>Early example: <strong>ELIZA</strong> (1966, Joseph Weizenbaum)
-<ul>
-<li>Users became emotionally attached even knowing it was a program</li>
-<li>Weizenbaum was disturbed by this</li>
-</ul></li>
-</ul>
-<p><em>Try ELIZA: <a href="https://sites.google.com/view/elizaarchaeology/try-eliza">ELIZA Archaeology</a></em></p>
-</section>
-<section id="eliza-effect-and-is-it-conscious" class="slide level2">
-<h2>ELIZA Effect and “Is It Conscious?”</h2>
-<ul>
-<li>The ELIZA effect: what we project onto a system</li>
-<li>New extension: is the system itself “awake,” a “moral patient,” a legal person?</li>
-<li>Rumman Chowdhury, <a href="https://archive.ph/Bbs6p">“Debates over AI consciousness are a trap”</a>, <em>MIT Technology Review</em> (August 20, 2026)
-<ul>
-<li>AI is “corporate-built software,” not “a natural phenomenon”</li>
-<li>AI personhood would move “moral outsourcing” (her 2018 term) “from linguistic sleight-of-hand to legal strategy”</li>
-<li>Victims suing over a faulty “product” could lose that claim if the AI is a “being”</li>
-</ul></li>
-</ul>
-</section>
-<section id="consciousness-as-moral-outsourcing" class="slide level2 quote-slide">
-<h2>Consciousness as “Moral Outsourcing”</h2>
-<blockquote>
-<p>“Discussing AI in anthropomorphic terms is a trap, distorting a legal system intended to protect us into one that protects corporate interests at the cost of countless human lives.”</p>
-<p>— Rumman Chowdhury, <em>MIT Technology Review</em> (2026)</p>
-</blockquote>
-</section>
-<section id="dangerous-queries" class="slide level2">
-<h2>Dangerous Queries</h2>
-<ul>
-<li class="fragment">“Users might query LMs for ‘dangerous knowledge’”</li>
-<li class="fragment">Examples:
-<ul>
-<li class="fragment">Tax avoidance</li>
-<li class="fragment">Self-harm</li>
-<li class="fragment">Weapon building</li>
-<li class="fragment">Malicious / manipulative content</li>
-<li class="fragment">Theft of identity and/or likeness</li>
-<li class="fragment">Hacking / cybersecurity circumventions</li>
-</ul></li>
-</ul>
-<div class="fragment">
-<p>Red-teaming activity (if time allows): <a href="https://lmarena.ai">lmarena.ai</a></p>
-</div>
-</section>
 <section id="laptopphone-policy-check-in" class="slide level2">
 <h2>Laptop/Phone Policy Check-in</h2>
 <p>“To promote engagement and alertness in class, most class periods will follow a no-electronics policy.”</p>
@@ -1198,7 +911,6 @@ By Tania Myronyshena · April 19, 2026 · <a href="https://kyivindependent.com/u
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week8.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week8.md</a>.</li>
-<li>Last modified and compiled October 14, 17:30h.</li>
 <li>Ross Andersen, <a href="https://archive.is/20260301224421/https://www.theatlantic.com/technology/2026/03/inside-anthropics-killer-robot-dispute-with-the-pentagon/686200/">“Inside Anthropic’s Killer-Robot Dispute With the Pentagon”</a>, <em>The Atlantic</em> (2026).</li>
 <li>Dario Amodei, <a href="https://www.anthropic.com/news/statement-department-of-war">“Statement from Dario Amodei on our discussions with the Department of War”</a>, Anthropic (February 26, 2026).</li>
 <li>Anthropic, <a href="https://www.anthropic.com/threat-intelligence-report-september-2026">“Detecting and countering misuse of AI: September 2026”</a> (2026).</li>

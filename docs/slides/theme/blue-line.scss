@@ -718,6 +718,44 @@ $photo-only-footer-opacity: 0.6;
   object-position: center top;
 }
 
+// Four portraits as a 2x2 grid (the "Stochastic Parrots" authors): each cell
+// puts a square photo beside its name and credit, so two rows fit the fixed
+// 1280x720 box where two rows of `.portrait-row` columns would not. Same
+// crop-to-a-box rule as `.portrait-row` so the faces line up.
+.reveal .portrait-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 44px;
+  margin-top: 0.4em;
+
+  .portrait-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .portrait-card > p {
+    flex: none;
+  }
+
+  .caption {
+    font-size: 0.62em;
+    line-height: 1.3;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  p {
+    margin: 0 0 0.2em;
+  }
+}
+
 // A figure that has to read as a discrete panel on the white slide — the survey
 // charts are drawn on white themselves, so without an edge they bleed into it.
 .reveal .framed-figure img {

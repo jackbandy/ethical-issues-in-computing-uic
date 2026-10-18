@@ -1,0 +1,1931 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="698.990683pt" viewBox="0 0 432 698.990683" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-18T09:56:23.741783</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 698.990683 
+L 432 698.990683 
+L 432 0 
+L 0 0 
+L 0 698.990683 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 149.312788 106.92798 
+Q 208.090627 106.92798 264.632397 106.92798 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 251.432397 100.32798 
+L 264.632397 106.92798 
+L 251.432397 113.52798 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 315.5328 132.850727 
+Q 315.5328 182.505348 315.5328 229.9239 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 322.1328 216.7239 
+L 315.5328 229.9239 
+L 308.9328 216.7239 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 91.584 232.159968 
+Q 91.584 182.548004 91.584 135.172108 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 84.984 148.372108 
+L 91.584 135.172108 
+L 98.184 148.372108 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_5">
+     <path d="M 50.770172 126.45798 
+L 132.397828 126.45798 
+Q 141.847828 126.45798 141.847828 117.00798 
+L 141.847828 96.84798 
+Q 141.847828 87.39798 132.397828 87.39798 
+L 50.770172 87.39798 
+Q 41.320172 87.39798 41.320172 96.84798 
+L 41.320172 117.00798 
+Q 41.320172 126.45798 50.770172 126.45798 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- Chicago -->
+    <g style="fill: #231f20" transform="translate(50.770172 112.302667) scale(0.21 -0.21)">
+     <defs>
+      <path id="Mulish-Bold-43" d="M 2598 -64 
+Q 1894 -64 1392 221 
+Q 890 506 621 1027 
+Q 352 1549 352 2259 
+Q 352 2970 621 3488 
+Q 890 4006 1392 4291 
+Q 1894 4576 2598 4576 
+Q 3072 4576 3453 4441 
+Q 3834 4307 4109 4045 
+L 3840 3392 
+Q 3539 3635 3260 3740 
+Q 2982 3846 2624 3846 
+Q 1939 3846 1577 3433 
+Q 1216 3021 1216 2259 
+Q 1216 1498 1577 1082 
+Q 1939 666 2624 666 
+Q 2982 666 3260 771 
+Q 3539 877 3840 1126 
+L 4109 474 
+Q 3834 218 3453 77 
+Q 3072 -64 2598 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-68" d="M 435 0 
+L 435 4710 
+L 1235 4710 
+L 1235 2586 
+L 1146 2586 
+Q 1293 2931 1600 3113 
+Q 1907 3296 2304 3296 
+Q 2880 3296 3161 2973 
+Q 3443 2650 3443 1990 
+L 3443 0 
+L 2643 0 
+L 2643 1952 
+Q 2643 2330 2499 2499 
+Q 2355 2669 2042 2669 
+Q 1677 2669 1456 2441 
+Q 1235 2214 1235 1837 
+L 1235 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-69" d="M 435 0 
+L 435 3232 
+L 1235 3232 
+L 1235 0 
+L 435 0 
+z
+M 390 3840 
+L 390 4621 
+L 1280 4621 
+L 1280 3840 
+L 390 3840 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-63" d="M 1920 -64 
+Q 1421 -64 1046 141 
+Q 672 346 467 726 
+Q 262 1107 262 1632 
+Q 262 2157 470 2528 
+Q 678 2899 1049 3097 
+Q 1421 3296 1920 3296 
+Q 2240 3296 2544 3197 
+Q 2848 3098 3040 2912 
+L 2797 2355 
+Q 2624 2515 2409 2595 
+Q 2195 2675 1990 2675 
+Q 1562 2675 1322 2406 
+Q 1082 2138 1082 1626 
+Q 1082 1114 1322 838 
+Q 1562 563 1990 563 
+Q 2189 563 2403 640 
+Q 2618 717 2797 877 
+L 3040 326 
+Q 2842 141 2538 38 
+Q 2234 -64 1920 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-61" d="M 1683 -64 
+Q 1261 -64 941 137 
+Q 621 339 441 716 
+Q 262 1094 262 1619 
+Q 262 2144 441 2518 
+Q 621 2893 941 3094 
+Q 1261 3296 1683 3296 
+Q 2093 3296 2403 3094 
+Q 2714 2893 2816 2554 
+L 2746 2554 
+L 2816 3232 
+L 3584 3232 
+Q 3565 3034 3549 2829 
+Q 3533 2624 3533 2426 
+L 3533 0 
+L 2739 0 
+L 2733 666 
+L 2810 666 
+Q 2707 333 2393 134 
+Q 2080 -64 1683 -64 
+z
+M 1907 550 
+Q 2285 550 2515 816 
+Q 2746 1082 2746 1619 
+Q 2746 2157 2515 2419 
+Q 2285 2682 1907 2682 
+Q 1530 2682 1299 2419 
+Q 1069 2157 1069 1619 
+Q 1069 1082 1296 816 
+Q 1523 550 1907 550 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-67" d="M 1933 -1434 
+Q 1485 -1434 1123 -1338 
+Q 762 -1242 480 -1043 
+L 653 -467 
+Q 838 -589 1036 -665 
+Q 1235 -742 1446 -780 
+Q 1658 -819 1875 -819 
+Q 2323 -819 2544 -598 
+Q 2765 -378 2765 32 
+L 2765 806 
+L 2829 806 
+Q 2726 474 2416 275 
+Q 2106 77 1702 77 
+Q 1267 77 944 272 
+Q 621 467 441 832 
+Q 262 1197 262 1690 
+Q 262 2182 441 2544 
+Q 621 2906 944 3101 
+Q 1267 3296 1702 3296 
+Q 2112 3296 2416 3101 
+Q 2720 2906 2822 2573 
+L 2765 2611 
+L 2829 3232 
+L 3603 3232 
+Q 3578 3034 3565 2829 
+Q 3552 2624 3552 2426 
+L 3552 128 
+Q 3552 -634 3139 -1034 
+Q 2726 -1434 1933 -1434 
+z
+M 1920 691 
+Q 2304 691 2531 950 
+Q 2758 1210 2758 1690 
+Q 2758 2170 2531 2426 
+Q 2304 2682 1920 2682 
+Q 1530 2682 1299 2426 
+Q 1069 2170 1069 1690 
+Q 1069 1210 1299 950 
+Q 1530 691 1920 691 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-6f" d="M 1894 -64 
+Q 1395 -64 1030 141 
+Q 666 346 464 723 
+Q 262 1101 262 1619 
+Q 262 2138 464 2512 
+Q 666 2886 1030 3091 
+Q 1395 3296 1894 3296 
+Q 2394 3296 2762 3091 
+Q 3130 2886 3331 2512 
+Q 3533 2138 3533 1619 
+Q 3533 1101 3331 723 
+Q 3130 346 2762 141 
+Q 2394 -64 1894 -64 
+z
+M 1894 550 
+Q 2272 550 2496 816 
+Q 2720 1082 2720 1619 
+Q 2720 2157 2496 2419 
+Q 2272 2682 1894 2682 
+Q 1517 2682 1293 2419 
+Q 1069 2157 1069 1619 
+Q 1069 1082 1293 816 
+Q 1517 550 1894 550 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-43"/>
+     <use xlink:href="#Mulish-Bold-68" transform="translate(68.499985 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(128.799973 0)"/>
+     <use xlink:href="#Mulish-Bold-63" transform="translate(154.899963 0)"/>
+     <use xlink:href="#Mulish-Bold-61" transform="translate(205.299957 0)"/>
+     <use xlink:href="#Mulish-Bold-67" transform="translate(267.299942 0)"/>
+     <use xlink:href="#Mulish-Bold-6f" transform="translate(329.499939 0)"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <g id="patch_6">
+     <path d="M 283.783425 126.372667 
+L 347.282175 126.372667 
+Q 356.732175 126.372667 356.732175 116.922667 
+L 356.732175 96.933292 
+Q 356.732175 87.483292 347.282175 87.483292 
+L 283.783425 87.483292 
+Q 274.333425 87.483292 274.333425 96.933292 
+L 274.333425 116.922667 
+Q 274.333425 126.372667 283.783425 126.372667 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- Illinois -->
+    <g style="fill: #231f20" transform="translate(283.783425 112.38798) scale(0.21 -0.21)">
+     <defs>
+      <path id="Mulish-Bold-49" d="M 499 0 
+L 499 4512 
+L 1325 4512 
+L 1325 0 
+L 499 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-6c" d="M 435 0 
+L 435 4710 
+L 1235 4710 
+L 1235 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-6e" d="M 435 0 
+L 435 2426 
+Q 435 2624 422 2829 
+Q 410 3034 384 3232 
+L 1158 3232 
+L 1222 2592 
+L 1146 2592 
+Q 1299 2931 1600 3113 
+Q 1901 3296 2298 3296 
+Q 2867 3296 3155 2976 
+Q 3443 2656 3443 1978 
+L 3443 0 
+L 2643 0 
+L 2643 1939 
+Q 2643 2330 2492 2499 
+Q 2342 2669 2042 2669 
+Q 1670 2669 1452 2438 
+Q 1235 2208 1235 1824 
+L 1235 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-73" d="M 1587 -64 
+Q 1171 -64 822 35 
+Q 474 134 237 314 
+L 461 851 
+Q 704 685 998 595 
+Q 1293 506 1594 506 
+Q 1914 506 2070 614 
+Q 2227 723 2227 909 
+Q 2227 1056 2128 1142 
+Q 2029 1229 1811 1274 
+L 1171 1395 
+Q 762 1485 547 1702 
+Q 333 1920 333 2272 
+Q 333 2573 496 2803 
+Q 659 3034 963 3165 
+Q 1267 3296 1677 3296 
+Q 2035 3296 2352 3200 
+Q 2669 3104 2886 2912 
+L 2656 2394 
+Q 2458 2554 2202 2643 
+Q 1946 2733 1702 2733 
+Q 1370 2733 1216 2614 
+Q 1062 2496 1062 2310 
+Q 1062 2170 1155 2077 
+Q 1248 1984 1446 1939 
+L 2086 1818 
+Q 2515 1734 2736 1526 
+Q 2957 1318 2957 960 
+Q 2957 640 2784 409 
+Q 2611 179 2304 57 
+Q 1997 -64 1587 -64 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-49"/>
+     <use xlink:href="#Mulish-Bold-6c" transform="translate(28.399994 0)"/>
+     <use xlink:href="#Mulish-Bold-6c" transform="translate(54.499985 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(80.599976 0)"/>
+     <use xlink:href="#Mulish-Bold-6e" transform="translate(106.699966 0)"/>
+     <use xlink:href="#Mulish-Bold-6f" transform="translate(166.999954 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(226.199951 0)"/>
+     <use xlink:href="#Mulish-Bold-73" transform="translate(252.299942 0)"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <g id="patch_7">
+     <path d="M 247.313972 277.527403 
+L 383.751628 277.527403 
+Q 393.201628 277.527403 393.201628 268.077403 
+L 393.201628 248.088028 
+Q 393.201628 238.638028 383.751628 238.638028 
+L 247.313972 238.638028 
+Q 237.863972 238.638028 237.863972 248.088028 
+L 237.863972 268.077403 
+Q 237.863972 277.527403 247.313972 277.527403 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- United States -->
+    <g style="fill: #231f20" transform="translate(247.313972 263.542716) scale(0.21 -0.21)">
+     <defs>
+      <path id="Mulish-Bold-55" d="M 2381 -64 
+Q 1414 -64 944 419 
+Q 474 902 474 1850 
+L 474 4512 
+L 1299 4512 
+L 1299 1856 
+Q 1299 1254 1558 947 
+Q 1818 640 2381 640 
+Q 2918 640 3190 947 
+Q 3462 1254 3462 1856 
+L 3462 4512 
+L 4275 4512 
+L 4275 1850 
+Q 4275 902 3798 419 
+Q 3322 -64 2381 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-74" d="M 1818 -64 
+Q 1242 -64 947 237 
+Q 653 538 653 1139 
+L 653 2630 
+L 32 2630 
+L 32 3232 
+L 653 3232 
+L 653 4058 
+L 1453 4262 
+L 1453 3232 
+L 2317 3232 
+L 2317 2630 
+L 1453 2630 
+L 1453 1190 
+Q 1453 858 1581 723 
+Q 1709 589 1933 589 
+Q 2054 589 2140 608 
+Q 2227 627 2310 659 
+L 2310 26 
+Q 2202 -19 2070 -41 
+Q 1939 -64 1818 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-65" d="M 1997 -64 
+Q 1184 -64 723 384 
+Q 262 832 262 1613 
+Q 262 2118 460 2496 
+Q 659 2874 1014 3085 
+Q 1370 3296 1843 3296 
+Q 2310 3296 2624 3097 
+Q 2938 2899 3101 2540 
+Q 3264 2182 3264 1702 
+L 3264 1491 
+L 909 1491 
+L 909 1914 
+L 2694 1914 
+L 2586 1824 
+Q 2586 2272 2397 2509 
+Q 2208 2746 1850 2746 
+Q 1453 2746 1238 2464 
+Q 1024 2182 1024 1677 
+L 1024 1594 
+Q 1024 1069 1283 809 
+Q 1542 550 2016 550 
+Q 2291 550 2531 624 
+Q 2771 698 2989 864 
+L 3226 326 
+Q 2995 141 2675 38 
+Q 2355 -64 1997 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-64" d="M 1690 -64 
+Q 1267 -64 944 137 
+Q 621 339 441 716 
+Q 262 1094 262 1619 
+Q 262 2144 441 2518 
+Q 621 2893 944 3094 
+Q 1267 3296 1690 3296 
+Q 2093 3296 2403 3101 
+Q 2714 2906 2816 2573 
+L 2733 2573 
+L 2733 4710 
+L 3533 4710 
+L 3533 0 
+L 2746 0 
+L 2746 685 
+L 2822 685 
+Q 2720 339 2409 137 
+Q 2099 -64 1690 -64 
+z
+M 1914 550 
+Q 2291 550 2521 816 
+Q 2752 1082 2752 1619 
+Q 2752 2157 2521 2419 
+Q 2291 2682 1914 2682 
+Q 1536 2682 1302 2419 
+Q 1069 2157 1069 1619 
+Q 1069 1082 1302 816 
+Q 1536 550 1914 550 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-20" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-53" d="M 2074 -64 
+Q 1530 -64 1072 73 
+Q 614 211 288 454 
+L 544 1101 
+Q 762 947 998 841 
+Q 1235 736 1504 681 
+Q 1773 627 2074 627 
+Q 2579 627 2803 793 
+Q 3027 960 3027 1229 
+Q 3027 1466 2873 1590 
+Q 2720 1715 2323 1798 
+L 1600 1946 
+Q 979 2074 672 2374 
+Q 365 2675 365 3181 
+Q 365 3603 589 3916 
+Q 813 4230 1216 4403 
+Q 1619 4576 2157 4576 
+Q 2637 4576 3046 4438 
+Q 3456 4301 3731 4045 
+L 3475 3430 
+Q 3200 3661 2873 3773 
+Q 2547 3885 2144 3885 
+Q 1690 3885 1437 3709 
+Q 1184 3533 1184 3226 
+Q 1184 2989 1341 2848 
+Q 1498 2707 1875 2630 
+L 2592 2490 
+Q 3232 2362 3539 2070 
+Q 3846 1779 3846 1286 
+Q 3846 883 3628 579 
+Q 3411 275 3014 105 
+Q 2618 -64 2074 -64 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-55"/>
+     <use xlink:href="#Mulish-Bold-6e" transform="translate(73.999985 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(134.299973 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(160.399963 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(198.299957 0)"/>
+     <use xlink:href="#Mulish-Bold-64" transform="translate(253.099945 0)"/>
+     <use xlink:href="#Mulish-Bold-20" transform="translate(315.09993 0)"/>
+     <use xlink:href="#Mulish-Bold-53" transform="translate(342.499924 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(406.999908 0)"/>
+     <use xlink:href="#Mulish-Bold-61" transform="translate(444.899902 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(506.899887 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(544.799881 0)"/>
+     <use xlink:href="#Mulish-Bold-73" transform="translate(599.599869 0)"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <g id="patch_8">
+     <path d="M 46.005797 277.527403 
+L 137.162203 277.527403 
+Q 146.612203 277.527403 146.612203 268.077403 
+L 146.612203 248.088028 
+Q 146.612203 238.638028 137.162203 238.638028 
+L 46.005797 238.638028 
+Q 36.555797 238.638028 36.555797 248.088028 
+L 36.555797 268.077403 
+Q 36.555797 277.527403 46.005797 277.527403 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- Blue Line -->
+    <g style="fill: #231f20" transform="translate(46.005797 263.542716) scale(0.21 -0.21)">
+     <defs>
+      <path id="Mulish-Bold-42" d="M 499 0 
+L 499 4512 
+L 2477 4512 
+Q 3213 4512 3609 4201 
+Q 4006 3891 4006 3341 
+Q 4006 2931 3763 2649 
+Q 3520 2368 3091 2272 
+L 3091 2368 
+Q 3584 2298 3856 2013 
+Q 4128 1728 4128 1261 
+Q 4128 659 3712 329 
+Q 3296 0 2554 0 
+L 499 0 
+z
+M 1293 627 
+L 2458 627 
+Q 2874 627 3104 784 
+Q 3334 941 3334 1299 
+Q 3334 1664 3104 1821 
+Q 2874 1978 2458 1978 
+L 1293 1978 
+L 1293 627 
+z
+M 1293 2598 
+L 2336 2598 
+Q 2778 2598 2992 2761 
+Q 3206 2925 3206 3245 
+Q 3206 3565 2992 3728 
+Q 2778 3891 2336 3891 
+L 1293 3891 
+L 1293 2598 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-75" d="M 1600 -64 
+Q 1005 -64 710 262 
+Q 416 589 416 1261 
+L 416 3232 
+L 1216 3232 
+L 1216 1267 
+Q 1216 909 1363 739 
+Q 1510 570 1811 570 
+Q 2150 570 2364 800 
+Q 2579 1030 2579 1408 
+L 2579 3232 
+L 3379 3232 
+L 3379 0 
+L 2598 0 
+L 2598 659 
+L 2688 659 
+Q 2547 314 2262 125 
+Q 1978 -64 1600 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-4c" d="M 499 0 
+L 499 4512 
+L 1325 4512 
+L 1325 698 
+L 3450 698 
+L 3450 0 
+L 499 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-42"/>
+     <use xlink:href="#Mulish-Bold-6c" transform="translate(68.999985 0)"/>
+     <use xlink:href="#Mulish-Bold-75" transform="translate(95.099976 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(154.699966 0)"/>
+     <use xlink:href="#Mulish-Bold-20" transform="translate(209.499954 0)"/>
+     <use xlink:href="#Mulish-Bold-4c" transform="translate(236.899948 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(292.899933 0)"/>
+     <use xlink:href="#Mulish-Bold-6e" transform="translate(318.999924 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(379.299911 0)"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- located in -->
+    <g style="fill: #666666" transform="translate(163.213088 83.247032) scale(0.18 -0.18)">
+     <defs>
+      <path id="Mulish-Italic-6c" d="M 250 0 
+L 998 4710 
+L 1517 4710 
+L 768 0 
+L 250 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-6f" d="M 1613 -58 
+Q 1133 -58 813 147 
+Q 493 352 361 742 
+Q 230 1133 314 1690 
+Q 397 2202 637 2557 
+Q 877 2912 1235 3091 
+Q 1594 3270 2042 3270 
+Q 2528 3270 2845 3065 
+Q 3162 2861 3293 2473 
+Q 3424 2086 3334 1530 
+Q 3251 1018 3011 662 
+Q 2771 307 2416 124 
+Q 2061 -58 1613 -58 
+z
+M 1651 365 
+Q 2093 365 2409 678 
+Q 2726 992 2822 1594 
+Q 2925 2221 2694 2537 
+Q 2464 2854 2003 2854 
+Q 1555 2854 1241 2540 
+Q 928 2227 832 1626 
+Q 736 998 957 681 
+Q 1178 365 1651 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-63" d="M 1651 -58 
+Q 1171 -58 838 150 
+Q 506 358 368 752 
+Q 230 1146 314 1690 
+Q 442 2464 909 2867 
+Q 1376 3270 2054 3270 
+Q 2362 3270 2634 3174 
+Q 2906 3078 3078 2893 
+L 2874 2534 
+Q 2707 2694 2492 2771 
+Q 2278 2848 2074 2848 
+Q 1594 2848 1264 2541 
+Q 934 2234 838 1638 
+Q 742 1030 982 700 
+Q 1222 371 1715 371 
+Q 1939 371 2182 454 
+Q 2426 538 2630 730 
+L 2816 358 
+Q 2611 166 2288 54 
+Q 1965 -58 1651 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-61" d="M 1517 -58 
+Q 1075 -58 774 150 
+Q 474 358 352 748 
+Q 230 1139 314 1690 
+Q 442 2464 890 2867 
+Q 1338 3270 1965 3270 
+Q 2387 3270 2675 3052 
+Q 2963 2835 3027 2464 
+L 2957 2451 
+L 3142 3213 
+L 3642 3213 
+Q 3597 3027 3549 2838 
+Q 3501 2650 3475 2470 
+L 3085 0 
+L 2566 0 
+L 2688 768 
+L 2784 768 
+Q 2618 384 2294 163 
+Q 1971 -58 1517 -58 
+z
+M 1658 365 
+Q 2099 365 2419 678 
+Q 2739 992 2835 1594 
+Q 2938 2221 2707 2537 
+Q 2477 2854 2010 2854 
+Q 1562 2854 1245 2540 
+Q 928 2227 832 1626 
+Q 736 998 960 681 
+Q 1184 365 1658 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-74" d="M 1434 -58 
+Q 915 -58 707 217 
+Q 499 493 582 1037 
+L 858 2810 
+L 230 2810 
+L 294 3213 
+L 928 3213 
+L 1069 4090 
+L 1606 4237 
+L 1446 3213 
+L 2368 3213 
+L 2298 2810 
+L 1376 2810 
+L 1114 1101 
+Q 1050 723 1155 553 
+Q 1261 384 1523 384 
+Q 1645 384 1741 406 
+Q 1837 429 1920 461 
+L 1856 26 
+Q 1754 -13 1651 -35 
+Q 1549 -58 1434 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-65" d="M 1747 -58 
+Q 1216 -58 867 156 
+Q 518 371 377 771 
+Q 237 1171 320 1709 
+Q 403 2202 630 2550 
+Q 858 2899 1213 3084 
+Q 1568 3270 2022 3270 
+Q 2464 3270 2755 3078 
+Q 3046 2886 3164 2544 
+Q 3283 2202 3213 1747 
+L 3187 1562 
+L 698 1562 
+L 749 1888 
+L 2899 1888 
+L 2784 1798 
+Q 2861 2323 2662 2604 
+Q 2464 2886 1997 2886 
+Q 1658 2886 1414 2736 
+Q 1171 2586 1024 2326 
+Q 877 2067 826 1741 
+L 806 1587 
+Q 723 998 976 681 
+Q 1229 365 1798 365 
+Q 2080 365 2349 451 
+Q 2618 538 2848 736 
+L 3027 371 
+Q 2771 166 2438 54 
+Q 2106 -58 1747 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-64" d="M 1517 -58 
+Q 1075 -58 774 150 
+Q 474 358 352 748 
+Q 230 1139 314 1690 
+Q 442 2464 890 2867 
+Q 1338 3270 1965 3270 
+Q 2387 3270 2675 3052 
+Q 2963 2835 3027 2464 
+L 2957 2464 
+L 3315 4710 
+L 3834 4710 
+L 3085 0 
+L 2573 0 
+L 2694 768 
+L 2784 768 
+Q 2618 384 2294 163 
+Q 1971 -58 1517 -58 
+z
+M 1658 365 
+Q 2099 365 2419 678 
+Q 2739 992 2835 1594 
+Q 2938 2221 2707 2537 
+Q 2477 2854 2010 2854 
+Q 1562 2854 1245 2540 
+Q 928 2227 832 1626 
+Q 736 998 960 681 
+Q 1184 365 1658 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-20" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-69" d="M 250 0 
+L 755 3213 
+L 1274 3213 
+L 768 0 
+L 250 0 
+z
+M 813 3942 
+L 909 4525 
+L 1542 4525 
+L 1446 3942 
+L 813 3942 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-6e" d="M 250 0 
+L 640 2470 
+Q 666 2650 682 2838 
+Q 698 3027 704 3213 
+L 1210 3213 
+L 1158 2509 
+L 1069 2502 
+Q 1261 2880 1597 3075 
+Q 1933 3270 2362 3270 
+Q 2957 3270 3187 2934 
+Q 3418 2598 3315 1958 
+L 3008 0 
+L 2490 0 
+L 2797 1952 
+Q 2874 2432 2717 2640 
+Q 2560 2848 2176 2848 
+Q 1722 2848 1427 2573 
+Q 1133 2298 1062 1850 
+L 768 0 
+L 250 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Italic-6c"/>
+     <use xlink:href="#Mulish-Italic-6f" transform="translate(23.799988 0)"/>
+     <use xlink:href="#Mulish-Italic-63" transform="translate(80.899979 0)"/>
+     <use xlink:href="#Mulish-Italic-61" transform="translate(130.399963 0)"/>
+     <use xlink:href="#Mulish-Italic-74" transform="translate(190.399948 0)"/>
+     <use xlink:href="#Mulish-Italic-65" transform="translate(225.399933 0)"/>
+     <use xlink:href="#Mulish-Italic-64" transform="translate(279.799927 0)"/>
+     <use xlink:href="#Mulish-Italic-20" transform="translate(339.799911 0)"/>
+     <use xlink:href="#Mulish-Italic-69" transform="translate(365.899902 0)"/>
+     <use xlink:href="#Mulish-Italic-6e" transform="translate(389.69989 0)"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- state of -->
+    <g style="fill: #666666" transform="translate(239.914013 187.185348) scale(0.18 -0.18)">
+     <defs>
+      <path id="Mulish-Italic-73" d="M 1363 -58 
+Q 998 -58 678 41 
+Q 358 141 173 307 
+L 358 672 
+Q 570 518 835 432 
+Q 1101 346 1395 346 
+Q 1766 346 1984 480 
+Q 2202 614 2240 845 
+Q 2272 1043 2160 1174 
+Q 2048 1306 1779 1350 
+L 1318 1421 
+Q 845 1498 659 1754 
+Q 474 2010 531 2381 
+Q 576 2662 758 2860 
+Q 941 3059 1222 3164 
+Q 1504 3270 1843 3270 
+Q 2195 3270 2480 3177 
+Q 2765 3085 2931 2931 
+L 2733 2573 
+Q 2566 2714 2332 2794 
+Q 2099 2874 1843 2874 
+Q 1478 2874 1267 2726 
+Q 1056 2579 1018 2355 
+Q 986 2150 1082 2012 
+Q 1178 1875 1427 1837 
+L 1901 1754 
+Q 2387 1670 2582 1436 
+Q 2778 1203 2720 838 
+Q 2682 563 2499 361 
+Q 2317 160 2029 51 
+Q 1741 -58 1363 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-66" d="M 416 0 
+L 858 2810 
+L 230 2810 
+L 294 3213 
+L 1062 3213 
+L 902 3078 
+L 998 3661 
+Q 1082 4186 1398 4461 
+Q 1715 4736 2246 4736 
+Q 2368 4736 2496 4713 
+Q 2624 4691 2707 4653 
+L 2637 4224 
+Q 2566 4256 2467 4278 
+Q 2368 4301 2253 4301 
+Q 2054 4301 1897 4221 
+Q 1741 4141 1638 3981 
+Q 1536 3821 1498 3571 
+L 1427 3104 
+L 1357 3213 
+L 2342 3213 
+L 2272 2810 
+L 1376 2810 
+L 934 0 
+L 416 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Italic-73"/>
+     <use xlink:href="#Mulish-Italic-74" transform="translate(49.599991 0)"/>
+     <use xlink:href="#Mulish-Italic-61" transform="translate(84.599976 0)"/>
+     <use xlink:href="#Mulish-Italic-74" transform="translate(144.59996 0)"/>
+     <use xlink:href="#Mulish-Italic-65" transform="translate(179.599945 0)"/>
+     <use xlink:href="#Mulish-Italic-20" transform="translate(233.999939 0)"/>
+     <use xlink:href="#Mulish-Italic-6f" transform="translate(260.09993 0)"/>
+     <use xlink:href="#Mulish-Italic-66" transform="translate(317.199921 0)"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- runs through -->
+    <g style="fill: #666666" transform="translate(104.0256 187.122066) scale(0.18 -0.18)">
+     <defs>
+      <path id="Mulish-Italic-72" d="M 237 0 
+L 627 2438 
+Q 659 2630 678 2828 
+Q 698 3027 704 3213 
+L 1210 3213 
+L 1158 2432 
+L 1056 2426 
+Q 1165 2714 1347 2899 
+Q 1530 3085 1766 3177 
+Q 2003 3270 2246 3270 
+Q 2330 3270 2403 3264 
+Q 2477 3258 2547 3238 
+L 2458 2771 
+Q 2381 2803 2301 2812 
+Q 2221 2822 2118 2822 
+Q 1830 2822 1606 2700 
+Q 1382 2579 1241 2368 
+Q 1101 2157 1062 1894 
+L 762 0 
+L 237 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-75" d="M 1427 -58 
+Q 864 -58 595 262 
+Q 326 582 429 1254 
+L 736 3213 
+L 1254 3213 
+L 947 1280 
+Q 877 800 1030 585 
+Q 1184 371 1568 371 
+Q 2003 371 2284 649 
+Q 2566 928 2637 1389 
+L 2925 3213 
+L 3443 3213 
+L 2938 0 
+L 2432 0 
+L 2541 723 
+L 2637 723 
+Q 2458 352 2141 147 
+Q 1824 -58 1427 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-68" d="M 250 0 
+L 998 4710 
+L 1517 4710 
+L 1158 2502 
+L 1069 2502 
+Q 1261 2880 1597 3075 
+Q 1933 3270 2362 3270 
+Q 2957 3270 3187 2934 
+Q 3418 2598 3315 1958 
+L 3008 0 
+L 2490 0 
+L 2797 1952 
+Q 2874 2432 2720 2640 
+Q 2566 2848 2176 2848 
+Q 1722 2848 1427 2573 
+Q 1133 2298 1062 1850 
+L 768 0 
+L 250 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Italic-67" d="M 1459 -1427 
+Q 1050 -1427 717 -1324 
+Q 384 -1222 134 -1011 
+L 320 -621 
+Q 493 -762 672 -845 
+Q 851 -928 1049 -969 
+Q 1248 -1011 1478 -1011 
+Q 1965 -1011 2240 -761 
+Q 2515 -512 2592 -51 
+L 2739 890 
+L 2810 890 
+Q 2656 512 2320 294 
+Q 1984 77 1549 77 
+Q 1107 77 803 285 
+Q 499 493 374 870 
+Q 250 1248 326 1754 
+Q 448 2490 893 2880 
+Q 1338 3270 1978 3270 
+Q 2419 3270 2707 3052 
+Q 2995 2835 3046 2451 
+L 2995 2515 
+L 3168 3213 
+L 3667 3213 
+Q 3616 3027 3571 2838 
+Q 3526 2650 3501 2470 
+L 3110 19 
+Q 3002 -698 2586 -1062 
+Q 2170 -1427 1459 -1427 
+z
+M 1670 493 
+Q 2138 493 2454 803 
+Q 2771 1114 2854 1670 
+Q 2944 2240 2720 2547 
+Q 2496 2854 2035 2854 
+Q 1568 2854 1248 2547 
+Q 928 2240 838 1677 
+Q 749 1114 976 803 
+Q 1203 493 1670 493 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Italic-72"/>
+     <use xlink:href="#Mulish-Italic-75" transform="translate(36.299988 0)"/>
+     <use xlink:href="#Mulish-Italic-6e" transform="translate(93.999985 0)"/>
+     <use xlink:href="#Mulish-Italic-73" transform="translate(152.599976 0)"/>
+     <use xlink:href="#Mulish-Italic-20" transform="translate(202.199966 0)"/>
+     <use xlink:href="#Mulish-Italic-74" transform="translate(228.299957 0)"/>
+     <use xlink:href="#Mulish-Italic-68" transform="translate(263.299942 0)"/>
+     <use xlink:href="#Mulish-Italic-72" transform="translate(321.899933 0)"/>
+     <use xlink:href="#Mulish-Italic-6f" transform="translate(358.199921 0)"/>
+     <use xlink:href="#Mulish-Italic-75" transform="translate(415.299911 0)"/>
+     <use xlink:href="#Mulish-Italic-67" transform="translate(472.999908 0)"/>
+     <use xlink:href="#Mulish-Italic-68" transform="translate(533.299896 0)"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- Facts and relations you can inspect -->
+    <g style="fill: #666666" transform="translate(8.64 340.445051) scale(0.19 -0.19)">
+     <defs>
+      <path id="Mulish-Regular-46" d="M 563 0 
+L 563 4512 
+L 3379 4512 
+L 3379 4077 
+L 1094 4077 
+L 1094 2496 
+L 3238 2496 
+L 3238 2061 
+L 1094 2061 
+L 1094 0 
+L 563 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-61" d="M 1728 -58 
+Q 1299 -58 979 144 
+Q 659 346 483 717 
+Q 307 1088 307 1606 
+Q 307 2131 483 2502 
+Q 659 2874 979 3072 
+Q 1299 3270 1728 3270 
+Q 2163 3270 2480 3049 
+Q 2797 2829 2899 2451 
+L 2822 2451 
+L 2893 3213 
+L 3392 3213 
+Q 3373 3027 3357 2838 
+Q 3341 2650 3341 2470 
+L 3341 0 
+L 2822 0 
+L 2822 755 
+L 2893 755 
+Q 2790 378 2470 160 
+Q 2150 -58 1728 -58 
+z
+M 1830 365 
+Q 2291 365 2560 681 
+Q 2829 998 2829 1606 
+Q 2829 2221 2560 2537 
+Q 2291 2854 1830 2854 
+Q 1376 2854 1104 2537 
+Q 832 2221 832 1606 
+Q 832 998 1104 681 
+Q 1376 365 1830 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-63" d="M 1856 -58 
+Q 1382 -58 1033 147 
+Q 685 352 496 729 
+Q 307 1107 307 1626 
+Q 307 2150 499 2518 
+Q 691 2886 1040 3078 
+Q 1389 3270 1856 3270 
+Q 2163 3270 2454 3161 
+Q 2746 3053 2938 2854 
+L 2752 2483 
+Q 2560 2669 2333 2758 
+Q 2106 2848 1888 2848 
+Q 1389 2848 1113 2534 
+Q 838 2221 838 1619 
+Q 838 1024 1113 697 
+Q 1389 371 1888 371 
+Q 2099 371 2326 454 
+Q 2554 538 2752 730 
+L 2938 365 
+Q 2739 160 2444 51 
+Q 2150 -58 1856 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-74" d="M 1645 -58 
+Q 1171 -58 921 214 
+Q 672 486 672 1037 
+L 672 2810 
+L 45 2810 
+L 45 3213 
+L 672 3213 
+L 672 4090 
+L 1190 4237 
+L 1190 3213 
+L 2112 3213 
+L 2112 2810 
+L 1190 2810 
+L 1190 1094 
+Q 1190 710 1321 547 
+Q 1453 384 1715 384 
+Q 1837 384 1933 406 
+Q 2029 429 2106 461 
+L 2106 26 
+Q 2016 -13 1891 -35 
+Q 1766 -58 1645 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-73" d="M 1574 -58 
+Q 1190 -58 857 48 
+Q 525 154 307 346 
+L 486 710 
+Q 723 525 1001 435 
+Q 1280 346 1581 346 
+Q 1965 346 2160 483 
+Q 2355 621 2355 864 
+Q 2355 1050 2230 1162 
+Q 2106 1274 1824 1338 
+L 1229 1459 
+Q 819 1549 614 1763 
+Q 410 1978 410 2310 
+Q 410 2592 557 2806 
+Q 704 3021 985 3145 
+Q 1267 3270 1645 3270 
+Q 1997 3270 2294 3164 
+Q 2592 3059 2790 2861 
+L 2605 2502 
+Q 2413 2688 2166 2781 
+Q 1920 2874 1658 2874 
+Q 1280 2874 1091 2723 
+Q 902 2573 902 2330 
+Q 902 2144 1020 2025 
+Q 1139 1907 1389 1850 
+L 1984 1728 
+Q 2419 1632 2633 1430 
+Q 2848 1229 2848 890 
+Q 2848 602 2688 387 
+Q 2528 173 2243 57 
+Q 1958 -58 1574 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-20" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-6e" d="M 506 0 
+L 506 2470 
+Q 506 2650 490 2838 
+Q 474 3027 454 3213 
+L 954 3213 
+L 1018 2509 
+L 941 2509 
+Q 1082 2880 1392 3075 
+Q 1702 3270 2112 3270 
+Q 2682 3270 2973 2966 
+Q 3264 2662 3264 2010 
+L 3264 0 
+L 2746 0 
+L 2746 1978 
+Q 2746 2432 2563 2640 
+Q 2381 2848 1997 2848 
+Q 1549 2848 1286 2573 
+Q 1024 2298 1024 1837 
+L 1024 0 
+L 506 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-64" d="M 1722 -58 
+Q 1299 -58 979 144 
+Q 659 346 483 717 
+Q 307 1088 307 1606 
+Q 307 2131 483 2502 
+Q 659 2874 979 3072 
+Q 1299 3270 1722 3270 
+Q 2157 3270 2473 3052 
+Q 2790 2835 2899 2464 
+L 2822 2464 
+L 2822 4710 
+L 3341 4710 
+L 3341 0 
+L 2829 0 
+L 2829 768 
+L 2899 768 
+Q 2797 384 2477 163 
+Q 2157 -58 1722 -58 
+z
+M 1830 365 
+Q 2285 365 2560 681 
+Q 2835 998 2835 1606 
+Q 2835 2221 2560 2537 
+Q 2285 2854 1830 2854 
+Q 1376 2854 1104 2537 
+Q 832 2221 832 1606 
+Q 832 998 1104 681 
+Q 1376 365 1830 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-72" d="M 493 0 
+L 493 2438 
+Q 493 2630 483 2828 
+Q 474 3027 454 3213 
+L 954 3213 
+L 1018 2432 
+L 928 2426 
+Q 992 2714 1152 2899 
+Q 1312 3085 1529 3177 
+Q 1747 3270 1984 3270 
+Q 2080 3270 2153 3264 
+Q 2227 3258 2291 3232 
+L 2285 2771 
+Q 2189 2803 2109 2812 
+Q 2029 2822 1926 2822 
+Q 1645 2822 1437 2688 
+Q 1229 2554 1123 2342 
+Q 1018 2131 1018 1894 
+L 1018 0 
+L 493 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-65" d="M 1933 -58 
+Q 1178 -58 742 380 
+Q 307 819 307 1600 
+Q 307 2106 499 2480 
+Q 691 2854 1036 3062 
+Q 1382 3270 1830 3270 
+Q 2272 3270 2573 3084 
+Q 2874 2899 3034 2556 
+Q 3194 2214 3194 1747 
+L 3194 1555 
+L 704 1555 
+L 704 1882 
+L 2854 1882 
+L 2746 1798 
+Q 2746 2310 2515 2598 
+Q 2285 2886 1830 2886 
+Q 1350 2886 1081 2550 
+Q 813 2214 813 1645 
+L 813 1587 
+Q 813 986 1110 675 
+Q 1408 365 1946 365 
+Q 2234 365 2486 451 
+Q 2739 538 2970 736 
+L 3149 371 
+Q 2938 166 2614 54 
+Q 2291 -58 1933 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-6c" d="M 506 0 
+L 506 4710 
+L 1024 4710 
+L 1024 0 
+L 506 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-69" d="M 506 0 
+L 506 3213 
+L 1024 3213 
+L 1024 0 
+L 506 0 
+z
+M 442 3942 
+L 442 4525 
+L 1082 4525 
+L 1082 3942 
+L 442 3942 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-6f" d="M 1824 -58 
+Q 1363 -58 1020 144 
+Q 678 346 492 720 
+Q 307 1094 307 1606 
+Q 307 2125 492 2496 
+Q 678 2867 1020 3068 
+Q 1363 3270 1824 3270 
+Q 2291 3270 2633 3068 
+Q 2976 2867 3165 2496 
+Q 3354 2125 3354 1606 
+Q 3354 1094 3165 720 
+Q 2976 346 2633 144 
+Q 2291 -58 1824 -58 
+z
+M 1824 365 
+Q 2285 365 2553 681 
+Q 2822 998 2822 1606 
+Q 2822 2221 2550 2537 
+Q 2278 2854 1824 2854 
+Q 1370 2854 1101 2537 
+Q 832 2221 832 1606 
+Q 832 998 1101 681 
+Q 1370 365 1824 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-79" d="M 378 -1453 
+L 256 -1024 
+Q 557 -954 758 -861 
+Q 960 -768 1094 -614 
+Q 1229 -461 1325 -230 
+L 1491 147 
+L 1478 -70 
+L 77 3213 
+L 640 3213 
+L 1798 390 
+L 1632 390 
+L 2778 3213 
+L 3322 3213 
+L 1837 -269 
+Q 1709 -576 1555 -784 
+Q 1402 -992 1226 -1123 
+Q 1050 -1254 838 -1331 
+Q 627 -1408 378 -1453 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-75" d="M 1638 -58 
+Q 1069 -58 777 256 
+Q 486 570 486 1216 
+L 486 3213 
+L 1005 3213 
+L 1005 1229 
+Q 1005 787 1184 579 
+Q 1363 371 1741 371 
+Q 2163 371 2419 646 
+Q 2675 922 2675 1382 
+L 2675 3213 
+L 3194 3213 
+L 3194 0 
+L 2688 0 
+L 2688 723 
+L 2771 723 
+Q 2637 352 2339 147 
+Q 2042 -58 1638 -58 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-70" d="M 506 -1382 
+L 506 2470 
+Q 506 2650 490 2838 
+Q 474 3027 454 3213 
+L 954 3213 
+L 1024 2451 
+L 947 2451 
+Q 1050 2829 1363 3049 
+Q 1677 3270 2112 3270 
+Q 2547 3270 2864 3072 
+Q 3181 2874 3360 2502 
+Q 3539 2131 3539 1606 
+Q 3539 1088 3363 717 
+Q 3187 346 2867 144 
+Q 2547 -58 2112 -58 
+Q 1683 -58 1369 160 
+Q 1056 378 954 755 
+L 1024 755 
+L 1024 -1382 
+L 506 -1382 
+z
+M 2010 365 
+Q 2470 365 2742 681 
+Q 3014 998 3014 1606 
+Q 3014 2221 2742 2537 
+Q 2470 2854 2010 2854 
+Q 1555 2854 1283 2537 
+Q 1011 2221 1011 1606 
+Q 1011 998 1283 681 
+Q 1555 365 2010 365 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Regular-46"/>
+     <use xlink:href="#Mulish-Regular-61" transform="translate(56.199997 0)"/>
+     <use xlink:href="#Mulish-Regular-63" transform="translate(116.199982 0)"/>
+     <use xlink:href="#Mulish-Regular-74" transform="translate(165.699966 0)"/>
+     <use xlink:href="#Mulish-Regular-73" transform="translate(200.699951 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(250.299942 0)"/>
+     <use xlink:href="#Mulish-Regular-61" transform="translate(276.399933 0)"/>
+     <use xlink:href="#Mulish-Regular-6e" transform="translate(336.399918 0)"/>
+     <use xlink:href="#Mulish-Regular-64" transform="translate(394.999908 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(454.999893 0)"/>
+     <use xlink:href="#Mulish-Regular-72" transform="translate(481.099884 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(517.399872 0)"/>
+     <use xlink:href="#Mulish-Regular-6c" transform="translate(571.799866 0)"/>
+     <use xlink:href="#Mulish-Regular-61" transform="translate(595.599854 0)"/>
+     <use xlink:href="#Mulish-Regular-74" transform="translate(655.599838 0)"/>
+     <use xlink:href="#Mulish-Regular-69" transform="translate(690.599823 0)"/>
+     <use xlink:href="#Mulish-Regular-6f" transform="translate(714.399811 0)"/>
+     <use xlink:href="#Mulish-Regular-6e" transform="translate(771.499802 0)"/>
+     <use xlink:href="#Mulish-Regular-73" transform="translate(830.099792 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(879.699783 0)"/>
+     <use xlink:href="#Mulish-Regular-79" transform="translate(905.799774 0)"/>
+     <use xlink:href="#Mulish-Regular-6f" transform="translate(958.899765 0)"/>
+     <use xlink:href="#Mulish-Regular-75" transform="translate(1015.999756 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(1073.699753 0)"/>
+     <use xlink:href="#Mulish-Regular-63" transform="translate(1099.799744 0)"/>
+     <use xlink:href="#Mulish-Regular-61" transform="translate(1149.299728 0)"/>
+     <use xlink:href="#Mulish-Regular-6e" transform="translate(1209.299713 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(1267.899704 0)"/>
+     <use xlink:href="#Mulish-Regular-69" transform="translate(1293.999695 0)"/>
+     <use xlink:href="#Mulish-Regular-6e" transform="translate(1317.799683 0)"/>
+     <use xlink:href="#Mulish-Regular-73" transform="translate(1376.399673 0)"/>
+     <use xlink:href="#Mulish-Regular-70" transform="translate(1425.999664 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(1485.999649 0)"/>
+     <use xlink:href="#Mulish-Regular-63" transform="translate(1540.399643 0)"/>
+     <use xlink:href="#Mulish-Regular-74" transform="translate(1589.899628 0)"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- Structured knowledge -->
+    <g style="fill: #231f20" transform="translate(8.64 28.949534) scale(0.25 -0.25)">
+     <defs>
+      <path id="Mulish-Bold-72" d="M 429 0 
+L 429 2406 
+Q 429 2611 419 2822 
+Q 410 3034 384 3232 
+L 1158 3232 
+L 1248 2349 
+L 1120 2349 
+Q 1184 2669 1334 2880 
+Q 1485 3091 1702 3193 
+Q 1920 3296 2176 3296 
+Q 2291 3296 2361 3286 
+Q 2432 3277 2502 3251 
+L 2496 2547 
+Q 2374 2598 2288 2611 
+Q 2202 2624 2074 2624 
+Q 1798 2624 1609 2509 
+Q 1421 2394 1328 2189 
+Q 1235 1984 1235 1722 
+L 1235 0 
+L 429 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-6b" d="M 435 0 
+L 435 4710 
+L 1235 4710 
+L 1235 1856 
+L 1248 1856 
+L 2560 3232 
+L 3526 3232 
+L 1894 1523 
+L 1901 1843 
+L 3642 0 
+L 2650 0 
+L 1248 1446 
+L 1235 1446 
+L 1235 0 
+L 435 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-77" d="M 1331 0 
+L 70 3232 
+L 896 3232 
+L 1805 717 
+L 1638 717 
+L 2560 3232 
+L 3130 3232 
+L 4045 717 
+L 3898 717 
+L 4800 3232 
+L 5581 3232 
+L 4320 0 
+L 3616 0 
+L 2650 2573 
+L 2989 2573 
+L 2042 0 
+L 1331 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-53"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(64.499985 0)"/>
+     <use xlink:href="#Mulish-Bold-72" transform="translate(102.399979 0)"/>
+     <use xlink:href="#Mulish-Bold-75" transform="translate(141.699966 0)"/>
+     <use xlink:href="#Mulish-Bold-63" transform="translate(201.299957 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(251.699951 0)"/>
+     <use xlink:href="#Mulish-Bold-75" transform="translate(289.599945 0)"/>
+     <use xlink:href="#Mulish-Bold-72" transform="translate(349.199936 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(388.499924 0)"/>
+     <use xlink:href="#Mulish-Bold-64" transform="translate(443.299911 0)"/>
+     <use xlink:href="#Mulish-Bold-20" transform="translate(505.299896 0)"/>
+     <use xlink:href="#Mulish-Bold-6b" transform="translate(532.69989 0)"/>
+     <use xlink:href="#Mulish-Bold-6e" transform="translate(587.899887 0)"/>
+     <use xlink:href="#Mulish-Bold-6f" transform="translate(648.199875 0)"/>
+     <use xlink:href="#Mulish-Bold-77" transform="translate(707.399872 0)"/>
+     <use xlink:href="#Mulish-Bold-6c" transform="translate(795.69986 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(821.79985 0)"/>
+     <use xlink:href="#Mulish-Bold-64" transform="translate(876.599838 0)"/>
+     <use xlink:href="#Mulish-Bold-67" transform="translate(938.599823 0)"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(1000.79982 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 141.018388 462.501501 
+Q 178.49347 462.501501 213.732485 462.501501 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 200.532485 455.901501 
+L 213.732485 462.501501 
+L 200.532485 469.101501 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 218.154989 482.224945 
+Q 156.27065 535.927907 96.07514 588.165312 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 110.370417 584.498564 
+L 96.07514 588.165312 
+L 101.718908 574.529041 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 240.8832 488.424249 
+Q 240.8832 538.078869 240.8832 585.497421 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 247.4832 572.297421 
+L 240.8832 585.497421 
+L 234.2832 572.297421 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 261.227111 487.217603 
+Q 303.043261 538.020627 343.438364 587.097202 
+" style="fill: none; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 340.145419 572.711218 
+L 343.438364 587.097202 
+L 329.95381 581.099968 
+z
+" style="fill: #333333; stroke: #333333; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <g id="patch_13">
+     <path d="M 42.475772 482.031501 
+L 124.103428 482.031501 
+Q 133.553428 482.031501 133.553428 472.581501 
+L 133.553428 452.421501 
+Q 133.553428 442.971501 124.103428 442.971501 
+L 42.475772 442.971501 
+Q 33.025772 442.971501 33.025772 452.421501 
+L 33.025772 472.581501 
+Q 33.025772 482.031501 42.475772 482.031501 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- Chicago -->
+    <g style="fill: #231f20" transform="translate(42.475772 467.876189) scale(0.21 -0.21)">
+     <use xlink:href="#Mulish-Bold-43"/>
+     <use xlink:href="#Mulish-Bold-68" transform="translate(68.499985 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(128.799973 0)"/>
+     <use xlink:href="#Mulish-Bold-63" transform="translate(154.899963 0)"/>
+     <use xlink:href="#Mulish-Bold-61" transform="translate(205.299957 0)"/>
+     <use xlink:href="#Mulish-Bold-67" transform="translate(267.299942 0)"/>
+     <use xlink:href="#Mulish-Bold-6f" transform="translate(329.499939 0)"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <g id="patch_14">
+     <path d="M 232.883513 481.946189 
+L 248.882888 481.946189 
+Q 258.332888 481.946189 258.332888 472.496189 
+L 258.332888 452.506814 
+Q 258.332888 443.056814 248.882888 443.056814 
+L 232.883513 443.056814 
+Q 223.433513 443.056814 223.433513 452.506814 
+L 223.433513 472.496189 
+Q 223.433513 481.946189 232.883513 481.946189 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- is -->
+    <g style="fill: #231f20" transform="translate(232.883513 467.961501) scale(0.21 -0.21)">
+     <use xlink:href="#Mulish-Bold-69"/>
+     <use xlink:href="#Mulish-Bold-73" transform="translate(26.099991 0)"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <g id="patch_15">
+     <path d="M 45.941972 633.100925 
+L 87.459628 633.100925 
+Q 96.909628 633.100925 96.909628 623.650925 
+L 96.909628 603.66155 
+Q 96.909628 594.21155 87.459628 594.21155 
+L 45.941972 594.21155 
+Q 36.491972 594.21155 36.491972 603.66155 
+L 36.491972 623.650925 
+Q 36.491972 633.100925 45.941972 633.100925 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- cold -->
+    <g style="fill: #231f20" transform="translate(45.941972 619.116237) scale(0.21 -0.21)">
+     <use xlink:href="#Mulish-Bold-63"/>
+     <use xlink:href="#Mulish-Bold-6f" transform="translate(50.399994 0)"/>
+     <use xlink:href="#Mulish-Bold-6c" transform="translate(109.599991 0)"/>
+     <use xlink:href="#Mulish-Bold-64" transform="translate(135.699982 0)"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <g id="patch_16">
+     <path d="M 231.812184 633.100925 
+L 249.954216 633.100925 
+Q 259.404216 633.100925 259.404216 623.650925 
+L 259.404216 603.66155 
+Q 259.404216 594.21155 249.954216 594.21155 
+L 231.812184 594.21155 
+Q 222.362184 594.21155 222.362184 603.66155 
+L 222.362184 623.650925 
+Q 222.362184 633.100925 231.812184 633.100925 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- in -->
+    <g style="fill: #231f20" transform="translate(231.812184 619.116237) scale(0.21 -0.21)">
+     <use xlink:href="#Mulish-Bold-69"/>
+     <use xlink:href="#Mulish-Bold-6e" transform="translate(26.099991 0)"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <g id="patch_17">
+     <path d="M 334.745841 633.217409 
+L 395.852559 633.217409 
+Q 405.302559 633.217409 405.302559 623.767409 
+L 405.302559 603.545065 
+Q 405.302559 594.095065 395.852559 594.095065 
+L 334.745841 594.095065 
+Q 325.295841 594.095065 325.295841 603.545065 
+L 325.295841 623.767409 
+Q 325.295841 633.217409 334.745841 633.217409 
+z
+" style="fill: #f4f4f4; stroke: #666666; stroke-width: 1.6; stroke-linejoin: miter"/>
+    </g>
+    <!-- windy -->
+    <g style="fill: #231f20" transform="translate(334.745841 618.999753) scale(0.21 -0.21)">
+     <defs>
+      <path id="Mulish-Bold-79" d="M 371 -1453 
+L 186 -819 
+Q 486 -755 691 -672 
+Q 896 -589 1030 -454 
+Q 1165 -320 1254 -109 
+L 1414 269 
+L 1395 -45 
+L -13 3232 
+L 838 3232 
+L 1850 710 
+L 1664 710 
+L 2682 3232 
+L 3488 3232 
+L 2016 -179 
+Q 1869 -525 1696 -752 
+Q 1523 -979 1324 -1116 
+Q 1126 -1254 889 -1331 
+Q 653 -1408 371 -1453 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-77"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(88.299988 0)"/>
+     <use xlink:href="#Mulish-Bold-6e" transform="translate(114.399979 0)"/>
+     <use xlink:href="#Mulish-Bold-64" transform="translate(174.699966 0)"/>
+     <use xlink:href="#Mulish-Bold-79" transform="translate(236.699951 0)"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <!-- Likely next words, learned from text -->
+    <g style="fill: #666666" transform="translate(8.64 696.09576) scale(0.19 -0.19)">
+     <defs>
+      <path id="Mulish-Regular-4c" d="M 563 0 
+L 563 4512 
+L 1094 4512 
+L 1094 461 
+L 3373 461 
+L 3373 0 
+L 563 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-6b" d="M 506 0 
+L 506 4710 
+L 1024 4710 
+L 1024 1786 
+L 1037 1786 
+L 2528 3213 
+L 3181 3213 
+L 1421 1536 
+L 1434 1798 
+L 3347 0 
+L 2675 0 
+L 1037 1510 
+L 1024 1510 
+L 1024 0 
+L 506 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-78" d="M 70 0 
+L 1510 1786 
+L 1510 1530 
+L 147 3213 
+L 774 3213 
+L 1805 1901 
+L 1619 1901 
+L 2643 3213 
+L 3264 3213 
+L 1920 1536 
+L 1920 1773 
+L 3347 0 
+L 2714 0 
+L 1613 1402 
+L 1805 1402 
+L 691 0 
+L 70 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-77" d="M 1363 0 
+L 173 3213 
+L 723 3213 
+L 1715 384 
+L 1549 384 
+L 2573 3213 
+L 3021 3213 
+L 4026 384 
+L 3866 384 
+L 4864 3213 
+L 5389 3213 
+L 4192 0 
+L 3693 0 
+L 2656 2874 
+L 2912 2874 
+L 1869 0 
+L 1363 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-2c" d="M 672 -730 
+L 429 -544 
+Q 602 -365 656 -208 
+Q 710 -51 710 109 
+L 826 0 
+L 403 0 
+L 403 653 
+L 1056 653 
+L 1056 192 
+Q 1056 -64 973 -291 
+Q 890 -518 672 -730 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-66" d="M 672 0 
+L 672 2810 
+L 45 2810 
+L 45 3213 
+L 813 3213 
+L 672 3078 
+L 672 3616 
+Q 672 4160 947 4448 
+Q 1222 4736 1734 4736 
+Q 1862 4736 2000 4713 
+Q 2138 4691 2227 4653 
+L 2227 4224 
+Q 2150 4256 2038 4278 
+Q 1926 4301 1811 4301 
+Q 1613 4301 1472 4221 
+Q 1331 4141 1260 3981 
+Q 1190 3821 1190 3571 
+L 1190 3104 
+L 1107 3213 
+L 2086 3213 
+L 2086 2810 
+L 1190 2810 
+L 1190 0 
+L 672 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Regular-6d" d="M 506 0 
+L 506 2470 
+Q 506 2650 490 2838 
+Q 474 3027 454 3213 
+L 954 3213 
+L 1018 2509 
+L 941 2509 
+Q 1069 2874 1347 3072 
+Q 1626 3270 2022 3270 
+Q 2426 3270 2678 3078 
+Q 2931 2886 3021 2483 
+L 2925 2483 
+Q 3046 2848 3353 3059 
+Q 3661 3270 4070 3270 
+Q 4602 3270 4870 2966 
+Q 5139 2662 5139 2010 
+L 5139 0 
+L 4621 0 
+L 4621 1978 
+Q 4621 2432 4461 2640 
+Q 4301 2848 3949 2848 
+Q 3546 2848 3312 2569 
+Q 3078 2291 3078 1824 
+L 3078 0 
+L 2560 0 
+L 2560 1978 
+Q 2560 2432 2400 2640 
+Q 2240 2848 1888 2848 
+Q 1485 2848 1254 2569 
+Q 1024 2291 1024 1824 
+L 1024 0 
+L 506 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Regular-4c"/>
+     <use xlink:href="#Mulish-Regular-69" transform="translate(54.499985 0)"/>
+     <use xlink:href="#Mulish-Regular-6b" transform="translate(78.299973 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(129.799957 0)"/>
+     <use xlink:href="#Mulish-Regular-6c" transform="translate(184.199951 0)"/>
+     <use xlink:href="#Mulish-Regular-79" transform="translate(207.999939 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(261.09993 0)"/>
+     <use xlink:href="#Mulish-Regular-6e" transform="translate(287.199921 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(345.799911 0)"/>
+     <use xlink:href="#Mulish-Regular-78" transform="translate(400.199905 0)"/>
+     <use xlink:href="#Mulish-Regular-74" transform="translate(453.69989 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(488.699875 0)"/>
+     <use xlink:href="#Mulish-Regular-77" transform="translate(514.799866 0)"/>
+     <use xlink:href="#Mulish-Regular-6f" transform="translate(601.69986 0)"/>
+     <use xlink:href="#Mulish-Regular-72" transform="translate(658.79985 0)"/>
+     <use xlink:href="#Mulish-Regular-64" transform="translate(695.099838 0)"/>
+     <use xlink:href="#Mulish-Regular-73" transform="translate(755.099823 0)"/>
+     <use xlink:href="#Mulish-Regular-2c" transform="translate(804.699814 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(827.499802 0)"/>
+     <use xlink:href="#Mulish-Regular-6c" transform="translate(853.599792 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(877.39978 0)"/>
+     <use xlink:href="#Mulish-Regular-61" transform="translate(931.799774 0)"/>
+     <use xlink:href="#Mulish-Regular-72" transform="translate(991.799759 0)"/>
+     <use xlink:href="#Mulish-Regular-6e" transform="translate(1028.099747 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(1086.699738 0)"/>
+     <use xlink:href="#Mulish-Regular-64" transform="translate(1141.099731 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(1201.099716 0)"/>
+     <use xlink:href="#Mulish-Regular-66" transform="translate(1227.199707 0)"/>
+     <use xlink:href="#Mulish-Regular-72" transform="translate(1260.999695 0)"/>
+     <use xlink:href="#Mulish-Regular-6f" transform="translate(1297.299683 0)"/>
+     <use xlink:href="#Mulish-Regular-6d" transform="translate(1354.399673 0)"/>
+     <use xlink:href="#Mulish-Regular-20" transform="translate(1442.199661 0)"/>
+     <use xlink:href="#Mulish-Regular-74" transform="translate(1468.299652 0)"/>
+     <use xlink:href="#Mulish-Regular-65" transform="translate(1503.299637 0)"/>
+     <use xlink:href="#Mulish-Regular-78" transform="translate(1557.699631 0)"/>
+     <use xlink:href="#Mulish-Regular-74" transform="translate(1611.199615 0)"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- Next-word statistics -->
+    <g style="fill: #231f20" transform="translate(8.64 384.523056) scale(0.25 -0.25)">
+     <defs>
+      <path id="Mulish-Bold-4e" d="M 499 0 
+L 499 4512 
+L 1120 4512 
+L 3738 1126 
+L 3571 1126 
+L 3571 4512 
+L 4339 4512 
+L 4339 0 
+L 3718 0 
+L 1107 3386 
+L 1267 3386 
+L 1267 0 
+L 499 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-78" d="M -64 0 
+L 1440 1850 
+L 1440 1485 
+L 19 3232 
+L 966 3232 
+L 1894 2035 
+L 1606 2035 
+L 2534 3232 
+L 3475 3232 
+L 2067 1485 
+L 2067 1850 
+L 3565 0 
+L 2611 0 
+L 1606 1286 
+L 1894 1286 
+L 883 0 
+L -64 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Mulish-Bold-2d" d="M 429 1446 
+L 429 2080 
+L 2374 2080 
+L 2374 1446 
+L 429 1446 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Mulish-Bold-4e"/>
+     <use xlink:href="#Mulish-Bold-65" transform="translate(75.499985 0)"/>
+     <use xlink:href="#Mulish-Bold-78" transform="translate(130.299973 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(185.199966 0)"/>
+     <use xlink:href="#Mulish-Bold-2d" transform="translate(223.09996 0)"/>
+     <use xlink:href="#Mulish-Bold-77" transform="translate(266.899948 0)"/>
+     <use xlink:href="#Mulish-Bold-6f" transform="translate(355.199936 0)"/>
+     <use xlink:href="#Mulish-Bold-72" transform="translate(414.399933 0)"/>
+     <use xlink:href="#Mulish-Bold-64" transform="translate(453.699921 0)"/>
+     <use xlink:href="#Mulish-Bold-20" transform="translate(515.699905 0)"/>
+     <use xlink:href="#Mulish-Bold-73" transform="translate(543.099899 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(593.19989 0)"/>
+     <use xlink:href="#Mulish-Bold-61" transform="translate(631.099884 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(693.099869 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(730.999863 0)"/>
+     <use xlink:href="#Mulish-Bold-73" transform="translate(757.099854 0)"/>
+     <use xlink:href="#Mulish-Bold-74" transform="translate(807.199844 0)"/>
+     <use xlink:href="#Mulish-Bold-69" transform="translate(845.099838 0)"/>
+     <use xlink:href="#Mulish-Bold-63" transform="translate(871.199829 0)"/>
+     <use xlink:href="#Mulish-Bold-73" transform="translate(921.599823 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
