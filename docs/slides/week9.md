@@ -37,9 +37,9 @@ CS 377, Week 9, Day 1 🟦 Damen 🟦
 
 ---
 
-## Invitation
+## Canvas check-in
 
-Turn off phones, laptops, and other distractions
+And any related questions
 
 ---
 
@@ -51,10 +51,8 @@ Turn off phones, laptops, and other distractions
 - Get out your notebooks!
 - Write whatever!
 - If you need a prompt:
-	- TODO
+	- What would be a meaningful way to spend our time in class today?
 :::
-
-<!-- TODO: confirm free-write prompt -->
 
 ::: {.embed-frame}
 <iframe
@@ -143,7 +141,7 @@ New transitions in amber. Example from Gabriel Egan, ["Understanding Markov Chai
 ::: {.column width="40%"}
 Training text: *"it was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness"*
 
-- Each word is a node
+- Each word is still a node
 - Each arrow is a next-word probability learned from the text
 :::
 
@@ -549,7 +547,7 @@ ELIZA dialogue from Weizenbaum's 1966 paper; implementation by Norbert Landstein
 ## ELIZA Effect and "Is It Conscious?"
 
 - The ELIZA effect: what we project onto a system
-- Modern versions: is the system itself "sentient?" "awake?" "a legal person?"
+- Now: is it "sentient?" "awake?" "a legal actor?"
 - Rumman Chowdhury, ["Debates over AI consciousness are a trap"](https://archive.ph/Bbs6p), *MIT Technology Review* (August 20, 2026)
 	- AI is "corporate-built software," not "a natural phenomenon"
 	- AI personhood would move "moral outsourcing" (her 2018 term) "from linguistic sleight-of-hand to legal strategy"
@@ -597,7 +595,7 @@ Red-teaming activity (if time allows): [lmarena.ai](https://lmarena.ai)
 
 ---
 
-## Table Discussion: "Stochastic Parrots" {.embed-slide}
+## Table Discussion: LLMs and "Stochastic Parrots" {.embed-slide}
 
 ::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
@@ -649,7 +647,11 @@ Sam Altman (\@sama) on X, September 12, 2024
 
 :::: columns
 ::: {.column width="54%"}
-- TODO
+- "Expert Review" feature in Grammarly
+- intentionally tried to mimic specific writers
+- 'Slopperganger'
+- class-action lawsuit launched almost immediately
+- [BBC Coverage](https://www.bbc.com/news/articles/cx28v08jpe7o)
 :::
 
 ::: {.column width="42%"}
