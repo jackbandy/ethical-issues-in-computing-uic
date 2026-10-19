@@ -230,8 +230,8 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 9, Day 2 (2026-10-21)
 
+* More thoughts on LLMs
 * Medical and health technologies
-* Intro to CyberSecurity
 
 ### Sources
 
