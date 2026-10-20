@@ -1,16 +1,19 @@
 /*-- scss:defaults --*/
 
-$cta-blue: #00a1de;
-$cta-blue-dark: #005daa;
-$cta-blue-deep: #003087;
-$cta-red: #c60c30;
-$ink: #231f20;
-$charcoal: #333;
-$muted: #666;
-$quiet: #aaa;
-$paper: #fff;
-$soft: #f4f4f4;
-$border: #d8d8d8;
+// Palette is `!default` so a deck can swap it out: Quarto merges a deck's own
+// `theme` with this one from _metadata.yml and reads the deck's defaults first
+// (see blue-line-dark.scss).
+$cta-blue: #00a1de !default;
+$cta-blue-dark: #005daa !default;
+$cta-blue-deep: #003087 !default;
+$cta-red: #c60c30 !default;
+$ink: #231f20 !default;
+$charcoal: #333 !default;
+$muted: #666 !default;
+$quiet: #aaa !default;
+$paper: #fff !default;
+$soft: #f4f4f4 !default;
+$border: #d8d8d8 !default;
 
 $body-bg: $paper;
 $body-color: $ink;

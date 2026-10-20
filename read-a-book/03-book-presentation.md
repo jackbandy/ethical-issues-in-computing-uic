@@ -25,7 +25,7 @@ If you follow the guidlines above, you'll be in great shape to give your present
 * **Question**: When am I presenting?
   * **Answer**: The tentative schedule is [here](https://docs.google.com/spreadsheets/d/1GV2mnezeAFHRA8JgUrsDWzd8TxXDBT5gMuYYrwXK3yw/edit?usp=sharing). Email me as soon as possible if you have a scheduling conflict.
 * **Question**: Can you give an example?
-  * **Answer**: You can view a [demo presentation here](https://docs.google.com/presentation/d/1lrDW5fJiRcH11KbADqtgpV8koovaQopEiosfvo-MPJ8/edit?usp=sharing)
+  * **Answer**: You can view a [demo presentation here](https://doethics.fun/slides/example-book-presentation.html)
 * **Question**: How many slides should I have?
   * **Answer**: Using the heuristic of 1 minute per slide, a 10-minute presentation will probably have about 10 slides. 
 * **Question**: Where should I put my slides?

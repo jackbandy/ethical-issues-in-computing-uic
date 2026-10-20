@@ -1,0 +1,72 @@
+// NOTICE: This file was written by an LLM-based coding system.
+//
+// Dark variant of blue-line.scss for decks that stand in for a student's own
+// talk (the example book presentation) rather than a class lecture: lights
+// down, same Blue Line frame. Name it as the deck's `theme`; Quarto merges it
+// with blue-line.scss from _metadata.yml, and these defaults win because the
+// palette there is `!default`. Every element, font, and footer comes from
+// blue-line.scss; only the colors change, plus a hairline frame on images.
+
+/*-- scss:defaults --*/
+
+// Surfaces go black or near-black. Text and accents are lightened only as far
+// as they need to be to read on a projector, so the CTA blues invert their
+// roles: the rule keeps the signage blue, headings and emphasis step lighter.
+$paper: #000;
+$soft: #111;
+$border: #2a2a2a;
+$ink: #e6e6e6;
+$charcoal: #c4c4c4;
+$muted: #8a8a8a;
+$quiet: #5a5a5a;
+$cta-blue: #00a1de;
+$cta-blue-dark: #4cc3ee;
+$cta-blue-deep: #8fd6f4;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  text-decoration-color: rgba(0, 161, 222, 0.45);
+}
+
+// Titles go white, a step brighter than the $ink body copy, and leave the blue
+// to the rule underneath them: on black the signage blue reads best as a line.
+.reveal h1,
+.reveal :where(.level2) > h2,
+.reveal .title-slide h1 {
+  color: #fff;
+}
+
+// White hairline around every figure on a slide, so photos with dark edges
+// (the book cover, the office shot) keep a visible frame against the black.
+.reveal .slides img {
+  border: 1px solid #fff;
+}
+
+// The footer steps up from the black slide to a dark gray, so it reads as a
+// separate strip of chrome the way the light theme's white footer does under
+// its hairline. Text and logo step up with it to keep their contrast.
+$footer-bg: #222;
+$footer-ink: #707070;
+
+.reveal.reveal .footer {
+  // blue-line.scss hardcodes a near-white hairline over the footer.
+  border-top-color: $border;
+  color: $footer-ink;
+  background: $footer-bg;
+
+  // The logo is a black SVG that the light theme inverts to gray; invert it
+  // less so it matches the footer text instead of glowing.
+  img[alt="UIC logo"] {
+    filter: invert(44%);
+  }
+
+  img[alt="CC BY-NC-SA"] {
+    filter: invert(1);
+    opacity: 0.3;
+  }
+}
+
+.reveal.reveal .slide-number {
+  color: $footer-ink;
+}
