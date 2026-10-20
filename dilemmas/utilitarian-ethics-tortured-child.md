@@ -25,3 +25,5 @@ See also: William James, ["The Moral Philosopher and the Moral Life"](https://ww
 (Le Guin credited James's essay as her starting point, and said she had forgotten Dostoyevsky's earlier version of the same idea when she wrote her story.)
 
 See also: the SEP page on [Consequentialism](https://plato.stanford.edu/entries/consequentialism/)
+
+See also: *Family Guy*, ["Peter's hairless twin"](https://www.youtube.com/watch?v=w7Mac_qgIfk) from "Fresh Heir" (S12E14, 2014) (a twin locked in the shed and told to "keep being good")
