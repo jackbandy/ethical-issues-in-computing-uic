@@ -1,0 +1,26 @@
+/* NOTICE: drafted by an LLM coding system. */
+
+/* Black to match the GIF's own background, so the model floats with no visible frame.
+   System fonts only: a font from another site would be blocked by the page's security policy. */
+body {
+  margin: 0;
+  background: #000;
+  color: #eee;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 16px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #00A1DE; /* CTA Blue Line, same as the course site */
+}
