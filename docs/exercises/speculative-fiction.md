@@ -45,7 +45,7 @@ Again, you must write the story yourself -- all the words must come from _you_! 
 
 
 ## Part 3: Promotional Slide
-Finally, create a promotional slide for your episode. Instructions for turning in the promo image are coming soon; in the meantime, see [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing) for examples. Specifically, be sure to (1) choose a title, (2) write a "log line" for the episode, and (3) take a photo that goes with the story you wrote.
+Finally, create a promotional slide for your episode. We will make the promotional slides together in class; in the meantime, see [these slides from Casey Fiesler](https://docs.google.com/presentation/d/1fZah6nYpAhLtUMh1BRy3w1vCHk_-W7bxxv0LeuKZpT0/edit?usp=sharing) for examples. Specifically, be sure to (1) choose a title, (2) write a "log line" for the episode, and (3) take a photo that goes with the story you wrote.
 
 For the photo, as with the text, you must take/make it yourself. You can ask your roommate to take a picture of you, or ask to take a picture of your roommate, or just take a picture of something relevant to the story. Whatever the case, do not use an AI-generated image.
 
