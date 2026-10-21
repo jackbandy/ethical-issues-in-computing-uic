@@ -720,15 +720,9 @@ See you Wednesday!
 
 ---
 
-# Intellectual Property {.title-slide data-menu-title="Week 9, Day 2"}
 
-<!-- NOTICE: Draft from old-slides/pdf-versions/19 Intellectual Property.pdf and 13 Intro to Copyright.pdf. Review and edit before use. -->
 
-CS 377, Week 9, Day 2 🟦 Western 🟦
-
----
-
-# Intellectual Property {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover" data-menu-title="Week 9, Day 2"}
+# More Thoughts on LLMs {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop22-western-a.jpg" background-size="cover" data-menu-title="Week 9, Day 2"}
 
 CS 377, Week 9, Day 2 🟦 Western 🟦
 
@@ -739,6 +733,144 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 ---
 
 ## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- More thoughts on "Stochastic Parrots" (review)
+- Free write
+- Seat shuffle
+- Group activity
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop22-western.svg)
+:::
+::::
+
+---
+
+# More Thoughts on "Stochastic Parrots" {.title-slide .section-header}
+
+---
+
+
+## Returning to "Stochastic Parrots" {.figure-slide .framed-figure}
+
+![](../assets/llms/altman-stochastic-parrots-post.png){fig-alt="Post by Sam Altman (\@sama) on X reading 'stochastic parrots can fly so high…', 2:24 PM, September 12, 2024, 248.3K views" style="max-height:440px;"}
+
+::: {.figure-caption}
+Sam Altman (\@sama) on X, September 12, 2024
+:::
+
+---
+
+## Review: Four Issues from "Stochastic Parrots" {.framed-figure}
+
+:::: columns
+::: {.column width="55%"}
+::: {.incremental}
+1. **Cost**: environmental and financial
+2. **"Unfathomable" training data**
+3. **Opportunity cost** (potentially misdirected research)
+4. **Human interactions**
+   - ELIZA effect
+   - Dangerous queries
+:::
+:::
+
+::: {.column width="40%"}
+![](../assets/llms/stochastic-parrots-first-page-cropped.png){fig-alt="First page of 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?' by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, showing the title, authors, and abstract" style="max-height:540px;"}
+
+::: {.caption}
+First page, [*FAccT '21*](https://doi.org/10.1145/3442188.3445922) (CC BY 4.0)
+:::
+:::
+::::
+
+---
+
+## Free Write {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Turn off phones, laptops, etc.
+- Get out your notebooks!
+- Write whatever!
+- If you need a prompt:
+	- What is a question you would like to ask your classmates about their ethical perspectives?
+	- How do you, personally, decide what is "right" and "wrong"?
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## 🔀 Seat Shuffle {.embed-slide}
+
+::: {.embed-layout}
+::: {.embed-copy}
+- Shuffle seats!
+- Enter a seed and shuffle
+
+[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+:::
+
+::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
+<iframe
+  src="../in-progress/visual-seat-shuffle.html"
+  title="Visual Seat Shuffle"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## Group Activity {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Group activity instructions
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## That's all for today!
+
+See you next week!
+
+Please help reset tables
+
+---
+
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+---
+
+# Intellectual Property {.title-slide .section-header .no-index}
+
+
+---
+
+## Agenda: Intellectual Property Day
 
 :::: columns
 ::: {.column width="55%"}
@@ -783,7 +915,7 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 
 ---
 
-# IP and AI Training Data {.title-slide .section-header}
+# IP and AI Training Data {.title-slide .section-header .no-index}
 
 ---
 
@@ -872,7 +1004,7 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 
 ---
 
-# The Right of Publicity {.title-slide .section-header}
+# The Right of Publicity {.title-slide .section-header .no-index}
 
 ---
 
@@ -928,7 +1060,7 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 
 ---
 
-# Consentful Tech {.title-slide .section-header}
+# Consentful Tech {.title-slide .section-header .no-index}
 
 ---
 
@@ -990,16 +1122,6 @@ CS 377, Week 9, Day 2 🟦 Western 🟦
 - See handout
 - Review a software or Creative Commons license
 - What permissions are granted? What conditions apply? What is prohibited?
-
----
-
-## That's all for today!
-
-See you Wednesday!
-
----
-
-# Appendix: Leftover Slides {.title-slide .section-header}
 
 ---
 

@@ -125,8 +125,9 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 * Intro to Privacy, and privacy as contextual integrity
 * Digital rights
 * **Ethics through Fiction:** discuss short story ("Here and Now")
-* Preview short story (["Message in a Bottle"](https://docs.google.com/document/d/1Jg31dJYw8KHuwFCV0Meaa-KXBDDPlvS9QK-6O0MsTRU/edit?usp=sharing))
+* Preview short story (["Message in a Bottle" by Nalo Hopkinson](https://pmpress.org/index.php?l=product_detail&p=425), reprinted in *Report from Planet Midnight*)
   * PDF available in Canvas
+  * Free to borrow from [Open Library](https://openlibrary.org/works/OL17463705W)
 
 ### Sources
 

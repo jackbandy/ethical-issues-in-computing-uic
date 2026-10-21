@@ -23,13 +23,13 @@ If you follow the guidlines above, you'll be in great shape to give your present
 * **Question**: What exactly should the presentation be about?
   * **Answer**: Teach us something from the book you read, or something closely related to the book!
 * **Question**: When am I presenting?
-  * **Answer**: The tentative schedule is [here](https://docs.google.com/spreadsheets/d/1GV2mnezeAFHRA8JgUrsDWzd8TxXDBT5gMuYYrwXK3yw/edit?usp=sharing). Email me as soon as possible if you have a scheduling conflict.
+  * **Answer**: Your presentation day is in Canvas, under groups. Email me as soon as possible if you have a scheduling conflict.
 * **Question**: Can you give an example?
   * **Answer**: You can view a [demo presentation here](https://doethics.fun/slides/example-book-presentation.html)
 * **Question**: How many slides should I have?
   * **Answer**: Using the heuristic of 1 minute per slide, a 10-minute presentation will probably have about 10 slides. 
-* **Question**: Where should I put my slides?
-  * **Answer**: To minimize technical hiccups, please make your presentation in Google Slides and place them [in this folder](https://drive.google.com/drive/folders/1XHjgT77PbD8fiSejnHGDNiBrthpYTDoi?usp=share_link)
+* **Question**: What should I use to make my slides?
+  * **Answer**: Any tool works: Google Slides, Canva, Quarto, PowerPoint (`.pptx`), etc. Whatever you use, you must turn in a URL/link to your presentation that can be opened in class (for a `.pptx` file, that means a share link from somewhere like Box or OneDrive).
  * **Question**: I have another question that's not on this list, what do I do?
    * **Answer**: Email me (`jxb@uic.edu`)
 

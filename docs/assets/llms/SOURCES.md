@@ -20,6 +20,8 @@ Figures for the week 8 "Appendix: More LLMs Stuff" slides (the former Week 8, Da
 
 - **stochastic-parrots-first-page.png** — first page of Bender, Gebru, McMillan-Major & Shmitchell, ["On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"](https://doi.org/10.1145/3442188.3445922), *FAccT '21* — rendered at 120 dpi with PyMuPDF from the ACM camera-ready PDF (mirror: `s10251.pcdn.co/pdf/2021-bender-parrots.pdf`) — License: the paper is published under CC BY 4.0
 
+- **stochastic-parrots-first-page-cropped.png** — `stochastic-parrots-first-page.png` cropped to the text block (page margins and the page number removed) so it reads larger in a half-width column on the Week 9, Day 2 review slide — License: the paper is published under CC BY 4.0
+
 - **altman-stochastic-parrots-post.png** — Sam Altman (@sama), "stochastic parrots can fly so high…," post on X, September 12, 2024 — cropped from the browser screenshot in the instructor's earlier "18 LLM Scenarios" Keynote deck (window chrome and sign-up bar removed, flattened onto white) — License: © its author; classroom use only
 
 - **single-wall-outlet.jpg** — [Wikimedia Commons: Electrical-Outlet-8830c.jpg](https://commons.wikimedia.org/wiki/File:Electrical-Outlet-8830c.jpg) — "North American NEMA 5-20RA three-prong electrical grounded power wall socket (120V 20A)," 10 April 2008 — Photo: David R. Tribble (Loadmaster) — License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) — full-resolution 1872 × 2816 original, uncropped. Chosen for the "We project meaning onto things" bullet: a single outlet is the textbook case of seeing a face in an object

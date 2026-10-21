@@ -126,6 +126,7 @@ function setStatusDone() {
 
 // Remove SVG paths and reset table backgrounds; also clears the status indicator.
 function clearLines() {
+  resetCircle();
   const svg = document.getElementById('lines-svg');
   if (svg) svg.remove();
   document.querySelectorAll('.table').forEach(t => { t.style.background = ''; });
@@ -448,6 +449,8 @@ function showColors() { return document.getElementById('colors-cb').checked; }
 function showPaths()  { return document.getElementById('paths-cb').checked; }
 
 function drawOverlay() {
+  if (circleShown) return; // the circle-day ring owns the room (see circle-day.js)
+
   const existing = document.getElementById('lines-svg');
   if (existing) existing.remove();
   document.querySelectorAll('.table').forEach(t => { t.style.background = ''; });
@@ -811,8 +814,9 @@ function shuffle() {
   shuffleToken++;
   const token = shuffleToken;
 
-  const seed   = parseInt(document.getElementById('seed').value, 10);
-  const result = generateAssignment(Number.isFinite(seed) ? seed : 0);
+  const seedIn = parseInt(document.getElementById('seed').value, 10);
+  const seed   = Number.isFinite(seedIn) ? seedIn : 0;
+  const result = generateAssignment(seed);
 
   if (!result.ok) {
     currentAssignment = null;
@@ -824,6 +828,8 @@ function shuffle() {
 
   showMessage('');
   currentAssignment = result.assignment;
+  circleShown = isCircleDay();
+  const animate = circleShown ? fadeSeat : animateSeat;
 
   // Numbers the spinner is allowed to flash: tables still in the room.
   const pool = [];
@@ -839,11 +845,13 @@ function shuffle() {
     table.querySelectorAll('.seat').forEach((seat, si) => {
       const value = currentAssignment[ti * SEATS_PER_TABLE + si];
       if (value === null) { seat.textContent = ''; return; } // erased
-      animateSeat(seat, value, pool, token, () => {
+      animate(seat, value, pool, token, () => {
         if (shuffleToken !== token) return; // superseded shuffle
         pendingSeats--;
         if (pendingSeats === 0) {
-          if (showColors() || showPaths()) {
+          if (circleShown) {
+            formCircle(seed, token);
+          } else if (showColors() || showPaths()) {
             // drawOverlay owns the status transition (loading → ✅ → clear)
             drawOverlay();
           } else {
@@ -1013,6 +1021,7 @@ document.addEventListener('DOMContentLoaded', () => {
   showMessage('');
   ['colors-cb', 'paths-cb'].forEach(id => {
     document.getElementById(id).addEventListener('change', () => {
+      if (circleShown) return;
       if (showColors() || showPaths()) drawOverlay(); else clearLines();
     });
   });
