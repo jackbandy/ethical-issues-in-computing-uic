@@ -63,6 +63,8 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 # Pitch Your Story {.title-slide .section-header}
 
+Exercise and promo slide template adapted from Casey Fiesler's ["Black Mirror Writers Room"](https://www.internetruleslab.com/black-mirror-writers-room) (CC BY 4.0), expanded with Shamika Klassen
+
 ---
 
 ## Group Exercise: Pitch Your Story {.embed-slide}
@@ -72,8 +74,8 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 - See handout
 - Let me know your title once you have it
 - Take a promo picture and make your promo slide:
-  - 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/qJtJKUL1JqKt-gWkoGOIQOma/p/)
-  - 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/sE31wN6JKRKztN22Z1SvHbJk/p/)
+  - 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/gEhcDUYeaSIL6bgBaw-e4CnV/p/)
+  - 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/GlPyl6rw9heGg1GW+m+Y6405/p/)
 - Turn in one worksheet per group
 :::
 
@@ -96,8 +98,8 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 ## Vote on Stories
 
 - Each group pitches its episode
-- 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/qJtJKUL1JqKt-gWkoGOIQOma/p/)
-- 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/sE31wN6JKRKztN22Z1SvHbJk/p/)
+- 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/gEhcDUYeaSIL6bgBaw-e4CnV/p/)
+- 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/GlPyl6rw9heGg1GW+m+Y6405/p/)
 
 ---
 
