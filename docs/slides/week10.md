@@ -33,6 +33,10 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
+# Free Write {.title-slide .section-header}
+
+---
+
 ## Free Write {.embed-slide}
 
 ::: {.embed-layout .golden-columns}
@@ -57,11 +61,16 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
+# Pitch Your Story {.title-slide .section-header}
+
+---
+
 ## Group Exercise: Pitch Your Story {.embed-slide}
 
 ::: {.embed-layout .golden-columns}
 ::: {.embed-copy}
 - See handout
+- Let me know your title once you have it
 - Take a promo picture and make your promo slide:
   - 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/qJtJKUL1JqKt-gWkoGOIQOma/p/)
   - 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/sE31wN6JKRKztN22Z1SvHbJk/p/)
@@ -80,11 +89,19 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
+# Vote on Stories {.title-slide .section-header}
+
+---
+
 ## Vote on Stories
 
 - Each group pitches its episode
 - 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/qJtJKUL1JqKt-gWkoGOIQOma/p/)
 - 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/sE31wN6JKRKztN22Z1SvHbJk/p/)
+
+---
+
+## Results are in...
 
 ---
 
