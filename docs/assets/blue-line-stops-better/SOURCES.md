@@ -60,6 +60,9 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 ### 21. Damen
 - **stop21-damen-c.jpg** — [Wikimedia Commons: Damen Stop-Blue Line (3456034326).jpg](https://commons.wikimedia.org/wiki/File:Damen_Stop-Blue_Line_(3456034326).jpg) — License: CC BY 2.0 — Author: Tripp from Chicago
 
+### 23. California
+- **stop23-california-station-house.jpg** — [Wikimedia Commons: California Station on the CTA 'L' Blue Line.png](https://commons.wikimedia.org/wiki/File:California_Station_on_the_CTA_%27L%27_Blue_Line.png) — License: CC BY-SA 4.0 — Author: AmyLExtraordinaire — 3840×2560, downscaled from the 6000×4000 PNG and converted to JPEG
+
 ### 22. Western (O'Hare branch)
 - **stop22-western-a.jpg** — [Wikimedia Commons: Western Avenue Station 2.jpg](https://commons.wikimedia.org/wiki/File:Western_Avenue_Station_2.jpg) — License: CC BY-SA 2.0 — Author: Adam Moss from Macomb, IL, United States
 

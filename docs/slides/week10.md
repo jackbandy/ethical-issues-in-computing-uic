@@ -1,24 +1,19 @@
-# Draft — Needs Review {.draft-notice}
 
-> ⚠️ Auto-converted from a previous slide format. All content still needs review and editing before use in class.
-
----
-
-# IP and Enshittification {.title-slide data-menu-title="Week 10, Day 1"}
+# Speculative Fiction Day {.title-slide data-menu-title="Week 10, Day 1"}
 
 CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
-# IP and Enshittification {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover" data-menu-title="Week 10, Day 1"}
+# Speculative Fiction Day {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop23-california-station-house.jpg" background-size="cover" data-menu-title="Week 10, Day 1"}
 
 CS 377, Week 10, Day 1 🟦 California 🟦
 
-<!-- image source: John Ringor -->
+<!-- image source: AmyLExtraordinaire, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:California_Station_on_the_CTA_%27L%27_Blue_Line.png -->
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop23-california-b.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop23-california-station-house.jpg" background-size="cover"}
 
 ---
 
@@ -26,15 +21,9 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 :::: columns
 ::: {.column width="55%"}
-- Administrivia
-  - Pre-class reflection due Friday at 11:59pm
-  - Spring break next week — no classes
-  - Canvas updates
-- Shuffle seats
-- Head start on ethics commitment exercise
-- Review licenses
-- Mini-lecture: IP and "enshittification"
-- Review game
+- Free write
+- Group exercise: pitch your story
+- Vote on stories
 :::
 
 ::: {.column width="40%"}
@@ -44,292 +33,64 @@ CS 377, Week 10, Day 1 🟦 California 🟦
 
 ---
 
-## 🔀 Seat Shuffle
+## Free Write {.embed-slide}
 
-<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
-- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
-
----
-
-# Personal Commitment Samples {.title-slide .section-header}
-
----
-
-## "Personal Commitment" Exercise: Samples from Previous Semesters
-
----
-
-## {.quote-slide}
-
-> "I should make every effort to base my decisions on kindness and care for others."
-
----
-
-## {.quote-slide}
-
-> "I will remember that each person has their own goals, struggles, and background,
-> so I should not rush to judge their actions. Instead of assuming I know everything,
-> I will try to listen first, ask questions, and understand their point of view."
-
----
-
-## {.quote-slide}
-
-> "I will only perform actions that I can irrefutably justify as being rooted in faith,
-> virtue, discipline, or any combination of the three."
-
----
-
-## {.quote-slide}
-
-> "Virtues I will try my absolute best to commit to: Patience, Wisdom, Optimism,
-> Tolerance, and Growth."
-
----
-
-## {.quote-slide}
-
-> "I will strive to become the kind of person I would trust by cultivating honesty,
-> humility, accountability, and courage in my day-to-day actions."
-
----
-
-## {.quote-slide}
-
-> "I do not want to work on any of the machines, bombs, etcetera that directly leads
-> to the harm or suffering of others. I do not care what the paycheck is."
-
----
-
-## {.quote-slide}
-
-> "My personal commitment is to always consider who my work will impact, whether
-> it's professional work or a personal project."
-
----
-
-## Table Discussion: Head Start on Ethics Commitments
-
-- What are your initial ideas for commitments?
-- Are there specific virtues, values, or character strengths that come to mind?
-- Have you previously made any kind of "personal credo," honor code, or similar commitment?
-- Are there specific ethical dilemmas you anticipate?
-- Are there historical figures you wish to emulate? Why?
-
----
-
-## Respecting Licenses and Intellectual Property
-
-<!-- image: license comparison chart / examples from prior exercise -->
-- TODO: add image — *license comparison chart / examples from prior exercise*
-
----
-
-# The EFF and Digital Rights {.title-slide .section-header}
-
----
-
-## Mini-lecture: IP and "Enshittification"
-
----
-
-## Operation Sun Devil (1990)
-
-- U.S. Secret Service conducted raids across the U.S.
-- Supposedly a crackdown on "illegal computer hacking activities"
-- In part, an attempt to track distribution of the "E911" document
-- Raid of Steve Jackson Games — took all electronic equipment; business crisis, layoffs
-
----
-
-## Birth of the EFF
-
-- GURPS Cyberpunk sourcebook was allegedly a hacker manual "for taking over the 911 emergency network"
-- Loyd Blankenship ("The Mentor") had consulted on the book; was likely the target
-- Secret Service could not find any copies of E911
-
----
-
-## Electronic Frontier Foundation
-
-- Group formed (including Steve Wozniak, John Perry Barlow)
-- *Steve Jackson Games, Inc. v. United States Secret Service*
-- *Bernstein v. U.S. Dept. of Justice*
-  - Encryption was on the US Munitions List alongside bombs and flamethrowers
-  - Court ruled that "written software code is speech protected by the First Amendment"
-
----
-
-## EFF Mission {.quote-slide}
-
-> "EFF's mission is to ensure that technology supports freedom, justice, and innovation
-> for all people of the world."
->
-> — Electronic Frontier Foundation
-
----
-
-# Enshittification {.title-slide .section-header}
-
----
-
-## Cory Doctorow
-
-- Worked ~20 years at EFF
-- Completed a high school diploma after dropping out
-- Co-founded "Opencola," a free software company
-- Editor of *Boing Boing* magazine (2001–2020)
-- 2025 book: *Enshittification*
-
----
-
-## Four-Step Theory of Enshittification {.quote-slide}
-
-> 1. First, services are good to their users.
-> 2. Then they abuse their users to make things better for their business customers.
-> 3. Next, they abuse the business customers to claw back all the value for themselves.
-> 4. Finally, they have become a giant pile of shit.
->
-> — Cory Doctorow
-
----
-
-## Example of Intermediation: Apple
-
-:::: columns
-::: {.column width="48%"}
-**Initial value to users/businesses**
-
-- "It just works"
-- App Store distribution
-- Low surveillance
-- Network effect
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Turn off phones, laptops, etc.
+- Get out your notebooks!
+- Write whatever!
+- If you need a prompt:
+	- Have you encountered any absurd dilemmas recently?
+	- Could be in your own life, friend, family, fiction...
 :::
 
-::: {.column width="48%"}
-**Extraction tactics**
-
-- 30% processing fee (doubled)
-- App Store policing
-- Selective exemptions (own apps)
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
 :::
-::::
-
----
-
-## Example of Intermediation: Amazon
-
-:::: columns
-::: {.column width="48%"}
-**Initial value to users/businesses**
-
-- Free returns
-- Diverse and affordable options
-- Effective search
-- Customer service
-:::
-
-::: {.column width="48%"}
-**Extraction tactics**
-
-- Prime memberships
-- Media locks
-- Paid search placement
-:::
-::::
-
----
-
-## The Cures for Enshittification
-
----
-
-# Forces for Good {.title-slide .section-header}
-
----
-
-## What Stops Organizations from Enshittifying?
-
-::: {.incremental}
-- **Competition** — market alternatives give users exit options
-- **Regulation** — external rules that constrain extraction
-- **Interoperability** — users can move data and relationships elsewhere
-- **Workers** — employees who resist harmful choices from inside
 :::
 
 ---
 
-## Force for Good #1: Competition
+## Group Exercise: Pitch Your Story {.embed-slide}
 
-<!-- image: market concentration visualizations (popular chart by u/_Spyguy_, 2017; updated 2023 version) -->
-- TODO: add image — *market concentration visualizations (popular chart by u/_Spyguy_, 2017; updated 2023 version)*
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- See handout
+- Take a promo picture and make your promo slide:
+  - 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/qJtJKUL1JqKt-gWkoGOIQOma/p/)
+  - 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/sE31wN6JKRKztN22Z1SvHbJk/p/)
+- Turn in one worksheet per group
+:::
 
----
-
-## Force for Good #2: Regulation
-
-- "The job of an intermediary should be to deliver the things you want, not the things that they wish you wanted"
-- Unpopular in tech circles
-- Lawmakers often uninformed
-- Worsened by revolving door from industry execs to public service
-
----
-
-## Force for Good #3: Interoperability
-
-- Standards and protocols: TCP/IP, email, telephone service
-- Support right to repair
-- "Every computer is a Turing-complete, universal von Neumann machine"
-
----
-
-## Attitudes That Can Produce Enshittification
-
-- Collusions and monopolies (rather than competition)
-- Deregulation / laissez-faire (rather than oversight and regulation)
-- Walled gardens and lock-ins (rather than interoperability)
-- Hierarchies / technocracies (rather than worker power)
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
-# Review Game {.title-slide .section-header}
+## Vote on Stories
+
+- Each group pitches its episode
+- 12:30pm section: [Fiction - 12:30pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/qJtJKUL1JqKt-gWkoGOIQOma/p/)
+- 2:00pm section: [Fiction - 2:00pm](https://crypt.unredacted.org/presentation/#/2/presentation/edit/sE31wN6JKRKztN22Z1SvHbJk/p/)
 
 ---
 
-## Review Game: Prompt 1 of 4
+## That's all for today!
 
-Summarize Kant's categorical imperative (from deontological ethics).
-
----
-
-## Review Game: Prompt 2 of 4
-
-Write a new version of the trolley problem (from utilitarian ethics).
-
----
-
-## Review Game: Prompt 3 of 4
-
-What might the moles say to the porcupine? (From the care ethics dilemma)
-
----
-
-## Review Game: Prompt 4 of 4
-
-A character has just demonstrated their virtue by responding to a difficult challenge. Complete their explanation: *"My parents always told me…"*
-
----
-
-## Reminders Before Spring Break
-
-- Continue reading your book!
-- Email with any grade questions
-- No classes next week (Week 11)
-- We return in Week 12 — presentations begin!
-
----
-
-## That's all for today, see you after break!
+See you Wednesday!
 
 ---
 
@@ -653,6 +414,321 @@ See you Wednesday!
 
 ---
 
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+---
+
+## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- Administrivia
+  - Pre-class reflection due Friday at 11:59pm
+  - Spring break next week — no classes
+  - Canvas updates
+- Shuffle seats
+- Head start on ethics commitment exercise
+- Review licenses
+- Mini-lecture: IP and "enshittification"
+- Review game
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop23-california.svg)
+:::
+::::
+
+---
+
+## 🔀 Seat Shuffle
+
+<!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
+- TODO: add image — *room diagram — lectern "0", tables 1–8, projector screens, door*
+
+---
+
+# Personal Commitment Samples {.title-slide .section-header .no-index}
+
+---
+
+## "Personal Commitment" Exercise: Samples from Previous Semesters
+
+---
+
+## {.quote-slide}
+
+> "I should make every effort to base my decisions on kindness and care for others."
+
+---
+
+## {.quote-slide}
+
+> "I will remember that each person has their own goals, struggles, and background,
+> so I should not rush to judge their actions. Instead of assuming I know everything,
+> I will try to listen first, ask questions, and understand their point of view."
+
+---
+
+## {.quote-slide}
+
+> "I will only perform actions that I can irrefutably justify as being rooted in faith,
+> virtue, discipline, or any combination of the three."
+
+---
+
+## {.quote-slide}
+
+> "Virtues I will try my absolute best to commit to: Patience, Wisdom, Optimism,
+> Tolerance, and Growth."
+
+---
+
+## {.quote-slide}
+
+> "I will strive to become the kind of person I would trust by cultivating honesty,
+> humility, accountability, and courage in my day-to-day actions."
+
+---
+
+## {.quote-slide}
+
+> "I do not want to work on any of the machines, bombs, etcetera that directly leads
+> to the harm or suffering of others. I do not care what the paycheck is."
+
+---
+
+## {.quote-slide}
+
+> "My personal commitment is to always consider who my work will impact, whether
+> it's professional work or a personal project."
+
+---
+
+## Table Discussion: Head Start on Ethics Commitments
+
+- What are your initial ideas for commitments?
+- Are there specific virtues, values, or character strengths that come to mind?
+- Have you previously made any kind of "personal credo," honor code, or similar commitment?
+- Are there specific ethical dilemmas you anticipate?
+- Are there historical figures you wish to emulate? Why?
+
+---
+
+## Respecting Licenses and Intellectual Property
+
+<!-- image: license comparison chart / examples from prior exercise -->
+- TODO: add image — *license comparison chart / examples from prior exercise*
+
+---
+
+# The EFF and Digital Rights {.title-slide .section-header .no-index}
+
+---
+
+## Mini-lecture: IP and "Enshittification"
+
+---
+
+## Operation Sun Devil (1990)
+
+- U.S. Secret Service conducted raids across the U.S.
+- Supposedly a crackdown on "illegal computer hacking activities"
+- In part, an attempt to track distribution of the "E911" document
+- Raid of Steve Jackson Games — took all electronic equipment; business crisis, layoffs
+
+---
+
+## Birth of the EFF
+
+- GURPS Cyberpunk sourcebook was allegedly a hacker manual "for taking over the 911 emergency network"
+- Loyd Blankenship ("The Mentor") had consulted on the book; was likely the target
+- Secret Service could not find any copies of E911
+
+---
+
+## Electronic Frontier Foundation
+
+- Group formed (including Steve Wozniak, John Perry Barlow)
+- *Steve Jackson Games, Inc. v. United States Secret Service*
+- *Bernstein v. U.S. Dept. of Justice*
+  - Encryption was on the US Munitions List alongside bombs and flamethrowers
+  - Court ruled that "written software code is speech protected by the First Amendment"
+
+---
+
+## EFF Mission {.quote-slide}
+
+> "EFF's mission is to ensure that technology supports freedom, justice, and innovation
+> for all people of the world."
+>
+> — Electronic Frontier Foundation
+
+---
+
+# Enshittification {.title-slide .section-header .no-index}
+
+---
+
+## Cory Doctorow
+
+- Worked ~20 years at EFF
+- Completed a high school diploma after dropping out
+- Co-founded "Opencola," a free software company
+- Editor of *Boing Boing* magazine (2001–2020)
+- 2025 book: *Enshittification*
+
+---
+
+## Four-Step Theory of Enshittification {.quote-slide}
+
+> 1. First, services are good to their users.
+> 2. Then they abuse their users to make things better for their business customers.
+> 3. Next, they abuse the business customers to claw back all the value for themselves.
+> 4. Finally, they have become a giant pile of shit.
+>
+> — Cory Doctorow
+
+---
+
+## Example of Intermediation: Apple
+
+:::: columns
+::: {.column width="48%"}
+**Initial value to users/businesses**
+
+- "It just works"
+- App Store distribution
+- Low surveillance
+- Network effect
+:::
+
+::: {.column width="48%"}
+**Extraction tactics**
+
+- 30% processing fee (doubled)
+- App Store policing
+- Selective exemptions (own apps)
+:::
+::::
+
+---
+
+## Example of Intermediation: Amazon
+
+:::: columns
+::: {.column width="48%"}
+**Initial value to users/businesses**
+
+- Free returns
+- Diverse and affordable options
+- Effective search
+- Customer service
+:::
+
+::: {.column width="48%"}
+**Extraction tactics**
+
+- Prime memberships
+- Media locks
+- Paid search placement
+:::
+::::
+
+---
+
+## The Cures for Enshittification
+
+---
+
+# Forces for Good {.title-slide .section-header .no-index}
+
+---
+
+## What Stops Organizations from Enshittifying?
+
+::: {.incremental}
+- **Competition** — market alternatives give users exit options
+- **Regulation** — external rules that constrain extraction
+- **Interoperability** — users can move data and relationships elsewhere
+- **Workers** — employees who resist harmful choices from inside
+:::
+
+---
+
+## Force for Good #1: Competition
+
+<!-- image: market concentration visualizations (popular chart by u/_Spyguy_, 2017; updated 2023 version) -->
+- TODO: add image — *market concentration visualizations (popular chart by u/_Spyguy_, 2017; updated 2023 version)*
+
+---
+
+## Force for Good #2: Regulation
+
+- "The job of an intermediary should be to deliver the things you want, not the things that they wish you wanted"
+- Unpopular in tech circles
+- Lawmakers often uninformed
+- Worsened by revolving door from industry execs to public service
+
+---
+
+## Force for Good #3: Interoperability
+
+- Standards and protocols: TCP/IP, email, telephone service
+- Support right to repair
+- "Every computer is a Turing-complete, universal von Neumann machine"
+
+---
+
+## Attitudes That Can Produce Enshittification
+
+- Collusions and monopolies (rather than competition)
+- Deregulation / laissez-faire (rather than oversight and regulation)
+- Walled gardens and lock-ins (rather than interoperability)
+- Hierarchies / technocracies (rather than worker power)
+
+---
+
+# Review Game {.title-slide .section-header .no-index}
+
+---
+
+## Review Game: Prompt 1 of 4
+
+Summarize Kant's categorical imperative (from deontological ethics).
+
+---
+
+## Review Game: Prompt 2 of 4
+
+Write a new version of the trolley problem (from utilitarian ethics).
+
+---
+
+## Review Game: Prompt 3 of 4
+
+What might the moles say to the porcupine? (From the care ethics dilemma)
+
+---
+
+## Review Game: Prompt 4 of 4
+
+A character has just demonstrated their virtue by responding to a difficult challenge. Complete their explanation: *"My parents always told me…"*
+
+---
+
+## Reminders Before Spring Break
+
+- Continue reading your book!
+- Email with any grade questions
+- No classes next week (Week 11)
+- We return in Week 12 — presentations begin!
+
+---
+
+## That's all for today, see you after break!
+
+---
+
 # References & Credits {.sources}
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week10.md>.
@@ -661,4 +737,5 @@ See you Wednesday!
 4. ASCI Academy, [Gallery of "Conscious" Design Patterns](https://www.consciouspatterns.in/ethical-gallery).
 5. Nir Eyal, [*Hooked: How to Build Habit-Forming Products*](https://www.nirandfar.com/hooked/).
 6. Electronic Frontier Foundation, [eff.org](https://www.eff.org/).
-7. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+7. California station cover photo: AmyLExtraordinaire, ["California Station on the CTA 'L' Blue Line"](https://commons.wikimedia.org/wiki/File:California_Station_on_the_CTA_%27L%27_Blue_Line.png), CC BY-SA 4.0.
+8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
