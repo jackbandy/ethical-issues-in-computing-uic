@@ -1,0 +1,80 @@
+\input{00-template.tex}
+
+\wscourse{CS 377}
+\wstitle{Speculative Fiction: Writers Room}
+
+\usepackage[hidelinks]{hyperref}
+
+% Keep the credit footnote at the foot of page 1; with \raggedbottom it rides up
+% under the last question.
+\flushbottom
+
+\newcommand{\wsline}{\leavevmode\leaders\hrule height 0.4pt\hfill\kern0pt\par}
+
+\newcommand{\wscircletable}[5]{%
+  \setlength{\wsheadht}{2.2\baselineskip}%
+  \begin{tabularx}{\textwidth}{|X|X|X|X|X|}
+    \hline
+    \wsvcell{\wsheadht}{\centering #1} & \wsvcell{\wsheadht}{\centering #2} &
+    \wsvcell{\wsheadht}{\centering #3} & \wsvcell{\wsheadht}{\centering #4} &
+    \wsvcell{\wsheadht}{\centering #5} \\
+    \hline
+  \end{tabularx}%
+}
+
+\newcommand{\wscheck}[1]{%
+  \stepcounter{wsquestion}%
+  \par\noindent(\thewsquestion)~\fbox{\rule{0pt}{0.7em}\rule{0.7em}{0pt}}~#1\par
+}
+
+\begin{document}
+
+\wsheader
+
+\textit{Your group is the writers room for a new episode of Black Mirror.\footnote{Based on Casey Fiesler's activity: \href{https://www.internetruleslab.com/black-mirror-writers-room}{\nolinkurl{www.internetruleslab.com/black-mirror-writers-room}}} Work through these steps together, pitch your episode to the class, and turn in one sheet per group at the end of class.}
+
+\wsprompt{Take turns sharing the story you wrote. For each story, write the author's name and a one-sentence summary (e.g., ``A man named Neo makes a decision that changes his perspective'').}
+
+\vspace{0.2\baselineskip}
+
+\wsgridtable{Author}{The story, in brief}{4}{0.85in}
+
+\vspace{0.4\baselineskip}
+
+\wsquestion{Which story will your group pitch to the class? Why that one?}{1.3in}
+
+\vfill
+\newpage
+
+\wsprompt{Cast your episode. Choose at least one main character and at least one supporting character, and name a real person to play each one.}
+
+\vspace{0.2\baselineskip}
+
+\wsgridtablethree{Role}{Character}{Actor}{4}{0.5in}
+
+\vspace{0.4\baselineskip}
+
+\wsprompt{Which ethical theory might underpin your story? Circle one and briefly explain.}
+
+\vspace{0.2\baselineskip}
+
+\wscircletable{Deontological}{Utilitarian}{Virtue}{Care}{Other}
+
+\vspace{1.3in}
+
+\wsprompt{Write the log line: one or two sentences to draw the attention of the audience.}
+
+\vspace{1.2in}
+
+\wsprompt{Write the title of your episode.}
+
+\vspace{0.5in}
+\vfill
+\wsline
+\vspace{0.3\baselineskip}
+
+{\setlength{\parskip}{0.3\baselineskip}%
+\wscheck{Take a promo picture in CDRLC or nearby (use your own camera).}
+\wscheck{Create your promo slide using the link shared in class.}}
+
+\end{document}
