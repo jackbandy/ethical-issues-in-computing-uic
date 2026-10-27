@@ -1,19 +1,729 @@
----
-layout: null
-sitemap: false
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Redirecting to the Seat Shuffler…</title>
-  <link rel="canonical" href="https://doethics.fun/in-progress/visual-seat-shuffle.html">
-  <meta http-equiv="refresh" content="0; url=/in-progress/visual-seat-shuffle.html">
-  {% include crawler-policy.html csp=false %}
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-4CpZ05SLvOoRSrL+RTpkA9222Az4u+gAa+9pZwLVhPw='; base-uri 'none'; form-action 'none';">
-  <script>window.location.replace("/in-progress/visual-seat-shuffle.html");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Closed to automated access until 2027; see /robots.txt. This page has no
+       front matter, so Jekyll passes it through without Liquid and it cannot
+       use _includes/crawler-policy.html -- keep these four lines in sync with it. -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <link rel="author" type="text/plain" href="/humans.txt">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <!-- connect-src names www.random.org for the seed draw in shuffle.js, which runs only when Shuffle is pressed with the seed box blank. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; frame-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://www.random.org; form-action 'none'">
+  <title>Visual Seat Shuffle</title>
+  <meta name="description" content="Sends every student in the room to a new table: tablemates split up, and every table in use gets three or four people.">
+  <link rel="canonical" href="https://doethics.fun/chairs/">
+  <!-- Preview card, written out by hand for the same no-front-matter reason as above (_includes/social-meta.html is the Liquid version). The GIF is a recorded run: five seats marked absent, the lectern added, Shuffle, Reset. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Blue Line Ethics">
+  <meta property="og:title" content="Visual Seat Shuffle">
+  <meta property="og:description" content="Sends every student in the room to a new table: tablemates split up, and every table in use gets three or four people.">
+  <meta property="og:url" content="https://doethics.fun/chairs/">
+  <meta property="og:image" content="https://doethics.fun/chairs/seat-shuffle-demo.gif">
+  <meta property="og:image:secure_url" content="https://doethics.fun/chairs/seat-shuffle-demo.gif">
+  <meta property="og:image:type" content="image/gif">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The seat shuffler marking five seats absent, adding the lectern, then sending every student to a new table, each seat filled with its new table's color.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://doethics.fun/chairs/seat-shuffle-demo.gif">
+  <meta name="twitter:image:alt" content="The seat shuffler marking five seats absent, adding the lectern, then sending every student to a new table, each seat filled with its new table's color.">
+  <meta name="theme-color" content="#00A1DE">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/branding/loop-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/branding/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="CS 377">
+  <meta name="color-scheme" content="light">
+  <script src="embed.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { overflow: hidden; }
+
+    body {
+      background: #f5f5f5;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 16px 32px;
+    }
+
+    /* ── Page wrapper ── */
+    .page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* ── Header: title | controls bunched left | status indicator floated right ── */
+    .header {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      row-gap: 8px;
+      width: 100%;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #222;
+      margin-right: 20px;
+      white-space: nowrap;
+    }
+
+    /* Controls sit together on the left; status indicator pushed to far right */
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .header label {
+      font-size: 14px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .header input[type="number"] {
+      width: 64px;
+      padding: 6px 8px;
+      font-size: 14px;
+      border: 1.5px solid #bbb;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .header button {
+      padding: 7px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      background: #333;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .header button:hover {
+      background: #555;
+    }
+
+    /* Shuffle and Reset share one grid cell, so the button keeps the wider
+       label's width whichever one shows (toggled by syncShuffleButton). */
+    #shuffle-btn { display: inline-grid; }
+    #shuffle-btn > span { grid-area: 1 / 1; }
+    #shuffle-btn .btn-reset,
+    #shuffle-btn.is-reset .btn-shuffle { visibility: hidden; }
+    #shuffle-btn.is-reset .btn-reset { visibility: visible; }
+
+    /* Shuffle is off while Lectern POV is checked (see syncShuffleButton) */
+    .header button:disabled,
+    .header button:disabled:hover {
+      background: #bbb;
+      cursor: not-allowed;
+    }
+
+    /* Shuffle status indicator (spinner → checkmark) — floated to far right */
+    #shuffle-status {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      margin-left: auto;
+      position: relative;
+    }
+
+    #shuffle-status.status-loading::after {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 16px;
+      border: 2.5px solid rgba(0,0,0,0.12);
+      border-top-color: #444;
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+    }
+
+    #shuffle-status.status-done::after {
+      content: '✅';
+      font-size: 18px;
+    }
+
+    #shuffle-status.status-error::after {
+      content: '⚠️';
+      font-size: 16px;
+    }
+
+    #shuffle-status.status-error { cursor: help; }
+
+    /* Why the shuffle couldn't run — hangs off the ⚠️ rather than taking up a
+       line in the header, since an impossible room is the rare case. */
+    #shuffle-tip {
+      display: none;
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      width: 290px;
+      padding: 10px 12px;
+      background: #2b2b2b;
+      color: #f2f2f2;
+      font-size: 12.5px;
+      font-weight: 400;
+      line-height: 1.45;
+      text-align: left;
+      border-radius: 7px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.28);
+      z-index: 200;
+    }
+
+    #shuffle-status.status-error:hover #shuffle-tip,
+    #shuffle-status.status-error:focus-visible #shuffle-tip { display: block; }
+
+    /* Headline first: what to do about it. The rule that ran out of room is
+       the parenthetical underneath, for anyone who wants to know why. */
+    #shuffle-tip .tip-sign-off {
+      display: block;
+      color: #ffd98a;
+      font-style: italic;
+      font-weight: 600;
+    }
+
+    #shuffle-tip-why {
+      display: block;
+      margin-top: 6px;
+      color: #cfcfcf;
+      font-size: 12px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ── Footer ── */
+    .footnotes {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 4px 15px;
+      font-size: 9px;
+      color: #999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      background: #f5f5f5;
+    }
+
+    .footnotes a {
+      color: #888;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .footnotes a:hover { text-decoration: underline; }
+
+    /* Embedded in an iframe (the course slides) the room is what matters and
+       the frame is narrow: drop the attribution footer and the page title (the
+       slide already carries one) and tighten the padding, so fitRoom() spends
+       the whole frame on the seating chart instead of on chrome. Dropping the
+       title also keeps the controls on one line at slide widths. */
+    .embedded body { padding: 8px 12px; }
+    .embedded .page { width: 100%; }
+    .embedded .footnotes { display: none; }
+    .embedded .header h1 { display: none; }
+    .embedded .header-controls { gap: 10px; }
+    .embedded .header button { white-space: nowrap; }
+    .embedded .seed-range { display: none; }
+
+    .footnotes .gh-icon {
+      width: 11px;
+      height: 11px;
+      fill: #888;
+      flex-shrink: 0;
+    }
+
+    .header .paths-label {
+      font-size: 14px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+      border: 1.5px solid #bbb;
+      border-radius: 8px;
+      padding: 6px 12px;
+    }
+
+    .header .paths-label input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      accent-color: #333;
+    }
+
+    /* ── Info button ── */
+    .info-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.4em;
+      height: 1.4em;
+      border-radius: 50%;
+      border: 1.5px solid #3d6080;
+      background: none;
+      color: #3d6080;
+      font-size: 0.75em;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 6px;
+      flex-shrink: 0;
+      vertical-align: middle;
+      line-height: 1;
+      transition: background 0.2s, color 0.2s;
+    }
+    .info-btn:hover { background: #3d6080; color: #fff; }
+
+    /* ── Side panel ── */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.3);
+      z-index: 99;
+    }
+    .overlay.visible { display: block; }
+
+    .side-panel {
+      position: fixed;
+      top: 0; right: -430px;
+      width: 420px;
+      height: 100%;
+      background: #fff;
+      box-shadow: -3px 0 12px rgba(0,0,0,0.15);
+      transition: right 0.3s;
+      overflow-y: auto;
+      z-index: 100;
+      padding: 1.5em;
+    }
+    .side-panel.open { right: 0; }
+
+    .panel-close {
+      float: right;
+      background: none;
+      border: none;
+      font-size: 1.5em;
+      cursor: pointer;
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+    .panel-close:hover { color: #000; }
+
+    #panel-content { margin-top: 2em; line-height: 1.7; color: #222; }
+    #panel-content h1 { font-size: 1.4em; margin-bottom: 0.4em; }
+    #panel-content h2 { font-size: 1.1em; margin: 1.2em 0 0.4em; border-top: 1px solid #eee; padding-top: 0.8em; }
+    #panel-content p  { margin-bottom: 0.8em; font-size: 0.95em; }
+    #panel-content ul { margin: 0 0 0.8em 1.4em; font-size: 0.95em; }
+    #panel-content li { margin-bottom: 0.3em; }
+
+    /* ── Room scale wrapper: sized in JS to the post-scale footprint of .room,
+       so the flex layout collapses to match what's actually visible. Overflow
+       stays visible so path lines that briefly run outside .room's own box
+       (e.g. aisles just past its edge) aren't clipped. ── */
+    .room-scale {
+      overflow: visible;
+    }
+
+    /* ── Room container ── */
+    .room {
+      background: #fff;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 0 32px 32px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      width: fit-content;
+      position: relative; /* needed for SVG overlay */
+      transform-origin: top left;
+    }
+
+    /* ── Front wall: screens only ── */
+    .front-wall {
+      display: flex;
+      justify-content: center;
+    }
+
+    .screens {
+      display: flex;
+      gap: 32px;
+    }
+
+    .projector-screen {
+      background: #d0d0d0;
+      color: #444;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 10px 0;
+      width: 300px;
+      text-align: center;
+      border-radius: 4px;
+    }
+
+    /* ── Main area: left panels + tables ── */
+    .main-area {
+      display: flex;
+      gap: 28px;
+      align-items: stretch;
+      padding-left: 32px;
+    }
+
+    /* ── Left-wall blue panels ── */
+    /* Grid mirrors the 3 table rows; one panel per row */
+    .left-panels {
+      display: grid;
+      grid-template-rows: repeat(3, 245px);
+      row-gap: 48px;
+      align-items: center;
+      margin-left: -32px;
+    }
+
+    .blue-panel {
+      width: 36px;
+      height: 180px;
+      border: none;
+      border-radius: 4px;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .blue-panel::before {
+      content: 'Window';
+      color: #666;
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+      transform: rotate(90deg);
+      letter-spacing: 0.05em;
+    }
+
+    .blue-panel:nth-child(1) { grid-row: 1; }
+    .blue-panel:nth-child(2) { grid-row: 2; }
+    .blue-panel:nth-child(3) { grid-row: 3; }
+
+    /* ── Table grid ── */
+    .tables-area {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    .table-row {
+      display: flex;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .table {
+      width: 175px;
+      height: 245px;
+      background: #555;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .table-num {
+      text-align: center;
+      color: rgba(255,255,255,0.85);
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 8px 0 6px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .table-seats {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 4px;
+      padding: 6px;
+    }
+
+    .seat {
+      background: rgba(255,255,255,0.1);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 36px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .seat { position: relative; } /* anchors .seat-arrow */
+
+    /* Small chevron beside the number, pointing at the destination table's
+       center (shown when Paths is off; angle set by labelSeat in shuffle.js). */
+    .seat-arrow {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 12px;
+      height: 12px;
+      border-top: 4px solid currentColor;
+      border-right: 4px solid currentColor;
+      transform: translate(-50%, -50%) rotate(var(--angle)) translateX(26px) rotate(45deg);
+    }
+
+    .seat:hover { background: rgba(255,255,255,0.24); }
+    .seat:focus-visible { outline: 2px solid #fff; outline-offset: -3px; }
+
+    /* A landed seat, and the header band of the table it is heading to, in that
+       table's color (set by paintSeat in shuffle.js). */
+    .seat.dest, .seat.dest:hover, .table-num.dest {
+      background: var(--dest-bg);
+      color: var(--dest-fg);
+    }
+
+    /* An absent seat is a hole punched through the table to the floor: the
+       chair is still there but nobody is sitting in it today, and a half-faded
+       ghost marks the hole. */
+    .seat.absent {
+      background: #f5f5f5;
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.35);
+    }
+
+    .seat.absent:hover { background: #e8e8e8; }
+
+    /* Seat state icons (seatIcon in shuffle.js). Strokes and the ghost's grays live in the files under /assets/seat-icons/; the anchor takes the seat's text color and a random seat shows the 🎲 emoji. */
+    .seat-icon {
+      display: block;
+      width: 38px;
+      height: 38px;
+      overflow: visible;
+    }
+
+    /* Lectern cell holds the same column width as a table so cols align */
+    /* Lectern POV: fitRoom() turns the whole room 180° (lectern bottom right,
+       windows right, screens bottom); turn each label back so it reads upright. */
+    .room.pov .seat,
+    .room.pov .table-num,
+    .room.pov .projector-screen { transform: rotate(180deg); }
+    .room.pov .blue-panel::before { transform: rotate(-90deg); }
+    .room.pov .lectern { transform: rotate(170deg); }
+
+    .lectern-cell {
+      width: 175px;
+      height: 245px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Lectern sits in the "0" slot (top-left of the table grid) */
+    .lectern {
+      width: 140px;
+      height: 140px;
+      background: #d8d8d8;
+      color: #555;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transform: rotate(-10deg); /* LECTERN_TILT in shuffle.js */
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    /* Click the lectern to put a student there into the shuffle: light when
+       left out (like an absent seat), dark when in (like a seat in use). */
+    .lectern:hover { background: #cacaca; }
+    .lectern:focus-visible { outline: 2px solid #555; outline-offset: 3px; }
+    .lectern.active { background: #555; color: #fff; }
+    .lectern.active:hover { background: #626262; }
+    .lectern.dest, .lectern.dest:hover { background: var(--dest-bg); color: var(--dest-fg); }
+
+    /* The lectern student's destination, under the label (anchors .seat-arrow) */
+    .lectern-seat {
+      position: relative;
+      font-size: 36px;
+      line-height: 1;
+    }
+    .lectern-seat:empty { display: none; }
+  </style>
 </head>
 <body>
-  <p>Redirecting to the <a href="/in-progress/visual-seat-shuffle.html">Visual Seat Shuffle</a>…</p>
+
+  <div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Visual Seat Shuffle <button class="info-btn" id="info-btn" aria-label="About this tool" title="About this tool">i</button></h1>
+    <div class="header-controls">
+      <button id="shuffle-btn"><span class="btn-shuffle">🔀 Shuffle</span><span class="btn-reset">↩️ Reset</span></button>
+      <label>Seed <span class="seed-range">(0–1000)</span> <input type="number" id="seed" min="0" max="1000"></label>
+      <label class="paths-label"><input type="checkbox" id="colors-cb" checked> Colors</label>
+      <label class="paths-label"><input type="checkbox" id="paths-cb"> Paths</label>
+      <label class="paths-label"><input type="checkbox" id="pov-cb"> Lectern POV</label>
+    </div>
+    <span id="shuffle-status">
+      <span id="shuffle-tip" role="status">
+        <span class="tip-sign-off">Shuffle seats another day!</span>
+        <span id="shuffle-tip-why"></span>
+      </span>
+    </span>
+  </div>
+
+  <div class="room-scale" id="room-scale">
+  <div class="room">
+
+    <!-- Front wall: screens only -->
+    <div class="front-wall">
+      <div class="screens">
+        <div class="projector-screen">Projector Screen</div>
+        <div class="projector-screen">Projector Screen</div>
+      </div>
+    </div>
+
+    <!-- Main area -->
+    <div class="main-area">
+
+      <!-- Left wall panels (one per row) -->
+      <div class="left-panels">
+        <div class="blue-panel"></div>
+        <div class="blue-panel"></div>
+        <div class="blue-panel"></div>
+      </div>
+
+      <!-- Tables -->
+      <div class="tables-area">
+        <div class="table-row">
+          <div class="lectern-cell"><div class="lectern"><span>Lectern thing</span><span class="lectern-seat"></span></div></div>
+          <div class="table">
+            <div class="table-num">Table 1</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 2</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="table">
+            <div class="table-num">Table 3</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 4</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 5</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="table">
+            <div class="table-num">Table 6</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 7</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="table-num">Table 8</div>
+            <div class="table-seats">
+              <div class="seat"></div><div class="seat"></div>
+              <div class="seat"></div><div class="seat"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- .room -->
+  </div><!-- .room-scale -->
+  </div><!-- .page -->
+
+  <div class="overlay" id="overlay"></div>
+  <div class="side-panel" id="side-panel">
+    <button class="panel-close" id="panel-close" aria-label="Close">&times;</button>
+    <div id="panel-content"></div>
+  </div>
+
+  <!-- Self-hosted rather than loaded from a CDN: the CDN copy was unversioned
+       ("marked/marked.min.js"), so whatever the CDN served as latest ran with
+       full DOM access on this domain. Local copy is marked v18.0.12 (MIT),
+       vendored in assets/js/ alongside its license. -->
+  <script src="/assets/js/marked.umd.js"></script>
+  <script src="shuffle.js"></script>
+  <script src="circle-day.js"></script>
+
+  <div class="footnotes">
+    <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic" target="_blank" rel="noopener">
+      <svg class="gh-icon" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
+      </svg>
+      jackbandy/ethical-issues-in-computing-uic
+    </a>
+    <a href="https://jackbandy.com/text/llm-code-philosophy.html">Made with help from LLMs</a>
+    <a href="#" id="about-link">About this tool</a>
+  </div>
+
 </body>
 </html>

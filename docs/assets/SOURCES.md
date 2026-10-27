@@ -39,4 +39,6 @@
 
 - **logos/** — platform wordmarks for the week 5 "moderation at scale" slides, plus the generated golden-rectangle plates built from them; see [logos/SOURCES.md](logos/SOURCES.md). These are trademarks used nominatively, not freely licensed artwork.
 
+- **seat-icons/** — seat-state icons for the seat shuffler (`/chairs/`): dice `d4.svg`–`d8.svg` (one face per table the next shuffle fills), `anchor.svg` (a student who stays put), and `ghost.svg` (an absent seat, loosely modeled on the 👻 emoji); original line drawings by an LLM-based coding system — License: same as the course materials
+
 - **news/** — lead photographs from the news stories quoted on the week 4 "Ethics in the News" slide; see [news/SOURCES.md](news/SOURCES.md) for per-file credits and licensing

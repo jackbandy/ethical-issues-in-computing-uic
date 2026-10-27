@@ -534,12 +534,12 @@ September 11, 2026: Anthropic reports that a cell in northern Yemen used its Cla
 - Shuffle seats!
 - Enter a seed and shuffle
 
-[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+[Open in a new tab](https://doethics.fun/chairs/)
 :::
 
 ::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
 <iframe
-  src="../in-progress/visual-seat-shuffle.html"
+  src="../chairs/"
   title="Visual Seat Shuffle"
   data-external="1">
 </iframe>
@@ -989,5 +989,5 @@ Johan Galtung, 2007. Photo: [David Lisbona](https://commons.wikimedia.org/wiki/F
 19. Meta Engineering, ["A New Ranking Framework for Better Notification Quality on Instagram"](https://engineering.fb.com/2025/09/02/ml-applications/a-new-ranking-framework-for-better-notification-quality-on-instagram/) (September 2, 2025).
 20. News values: Johan Galtung portrait by [David Lisbona](https://commons.wikimedia.org/wiki/File:Johan_Galtung.jpg), 2007, via Wikimedia Commons, CC BY 2.0; newsstand photograph by [Bobbie Johnson](https://commons.wikimedia.org/wiki/File:2012_newsstand_6751560847.jpg), Brighton, January 2012, via Wikimedia Commons, CC BY-SA 2.0.
 21. NOVA, ["Search Engine Breakdown"](https://www.pbs.org/video/search-engine-breakdown-79wcbc/) (21 minutes) — two researchers investigate racial bias built into widely used search engines.
-22. Seat shuffle tool: [doethics.fun/in-progress/visual-seat-shuffle](https://doethics.fun/in-progress/visual-seat-shuffle.html); countdown timer: [doethics.fun/timer](https://doethics.fun/timer/).
+22. Seat shuffle tool: [doethics.fun/chairs](https://doethics.fun/chairs/); countdown timer: [doethics.fun/timer](https://doethics.fun/timer/).
 23. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

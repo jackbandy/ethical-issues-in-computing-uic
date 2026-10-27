@@ -225,6 +225,8 @@ BUILD_PDFS=true ./build.sh  # Include PDFs
 
 The local build requires Quarto, Node.js 22+, Python with PyMuPDF, and Chrome or Chromium. Set `CHROME` to a browser executable if it is not found automatically.
 
+TODO: keep the local and CI Quarto versions in sync. CI (`.github/workflows/build-slides.yml`) installs the latest Quarto release on every run, while the local Homebrew cask only moves on `brew upgrade --cask quarto`, so the two drift (1.9.37 locally vs 1.10.19 in CI as of 2026-10-26) and the committed slide HTML churns depending on where it was last built. Plan: pin the version in `docs/slides/.quarto-version`, pass it to the setup action's `version:` input in CI, and have `build.sh` warn when `quarto --version` differs.
+
 </details>
 
 <details>

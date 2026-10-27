@@ -103,12 +103,12 @@ September 21, 2026: two of the day's AI stories — a payout for a feature that 
 - Shuffle seats!
 - Enter a seed and shuffle
 
-[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+[Open in a new tab](https://doethics.fun/chairs/)
 :::
 
 ::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
 <iframe
-  src="../in-progress/visual-seat-shuffle.html"
+  src="../chairs/"
   title="Visual Seat Shuffle"
   data-external="1">
 </iframe>
@@ -568,12 +568,12 @@ CS 377, Week 5, Day 2 🟦 LaSalle 🟦
 - Shuffle seats!
 - Enter a seed and shuffle
 
-[Open in a new tab](https://doethics.fun/in-progress/visual-seat-shuffle.html)
+[Open in a new tab](https://doethics.fun/chairs/)
 :::
 
 ::: {.embed-frame style="position:absolute;top:0;right:0;bottom:52px;width:38%;margin:0;border-radius:0 6px 6px 0;border:2px solid #d8d8d8;"}
 <iframe
-  src="../in-progress/visual-seat-shuffle.html"
+  src="../chairs/"
   title="Visual Seat Shuffle"
   data-external="1">
 </iframe>

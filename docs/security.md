@@ -25,6 +25,7 @@ The **slides** (`/slides/`) are Reveal.js decks built by [Quarto](https://quarto
 - A few slides embed a page from another site: YouTube (via `youtube-nocookie.com`), the Stanford Encyclopedia of Philosophy, Wikipedia, Northwestern, and jackbandy.com. Those embeds are subject to the provider's own privacy practices, not mine.
 - The radio button streams UIC Radio from `maindigitalstream.com`, only after you press play.
 - The attendance letter draw asks `random.org` for one letter, only when the button is pressed.
+- The seat shuffler (`/chairs/`, also embedded in several decks) asks `random.org` for one seed number, only when Shuffle is pressed with the seed box left blank.
 
 ### Affiliate links
 
