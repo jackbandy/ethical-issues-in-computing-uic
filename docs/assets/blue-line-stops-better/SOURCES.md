@@ -63,6 +63,9 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 ### 23. California
 - **stop23-california-station-house.jpg** — [Wikimedia Commons: California Station on the CTA 'L' Blue Line.png](https://commons.wikimedia.org/wiki/File:California_Station_on_the_CTA_%27L%27_Blue_Line.png) — License: CC BY-SA 4.0 — Author: AmyLExtraordinaire — 3840×2560, downscaled from the 6000×4000 PNG and converted to JPEG
 
+### 24. Logan Square
+- **stop24-logan-square-canopy-rendering.jpg** — CDOT rendering of the redesigned Logan Square station canopy (designed with Jacobs Engineering), as published in Block Club Chicago, ["Here's What The New Logan Square Blue Line Station Could Look Like"](https://blockclubchicago.org/2023/08/16/heres-what-the-new-logan-square-blue-line-station-could-look-like/) (August 16, 2023), file [rendering-1.jpg](https://bcc-newspack.s3.amazonaws.com/uploads/2023/07/rendering-1.jpg) — Credit: CDOT — Not CC: © City of Chicago / CDOT, all rights reserved; classroom use only — 1920×1043, unmodified — a 2023 design that was not final, so the built canopy may differ
+
 ### 22. Western (O'Hare branch)
 - **stop22-western-a.jpg** — [Wikimedia Commons: Western Avenue Station 2.jpg](https://commons.wikimedia.org/wiki/File:Western_Avenue_Station_2.jpg) — License: CC BY-SA 2.0 — Author: Adam Moss from Macomb, IL, United States
 

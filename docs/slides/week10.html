@@ -6,8 +6,8 @@
 <script src="week10_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="week10_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="week10_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="week10_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.10.19">
+<link href="week10_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
 
   <title>week10</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,13 +19,10 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
+    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: 1.5em;}
-    div.column{flex: auto;}
-    @media screen {
-    div.columns{gap: min(4vw, 1.5em);}
-    div.column{overflow-x: auto;}
-    }
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -290,22 +287,310 @@
 <section>
 <section id="nudges-and-dark-design-patterns" class="title-slide slide level1 center" data-menu-title="Week 10, Day 2">
 <h1>Nudges and Dark Design Patterns</h1>
-<!-- NOTICE: Draft from old-slides/pdf-versions/21 Nudges.pdf and 20 Dark Patterns.pdf. Review and edit before use. -->
 <p>CS 377, Week 10, Day 2 🟦 Logan Square 🟦</p>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="nudges-and-dark-design-patterns-1" class="title-slide slide level1 photo-title center" data-state="photo-title" data-background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" data-background-size="cover" data-menu-title="Week 10, Day 2">
+<section id="nudges-and-dark-design-patterns-1" class="title-slide slide level1 photo-title center" data-state="photo-title" data-background-image="../assets/blue-line-stops-better/stop24-logan-square-canopy-rendering.jpg" data-background-size="cover" data-menu-title="Week 10, Day 2">
 <h1>Nudges and Dark Design Patterns</h1>
 <p>CS 377, Week 10, Day 2 🟦 Logan Square 🟦</p>
 <!-- image source: Image via CDOT, Jacobs Engineering -->
 </section>
-<section id="section-1" class="slide level2 photo-only" data-state="photo-only" data-background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" data-background-size="cover">
+<section id="section-1" class="slide level2 photo-only" data-state="photo-only" data-background-image="../assets/blue-line-stops-better/stop24-logan-square-canopy-rendering.jpg" data-background-size="cover">
 <h2></h2>
 </section>
 <section id="agenda-for-today-1" class="slide level2">
+<h2>Agenda for Today</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Administrivia
+<ul>
+<li>Asynchronous class Monday</li>
+<li>Presentations start Wednesday</li>
+</ul></li>
+<li>Seat shuffle</li>
+<li>How to pay attention</li>
+<li>How to build a habit</li>
+<li>How to give a presentation</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="../assets/blue-line-map-stops/stop24-logan-square.svg"></p>
+</div></div>
+</section>
+<section id="ethics-in-the-news" class="slide level2 news-cards">
+<h2>Ethics in the News</h2>
+<div class="columns">
+<div class="column" style="width:54%;">
+<ul>
+<li>The lawsuit alleges ChatGPT drafted taper schedules “that would take her dose to zero within weeks”</li>
+<li>also told her physician recommendations “essentially stem from risk aversion”</li>
+<li>The family points to OpenAI’s Model Spec
+<ul>
+<li>e.g.&nbsp;copyrighted text versus medical advice</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:42%;">
+<div class="news-card">
+<div class="news-masthead">
+<img src="../assets/news/techcrunch-logo.svg" alt="TechCrunch">
+</div>
+<div class="news-kicker">
+AI
+</div>
+<div class="news-headline">
+<a href="https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/">Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication</a>
+</div>
+<div class="news-deck">
+A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.
+</div>
+<img src="../assets/news/chatgpt-phone-nurphoto.jpg" alt="The ChatGPT logo appears on a smartphone screen">
+<div class="news-credit">
+Image Credits: Jaque Silva/NurPhoto / Getty Images
+</div>
+<div class="news-byline">
+By Aditya Mehta · October 27, 2026 · <a href="https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/">techcrunch.com</a>
+</div>
+</div>
+</div></div>
+</section>
+<section id="seat-shuffle" class="slide level2">
+<h2>🔀 Seat Shuffle</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Shuffle seats!</li>
+<li>Enter a seed and shuffle</li>
+</ul>
+<p><a href="https://doethics.fun/chairs/">Open in a new tab</a></p>
+</div><div class="column" style="width:55%;">
+<p><img data-src="../assets/wrigley-field-seats.jpg" alt="Rows of numbered green seats at Wrigley Field"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="how-to-pay-attention" class="title-slide slide level1 section-header center">
+<h1>How to Pay Attention</h1>
+
+</section>
+<section id="how-to-pay-attention-1" class="slide level2">
+<h2>How to Pay Attention</h2>
+<div class="source-top">
+<p><a href="https://www.theatlantic.com/technology/archive/2024/12/strother-school-radical-attention/680830/">Kaitlyn Tiffany, “A ‘Radical’ Approach to Reclaiming Your Attention,” <em>The Atlantic</em>, 2024</a>; <a href="https://www.schoolofattention.org/scores">Strother School of Radical Attention, “The Attention SCORE”</a></p>
+</div>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Strother School of Radical Attention (Brooklyn): self-described “attention activists”
+<ul>
+<li>“Our attention is born free, but is, increasingly, everywhere in chains.”</li>
+</ul></li>
+<li>Attention SCORE: “Social Choreography for Observation, Reflection, and Enaction”
+<ul>
+<li>“1) do the SCORE, 2) think about it, and 3) talk about it”</li>
+</ul></li>
+<li>“Degree zero”: look at the painting (2 min), look away (2 min), look again (2 min)</li>
+<li>“Wrong Translations” (after Simone Weil): the object, then your attention, then the object again (“What is here … now?”)</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="../assets/rowlandson-english-dance-of-death.jpg" alt="Thomas Rowlandson's 1816 frontispiece to The English Dance of Death: skeletons dancing around a figure of Death"></p>
+<div class="caption">
+<p>Thomas Rowlandson, frontispiece to <em>The English Dance of Death</em> (1816), <a href="https://commons.wikimedia.org/wiki/File:Rowlandson-english-dance-of-death.jpg">public domain</a></p>
+</div>
+</div></div>
+</section>
+<section id="score-the-skeleton-dance-1929" class="slide level2">
+<h2>SCORE: The Skeleton Dance (1929)</h2>
+<ol type="1">
+<li>Watch: <a href="https://archive.org/details/the-skeleton-dance_1929"><em>The Skeleton Dance</em></a> (Walt Disney, 1929), Internet Archive</li>
+<li>Think: write about it on your own</li>
+<li>Talk: discuss in groups</li>
+<li>Watch it again</li>
+</ol>
+</section>
+<section id="score-step-2-think" class="slide level2 embed-slide">
+<h2>SCORE, Step 2: Think</h2>
+<div class="embed-layout golden-columns">
+<div class="embed-copy">
+<ul>
+<li>On your own, in your notebook:
+<ul>
+<li>What happened while you watched?</li>
+<li>Where did your attention go? What did you miss?</li>
+<li>“What is here … now?”</li>
+</ul></li>
+</ul>
+</div>
+<div class="embed-frame">
+<iframe src="../timer/index.html" title="CTA-style countdown timer" loading="lazy" data-external="1">
+</iframe>
+</div>
+</div>
+</section>
+<section id="score-step-3-talk" class="slide level2 embed-slide">
+<h2>SCORE, Step 3: Talk</h2>
+<div class="embed-layout golden-columns">
+<div class="embed-copy">
+<ul>
+<li>In groups, go around and share:
+<ul>
+<li>What happened while you watched?</li>
+<li>Where did your attention go? What did you miss?</li>
+<li>“What is here … now?”</li>
+</ul></li>
+</ul>
+</div>
+<div class="embed-frame">
+<iframe src="../timer/index.html" title="CTA-style countdown timer" loading="lazy" data-external="1">
+</iframe>
+</div>
+</div>
+</section>
+<section id="score-step-4-watch-again" class="slide level2">
+<h2>SCORE, Step 4: Watch Again</h2>
+<ul>
+<li>Watch: <a href="https://archive.org/details/the-skeleton-dance_1929"><em>The Skeleton Dance</em></a> (Walt Disney, 1929), Internet Archive</li>
+<li>What is different the second time?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="how-to-build-a-habit" class="title-slide slide level1 section-header center">
+<h1>How to Build a Habit</h1>
+
+</section>
+<section id="bj-fogg" class="slide level2">
+<h2>BJ Fogg</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<ul>
+<li>“Persuasive Technology Lab” at Stanford</li>
+<li>Taught in the 2000s</li>
+<li>“Working in teams of three, the 75 students created apps that collectively had 16 million users in just 10 weeks.”</li>
+<li>Many apps designed for Facebook</li>
+</ul>
+</div><div class="column portrait-solo" style="width:38%;">
+<p><img data-src="../assets/portraits/bj-fogg.jpg"></p>
+<div class="caption">
+<p>BJ Fogg. Photo: kris krüg, 2005, <a href="https://commons.wikimedia.org/wiki/File:B_J_Fogg_1.jpg">CC BY 2.0</a></p>
+</div>
+</div></div>
+</section>
+<section id="persuasive-design" class="slide level2">
+<h2>“Persuasive Design”</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Also referred to as “Captology” (Computers as Persuasive Technology)</li>
+<li>More broadly about behavior change</li>
+<li>“It’s not complicated, it’s systematic”</li>
+<li>Three key ingredients for behavior change:
+<ul>
+<li><strong>Motivation</strong></li>
+<li><strong>Ability</strong></li>
+<li><strong>Trigger / Call to Action</strong> (“Now!”)</li>
+</ul></li>
+</ul>
+<p><em>BJ Fogg, Stanford Persuasive Technology Lab</em></p>
+</div><div class="column" style="width:46%;">
+<p><img data-src="../assets/uber-cancel-loop/uber-one-cancellation-loop.png" alt="Four Uber One cancellation screens in a row: a survey asking why you want to end your membership, an offer to pause instead, a screen saying you saved $192.43, and a screen saying you could save $25 each month with only a Close button. Arrows run left to right, and a loop arrow runs from the last screen back to the first."></p>
+<div class="caption">
+<p>Uber One cancellation loop, from the FTC’s complaint, <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/uberonecomplaint.pdf"><em>FTC v. Uber Technologies</em></a> (2025), Ex. 20; arrows redrawn</p>
+</div>
+</div></div>
+</section>
+<section id="dot-span-path" class="slide level2">
+<h2>Dot, Span, Path</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Dot: do it once!</li>
+</ul>
+<div class="fragment" data-fragment-index="1">
+<ul>
+<li>Span: repeat a few times</li>
+</ul>
+</div>
+<div class="fragment" data-fragment-index="2">
+<ul>
+<li>Path</li>
+</ul>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="r-stack">
+<p><img data-src="../assets/dot-span-path/dot.svg" style="max-height:560px;" alt="A single Blue Line station dot at Logan Square"></p>
+<p><img data-src="../assets/dot-span-path/span.svg" class="fragment" style="max-height:560px;" data-fragment-index="1" alt="Five Blue Line station dots in a row, starting at Logan Square"></p>
+<p><img data-src="../assets/dot-span-path/path.svg" class="fragment" style="max-height:560px;" data-fragment-index="2" alt="The full Blue Line route as one smooth line"></p>
+</div>
+</div></div>
+</section>
+<section id="nudging-toward-habits-and-virtues" class="slide level2">
+<h2>“Nudging” toward Habits and Virtues</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<ul>
+<li>Positive habit-building can also be done persuasively</li>
+<li>“Humane design,” “value-centered design,” etc.</li>
+<li>Also called “nudging”</li>
+</ul>
+</div><div class="column" style="width:38%;">
+<p><img data-src="../assets/cdrlc-atrium-stair.jpg" alt="The wood-railed grand stair rising through the five-story atrium of UIC's Computer Design, Research, and Learning Center, with people walking across the atrium floor"></p>
+<div class="caption">
+<p>The atrium stair in UIC’s Computer Design, Research, and Learning Center (LMN Architects with Booth Hansen)</p>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="how-to-give-a-presentation" class="title-slide slide level1 section-header center">
+<h1>How to Give a Presentation</h1>
+
+</section>
+<section id="demo-book-presentation" class="slide level2">
+<h2>Demo Book Presentation</h2>
+<ul>
+<li><a href="example-book-presentation.html">Example book presentation</a></li>
+</ul>
+</section>
+<section id="what-makes-a-strong-book-presentation" class="slide level2">
+<h2>What Makes a Strong Book Presentation?</h2>
+<ul>
+<li><strong>Clear thesis</strong>: what is the book’s central argument?</li>
+<li><strong>Specific evidence</strong>: concrete examples and quotes</li>
+<li><strong>Ethical analysis</strong>: which theory or theories help explain the stakes?</li>
+<li><strong>Personal reflection</strong>: what did you learn? What changed your thinking?</li>
+<li><strong>Engagement</strong>: how will you get the class involved?</li>
+</ul>
+</section>
+<section id="thats-all-for-today-1" class="slide level2">
+<h2>That’s all for today!</h2>
+<p>See you Wednesday!</p>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="appendix-leftover-slides" class="title-slide slide level1 section-header center">
+<h1>Appendix: Leftover Slides</h1>
+
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="nudges-and-dark-design-patterns-2" class="title-slide slide level1 section-header no-index center">
+<h1>Nudges and Dark Design Patterns</h1>
+<!-- NOTICE: Draft from old-slides/pdf-versions/21 Nudges.pdf and 20 Dark Patterns.pdf. Review and edit before use. -->
+</section>
+<section id="agenda-for-today-2" class="slide level2">
 <h2>Agenda for Today</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
@@ -325,7 +610,7 @@
 <p><img data-src="../assets/blue-line-map-stops/stop24-logan-square.svg"></p>
 </div></div>
 </section>
-<section id="seat-shuffle" class="slide level2">
+<section id="seat-shuffle-1" class="slide level2">
 <h2>🔀 Seat Shuffle</h2>
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 <ul>
@@ -346,7 +631,7 @@
 
 </section></section>
 <section>
-<section id="dark-design-patterns" class="title-slide slide level1 section-header center">
+<section id="dark-design-patterns" class="title-slide slide level1 section-header no-index center">
 <h1>Dark Design Patterns</h1>
 
 </section>
@@ -380,21 +665,6 @@
 </ul></li>
 </ul>
 </section>
-<section id="persuasive-design" class="slide level2">
-<h2>“Persuasive Design”</h2>
-<ul>
-<li>Also referred to as “Captology” (Computers as Persuasive Technology)</li>
-<li>More broadly about behavior change</li>
-<li>“It’s not complicated, it’s systematic”</li>
-<li>Three key ingredients for behavior change:
-<ul>
-<li><strong>Motivation</strong></li>
-<li><strong>Ability</strong></li>
-<li><strong>Trigger / Call to Action</strong> (“Now!”)</li>
-</ul></li>
-</ul>
-<p><em>BJ Fogg, Stanford Persuasive Technology Lab</em></p>
-</section>
 <section id="common-examples-of-darkdeceptive-design" class="slide level2">
 <h2>Common Examples of Dark/Deceptive Design</h2>
 <ul>
@@ -412,17 +682,9 @@
 
 </section></section>
 <section>
-<section id="nudging" class="title-slide slide level1 section-header center">
+<section id="nudging" class="title-slide slide level1 section-header no-index center">
 <h1>Nudging</h1>
 
-</section>
-<section id="nudging-toward-habits-and-virtues" class="slide level2">
-<h2>“Nudging” toward Habits and Virtues</h2>
-<ul>
-<li>Positive habit-building can also be done persuasively</li>
-<li>“Humane design,” “value-centered design,” etc.</li>
-<li>Also called “nudging”</li>
-</ul>
 </section>
 <section id="a-nudge-defined" class="slide level2 quote-slide">
 <h2>A Nudge Defined</h2>
@@ -471,15 +733,6 @@
 <li>Road design to slow down drivers (“traffic calming”)</li>
 </ul>
 </section>
-<section id="bj-fogg" class="slide level2">
-<h2>BJ Fogg</h2>
-<ul>
-<li>“Persuasive Technology Lab” at Stanford</li>
-<li>Taught in the 2000s</li>
-<li>“Working in teams of three, the 75 students created apps that collectively had 16 million users in just 10 weeks.”</li>
-<li>Many apps designed for Facebook</li>
-</ul>
-</section>
 <section id="group-activity-find-a-nudge-on-campus" class="slide level2">
 <h2>Group Activity: Find a Nudge on Campus</h2>
 <ul>
@@ -512,7 +765,7 @@
 
 </section></section>
 <section>
-<section id="case-study-age-verification" class="title-slide slide level1 section-header center">
+<section id="case-study-age-verification" class="title-slide slide level1 section-header no-index center">
 <h1>Case Study: Age Verification</h1>
 
 </section>
@@ -639,22 +892,12 @@
 
 </section></section>
 <section>
-<section id="book-presentation-tips" class="title-slide slide level1 section-header center">
+<section id="book-presentation-tips" class="title-slide slide level1 section-header no-index center">
 <h1>Book Presentation Tips</h1>
 
 </section>
 <section id="presentation-tips" class="slide level2">
 <h2>Presentation Tips</h2>
-</section>
-<section id="what-makes-a-strong-book-presentation" class="slide level2">
-<h2>What Makes a Strong Book Presentation?</h2>
-<ul>
-<li><strong>Clear thesis</strong>: what is the book’s central argument?</li>
-<li><strong>Specific evidence</strong>: concrete examples and quotes</li>
-<li><strong>Ethical analysis</strong>: which theory or theories help explain the stakes?</li>
-<li><strong>Personal reflection</strong>: what did you learn? What changed your thinking?</li>
-<li><strong>Engagement</strong>: how will you get the class involved?</li>
-</ul>
 </section>
 <section id="reminders" class="slide level2">
 <h2>Reminders</h2>
@@ -665,19 +908,7 @@
 <li>See you Wednesday for presentations!</li>
 </ul>
 </section>
-<section id="thats-all-for-today-1" class="slide level2">
-<h2>That’s all for today!</h2>
-<p>See you Wednesday!</p>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="appendix-leftover-slides" class="title-slide slide level1 section-header center">
-<h1>Appendix: Leftover Slides</h1>
-
-</section>
-<section id="agenda-for-today-2" class="slide level2">
+<section id="agenda-for-today-3" class="slide level2">
 <h2>Agenda for Today</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
@@ -698,7 +929,7 @@
 <p><img data-src="../assets/blue-line-map-stops/stop23-california.svg"></p>
 </div></div>
 </section>
-<section id="seat-shuffle-1" class="slide level2">
+<section id="seat-shuffle-2" class="slide level2">
 <h2>🔀 Seat Shuffle</h2>
 <!-- image: room diagram — lectern "0", tables 1–8, projector screens, door -->
 <ul>
@@ -969,15 +1200,6 @@
 <h2>Review Game: Prompt 4 of 4</h2>
 <p>A character has just demonstrated their virtue by responding to a difficult challenge. Complete their explanation: <em>“My parents always told me…”</em></p>
 </section>
-<section id="reminders-before-spring-break" class="slide level2">
-<h2>Reminders Before Spring Break</h2>
-<ul>
-<li>Continue reading your book!</li>
-<li>Email with any grade questions</li>
-<li>No classes next week (Week 11)</li>
-<li>We return in Week 12 — presentations begin!</li>
-</ul>
-</section>
 <section id="thats-all-for-today-see-you-after-break" class="slide level2">
 <h2>That’s all for today, see you after break!</h2>
 </section>
@@ -988,13 +1210,19 @@
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week10.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week10.md</a>.</li>
-<li>Last modified and compiled October 27, 18:14h.</li>
 <li>BJ Fogg, <a href="https://dl.acm.org/doi/10.1145/274644.274677">“Persuasive Computers: Perspectives and Research Directions”</a>, <em>CHI 1998</em>.</li>
 <li>Thomas Mildner, <a href="https://thomasessmeyer.com/darkpatterns.html">“Cheat Sheet of Dark Design Patterns”</a>; <a href="https://darkpatterns.uxp2.com/">darkpatterns.uxp2.com</a>.</li>
 <li>ASCI Academy, <a href="https://www.consciouspatterns.in/ethical-gallery">Gallery of “Conscious” Design Patterns</a>.</li>
 <li>Nir Eyal, <a href="https://www.nirandfar.com/hooked/"><em>Hooked: How to Build Habit-Forming Products</em></a>.</li>
 <li>Electronic Frontier Foundation, <a href="https://www.eff.org/">eff.org</a>.</li>
 <li>California station cover photo: AmyLExtraordinaire, <a href="https://commons.wikimedia.org/wiki/File:California_Station_on_the_CTA_%27L%27_Blue_Line.png">“California Station on the CTA ‘L’ Blue Line”</a>, CC BY-SA 4.0.</li>
+<li>Logan Square cover image: Chicago Department of Transportation, rendering of the redesigned Logan Square station canopy, via Block Club Chicago, <a href="https://blockclubchicago.org/2023/08/16/heres-what-the-new-logan-square-blue-line-station-could-look-like/">“Here’s What The New Logan Square Blue Line Station Could Look Like”</a> (August 16, 2023).</li>
+<li>Ethics in the news: Aditya Mehta, <a href="https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/">“Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication”</a>, <em>TechCrunch</em> (October 27, 2026), lead photo by Jaque Silva/NurPhoto/Getty Images. The card is a facsimile built from the story’s own headline, deck, photo, and byline — not a capture of the publication’s page design.</li>
+<li>Thomas Rowlandson, <a href="https://commons.wikimedia.org/wiki/File:Rowlandson-english-dance-of-death.jpg">frontispiece to <em>The English Dance of Death</em></a> (1816), public domain.</li>
+<li>Walt Disney, <a href="https://archive.org/details/the-skeleton-dance_1929"><em>The Skeleton Dance</em></a> (1929), Internet Archive.</li>
+<li>Seat shuffle photo: Epiphinot, <a href="https://commons.wikimedia.org/wiki/File:Wrigley_Field_Seats_Green.jpg">“Wrigley Field Seats Green”</a>, CC BY-SA 4.0.</li>
+<li>BJ Fogg photo: kris krüg, <a href="https://commons.wikimedia.org/wiki/File:B_J_Fogg_1.jpg">“B J Fogg 1”</a> (2005), CC BY 2.0. Uber One cancellation screens: Federal Trade Commission, <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/uberonecomplaint.pdf">complaint in <em>FTC v. Uber Technologies, Inc.</em></a>, N.D. Cal. No.&nbsp;3:25-cv-03477 (April 21, 2025), Ex. 20, with the exhibit’s arrows redrawn in CTA sign style.</li>
+<li>Attention: Kaitlyn Tiffany, <a href="https://www.theatlantic.com/technology/archive/2024/12/strother-school-radical-attention/680830/">“A ‘Radical’ Approach to Reclaiming Your Attention”</a>, <em>The Atlantic</em> (December 2, 2024); Strother School of Radical Attention, <a href="https://www.schoolofattention.org/scores">“The Attention SCORE”</a> and its <a href="https://www.schoolofattention.org/s/Attention-SCORES.pdf">expanded introduction</a>.</li>
 <li>Slide deck built with <a href="https://quarto.org/">Quarto</a> and Reveal.js.</li>
 </ol>
 

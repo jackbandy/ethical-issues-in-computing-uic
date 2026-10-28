@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="618" height="1000" viewBox="0 0 618 1000" role="img">
+  <title>Span: a few Blue Line stations in a row</title>
+  <g transform="translate(16.58 162.04) scale(0.6505)">
+    <circle cx="570.99" cy="377.7" r="13.0" fill="#018bff"/>
+    <circle cx="570.99" cy="377.7" r="9.4" fill="#fff"/>
+    <circle cx="594.48" cy="434.33" r="13.0" fill="#018bff"/>
+    <circle cx="594.48" cy="434.33" r="9.4" fill="#fff"/>
+    <circle cx="618.02" cy="490.98" r="13.0" fill="#018bff"/>
+    <circle cx="618.02" cy="490.98" r="9.4" fill="#fff"/>
+    <circle cx="641.69" cy="547.54" r="13.0" fill="#018bff"/>
+    <circle cx="641.69" cy="547.54" r="9.4" fill="#fff"/>
+    <circle cx="666.1" cy="604.13" r="13.0" fill="#018bff"/>
+    <circle cx="666.1" cy="604.13" r="9.4" fill="#fff"/>
+  </g>
+</svg>

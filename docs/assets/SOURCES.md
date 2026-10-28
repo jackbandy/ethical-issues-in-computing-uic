@@ -33,6 +33,14 @@
 
 - **erie-canal-celebration-1825.jpg** — [Wikimedia Commons: New York celebration for the Erie Canal 1825.png](https://commons.wikimedia.org/wiki/File:New_York_celebration_for_the_Erie_Canal_1825.png) — Anthony Imbert, depicting the New York City celebration marking the Erie Canal's completion, 1825 — License: Public Domain — converted from PNG to JPEG at native 1500px width, EXIF stripped
 
+- **fogg-behavior-model.svg** — [Wikimedia Commons: Fogg behavior model.svg](https://commons.wikimedia.org/wiki/File:Fogg_behavior_model.svg) — Goodmanguy, 2017, a redrawing of BJ Fogg's behavior model (motivation vs. ability, with successful and failed triggers) — License: CC BY-SA 4.0 — unmodified
+
+- **cdrlc-atrium-stair.jpg** — the atrium stair in UIC's Computer Design, Research, and Learning Center (LMN Architects, with Booth Hansen as associate architect), supplied by the maintainer as a 1507 × 2000 WebP and cropped from the left edge to a golden-ratio portrait (1236 × 2000) for the week 10 day 2 nudging slide — Photographer and license not confirmed: LMN's [project page](https://lmnarchitects.com/project/computer-design-research-and-learning-center-university-of-illinois-chicago) credits its gallery to Bruce Damonte, but this frame is not among the files that page serves; treat as © all rights reserved, classroom use only
+
+- **wrigley-field-seats.jpg** — [Wikimedia Commons: Wrigley Field Seats Green.jpg](https://commons.wikimedia.org/wiki/File:Wrigley_Field_Seats_Green.jpg) — Epiphinot, rows of numbered green seats at Wrigley Field, 2014 — License: CC BY-SA 4.0 — downscaled from 4775px to 3840px wide
+
+- **rowlandson-english-dance-of-death.jpg** — [Wikimedia Commons: Rowlandson-english-dance-of-death.jpg](https://commons.wikimedia.org/wiki/File:Rowlandson-english-dance-of-death.jpg) — Thomas Rowlandson, frontispiece to his two-volume collection of satirical etchings *The English Dance of Death*, 1816 — License: Public Domain — downscaled to 1200px tall
+
 - **bill-of-rights-1789.jpg** — [Wikimedia Commons: Bill of Rights WDL2704.png](https://commons.wikimedia.org/wiki/File:Bill_of_Rights_WDL2704.png) — the engrossed Bill of Rights, 1789, via the World Digital Library — License: Public Domain — converted from PNG to JPEG at native 1024px width, EXIF stripped
 
 - **moderation/** — case-study images for the week 5 content-moderation slides ("The Terror of War," Meta's Violence and Incitement policy); see [moderation/SOURCES.md](moderation/SOURCES.md). Contains an image of graphic war violence, shown behind a content-warning slide in the deck.
@@ -41,4 +49,8 @@
 
 - **seat-icons/** — seat-state icons for the seat shuffler (`/chairs/`): dice `d4.svg`–`d8.svg` (one face per table the next shuffle fills), `anchor.svg` (a student who stays put), and `ghost.svg` (an absent seat, loosely modeled on the 👻 emoji); original line drawings by an LLM-based coding system — License: same as the course materials
 
+- **postcards/** — historic postcards of places along the Blue Line (public domain / CC0); see [postcards/SOURCES.md](postcards/SOURCES.md) for per-file credits
+
 - **news/** — lead photographs from the news stories quoted on the week 4 "Ethics in the News" slide; see [news/SOURCES.md](news/SOURCES.md) for per-file credits and licensing
+
+- **uber-cancel-loop/** — the Uber One cancellation loop on the week 10 day 2 "Persuasive Design" slide. `ftc-uber-ex20.jpg` is Ex. 20 of the FTC's complaint in [*FTC v. Uber Technologies, Inc.*](https://www.ftc.gov/system/files/ftc_gov/pdf/uberonecomplaint.pdf), N.D. Cal. No. 3:25-cv-03477 (April 21, 2025), extracted unmodified from the PDF (fetched via the Wayback Machine); `make_figure.py` cuts out the four app screens and redraws the exhibit's red arrows in CTA sign style to produce `uber-one-cancellation-loop.png` — License: the FTC filing is a U.S. government work in the public domain; the app screens are Uber's designs, reproduced as evidence in a public enforcement action and used here for classroom commentary

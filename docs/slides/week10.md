@@ -115,13 +115,11 @@ See you Wednesday!
 
 # Nudges and Dark Design Patterns {.title-slide data-menu-title="Week 10, Day 2"}
 
-<!-- NOTICE: Draft from old-slides/pdf-versions/21 Nudges.pdf and 20 Dark Patterns.pdf. Review and edit before use. -->
-
 CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-# Nudges and Dark Design Patterns {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover" data-menu-title="Week 10, Day 2"}
+# Nudges and Dark Design Patterns {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop24-logan-square-canopy-rendering.jpg" background-size="cover" data-menu-title="Week 10, Day 2"}
 
 CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
@@ -129,7 +127,297 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops/stop24-logan-square-a.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop24-logan-square-canopy-rendering.jpg" background-size="cover"}
+
+---
+
+## Agenda for Today
+
+:::: columns
+::: {.column width="55%"}
+- Administrivia
+  - Asynchronous class Monday
+  - Presentations start Wednesday
+- Seat shuffle
+- How to pay attention
+- How to build a habit
+- How to give a presentation
+:::
+
+::: {.column width="40%"}
+![](../assets/blue-line-map-stops/stop24-logan-square.svg)
+:::
+::::
+
+---
+
+
+
+## 🔀 Seat Shuffle
+
+:::: columns
+::: {.column width="40%"}
+- Shuffle seats!
+- Enter a seed and shuffle
+
+[Open in a new tab](https://doethics.fun/chairs/)
+:::
+
+::: {.column width="55%"}
+![](../assets/wrigley-field-seats.jpg){fig-alt="Rows of numbered green seats at Wrigley Field"}
+:::
+::::
+
+---
+
+## Ethics in the News {.news-cards}
+
+
+:::: columns
+::: {.column width="54%"}
+- The lawsuit alleges ChatGPT drafted taper schedules "that would take her dose to zero within weeks"
+- also told her physician recommendations "essentially stem from risk aversion"
+- family points to OpenAI's Model Spec
+	- e.g. copyrighted text versus medical advice
+:::
+
+::: {.column width="42%"}
+<div class="news-card">
+<div class="news-masthead"><img src="../assets/news/techcrunch-logo.svg" alt="TechCrunch"></div>
+<div class="news-kicker">AI</div>
+<div class="news-headline"><a href="https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/">Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication</a></div>
+<div class="news-deck">A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.</div>
+<img src="../assets/news/chatgpt-phone-nurphoto.jpg" alt="The ChatGPT logo appears on a smartphone screen">
+<div class="news-credit">Image Credits: Jaque Silva/NurPhoto / Getty Images</div>
+<div class="news-byline">By Aditya Mehta · October 27, 2026 · <a href="https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/">techcrunch.com</a></div>
+</div>
+:::
+::::
+
+---
+
+# How to Pay Attention {.title-slide .section-header}
+
+---
+
+## How to Pay Attention
+
+::: {.source-top}
+[Kaitlyn Tiffany, "A 'Radical' Approach to Reclaiming Your Attention," *The Atlantic*, 2024](https://www.theatlantic.com/technology/archive/2024/12/strother-school-radical-attention/680830/); [Strother School of Radical Attention, "The Attention SCORE"](https://www.schoolofattention.org/scores)
+:::
+
+:::: columns
+::: {.column width="55%"}
+- "Our attention is born free, but is, increasingly, everywhere in chains."
+- Attention SCORE: "Social Choreography for Observation, Reflection, and Enaction"
+	- e.g. look at a painting (2 min), look away (2 min), look again (2 min)
+- "Wrong Translations" (Simone Weil): the object, then your attention, then the object again ("What is here ... now?")
+:::
+
+::: {.column width="40%"}
+![](../assets/rowlandson-english-dance-of-death.jpg){fig-alt="Thomas Rowlandson's 1816 frontispiece to The English Dance of Death: skeletons dancing around a figure of Death"}
+
+::: {.caption}
+Thomas Rowlandson, frontispiece to *The English Dance of Death* (1816), [public domain](https://commons.wikimedia.org/wiki/File:Rowlandson-english-dance-of-death.jpg)
+:::
+:::
+::::
+
+---
+
+## SCORE: The Skeleton Dance (1929)
+
+1. Watch: [*The Skeleton Dance*](https://archive.org/details/the-skeleton-dance_1929) (Walt Disney, 1929), Internet Archive
+2. Think: write about it on your own
+3. Talk: discuss in groups
+4. Watch it again
+5. Discuss it again!
+
+---
+
+## SCORE, Step 2: Think {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- On your own, write in your notebook:
+	- What happened while you watched?
+	- Where did your attention go?
+	- Did you miss anything?
+	- "What is here ... now?"
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## SCORE, Step 3: Talk {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- Share at your tables?
+	- What happened while you watched?
+	- Where did your attention go?
+	- Did you miss anything?
+	- "What is here ... now?"
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
+
+---
+
+## SCORE, Step 4: Watch Again
+
+- Watch: [*The Skeleton Dance*](https://archive.org/details/the-skeleton-dance_1929) (Walt Disney, 1929), Internet Archive
+- What is different the second time?
+
+---
+
+# How to Build a Habit {.title-slide .section-header}
+
+---
+
+## BJ Fogg
+
+:::: columns
+::: {.column width="58%"}
+- "Persuasive Technology Lab" at Stanford
+- Taught in the 2000s
+- "Working in teams of three, the 75 students created apps that collectively had 16 million users in just 10 weeks."
+- Many apps designed for Facebook
+:::
+
+::: {.column .portrait-solo width="38%"}
+![](../assets/portraits/bj-fogg.jpg)
+
+::: {.caption}
+BJ Fogg. Photo: kris krüg, 2005, [CC BY 2.0](https://commons.wikimedia.org/wiki/File:B_J_Fogg_1.jpg)
+:::
+:::
+::::
+
+---
+
+## "Persuasive Design"
+
+:::: columns
+::: {.column width="50%"}
+- Also referred to as "Captology" (Computers as Persuasive Technology)
+- More broadly about behavior change
+- "It's not complicated, it's systematic"
+- Three key ingredients for behavior change:
+  - **Motivation**
+  - **Ability**
+  - **Trigger / Call to Action** ("Now!")
+:::
+
+::: {.column width="46%"}
+![](../assets/uber-cancel-loop/uber-one-cancellation-loop.png){fig-alt="Four Uber One cancellation screens in a row: a survey asking why you want to end your membership, an offer to pause instead, a screen saying you saved $192.43, and a screen saying you could save $25 each month with only a Close button. Arrows run left to right, and a loop arrow runs from the last screen back to the first."}
+
+::: {.caption}
+Uber One cancellation loop, from the FTC's complaint, [*FTC v. Uber Technologies*](https://www.ftc.gov/system/files/ftc_gov/pdf/uberonecomplaint.pdf) (2025), Ex. 20; arrows redrawn
+:::
+:::
+::::
+
+---
+
+## Dot, Span, Path
+
+:::: columns
+::: {.column width="55%"}
+- Dot: do it once!
+
+::: {.fragment fragment-index="1"}
+- Span: repeat a few times
+:::
+
+::: {.fragment fragment-index="2"}
+- Path: habitualized
+:::
+:::
+
+::: {.column width="40%"}
+::: {.r-stack}
+![](../assets/dot-span-path/dot.svg){fig-alt="A single Blue Line station dot at Logan Square" style="max-height:560px;"}
+
+![](../assets/dot-span-path/span.svg){.fragment fragment-index="1" fig-alt="Five Blue Line station dots in a row, starting at Logan Square" style="max-height:560px;"}
+
+![](../assets/dot-span-path/path.svg){.fragment fragment-index="2" fig-alt="The full Blue Line route as one smooth line" style="max-height:560px;"}
+:::
+:::
+::::
+
+---
+
+## "Nudging" toward Habits and Virtues
+
+:::: columns
+::: {.column width="58%"}
+- Positive habit-building can also be done persuasively
+- "Humane design," "value-centered design," etc.
+- Also called "nudging"
+:::
+
+::: {.column width="38%"}
+![](../assets/cdrlc-atrium-stair.jpg){fig-alt="The wood-railed grand stair rising through the five-story atrium of UIC's Computer Design, Research, and Learning Center, with people walking across the atrium floor"}
+
+::: {.caption}
+The atrium stair in UIC's Computer Design, Research, and Learning Center (LMN Architects with Booth Hansen)
+:::
+:::
+::::
+
+---
+
+# How to Give a Presentation {.title-slide .section-header}
+
+---
+
+## Demo Book Presentation
+
+- [Example book presentation](example-book-presentation.html)
+
+---
+
+## What Makes a Strong Book Presentation?
+
+- **Clear thesis**: what is the book's central argument?
+- **Specific evidence**: concrete examples and quotes
+- **Ethical analysis**: which theory or theories help explain the stakes?
+- **Personal reflection**: what did you learn? What changed your thinking?
+- **Engagement**: how will you get the class involved?
+
+---
+
+## That's all for today!
+
+See you Wednesday!
+
+---
+
+# Appendix: Leftover Slides {.title-slide .section-header}
+
+---
+
+# Nudges and Dark Design Patterns {.title-slide .section-header .no-index}
+
+<!-- NOTICE: Draft from old-slides/pdf-versions/21 Nudges.pdf and 20 Dark Patterns.pdf. Review and edit before use. -->
 
 ---
 
@@ -171,7 +459,7 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-# Dark Design Patterns {.title-slide .section-header}
+# Dark Design Patterns {.title-slide .section-header .no-index}
 
 ---
 
@@ -202,20 +490,6 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-## "Persuasive Design"
-
-- Also referred to as "Captology" (Computers as Persuasive Technology)
-- More broadly about behavior change
-- "It's not complicated, it's systematic"
-- Three key ingredients for behavior change:
-  - **Motivation**
-  - **Ability**
-  - **Trigger / Call to Action** ("Now!")
-
-*BJ Fogg, Stanford Persuasive Technology Lab*
-
----
-
 ## Common Examples of Dark/Deceptive Design
 
 ::: {.incremental}
@@ -232,15 +506,7 @@ CS 377, Week 10, Day 2 🟦 Logan Square 🟦
 
 ---
 
-# Nudging {.title-slide .section-header}
-
----
-
-## "Nudging" toward Habits and Virtues
-
-- Positive habit-building can also be done persuasively
-- "Humane design," "value-centered design," etc.
-- Also called "nudging"
+# Nudging {.title-slide .section-header .no-index}
 
 ---
 
@@ -295,15 +561,6 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-## BJ Fogg
-
-- "Persuasive Technology Lab" at Stanford
-- Taught in the 2000s
-- "Working in teams of three, the 75 students created apps that collectively had 16 million users in just 10 weeks."
-- Many apps designed for Facebook
-
----
-
 ## Group Activity: Find a Nudge on Campus
 
 - Find a design nudge (or hook) somewhere on campus
@@ -332,7 +589,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Case Study: Age Verification {.title-slide .section-header}
+# Case Study: Age Verification {.title-slide .section-header .no-index}
 
 ---
 
@@ -400,7 +657,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-# Book Presentation Tips {.title-slide .section-header}
+# Book Presentation Tips {.title-slide .section-header .no-index}
 
 ---
 
@@ -408,15 +665,7 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 
 ---
 
-## What Makes a Strong Book Presentation?
 
-- **Clear thesis**: what is the book's central argument?
-- **Specific evidence**: concrete examples and quotes
-- **Ethical analysis**: which theory or theories help explain the stakes?
-- **Personal reflection**: what did you learn? What changed your thinking?
-- **Engagement**: how will you get the class involved?
-
----
 
 ## Reminders
 
@@ -424,16 +673,6 @@ Staircase of the James B. Hunt Library, North Carolina State University (Snøhet
 - More grades incoming!
 - Check Canvas, email with questions
 - See you Wednesday for presentations!
-
----
-
-## That's all for today!
-
-See you Wednesday!
-
----
-
-# Appendix: Leftover Slides {.title-slide .section-header}
 
 ---
 
@@ -735,14 +974,6 @@ A character has just demonstrated their virtue by responding to a difficult chal
 
 ---
 
-## Reminders Before Spring Break
-
-- Continue reading your book!
-- Email with any grade questions
-- No classes next week (Week 11)
-- We return in Week 12 — presentations begin!
-
----
 
 ## That's all for today, see you after break!
 
@@ -757,4 +988,11 @@ A character has just demonstrated their virtue by responding to a difficult chal
 5. Nir Eyal, [*Hooked: How to Build Habit-Forming Products*](https://www.nirandfar.com/hooked/).
 6. Electronic Frontier Foundation, [eff.org](https://www.eff.org/).
 7. California station cover photo: AmyLExtraordinaire, ["California Station on the CTA 'L' Blue Line"](https://commons.wikimedia.org/wiki/File:California_Station_on_the_CTA_%27L%27_Blue_Line.png), CC BY-SA 4.0.
-8. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
+8. Logan Square cover image: Chicago Department of Transportation, rendering of the redesigned Logan Square station canopy, via Block Club Chicago, ["Here's What The New Logan Square Blue Line Station Could Look Like"](https://blockclubchicago.org/2023/08/16/heres-what-the-new-logan-square-blue-line-station-could-look-like/) (August 16, 2023).
+9. Ethics in the news: Aditya Mehta, ["Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication"](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/), *TechCrunch* (October 27, 2026), lead photo by Jaque Silva/NurPhoto/Getty Images. The card is a facsimile built from the story's own headline, deck, photo, and byline — not a capture of the publication's page design.
+10. Thomas Rowlandson, [frontispiece to *The English Dance of Death*](https://commons.wikimedia.org/wiki/File:Rowlandson-english-dance-of-death.jpg) (1816), public domain.
+11. Walt Disney, [*The Skeleton Dance*](https://archive.org/details/the-skeleton-dance_1929) (1929), Internet Archive.
+12. Seat shuffle photo: Epiphinot, ["Wrigley Field Seats Green"](https://commons.wikimedia.org/wiki/File:Wrigley_Field_Seats_Green.jpg), CC BY-SA 4.0.
+13. BJ Fogg photo: kris krüg, ["B J Fogg 1"](https://commons.wikimedia.org/wiki/File:B_J_Fogg_1.jpg) (2005), CC BY 2.0. Uber One cancellation screens: Federal Trade Commission, [complaint in *FTC v. Uber Technologies, Inc.*](https://www.ftc.gov/system/files/ftc_gov/pdf/uberonecomplaint.pdf), N.D. Cal. No. 3:25-cv-03477 (April 21, 2025), Ex. 20, with the exhibit's arrows redrawn in CTA sign style.
+14. Attention: Kaitlyn Tiffany, ["A 'Radical' Approach to Reclaiming Your Attention"](https://www.theatlantic.com/technology/archive/2024/12/strother-school-radical-attention/680830/), *The Atlantic* (December 2, 2024); Strother School of Radical Attention, ["The Attention SCORE"](https://www.schoolofattention.org/scores) and its [expanded introduction](https://www.schoolofattention.org/s/Attention-SCORES.pdf).
+15. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.

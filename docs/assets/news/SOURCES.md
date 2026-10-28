@@ -93,3 +93,9 @@ Lead images and wordmarks for the week 9 day 1 "Digital Doubles?" and "Dangerous
 - **bbc-logo.svg** — [Wikimedia Commons: BBC Logo 2021.svg](https://commons.wikimedia.org/wiki/File:BBC_Logo_2021.svg) — 2021 wordmark of the BBC — License: Public domain on Commons; trademark of the British Broadcasting Corporation
 
 - **platformer-logo.png** — Platformer's own site wordmark ([Wordmark_Transparent_Slate_NoPadding.png](https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png)), unmodified. Not on Commons — License: © Platformer; trademark of Platformer, used here only to name the outlet that ran the story
+
+Lead photograph and wordmark for the October 27, 2026 TechCrunch story used in the week 10 day 2 "Ethics in the News" slide. The photograph is a rights-managed agency image reproduced at slide size for classroom commentary on the coverage itself; it is not CC-licensed and should not be reused outside that context.
+
+- **chatgpt-phone-nurphoto.jpg** — Lead photo of ["Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication"](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/), *TechCrunch*, October 27, 2026 — "The ChatGPT logo appears on a smartphone screen" — Photo: Jaque Silva/NurPhoto / Getty Images — License: © Getty Images, all rights reserved; classroom use only — converted from WebP to JPEG and downscaled to 900px wide
+
+- **techcrunch-logo.svg** — [Wikimedia Commons: TechCrunch logo.svg](https://commons.wikimedia.org/wiki/File:TechCrunch_logo.svg) — "TC" mark of *TechCrunch* — License: Public domain on Commons; trademark of TechCrunch

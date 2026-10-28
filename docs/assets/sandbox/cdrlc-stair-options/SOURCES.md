@@ -1,0 +1,11 @@
+# Sources & Licenses — CDRLC stairway options
+
+NOTICE: These files were collected by an LLM-based coding system on 2026-10-28 as candidate images of the stairs in UIC's Computer Design, Research, and Learning Center (CDRLC), for a "nudging toward stair use" slide. Not yet reviewed. All three come from LMN Architects' project page, ["Computer Design, Research, and Learning Center, University of Illinois Chicago"](https://lmnarchitects.com/project/computer-design-research-and-learning-center-university-of-illinois-chicago), downloaded unmodified at the largest size the site serves. The page credits its gallery "Photography: Bruce Damonte" and lists Booth Hansen as associate architect. License: © LMN Architects / Bruce Damonte, all rights reserved; classroom use only, like `altus-renderings/`.
+
+The project page describes the building as organized "around a five-story atrium filled with natural light" that "serves as a circulatory hub." The appendix's old "Nudging Examples" slide note ("LMN Architects / Booth Hansen, Architect of Record") matches this building rather than the Hunt Library caption above it.
+
+- **01-cdrlc-white-switchback-stair.jpg** — [UIC-CDRL-Center_01.jpg](https://lmnarchitects.com/wp-content/uploads/2021/10/UIC-CDRL-Center_01.jpg) — 1500×2000, portrait — white switchback stair with perforated metal guards and a hanging glass-orb light; students on three flights. The file sits in a 2021 upload folder although the building opened later, so it may have been replaced since; it reads as a photograph, not a rendering, but that is unconfirmed
+
+- **02-cdrlc-atrium-grand-stair.jpg** — [Computer-Design-Research-and-Learning-Center-University-of-Illinois-Chicago_5.jpg](https://lmnarchitects.com/wp-content/uploads/2025/12/Computer-Design-Research-and-Learning-Center-University-of-Illinois-Chicago_5.jpg) — 1466×1955, portrait — wide wood-railed stair rising along the atrium wall past a lounge, skylight above
+
+- **03-cdrlc-atrium-stair-from-above.jpg** — [Computer-Design-Research-and-Learning-Center-University-of-Illinois-Chicago_28.jpg](https://lmnarchitects.com/wp-content/uploads/2025/12/Computer-Design-Research-and-Learning-Center-University-of-Illinois-Chicago_28.jpg) — 1466×1955, portrait — looking down the atrium from an upper floor along the wood stair rail, students crossing the floor below
