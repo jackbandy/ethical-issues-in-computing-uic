@@ -39,8 +39,8 @@ The deliverable report for this exercise is as follows:
 * Identify one definition that you found especially compelling, and answer the following questions:
   * Why did you find this definition (the most) compelling?
   * According to the presentation, each definition is associated with moral and/or political values. Which values do you see in the definition you chose?
-  * Can this definition be faithfully translated to a mathematical formula?
-    * If so, what is it?
+  * Can this definition be faithfully and meaningfully translated to a mathematical formula?
+    * If so, what is the formula? What makes you convinced that this is a reasonable translation of the principle(s) captured in the definition?
     * If not, why not?
   * Give a specific real-world case study where this definition could be used. Explain in detail what "fairness" would mean in this context, and what "bias" would mean.
 * Turn in your work through Canvas

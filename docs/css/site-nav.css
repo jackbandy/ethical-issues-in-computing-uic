@@ -12,6 +12,11 @@
   font-display: swap;
 }
 
+/* Reserve the scrollbar's width on every page, so the centered header does not shift sideways between pages that scroll and pages that fit. */
+html {
+  scrollbar-gutter: stable;
+}
+
 /* CTA Blue Line: #00A1DE. `margin: 0` is load-bearing, not redundant: index.css
    zeroes it via a `*` reset, but pages without that reset would otherwise show
    the browser's default `hr` margin and push the header down. Every rule below

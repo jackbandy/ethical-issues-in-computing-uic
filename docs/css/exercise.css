@@ -134,6 +134,21 @@
   color: #333;
 }
 
+/* ── Exercise and worksheet index lists: title on one line, description beneath ── */
+.exercise-index li {
+  margin-bottom: 0.9em;
+}
+
+.exercise-index a {
+  font-weight: 600;
+}
+
+.exercise-index span {
+  display: block;
+  font-size: 0.95rem;
+  color: #666;
+}
+
 /* ── Tables ── */
 .exercise-body table {
   width: 100%;
