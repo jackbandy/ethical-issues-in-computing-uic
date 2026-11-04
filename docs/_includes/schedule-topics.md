@@ -292,6 +292,7 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 ## Week 12, Day 1 (2026-11-09)
 
 * Book Presentations
+* Worksheet: [Presentation Questions](assets/worksheets/13-book-presentation-questions.pdf) (used on every presentation day)
 
 ## Week 12, Day 2 (2026-11-11)
 

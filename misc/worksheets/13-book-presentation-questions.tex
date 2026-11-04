@@ -1,0 +1,78 @@
+\input{00-template.tex}
+
+\wscourse{CS 377\\ Weeks 12-15}
+\wstitle{Exercise: Presentation Questions}
+
+% Measurements below mirror sandbox/book presentation questions.pdf, in bp because that is the unit the original PDF was measured in: 1in margins, the course line set in the page header so it repeats on page 2, and 14pt body text.
+\geometry{margin=1in, headheight=26bp, headsep=14.3bp}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4bp}
+% Protrusion would hang the "(1)" labels into the margin, off the original's left edge.
+\microtypesetup{protrusion=false}
+
+\makeatletter
+\def\ps@qscourse{%
+  \def\@oddhead{\hfill\parbox[b]{2in}{\raggedleft\small\wscourseval}}%
+  \let\@evenhead\@oddhead
+  \let\@oddfoot\@empty
+  \let\@evenfoot\@empty
+}
+\makeatother
+\pagestyle{qscourse}
+
+% Rule-to-rule pitch of the header tables is 32bp; \arraystretch=0 lets \wsvcell alone set row height.
+\newlength{\qsrowht}
+\setlength{\qsrowht}{\dimexpr32bp-\arrayrulewidth\relax}
+
+% Pages centers a fixed 12bp line box (9.5bp above the baseline, 2.5bp below) rather than the glyphs, so text with descenders would otherwise ride high.
+\newcommand{\qsline}{\rule[-2.5bp]{0pt}{12bp}}
+\renewcommand{\wssectiontime}[1]{\wsvcell{\wssectionrowht}{\centering\qsline #1\qsline}}
+
+% Each presenter block is 3in tall: name line, question line 24bp below, then writing space.
+\newcommand{\qspresenter}{%
+  \stepcounter{wsquestion}%
+  \par\noindent{\fontsize{14}{24bp}\selectfont\makebox[23bp][l]{(\thewsquestion)}Presenter name:\par\hspace*{36bp}Question(s):\par}%
+  \vspace{168bp}%
+}
+
+\begin{document}
+
+% \vspace* keeps \prevdepth, so \nointerlineskip is what pins the first baseline to \topskip plus this offset.
+\vspace*{-2.9bp}\nointerlineskip
+{\fontsize{28}{34}\selectfont\bfseries\wstitleval\par}
+
+\vspace{12.1bp}
+{\fontsize{12}{14}\selectfont Group members:\par}
+
+\vspace{8.5bp}
+{\renewcommand{\arraystretch}{0}%
+\noindent\begin{tabularx}{\textwidth}{|X|X|}
+  \hline
+  \wsvcell{\qsrowht}{} & \\
+  \hline
+  \wsvcell{\qsrowht}{} & \\
+  \hline
+\end{tabularx}\par}
+
+\vspace{8.9bp}
+{\small\renewcommand{\arraystretch}{0}\setlength{\wssectionrowht}{\qsrowht}%
+\noindent\begin{tabularx}{\textwidth}{|>{\bfseries}X|*{\wssectioncount}{X|}}
+  \hline
+  \wsvcell{\qsrowht}{\raggedleft\qsline Section\\(circle one)\qsline} & \wssections \\
+  \hline
+\end{tabularx}\par}
+
+\vspace{11.1bp}
+{\fontsize{14}{16bp}\selectfont\itshape\raggedright For full credit, write at least one question per presenter. Include the slide number for the question, if possible.\par}
+
+\qspresenter
+\qspresenter
+
+\newpage
+
+\vspace*{-8.8bp}\nointerlineskip
+\qspresenter
+\qspresenter
+\qspresenter
+
+\end{document}

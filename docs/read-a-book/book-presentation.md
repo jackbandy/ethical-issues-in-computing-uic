@@ -69,3 +69,5 @@ I will be using a rubric derived from two sources: [this analytic rubric](https:
 | | Adequate (6 pts) | Speaker attempts eye contact and uses some gestures, but overall does not engage with the audience. |
 | | Developing (4 pts) | Speaker shows limited eye contact, minimal gestures, and little to no movement. |
 | | Needs Revision (0-2 pts) | Speaker avoids eye contact, faces away from audience, etc. Gestures are absent. Little to no movement - robotic delivery. |
+
+The paper form used to give in-class feedback on presentations is available as a [PDF here]({{ site.baseurl }}/assets/worksheets/14-book-presentation-feedback.pdf), along with the worksheet classmates fill out to write questions for presenters ([questions exercise PDF]({{ site.baseurl }}/assets/worksheets/13-book-presentation-questions.pdf)).

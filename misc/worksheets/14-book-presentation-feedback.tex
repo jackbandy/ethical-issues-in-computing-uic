@@ -1,0 +1,129 @@
+\input{00-template.tex}
+\usepackage[table]{xcolor}
+
+\wscourse{CS 377}
+\wstitle{Book Presentation Feedback}
+
+% Measurements below mirror sandbox/00 Presentation Rubric.pdf, in bp because that is the unit the original PDF was measured in.
+\geometry{margin=1in}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{4bp}
+% Protrusion would hang cell and label text past the original's left edges.
+\microtypesetup{protrusion=false}
+
+\definecolor{fbdark}{gray}{0.9}
+\definecolor{fblight}{gray}{0.961}
+
+% Rule-to-rule row pitches from the original; \arraystretch=0 lets \wsvcell alone set row height.
+\newlength{\fbnameht}\setlength{\fbnameht}{\dimexpr32.4bp-\arrayrulewidth\relax}
+\newlength{\fbinfoht}\setlength{\fbinfoht}{\dimexpr20bp-\arrayrulewidth\relax}
+\newlength{\fbtimeht}\setlength{\fbtimeht}{\dimexpr32.1bp-\arrayrulewidth\relax}
+\newlength{\fbrowht}\setlength{\fbrowht}{\dimexpr34.25bp-\arrayrulewidth\relax}
+
+% Pages centers a fixed 12bp line box (9.5bp above the baseline, 2.5bp below) rather than the glyphs, so text with descenders would otherwise ride high.
+\newcommand{\fbline}{\rule[-2.5bp]{0pt}{12bp}}
+\newcommand{\fbcell}[2]{\wsvcell{#1}{\fbline #2\fbline}}
+
+% Section labels: 12pt bold, as in the original.
+\newcommand{\fblabel}[1]{{\fontsize{12}{14}\selectfont\bfseries #1\par}}
+
+\begin{document}
+
+% \vspace* keeps \prevdepth, so \nointerlineskip is what pins the first baseline to \topskip plus this offset.
+\vspace*{-2.9bp}\nointerlineskip
+{\fontsize{28}{34}\selectfont\bfseries\wstitleval\par}
+
+% The date cell is left blank because this one form is reused across every presentation day of Weeks 12-15.
+\vspace{14.9bp}
+{\small\renewcommand{\arraystretch}{0}%
+\noindent\begin{tabularx}{\textwidth}{|X|X|X|X|}
+  \hline
+  \fbcell{\fbnameht}{\raggedleft\bfseries Your Name} & \multicolumn{3}{l|}{} \\
+  \hline
+  \wsvcell{\fbinfoht}{} & & \fbcell{\fbinfoht}{\centering Dr. Bandy} & \fbcell{\fbinfoht}{\centering CS 377} \\
+  \hline
+\end{tabularx}\par}
+
+\vspace{17.9bp}
+\fblabel{Timing:}
+
+\vspace{0.6bp}
+{\small\renewcommand{\arraystretch}{0}%
+\noindent\begin{tabularx}{\textwidth}{|*{6}{X|}}
+  \hline
+  \fbcell{\fbtimeht}{\raggedleft Start of\\presentation} & & \fbcell{\fbtimeht}{\raggedleft End of\\presentation} & & \fbcell{\fbtimeht}{\raggedleft End of\\questions} & \\
+  \hline
+\end{tabularx}\par}
+
+\vspace{15.8bp}
+\fblabel{Rubric:}
+
+\vspace{2.9bp}
+% Category cells are dark gray; the other cells of every second row are banded light gray.
+\newcommand{\fblevels}{%
+  \fbcell{\fbrowht}{\small\itshape Needs\\Revision} &
+  \fbcell{\fbrowht}{\small\itshape Developing\\(4 points)} &
+  \fbcell{\fbrowht}{\small\itshape Adequate\\(6 points)} &
+  \fbcell{\fbrowht}{\small\itshape Good\\(8 points)} &
+  \fbcell{\fbrowht}{\small\itshape Excellent\\(10 points)} \\
+}
+\newcommand{\fbcat}[1]{\cellcolor{fbdark}\fbcell{\fbrowht}{\fontsize{11}{12bp}\selectfont #1}}
+{\renewcommand{\arraystretch}{0}%
+\noindent\begin{tabularx}{\textwidth}{|m{95.6bp}|m{55.3bp}|X|X|X|X|}
+  \hline
+  \fbcat{Content} & \fblevels
+  \hline
+  \rowcolor{fblight}\fbcat{Organization} & \fblevels
+  \hline
+  \fbcat{Visuals} & \fblevels
+  \hline
+  \rowcolor{fblight}\fbcat{Oral\\Communication} & \fblevels
+  \hline
+  \fbcat{Physical Presence} & \fblevels
+  \hline
+  \rowcolor{fblight}\wsvcell{\fbrowht}{} & & & & \fbcell{\fbrowht}{\fontsize{11}{12bp}\selectfont\raggedleft\bfseries Total} & \fbcell{\fbrowht}{\fontsize{11}{12bp}\selectfont\underline{\hspace{22bp}}/50} \\
+  \hline
+\end{tabularx}\par}
+
+\vspace{17.8bp}
+\fblabel{Notes:}
+
+\newpage
+
+% Descriptions for the top three levels; Developing and Needs Revision stay in the repository instead of the printed form. Cells are top-aligned with 4bp padding: the struts fix the first baseline 13.7bp below each rule and leave 6bp under the last line, as in the original.
+\newcommand{\fbtop}{\rule{0pt}{13.5bp}}
+\newcommand{\fbbot}{\rule[-6.25bp]{0pt}{0pt}}
+\newcommand{\fbcatrow}[2]{% category, description
+  \textbf{#1} & Excellent\newline(10 points) & #2 \\ \hline
+}
+\newcommand{\fbdescrow}[3]{% level, points, description
+  & #1\newline(#2 points) & #3 \\ \hline
+}
+\vspace*{-\topskip}\nointerlineskip
+{\small\renewcommand{\arraystretch}{0}%
+\noindent\begin{tabular}{|>{\raggedright\arraybackslash\fbtop}p{74.6bp}<{\fbbot}|>{\raggedright\arraybackslash\fbtop}p{49.4bp}<{\fbbot}|>{\raggedright\arraybackslash\fbtop}p{294.4bp}<{\fbbot}|}
+  \hline
+  Category\rule[-8.8bp]{0pt}{0pt} & Score & Description \\
+  \hline
+  \rowcolor{fblight}\fbcatrow{Content}{Detailed explanation of accurate information, key themes, arguments, and supporting evidence that demonstrates deep understanding and knowledge of the book.}
+  \fbdescrow{Good}{8}{Effective explanation of accurate information, key themes, arguments, and supporting evidence that demonstrates general understanding and knowledge of the book.}
+  \rowcolor{fblight}\fbdescrow{Adequate}{6}{Adequate explanation of information, key themes, and supporting evidence with minimal incomplete or incorrect information.}
+  \fbcatrow{Organization}{The report flows logically from beginning to end with a strong introduction that lays the foundation, clear transitions, and a conclusion that wraps up nicely. Presentation lasts 8--12 minutes.}
+  \rowcolor{fblight}\fbdescrow{Good}{8}{The report mostly flows logically with a clear introduction, transitions, and conclusion. Generally makes good use of time with minor pacing adjustments needed.}
+  \fbdescrow{Adequate}{6}{The report has an introduction and conclusion but transitions are basic or uneven, and the overall structure may be unclear.}
+  \rowcolor{fblight}\fbcatrow{Visual Aids}{Visuals are readable, professional, and appropriate to the book. Relevant visuals are included without overwhelming the audience.}
+  \fbdescrow{Good}{8}{Visuals are readable and mostly professional with good relevance to the report. Appropriate quantity that supports the content.}
+  \rowcolor{fblight}\fbdescrow{Adequate}{6}{Visuals are present and readable but may have minor design issues or be distracting. Quantity is somewhat appropriate.}
+  % Bold "Communication" is wider than the column at 10pt; the original shrinks this one cell the same way.
+  \fbcatrow{\fontsize{9}{11bp}\selectfont Oral \mbox{Communication}}{Speaker speaks clearly and loudly enough to be heard easily, using proper grammar, clear pronunciation, and inflections throughout. Language is professional and free from slang or distracting filler words like ``um,'' ``like,'' or ``you know.''}
+  \rowcolor{fblight}\fbdescrow{Good}{8}{Speaker speaks clearly with adequate volume and generally uses proper grammar and pronunciation. Mostly professional language with minimal filler words.}
+  \fbdescrow{Adequate}{6}{Speaker is understandable but volume or clarity may be inconsistent. Some grammar issues or filler words are present, but do not seriously hinder communication.}
+  \rowcolor{fblight}\fbcatrow{Physical Presence}{Speaker faces the audience and maintains eye contact. Uses appropriate gestures and purposeful movement while avoiding distracting physical mannerisms. Professional posture.}
+  \fbdescrow{Good}{8}{Speaker maintains good eye contact for most of the presentation, uses helpful and appropriate gestures.}
+  \rowcolor{fblight}\fbdescrow{Adequate}{6}{Speaker attempts eye contact and uses some gestures, but may be difficult to hear or understand at times.}
+\end{tabular}\par}
+
+\vspace{9.1bp}
+{\fontsize{11}{13.8bp}\selectfont\raggedright Descriptions for ``Developing'' (4 points) and ``Needs Revision'' (0--2 points) are available on the course website, \texttt{https://doethics.fun/read-a-book/book-presentation}\par}
+
+\end{document}
