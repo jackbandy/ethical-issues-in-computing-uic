@@ -271,14 +271,12 @@ Bullets under a heading are that day's topics; bullets under `### Sources` becom
 
 ## Week 11, Day 1 (2026-11-02)
 
-* **Guest lecture (remote, synchronous).** Join the live session online. <!-- TODO: speaker, topic, and join link -->
+* **Optional guest lecture (asynchronous).** <!-- TODO: speaker, topic, and link -->
 
 ## Week 11, Day 2 (2026-11-04)
 
-* Algorithmic Fairness
-* Faces and Fairness
-* Overview of Fairness Definitions Exercise
 * Book Presentations begin
+* Overview of Fairness Definitions Exercise
 
 ### Sources
 
