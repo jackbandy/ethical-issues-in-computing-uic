@@ -101,15 +101,13 @@ for deck in "${decks[@]}"; do
   mv -f "$deck.stampbak" "$deck"
 done
 
-# Quarto ships each deck's reveal.js bundle in <deck>_files/, and those dirs are
-# committed (GitHub Pages serves them straight out of /docs). Two kinds of file in
-# there are never fetched by a browser: the .map sourcemaps, reachable only through
-# sourceMappingURL comments that fire when devtools is open, and the .esm.js builds,
-# which nothing references because the decks load the classic reveal.js. Dropping
-# them takes each deck's assets from ~5.3M to ~3.4M. Fonts are deliberately left
-# alone -- the compiled theme CSS lists .ttf as a fallback after .woff2.
+# _quarto.yml points every deck at one shared reveal.js bundle in libs/, which is committed (GitHub Pages serves it straight out of /docs). Two kinds of file in there are never fetched by a browser: the .map sourcemaps, reachable only through sourceMappingURL comments that fire when devtools is open, and the .esm.js builds, which nothing references because the decks load the classic reveal.js. Fonts are deliberately left alone -- the compiled theme CSS lists .ttf as a fallback after .woff2.
 echo "Pruning unserved slide assets"
-find "$SLIDES_DIR" -type f -path '*_files/*' \( -name '*.map' -o -name '*.esm.js' \) -delete
+find "$SLIDES_DIR/libs" -type f \( -name '*.map' -o -name '*.esm.js' \) -delete
+# Theme and highlighting CSS are named by content hash, so each theme edit leaves the previous file behind in libs/; drop any that no deck still links.
+for css in "$SLIDES_DIR"/libs/revealjs/dist/theme/quarto-*.css "$SLIDES_DIR"/libs/quarto-html/quarto-syntax-highlighting-*.css; do
+  grep -qF "$(basename "$css")" "$SLIDES_DIR"/*.html || rm -f "$css"
+done
 
 # Refresh the deck outline and summary on /slides/ from the sources just
 # rendered. Runs after the loop so the slide counts it reads out of the built

@@ -96,7 +96,7 @@ Their purpose is to educate, so feel free to use them, remix them, teach with th
 
 ```text
 ethical-issues-in-computing-uic/
-├── .github/workflows/           # build-slides.yml, build-dilemmas.yml
+├── .github/workflows/           # deploy-site.yml
 ├── docs/                        # Public-facing site root (GitHub Pages)
 │   ├── index.html               # Landing page
 │   ├── schedule.md              # Schedule page (front matter only)
@@ -201,7 +201,7 @@ The decks are written in Markdown and rendered to Reveal.js HTML with Quarto:
 - Decks are `docs/slides/week0.md` onward. Shared configuration (theme, footer, slide level) lives in `docs/slides/_metadata.yml` rather than in each file.
 - `_metadata.yml` sets `slide-level: 2`, so `#` headings are section dividers — day title slides, `{.section-header}` topic dividers, and the closing sources slide — and `##` headings are the ordinary slides grouped under them.
 - Every class day opens with a `# Title {.title-slide}` slide whose next line reads `CS 377, Week N, Day M 🟦 Station 🟦`, followed by a full-bleed station photo and a map of that week's stop from `docs/assets/blue-line-map-stops/`.
-- Decks are configured with `embed-resources: true`, so each generated `.html` is self-contained and can be committed without a bulky `*_files/` directory.
+- `docs/slides/_quarto.yml` sets `lib-dir: libs`, so every deck loads one shared reveal.js bundle from `docs/slides/libs/` instead of its own `*_files/` copy.
 - Slides use SVGs and other vector formats whenever possible.
 - More complicated than Google Slides? Yes. Worth it for freedom, portability, accessibility, etc.? For now, yes.
 - Edit the Quarto decks under `docs/slides/`. GitHub Actions builds the slide HTML on pushes to `main`; run `docs/slides/build.sh` locally when you want to preview changes or generate PDFs. PDFs are gitignored.
@@ -225,7 +225,7 @@ BUILD_PDFS=true ./build.sh  # Include PDFs
 
 The local build requires Quarto, Node.js 22+, Python with PyMuPDF, and Chrome or Chromium. Set `CHROME` to a browser executable if it is not found automatically.
 
-TODO: keep the local and CI Quarto versions in sync. CI (`.github/workflows/build-slides.yml`) installs the latest Quarto release on every run, while the local Homebrew cask only moves on `brew upgrade --cask quarto`, so the two drift (1.9.37 locally vs 1.10.19 in CI as of 2026-10-26) and the committed slide HTML churns depending on where it was last built. Plan: pin the version in `docs/slides/.quarto-version`, pass it to the setup action's `version:` input in CI, and have `build.sh` warn when `quarto --version` differs.
+TODO: keep the local and CI Quarto versions in sync. CI (`.github/workflows/deploy-site.yml`) installs the latest Quarto release on every run, while the local Homebrew cask only moves on `brew upgrade --cask quarto`, so the two drift (1.9.37 locally vs 1.10.19 in CI as of 2026-10-26) and the committed slide HTML churns depending on where it was last built. Plan: pin the version in `docs/slides/.quarto-version`, pass it to the setup action's `version:` input in CI, and have `build.sh` warn when `quarto --version` differs.
 
 </details>
 
@@ -273,7 +273,7 @@ Run it after adding or editing a dilemma:
 python3 dilemmas/build-dilemmas-data.py
 ```
 
-`build-dilemmas.yml` also runs it on pushes to `main` and commits the output.
+`deploy-site.yml` also runs it on pushes to `main` that touch `dilemmas/` and commits the output before deploying.
 
 </details>
 

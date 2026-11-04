@@ -2,10 +2,7 @@
 
 The slide sources use [Quarto](https://quarto.org/) Reveal.js.
 
-GitHub Actions renders the slide HTML for commits to `main` using
-`.github/workflows/build-slides.yml`. The decks are configured with
-`embed-resources: true`, so the generated `.html` files are self-contained and
-can be committed without the bulky `*_files/` support directories.
+GitHub Actions renders the slide HTML for commits to `main` that touch this directory, using `.github/workflows/deploy-site.yml`, and deploys the site in the same run. `_quarto.yml` sets `lib-dir: libs`, so every deck loads one shared reveal.js bundle from `libs/` instead of shipping its own `*_files/` copy.
 
 Run `./build.sh` locally when you want to preview changes before pushing or
 when you want to generate PDFs on-device. The local build requires Quarto,

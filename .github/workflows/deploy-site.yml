@@ -1,0 +1,96 @@
+name: Build and deploy site
+
+# One run per push: rebuild the slides and dilemmas this push touched, commit those outputs back to main, then build Jekyll and deploy to Pages from the same tree. Requires Settings > Pages > Source = "GitHub Actions"; the bot's commit-back push uses GITHUB_TOKEN, so it triggers no second run.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      # A manual run, a new branch (all-zero BEFORE), or a force push the compare API can't resolve rebuilds everything.
+      - name: Find what this push changed
+        id: changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = push ] && files=$(gh api "repos/$GITHUB_REPOSITORY/compare/$BEFORE...$GITHUB_SHA" --paginate --jq '.files[].filename'); then
+            if printf '%s\n' "$files" | grep -qE '^(docs/slides/|\.gitignore$|README\.md$|\.github/workflows/deploy-site\.yml$)'; then echo "slides=true" >> "$GITHUB_OUTPUT"; fi
+            if printf '%s\n' "$files" | grep -qE '^(dilemmas/|\.github/workflows/deploy-site\.yml$)'; then echo "dilemmas=true" >> "$GITHUB_OUTPUT"; fi
+          else
+            echo "slides=true" >> "$GITHUB_OUTPUT"
+            echo "dilemmas=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.changes.outputs.dilemmas == 'true'
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      # build-dilemmas-data.py uses only the Python standard library.
+      - name: Generate docs/dilemmas-data.js
+        if: steps.changes.outputs.dilemmas == 'true'
+        run: python3 dilemmas/build-dilemmas-data.py
+
+      - name: Set up Quarto
+        if: steps.changes.outputs.slides == 'true'
+        uses: quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b # v2.2.0
+
+      - name: Compile Quarto slides to HTML
+        if: steps.changes.outputs.slides == 'true'
+        env:
+          BUILD_PDFS: "false"
+        run: cd docs/slides && bash ./build.sh
+
+      - name: Commit generated outputs
+        if: steps.changes.outputs.slides == 'true' || steps.changes.outputs.dilemmas == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/dilemmas-data.js docs/images/dilemmas docs/dilemmas docs/_includes/dilemmas-about.html
+          git diff --staged --quiet || git commit -m "Build dilemmas data"
+          # -A over the whole dir so libs/ is committed and files a previous render left behind are pruned. Build-only paths stay gitignored.
+          git add -A docs/slides
+          git diff --staged --quiet || git commit -m "Build slides"
+          git push
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1.0.13
+        with:
+          source: ./docs
+          destination: ./_site
+
+      # Hidden files are needed for /.well-known/security.txt.
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          include-hidden-files: true
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

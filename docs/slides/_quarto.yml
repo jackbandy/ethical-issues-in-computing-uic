@@ -1,0 +1,3 @@
+# Makes docs/slides a Quarto project so every deck loads one shared reveal.js bundle from libs/ instead of shipping its own ~3.8 MB copy in <deck>_files/. Deck settings live in _metadata.yml.
+project:
+  lib-dir: libs

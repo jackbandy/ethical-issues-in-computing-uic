@@ -26,8 +26,7 @@ docs/slides/**/*.quarto_ipynb*
 docs/slides/.*-pdf-export.html
 # Emitted when the .scss theme fails to compile (data-science-fun has hit this).
 docs/slides/_quarto_internal_scss_error.scss
-# docs/slides/*_files/ is deliberately NOT ignored: with embed-resources off, each
-# deck's reveal.js/theme/fonts live there and GitHub Pages serves them from /docs.
+# docs/slides/libs/ is deliberately NOT ignored: with embed-resources off, the decks' shared reveal.js/theme/fonts live there and GitHub Pages serves them from /docs.
 docs/slides/*.pdf
 docs/slides/old-slides/
 

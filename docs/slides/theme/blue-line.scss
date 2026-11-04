@@ -41,16 +41,16 @@ $code-block-border-color: $border;
 /*-- scss:rules --*/
 
 // Self-hosted variable fonts (OFL, in assets/fonts/ — never a CDN).
-// Path is relative to the compiled theme CSS in <deck>_files/libs/revealjs/dist/theme/.
+// Path is relative to the compiled theme CSS in libs/revealjs/dist/theme/.
 @font-face {
   font-family: "Big Shoulders";
-  src: url("../../../../../../assets/fonts/big-shoulders/BigShoulders.woff2") format("woff2-variations");
+  src: url("../../../../../assets/fonts/big-shoulders/BigShoulders.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-display: swap;
 }
 @font-face {
   font-family: "Mulish";
-  src: url("../../../../../../assets/fonts/mulish/Mulish-wght.ttf") format("truetype-variations");
+  src: url("../../../../../assets/fonts/mulish/Mulish-wght.ttf") format("truetype-variations");
   font-weight: 200 1000;
   font-display: swap;
 }
