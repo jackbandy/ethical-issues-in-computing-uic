@@ -71,15 +71,24 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 
 ### 27. Irving Park
 - **stop27-irving-park-d.jpg** — Installation at Irving Park Blue Line Station: *"passin' by; looking up; movin' on"* by Dan Devening — Not CC; via prior course deck (`old-slides … Weeks 12-15.pptx`)
+- **stop27-irving-park-platform.jpg** — [Wikimedia Commons: Blue Line-Irving Park.jpg](https://commons.wikimedia.org/wiki/File:Blue_Line-Irving_Park.jpg) — License: CC BY 2.0 — Author: Tripp from Chicago — 3840×2571, downscaled from 3872×2592 — 2009 — the island platform with Kennedy Expressway traffic on both sides
 
 ### 28. Montrose
 - **stop28-montrose-d.png** — Installation at Montrose Blue Line Station: *"Windy City Odyssey"* by Chris Cosnowski — Not CC; via prior course deck (`old-slides … Weeks 12-15.pptx`)
+- **stop28-montrose-platform.jpg** — [Wikimedia Commons: Inbound track at Montrose (Blue), looking outbound (51213979258).jpg](https://commons.wikimedia.org/wiki/File:Inbound_track_at_Montrose_(Blue),_looking_outbound_(51213979258).jpg) — License: CC BY-SA 2.0 — Author: Jacob G. from Chicago, Illinois, United States — 3840×2880, downscaled from 4608×3456 — 2021 — platform canopy and inbound track
 
 ### 29. Jefferson Park
 - **stop29-jefferson-park-d.jpg** — Installation at Jefferson Park Blue Line Station: *"The Center of the Universe"* by Jamie Pawlus — Not CC; via prior course deck (`old-slides … Weeks 12-15.pptx`)
+- **stop29-jefferson-park-entrance.jpg** — [Wikimedia Commons: Main entrance to Jefferson Park station (51212373139).jpg](https://commons.wikimedia.org/wiki/File:Main_entrance_to_Jefferson_Park_station_(51212373139).jpg) — License: CC BY-SA 2.0 — Author: Jacob G. from Chicago, Illinois, United States — 3840×2880, downscaled from 4608×3456 — 2021 — the transit center's main entrance plaza with the Thomas Jefferson statue
 
 ### 31. Cumberland
 - **stop31-cumberland-b.jpg** — [Wikimedia Commons: Cumberland Blue Line Station, Chicago (Unsplash).jpg](https://commons.wikimedia.org/wiki/File:Cumberland_Blue_Line_Station,_Chicago_(Unsplash).jpg) — License: CC0 — Author: Jeremy Yap (jeremyyappy)
+
+### 32. Rosemont
+- **stop32-rosemont-theatre.jpg** — [Wikimedia Commons: Rosemont Theatre 20230821.jpg](https://commons.wikimedia.org/wiki/File:Rosemont_Theatre_20230821.jpg) — License: CC BY-SA 4.0 — Author: Nkon21 — 3577×2447 — 2023 — nearby landmark rather than the stop itself: the Rosemont Theatre on River Road (the file has no geotag, so its distance from the station is not checked)
+
+### 33. O'Hare
+- **stop33-ohare-glass-block-hall.jpg** — [Wikimedia Commons: CTA blue line O'Hare.jpg](https://commons.wikimedia.org/wiki/File:CTA_blue_line_O%27Hare.jpg) — License: CC BY-SA 4.0 — Author: Daniel Schwen — 3840×2560, downscaled from 4368×2912 — 2008 — the platform hall with Helmut Jahn's backlit glass-block walls
 
 ---
 
