@@ -1138,18 +1138,12 @@ function fitRoom() {
 
   const availW = window.innerWidth - padX;
 
-  // Forcing the header to the room's width can make it wrap onto a second
-  // line, which changes its own height — and thus how much vertical space is
-  // left for the room. Iterate a couple of times so that feedback settles
-  // before committing to a final scale. Embedded in a slide the frame is only
-  // a few hundred pixels wide, and pinning the header there wraps the controls
-  // over two or three lines; let it use the full frame width instead.
-  const pinHeader = !document.documentElement.classList.contains('embedded');
+  // The header stays at its one-row width (.page shrink-wraps to the wider of header and room), wrapping only when the window itself is too narrow; iterate so that wrap's effect on the header height settles.
   let scale = currentRoomScale;
   for (let i = 0; i < 3; i++) {
     const availH = window.innerHeight - padY - header.offsetHeight - footer.offsetHeight - pageGap;
     scale = Math.min(availW / roomNaturalSize.w, availH / roomNaturalSize.h);
-    if (pinHeader) header.style.width = `${roomNaturalSize.w * scale}px`;
+    wrapper.style.width = `${roomNaturalSize.w * scale}px`;
   }
 
   currentRoomScale = scale;
