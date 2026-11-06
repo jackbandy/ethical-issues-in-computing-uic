@@ -1,7 +1,7 @@
 # Siddhartha: The Road Less Traveled
 
 <p align="center">
-  <img src="siddhartha_cover.jpeg" alt="Cover of Siddhartha by Hermann Hesse" width="220">
+  <img src="siddhartha_cover.jpg" alt="Cover of Siddhartha by Hermann Hesse" width="220">
 </p>
 
 A choose-your-own-adventure game based on Hermann Hesse's novel *Siddhartha*. Play as Siddhartha, decide which path to take, and see how four ethical lenses respond to your choices.
