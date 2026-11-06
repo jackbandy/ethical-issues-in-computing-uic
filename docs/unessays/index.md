@@ -1,5 +1,6 @@
 ---
 layout: page
+nav_current: unessays
 title: Unessays
 description: Unessay websites published by students in Ethical Issues in Computing (CS 377) at UIC.
 ---

@@ -31,6 +31,8 @@ A few other guidelines:
 * The audience for your book report and your presentation included just your instructor and classmates.
 * For this "public communication," your audience should be broader in some way (perhaps the broader student body, other residents of your town/neighborhood, etc.)
 
+If you make a website or game, you can publish it on this site: see [how to publish your unessay](../unessays/how-to-publish.html).
+
 This is my first time assigning an unessay, so please email me (`jxb@uic.edu`) with your questions.
 
 ### Credits

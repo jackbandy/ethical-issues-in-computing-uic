@@ -1,22 +1,24 @@
 ---
 layout: page
+nav_current: unessays
 title: Publish Your Unessay as a Website
 description: How students can publish an unessay website on doethics.fun.
 ---
 
 <!-- NOTICE: This page was modified by an LLM coding system. -->
 
-**This page is  for unessays that are websites.** If yours is a painting, song, video, or anything else, you don't need it. Publishing here is optional: you can host your site anywhere and just send me the link.
+**This page is for unessays that are websites.** If yours is a painting, song, video, or anything else, you don't need it. Publishing here is optional: you can host your site anywhere and just send me the link.
 
-The site will gets its own address, like `doethics.fun/unessays/fa26/your-folder/`, and a link on the [unessays page](./). You can start from the [demo site](fa26/demo/), whose source is in [`docs/unessays/fa26/demo/`](https://github.com/jackbandy/ethical-issues-in-computing-uic/tree/main/docs/unessays/fa26/demo).
+The site will get its own address, like `doethics.fun/unessays/fa26/your-folder/`, and a link on the [unessays page](./). You can start from the [demo site](fa26/demo/), whose source is in [`docs/unessays/fa26/demo/`](https://github.com/jackbandy/ethical-issues-in-computing-uic/tree/main/docs/unessays/fa26/demo).
 
 ## Constraints
 
 1. **Static files only.** HTML, CSS, JavaScript, images, audio, and video work. Anything that needs a server (PHP, databases, logins, forms) will not work.
 2. **Everything must stay in your folder.** Don't load anything from another website (Fonts, CDNs, YouTube, etc.). Download it into the folder instead.
 3. **Keep the three tags** at the top of the demo's `<head>`.
-4. **Use relative paths** (`style.css`, not `/style.css`).
-5. **Try to stay under 10 MB.**
+4. **Put JavaScript in its own `.js` file** (`<script src="game.js"></script>`). The tags above block JavaScript written directly inside the HTML file, including `onclick="..."` attributes.
+5. **Use relative paths** (`style.css`, not `/style.css`).
+6. **Try to stay under 10 MB.**
 
 Some files are automatically dropped / ignored ( `.csv`, `.py`, `.sh`, `.scss`, and `.bib` files, and names starting with `_` or `.`). 
 
