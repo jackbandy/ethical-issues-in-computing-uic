@@ -79,11 +79,12 @@
       white-space: nowrap;
     }
 
-    /* Controls sit together on the left; status indicator pushed to far right */
+    /* Controls sit together on the left; status indicator pushed to far right. Each control keeps its text on one line, and whole controls wrap to a second row when the room is too narrow for all of them. */
     .header-controls {
       display: flex;
       align-items: center;
-      gap: 14px;
+      flex-wrap: wrap;
+      gap: 8px 14px;
     }
 
     .header label {
@@ -92,6 +93,7 @@
       display: flex;
       align-items: center;
       gap: 6px;
+      white-space: nowrap;
     }
 
     .header input[type="number"] {
@@ -112,6 +114,7 @@
       border: none;
       border-radius: 6px;
       cursor: pointer;
+      white-space: nowrap;
     }
 
     .header button:hover {
@@ -245,8 +248,7 @@
     .embedded .page { width: 100%; }
     .embedded .footnotes { display: none; }
     .embedded .header h1 { display: none; }
-    .embedded .header-controls { gap: 10px; }
-    .embedded .header button { white-space: nowrap; }
+    .embedded .header-controls { column-gap: 10px; }
     .embedded .seed-range { display: none; }
 
     .footnotes .gh-icon {
