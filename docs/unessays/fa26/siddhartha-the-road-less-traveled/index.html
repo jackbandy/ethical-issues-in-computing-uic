@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; frame-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Siddhartha: The Road Less Traveled</title>
+<style>
+:root{--bg:#081a33;--panel:#0d2342;--line:#34507a;--gold:#d4b96e;--cream:#f4f1e8;--text:#b9c6de;
+--duty:#d4b96e;--cons:#7fa6d9;--care:#d98f9a;--virt:#8fc9a6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif;line-height:1.6;min-height:100vh}
+main{max-width:820px;margin:0 auto;padding:28px 20px 60px}
+.bar{width:90px;height:5px;background:var(--gold);margin-bottom:18px}
+h1,h2{font-family:'Bodoni Moda',Georgia,serif;font-weight:400;color:var(--cream);margin:0 0 10px;line-height:1.15}
+h1{font-size:clamp(2.4rem,8vw,4.2rem)}
+h2{font-size:clamp(1.8rem,5vw,2.6rem)}
+.rule{height:4px;background:var(--line);margin:0 0 20px;border-radius:2px}
+.sub{color:var(--text);font-size:1.05rem}
+.story{font-size:1.1rem;margin:0 0 20px}
+.hud{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.m{flex:1 1 120px;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase}
+.m i{display:block;height:6px;background:#12305a;border-radius:3px;margin-top:4px;overflow:hidden}
+.m b{display:block;height:100%;width:0;transition:width .5s;border-radius:3px}
+.choices{display:grid;gap:10px;margin:18px 0}
+button{font:inherit;cursor:pointer}
+.choice{background:transparent;border:1px solid var(--line);color:var(--cream);padding:14px 16px;border-radius:8px;text-align:left;transition:.2s}
+.choice:hover,.choice:focus-visible{border-color:var(--gold);background:var(--panel);outline:none}
+.go{background:var(--gold);color:#081a33;border:0;padding:12px 26px;border-radius:8px;font-weight:700;margin-top:10px}
+.go:hover{filter:brightness(1.08)}
+.note{background:var(--panel);border-left:4px solid var(--gold);padding:14px 18px;border-radius:0 8px 8px 0;margin-top:20px;font-size:.96rem}
+.note strong{display:block;color:var(--gold);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.cover{display:block;margin:30px auto 0;width:min(240px,60%);height:auto;border-radius:6px;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+.fade{animation:f .6s ease}
+@keyframes f{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.end{border:1px solid var(--gold);border-radius:10px;padding:4px 18px 16px;margin:18px 0;background:var(--panel)}
+.ask{font-family:'Bodoni Moda',Georgia,serif;font-size:1.5rem;color:var(--cream);margin:22px 0 6px}
+.ai li{margin-bottom:6px}
+.ai b{color:var(--gold)}
+.tag{display:inline-block;color:var(--gold);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+@media(prefers-reduced-motion:reduce){.fade{animation:none}.m b{transition:none}}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script src="game.js"></script>
+</body>
+</html>
