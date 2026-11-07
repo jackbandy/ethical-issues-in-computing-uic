@@ -50,8 +50,8 @@ No installation is needed. Download or clone this repository and open `index.htm
 
 ## Built with
 
-- HTML, CSS, and JavaScript in a single file
-- Google Fonts (Bodoni Moda and DM Sans)
+- HTML and CSS in `index.html`, JavaScript in `game.js`
+- Bodoni Moda and DM Sans fonts where installed, otherwise Georgia and the system sans-serif font (the doethics.fun copy loads nothing from other websites)
 
 ## Credits
 

@@ -9,7 +9,9 @@ description: Unessay websites published by students in Ethical Issues in Computi
 
 Some students chose to make a website for their [unessay](../read-a-book/public-communication.html). Each site below is the student's own work, published with their permission. Want to add yours? See [how to publish your unessay](how-to-publish.html).
 
-{% assign terms = site.data.unessays | group_by: "term" %}
+{% comment %} Skip rows with no slug, such as a blank line in the CSV, which would otherwise render as an empty heading and link. {% endcomment %}
+{% assign rows = site.data.unessays | where_exp: "p", "p.slug" %}
+{% assign terms = rows | group_by: "term" %}
 {% for term in terms %}
 <h2>{{ term.name }}</h2>
 <ul>

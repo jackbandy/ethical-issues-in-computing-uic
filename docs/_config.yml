@@ -51,6 +51,8 @@ exclude:
   - slides/export-pdf.js
   # Local Jekyll tooling, never part of the site. Without these the dependency
   # list was readable at doethics.fun/Gemfile.
+  # Notes for people reading an unessay's source on GitHub; the site itself is the published version.
+  - "unessays/*/*/README.md"
   - Gemfile
   - Gemfile.lock
   - vendor
