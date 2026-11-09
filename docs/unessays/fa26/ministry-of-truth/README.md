@@ -26,7 +26,7 @@ The game is built so that the way to win is to take the truth out of the record 
 
 - **There is no refusing.** You can strike nothing, or everything, but neither lets you keep your desk. The only move that moves the story forward is to give the Party what it wants.
 - **The better you are, the worse it is.** The first documents are easy because the lies are obvious. By the sixth, you are not following a rule so much as predicting what the Party will want. You become the censor, and nobody has to tell you what to cut.
-- **The consequences are vague on purpose.** The failure screen says "consequences" and never names them. That is how many workplace pressures actually work, and it is why people comply before anything has happened to them.
+- **The consequences are vague on purpose.** The failure screen says "consequences" and never names them. The fear of there even being consequences is enough to keep workers in line.
 - **Everyone who matters is absent.** The people in these documents, such as the hungry workers, the dead soldiers and the erased colleague, never appear in the game. They only exist as phrases you are asked to remove.
 
 **How far would you go in denying the truth because it is your job?**
