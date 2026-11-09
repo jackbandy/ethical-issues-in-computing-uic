@@ -73,7 +73,7 @@ Then open http://localhost:8000.
 
 ## Credits
 
-- *Nineteen Eighty-Four* by George Orwell. The setting, slogans, and ideas come from the book. All documents in the game are original.
+- *1984* by George Orwell. The setting, slogans, and ideas come from the book. All documents in the game are original.
 - Fonts: Anton, IBM Plex Mono, and Special Elite, under the SIL Open Font License.
 - Sounds: `theme.mp3` from tuna.voicemod.net, `marker.mp3` from pixabay.com, `bell.mp3` from mixkit.co, `stamp.mp3` from elevenlabs.io, and `wrong.mp3` from myinstants.com.
 - Created by Emilio Calvo, University of Illinois Chicago.
