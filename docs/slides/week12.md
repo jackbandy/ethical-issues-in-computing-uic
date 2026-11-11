@@ -62,7 +62,9 @@ Monty and Rose. Based on Raed Mansour, ["Piping Plovers at Montrose Beach"](http
 :::: columns
 ::: {.column width="55%"}
 - Administrivia
-  - Canvas updates
+  - I haven't fixed Perusall/Canvas sync yet (sorry)
+  - Fairness definitions due Nov 24
+  - Personal commitments due Nov 29
   - Questions?
 - Book Presentations
 :::
