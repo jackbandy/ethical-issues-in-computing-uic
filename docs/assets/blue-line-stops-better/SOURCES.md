@@ -76,6 +76,7 @@ Files are named `stopNN-<stop>-<letter>.<ext>` matching the same convention as
 ### 28. Montrose
 - **stop28-montrose-d.png** — Installation at Montrose Blue Line Station: *"Windy City Odyssey"* by Chris Cosnowski — Not CC; via prior course deck (`old-slides … Weeks 12-15.pptx`)
 - **stop28-montrose-platform.jpg** — [Wikimedia Commons: Inbound track at Montrose (Blue), looking outbound (51213979258).jpg](https://commons.wikimedia.org/wiki/File:Inbound_track_at_Montrose_(Blue),_looking_outbound_(51213979258).jpg) — License: CC BY-SA 2.0 — Author: Jacob G. from Chicago, Illinois, United States — 3840×2880, downscaled from 4608×3456 — 2021 — platform canopy and inbound track
+- **stop28-montrose-plovers.jpg** — Based on [Wikimedia Commons: Piping Plovers at Montrose Beach (50287453027).jpg](https://commons.wikimedia.org/wiki/File:Piping_Plovers_at_Montrose_Beach_(50287453027).jpg) — License: CC BY 2.0 — Author: Raed Mansour from Chicago, USA — 3840×2160, widened from the 2164×2164 original — 2020-07-18 — Monty (foreground) and Rose, per the [Flickr title](https://www.flickr.com/photos/raedmansour/50287453027/). Remix: the center 70% of the original is unchanged; the sides are new sand quilted from patches of the photo's own bird-free edges, blurred progressively toward the canvas edges. Remix drafted by an LLM-based coding system.
 
 ### 29. Jefferson Park
 - **stop29-jefferson-park-d.jpg** — Installation at Jefferson Park Blue Line Station: *"The Center of the Universe"* by Jamie Pawlus — Not CC; via prior course deck (`old-slides … Weeks 12-15.pptx`)

@@ -1,86 +1,217 @@
 <script>
-// Footer play button for the UIC student radio stream (https://www.uicradio.net/).
-// Shows on photo-title slides only; stays visible while playing so the stream
-// can always be stopped. Stream URL comes from the station's .pls/.m3u
-// playlists (https://us7.maindigitalstream.com/4672/?pl=vlc) — a plain
-// Shoutcast MP3 an <audio> element can play directly.
+// Footer radio pill: Chicago student and independent stations plus Lofi Girl's "Lofi House Vol. 1" album. The caret opens the station menu; the pill plays or stops the selected one. Shows on photo-title slides only, and stays visible while playing so it can always be stopped.
+// Radio streams are plain Shoutcast/Icecast URLs an <audio> element plays directly (UIC Radio's comes from https://us7.maindigitalstream.com/4672/?pl=vlc). Every stream host must also be in media-src in includes/crawler-policy.html.
+// The album plays in Bandcamp's own embed (frame-src bandcamp.com), since it is all rights reserved. The embed has no autoplay, loop, or control API, so stopping removes the iframe.
 (() => {
-  const STREAM_URL = "https://us2.maindigitalstream.com/ssl/UIC";
-  // Both icons share one 16x16 viewBox so the pill never resizes mid-swap.
-  const SVG = (body) =>
-    '<svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" ' +
-    'aria-hidden="true" focusable="false">' + body + "</svg>";
-  const PLAY = SVG('<path d="M4.5 2.6 13 8 4.5 13.4Z"/>');
-  const SOUND = SVG(
-    '<path d="M2 6.1h2.4L7.6 3.2v9.6L4.4 9.9H2Z"/>' +
-    '<path fill="none" stroke="currentColor" stroke-width="1.2" ' +
-    'stroke-linecap="round" d="M9.9 5.6a3.3 3.3 0 0 1 0 4.8M12.1 3.5a6.2 6.2 0 0 1 0 9"/>'
-  );
+  const STATIONS = [
+    { id: "uic", name: "UIC Radio", note: "UIC student radio", stream: "https://us2.maindigitalstream.com/ssl/UIC" },
+    { id: "lofi", name: "Lofi House", note: "Lofi Girl, on Bandcamp", album: "695752296" },
+    { id: "chirp", name: "CHIRP 107.1", note: "Independent, volunteer-run", stream: "https://peridot.streamguys1.com:5185/live" },
+    { id: "whpk", name: "WHPK 88.5", note: "University of Chicago", stream: "https://whpk-stream.uchicago.edu/stream" },
+    { id: "wluw", name: "WLUW 88.7", note: "Loyola University Chicago", stream: "https://ice26.securenetsystems.net/WLUW" },
+  ];
+  // Tracks 1-21 of the 31-track, 91-minute album all start in its first hour, so a random start plays at least 32 minutes before the embed stops at the album's end.
+  const LOFI_START_TRACKS = 21;
 
-  let button = null;
+  // All icons share one 16x16 viewBox so the pill never resizes mid-swap.
+  const SVG = (body) => '<svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false">' + body + "</svg>";
+  const PLAY = SVG('<path d="M4.5 2.6 13 8 4.5 13.4Z"/>');
+  const SOUND = SVG('<path d="M2 6.1h2.4L7.6 3.2v9.6L4.4 9.9H2Z"/><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" d="M9.9 5.6a3.3 3.3 0 0 1 0 4.8M12.1 3.5a6.2 6.2 0 0 1 0 9"/>');
+  const CARET = SVG('<path d="M3.5 10.5 8 6l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>');
+
+  let pill = null;
+  let main = null;
+  let caret = null;
+  let menu = null;
+  let embed = null;
   let audio = null;
+  let current = STATIONS[0];
   let tries = 0;
 
-  function setState(playing, loading) {
-    button.classList.toggle("radio-playing", playing);
-    button.classList.toggle("radio-loading", !!loading);
-    button.querySelector(".radio-toggle-icon").innerHTML = playing ? SOUND : PLAY;
-    button.setAttribute("aria-pressed", playing ? "true" : "false");
-    button.setAttribute(
-      "title",
-      playing ? "Stop UIC Radio" : "Play UIC Radio (uicradio.net)"
-    );
+  function setState(isPlaying, loading) {
+    pill.classList.toggle("radio-playing", isPlaying);
+    pill.classList.toggle("radio-loading", !!loading);
+    main.querySelector(".radio-toggle-icon").innerHTML = isPlaying ? SOUND : PLAY;
+    main.querySelector(".radio-toggle-label").textContent = current.name;
+    main.setAttribute("aria-pressed", isPlaying ? "true" : "false");
+    main.setAttribute("title", isPlaying ? "Stop " + current.name : "Play " + current.name + " (" + current.note + ")");
+    for (const item of menu.querySelectorAll("[role=menuitemradio]")) {
+      item.setAttribute("aria-checked", item.dataset.station === current.id ? "true" : "false");
+    }
   }
 
-  function toggle() {
-    if (!audio) {
-      audio = new Audio();
-      audio.preload = "none";
-      audio.addEventListener("playing", () => setState(true, false));
-      audio.addEventListener("pause", () => setState(false, false));
-      audio.addEventListener("error", () => {
-        setState(false, false);
-        button.classList.add("radio-error");
-        button.setAttribute("title", "UIC Radio stream unavailable");
-      });
-    }
+  function showError() {
+    setState(false, false);
+    pill.classList.add("radio-error");
+    main.setAttribute("title", current.name + " stream unavailable");
+  }
 
-    if (!audio.paused) {
+  // Pin a fixed-position panel just above the pill; the footer clips overflow, so panels live outside it.
+  function place(panel) {
+    const rect = pill.getBoundingClientRect();
+    const width = panel.offsetWidth;
+    panel.style.left = Math.max(8, Math.min(rect.left, window.innerWidth - width - 8)) + "px";
+    panel.style.bottom = window.innerHeight - rect.top + 8 + "px";
+  }
+
+  function stop() {
+    if (audio && audio.getAttribute("src")) {
       audio.pause();
       // Drop the connection instead of buffering a live stream in the background.
       audio.removeAttribute("src");
       audio.load();
-      setState(false, false);
-      return;
     }
+    if (embed) {
+      embed.remove();
+      embed = null;
+    }
+    setState(false, false);
+  }
 
-    button.classList.remove("radio-error");
+  function playStream() {
+    if (!audio) {
+      audio = new Audio();
+      audio.preload = "none";
+      audio.addEventListener("playing", () => setState(true, false));
+      // stop() clears src before this fires; a pause with src still set came from outside (media keys), so finish the stop.
+      audio.addEventListener("pause", () => {
+        if (audio.getAttribute("src")) stop();
+      });
+      audio.addEventListener("error", () => {
+        if (!audio.getAttribute("src")) return;
+        stop();
+        showError();
+      });
+    }
     // Cache-buster keeps a replay from resuming a stale buffered segment.
-    audio.src = STREAM_URL + "?_=" + Date.now();
+    audio.src = current.stream + "?_=" + Date.now();
     setState(false, true);
     const played = audio.play();
-    if (played && played.catch) played.catch(() => setState(false, false));
+    if (played && played.catch) played.catch(() => stop());
+  }
+
+  function playAlbum() {
+    const track = 1 + Math.floor(Math.random() * LOFI_START_TRACKS);
+    embed = document.createElement("div");
+    embed.className = "radio-embed";
+    const frame = document.createElement("iframe");
+    frame.title = "Lofi House Vol. 1 by Lofi Girl (Bandcamp player)";
+    frame.src = "https://bandcamp.com/EmbeddedPlayer/album=" + current.album + "/size=large/bgcol=ffffff/linkcol=005daa/artwork=none/tracklist=false/transparent=true/t=" + track + "/";
+    embed.appendChild(frame);
+    document.body.appendChild(embed);
+    place(embed);
+    setState(true, false);
+  }
+
+  function play() {
+    pill.classList.remove("radio-error");
+    if (current.album) playAlbum();
+    else playStream();
+  }
+
+  function toggle() {
+    closeMenu();
+    if (embed || (audio && audio.getAttribute("src"))) stop();
+    else play();
+  }
+
+  function openMenu() {
+    menu.hidden = false;
+    place(menu);
+    caret.setAttribute("aria-expanded", "true");
+    pill.classList.add("radio-open");
+    menu.querySelector('[aria-checked="true"]').focus();
+  }
+
+  function closeMenu() {
+    if (menu.hidden) return;
+    menu.hidden = true;
+    caret.setAttribute("aria-expanded", "false");
+    pill.classList.remove("radio-open");
+  }
+
+  function choose(station) {
+    closeMenu();
+    stop();
+    current = station;
+    play();
+    main.focus();
+  }
+
+  function buildMenu() {
+    menu = document.createElement("ul");
+    menu.className = "radio-menu";
+    menu.setAttribute("role", "menu");
+    menu.setAttribute("aria-label", "Stations");
+    menu.hidden = true;
+    for (const station of STATIONS) {
+      const li = document.createElement("li");
+      li.setAttribute("role", "none");
+      const item = document.createElement("button");
+      item.type = "button";
+      item.setAttribute("role", "menuitemradio");
+      item.dataset.station = station.id;
+      item.innerHTML = '<span class="radio-menu-name"></span><span class="radio-menu-note"></span>';
+      item.querySelector(".radio-menu-name").textContent = station.name;
+      item.querySelector(".radio-menu-note").textContent = station.note;
+      item.addEventListener("click", () => choose(station));
+      li.appendChild(item);
+      menu.appendChild(li);
+    }
+    // Keep Reveal's arrow-key and Escape shortcuts from firing while the menu has focus.
+    menu.addEventListener("keydown", (e) => {
+      const items = [...menu.querySelectorAll("[role=menuitemradio]")];
+      const at = items.indexOf(document.activeElement);
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        items[(at + (e.key === "ArrowDown" ? 1 : items.length - 1)) % items.length].focus();
+      } else if (e.key === "Escape") {
+        closeMenu();
+        caret.focus();
+      } else if (e.key !== "Enter" && e.key !== " " && e.key !== "Tab") {
+        return;
+      }
+      if (e.key !== "Tab") e.preventDefault();
+      e.stopPropagation();
+    });
+    document.body.appendChild(menu);
   }
 
   function install() {
-    if (button) return;
-    // Quarto's support plugin moves .footer-default into .reveal during init,
-    // so the footer may not be in place on the first attempt.
+    if (pill) return;
+    // Quarto's support plugin moves .footer-default into .reveal during init, so the footer may not be in place on the first attempt.
     if (!document.querySelector(".reveal .footer p")) {
       if (tries++ < 20) window.setTimeout(install, 100);
       return;
     }
 
-    button = document.createElement("button");
-    button.className = "radio-toggle";
-    button.type = "button";
-    button.innerHTML =
-      '<span class="radio-toggle-icon" aria-hidden="true"></span>' +
-      '<span class="radio-toggle-label">UIC Radio</span>';
+    pill = document.createElement("span");
+    pill.className = "radio-toggle";
+    pill.innerHTML =
+      '<button type="button" class="radio-toggle-main"><span class="radio-toggle-icon" aria-hidden="true"></span><span class="radio-toggle-label"></span></button>' +
+      '<button type="button" class="radio-toggle-caret" aria-haspopup="menu" aria-expanded="false" aria-label="Choose a station" title="Choose a station"><span class="radio-toggle-icon" aria-hidden="true">' + CARET + "</span></button>";
+    main = pill.querySelector(".radio-toggle-main");
+    caret = pill.querySelector(".radio-toggle-caret");
+    buildMenu();
     setState(false, false);
-    button.addEventListener("click", toggle);
+    main.addEventListener("click", toggle);
+    caret.addEventListener("click", () => (menu.hidden ? openMenu() : closeMenu()));
 
-    document.querySelector(".reveal .footer p").appendChild(button);
+    document.addEventListener("pointerdown", (e) => {
+      if (!menu.hidden && !menu.contains(e.target) && !caret.contains(e.target)) closeMenu();
+    });
+    window.addEventListener("resize", () => {
+      if (!menu.hidden) place(menu);
+      if (embed) place(embed);
+    });
+    // Clicking play inside the Bandcamp frame moves focus into it, which would swallow Reveal's arrow keys; hand focus back once the click lands.
+    window.addEventListener("blur", () => {
+      window.setTimeout(() => {
+        if (embed && document.activeElement && embed.contains(document.activeElement)) document.activeElement.blur();
+      }, 250);
+    });
+    Reveal.on("slidechanged", closeMenu);
+
+    document.querySelector(".reveal .footer p").appendChild(pill);
   }
 
   function boot() {

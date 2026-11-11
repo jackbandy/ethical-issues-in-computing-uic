@@ -10,11 +10,12 @@
      scoped to what the decks actually load. Quarto writes inline <script>
      blocks into every deck, so script-src keeps 'unsafe-inline' here. Every
      outside origin is named for one reason:
-       media-src    us2.maindigitalstream.com  UIC Radio stream (radio-player-after-body.html)
+       media-src    the radio pill's streams (radio-player-after-body.html): us2.maindigitalstream.com (UIC Radio), peridot.streamguys1.com:5185 (CHIRP), whpk-stream.uchicago.edu (WHPK), ice26.securenetsystems.net (WLUW)
        connect-src  www.random.org             attendance letter draw (random-letter-after-body.html)
        frame-src    the sites framed on individual slides; add a host here when
                     a new slide embeds one, or the frame will stay blank.
                     https://doethics.fun is 'self' once deployed; it is named so the
-                    absolute timer/dilemma iframes still work in quarto preview. -->
+                    absolute timer/dilemma iframes still work in quarto preview.
+                    bandcamp.com is the radio pill's Lofi House player. -->
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' https://us2.maindigitalstream.com; connect-src 'self' https://www.random.org; frame-src 'self' https://doethics.fun https://www.youtube-nocookie.com https://www.cj2026.northwestern.edu https://plato.stanford.edu https://en.wikipedia.org https://jackbandy.com; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' https://us2.maindigitalstream.com https://peridot.streamguys1.com:5185 https://whpk-stream.uchicago.edu https://ice26.securenetsystems.net; connect-src 'self' https://www.random.org; frame-src 'self' https://doethics.fun https://www.youtube-nocookie.com https://www.cj2026.northwestern.edu https://plato.stanford.edu https://en.wikipedia.org https://jackbandy.com https://bandcamp.com; form-action 'none'">

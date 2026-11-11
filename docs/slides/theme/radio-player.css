@@ -1,26 +1,40 @@
-/* UIC Radio play button (injected into the footer by
-   includes/radio-player-after-body.html). Hidden by default: it appears on
-   photo-title slides, and stays put while the stream is playing so it can be
-   stopped from any slide. */
+/* Radio pill (injected into the footer by includes/radio-player-after-body.html). Hidden by default: it appears on photo-title slides, and stays put while a station is playing or loading so it can be stopped from any slide. The station menu and the Bandcamp player are fixed panels outside the footer, which clips overflow. */
 .reveal .footer .radio-toggle {
   display: none;
-  align-items: center;
-  gap: 8px;
+  align-items: stretch;
   margin: 0;
-  padding: 3px 12px 3px 10px;
   border: 1px solid currentColor;
   border-radius: 999px;
-  background: transparent;
   color: inherit;
-  font: inherit;
   font-size: 0.88em;
   line-height: 1;
-  cursor: pointer;
   opacity: 0.65;
 }
 
-/* Fixed 16x16 icon box: play and sound icons occupy identical space and stay
-   optically centered in the pill regardless of which one is showing. */
+.reveal .footer .radio-toggle button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.reveal .footer .radio-toggle .radio-toggle-main {
+  gap: 8px;
+  padding: 3px 8px 3px 10px;
+  border-radius: 999px 0 0 999px;
+}
+
+.reveal .footer .radio-toggle .radio-toggle-caret {
+  padding: 3px 8px 3px 6px;
+  border-left: 1px solid currentColor;
+  border-radius: 0 999px 999px 0;
+}
+
+/* Fixed 16x16 icon box: play, sound, and caret icons occupy identical space and stay optically centered in the pill regardless of which one is showing. */
 .reveal .footer .radio-toggle .radio-toggle-icon {
   display: flex;
   align-items: center;
@@ -38,17 +52,28 @@
   border: 0;
 }
 
+.reveal .footer .radio-toggle .radio-toggle-caret svg {
+  transition: transform 0.15s ease;
+}
+
+.reveal .footer .radio-toggle.radio-open .radio-toggle-caret svg {
+  transform: rotate(180deg);
+}
+
 .reveal .footer .radio-toggle .radio-toggle-label {
   display: block;
   line-height: 16px;
 }
 
 .photo-title .reveal .footer .radio-toggle,
-.reveal .footer .radio-toggle.radio-playing {
+.reveal .footer .radio-toggle.radio-playing,
+.reveal .footer .radio-toggle.radio-loading,
+.reveal .footer .radio-toggle.radio-open {
   display: inline-flex;
 }
 
-.reveal .footer .radio-toggle:hover {
+.reveal .footer .radio-toggle:hover,
+.reveal .footer .radio-toggle.radio-open {
   opacity: 1;
 }
 
@@ -58,11 +83,11 @@
   color: #005daa;
 }
 
-.reveal .footer .radio-toggle.radio-loading .radio-toggle-icon {
+.reveal .footer .radio-toggle.radio-loading .radio-toggle-main .radio-toggle-icon {
   animation: radio-toggle-pulse 1s ease-in-out infinite;
 }
 
-.reveal .footer .radio-toggle.radio-error {
+.reveal .footer .radio-toggle.radio-error .radio-toggle-main {
   opacity: 0.4;
   text-decoration: line-through;
 }
@@ -71,6 +96,99 @@
   50% { opacity: 0.25; }
 }
 
-html.reveal-print .reveal .footer .radio-toggle {
+.radio-menu,
+.radio-embed {
+  position: fixed;
+  z-index: 30;
+  box-sizing: border-box;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+}
+
+.radio-menu {
+  min-width: 260px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  /* The menu lives outside .reveal, so it would otherwise fall back to the browser's serif. */
+  font-family: var(--r-main-font, sans-serif);
+  font-size: 16px;
+}
+
+.radio-menu[hidden] {
+  display: none;
+}
+
+.radio-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.radio-menu button {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  margin: 0;
+  padding: 7px 12px 7px 28px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #222;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.radio-menu button:hover,
+.radio-menu button:focus-visible {
+  background: #eef4fa;
+  outline: none;
+}
+
+.radio-menu button[aria-checked="true"]::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 11px;
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: 50%;
+  background: #005daa;
+}
+
+.radio-menu .radio-menu-name {
+  font-weight: 600;
+}
+
+.radio-menu button[aria-checked="true"] .radio-menu-name {
+  color: #005daa;
+}
+
+.radio-menu .radio-menu-note {
+  color: #707070;
+  font-size: 0.82em;
+}
+
+.radio-embed {
+  width: min(400px, calc(100vw - 16px));
+  height: 122px;
+  overflow: hidden;
+}
+
+.radio-embed iframe {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 0;
+}
+
+html.reveal-print .reveal .footer .radio-toggle,
+html.reveal-print .radio-menu,
+html.reveal-print .radio-embed {
   display: none !important;
 }

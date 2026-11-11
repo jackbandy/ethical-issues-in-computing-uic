@@ -23,7 +23,7 @@ The core pages (schedule, syllabus, dilemmas, exercises, FAQ, the book gallery) 
 The **slides** (`/slides/`) are Reveal.js decks built by [Quarto](https://quarto.org). They load no third-party scripts or fonts, but a few reach outside the domain, and you should know about them:
 
 - A few slides embed a page from another site: YouTube (via `youtube-nocookie.com`), the Stanford Encyclopedia of Philosophy, Wikipedia, Northwestern, and jackbandy.com. Those embeds are subject to the provider's own privacy practices, not mine.
-- The radio button streams UIC Radio from `maindigitalstream.com`, only after you press play.
+- The radio button streams the station you pick, only after you press play: UIC Radio from `maindigitalstream.com`, CHIRP from `streamguys1.com`, WHPK from `uchicago.edu`, or WLUW from `securenetsystems.net`. The Lofi House option opens Bandcamp's own player in a frame, which is subject to Bandcamp's privacy practices; closing it removes the frame.
 - The attendance letter draw asks `random.org` for one letter, only when the button is pressed.
 - The seat shuffler (`/chairs/`, also embedded in several decks) asks `random.org` for one seed number, only when Shuffle is pressed with the seed box left blank.
 

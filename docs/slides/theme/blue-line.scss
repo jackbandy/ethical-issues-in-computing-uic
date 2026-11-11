@@ -189,6 +189,46 @@ $code-block-border-color: $border;
     }
   }
 
+  // Photo title with the subject in the middle of the frame: the title moves into a narrow column at the top left so it covers nothing.
+  // Scoped to .slides because Reveal copies slide classes onto the background element too, and the padding would shift the photo.
+  .slides .title-slide.photo-title.title-left {
+    // Full slide height, so Reveal's vertical centering leaves it at the top and the credit can pin to the slide's bottom.
+    box-sizing: border-box;
+    height: 100%;
+    justify-content: flex-start;
+    padding-top: 56px;
+
+    h1 {
+      max-width: 340px;
+      font-size: 3.2rem;
+    }
+
+    > p {
+      max-width: 340px;
+    }
+  }
+
+  // Credit line for a photo slide's background, pinned to the bottom right above the footer.
+  .photo-title .photo-credit {
+    position: absolute;
+    right: 32px;
+    bottom: 64px;
+    max-width: 900px;
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    text-align: right;
+
+    p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
   // Photo-only slide: a full-bleed background image with no title or chrome.
   // The section background must stay transparent so the photo shows, and the
   // empty heading (and its blue rule) is hidden.

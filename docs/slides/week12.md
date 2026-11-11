@@ -43,15 +43,17 @@ CS 377, Week 12, Day 2 🟦 Montrose 🟦
 
 ---
 
-# Book Presentations {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop28-montrose-platform.jpg" background-size="cover" data-menu-title="Week 12, Day 2"}
+# Book Presentations {.title-slide .photo-title .title-left data-state="photo-title" background-image="../assets/blue-line-stops-better/stop28-montrose-plovers.jpg" background-size="cover" data-menu-title="Week 12, Day 2"}
 
 CS 377, Week 12, Day 2 🟦 Montrose 🟦
 
-<!-- image source: Jacob G., CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Inbound_track_at_Montrose_(Blue),_looking_outbound_(51213979258).jpg -->
+::: {.photo-credit}
+Monty and Rose. Based on Raed Mansour, ["Piping Plovers at Montrose Beach"](https://commons.wikimedia.org/wiki/File:Piping_Plovers_at_Montrose_Beach_(50287453027).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/); edges extended.
+:::
 
 ---
 
-## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop28-montrose-platform.jpg" background-size="cover"}
+## {.photo-only data-state="photo-only" background-image="../assets/blue-line-stops-better/stop28-montrose-plovers.jpg" background-size="cover"}
 
 ---
 
@@ -80,5 +82,5 @@ CS 377, Week 12, Day 2 🟦 Montrose 🟦
 
 1. GitHub source: <https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week12.md>.
 2. Irving Park cover photo: Tripp from Chicago, ["Blue Line-Irving Park"](https://commons.wikimedia.org/wiki/File:Blue_Line-Irving_Park.jpg), CC BY 2.0.
-3. Montrose cover photo: Jacob G., ["Inbound track at Montrose (Blue), looking outbound"](https://commons.wikimedia.org/wiki/File:Inbound_track_at_Montrose_(Blue),_looking_outbound_(51213979258).jpg), CC BY-SA 2.0.
+3. Montrose cover photo (Monty and Rose): based on Raed Mansour, ["Piping Plovers at Montrose Beach"](https://commons.wikimedia.org/wiki/File:Piping_Plovers_at_Montrose_Beach_(50287453027).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/); edges extended with sand from the photo's own margins.
 4. Slide deck built with [Quarto](https://quarto.org/) and Reveal.js.
