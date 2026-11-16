@@ -159,7 +159,7 @@
        scoped to what the decks actually load. Quarto writes inline <script>
        blocks into every deck, so script-src keeps 'unsafe-inline' here. Every
        outside origin is named for one reason:
-         media-src    the radio pill's streams (radio-player-after-body.html): us2.maindigitalstream.com (UIC Radio), peridot.streamguys1.com:5185 (CHIRP), whpk-stream.uchicago.edu (WHPK), ice26.securenetsystems.net (WLUW)
+         media-src    the radio pill's streams (radio-player-after-body.html): us2.maindigitalstream.com (UIC Radio), peridot.streamguys1.com:5185 (CHIRP), whpk-stream.uchicago.edu (WHPK), ice26.securenetsystems.net (WLUW), partneraudio.wavefarm.org (Radius)
          connect-src  www.random.org             attendance letter draw (random-letter-after-body.html)
          frame-src    the sites framed on individual slides; add a host here when
                       a new slide embeds one, or the frame will stay blank.
@@ -167,7 +167,7 @@
                       absolute timer/dilemma iframes still work in quarto preview.
                       bandcamp.com is the radio pill's Lofi House player. -->
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' https://us2.maindigitalstream.com https://peridot.streamguys1.com:5185 https://whpk-stream.uchicago.edu https://ice26.securenetsystems.net; connect-src 'self' https://www.random.org; frame-src 'self' https://doethics.fun https://www.youtube-nocookie.com https://www.cj2026.northwestern.edu https://plato.stanford.edu https://en.wikipedia.org https://jackbandy.com https://bandcamp.com; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; media-src 'self' https://us2.maindigitalstream.com https://peridot.streamguys1.com:5185 https://whpk-stream.uchicago.edu https://ice26.securenetsystems.net https://partneraudio.wavefarm.org; connect-src 'self' https://www.random.org; frame-src 'self' https://doethics.fun https://www.youtube-nocookie.com https://www.cj2026.northwestern.edu https://plato.stanford.edu https://en.wikipedia.org https://jackbandy.com https://bandcamp.com; form-action 'none'">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -1212,7 +1212,7 @@ By Aditya Mehta · October 27, 2026 · <a href="https://techcrunch.com/2026/10/2
 <h1>References &amp; Credits</h1>
 <ol type="1">
 <li>GitHub source: <a href="https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week10.md" class="uri">https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/docs/slides/week10.md</a>.</li>
-<li>Last modified and compiled November 11, 16:35h.</li>
+<li>Last modified and compiled November 16, 01:45h.</li>
 <li>BJ Fogg, <a href="https://dl.acm.org/doi/10.1145/274644.274677">“Persuasive Computers: Perspectives and Research Directions”</a>, <em>CHI 1998</em>.</li>
 <li>Thomas Mildner, <a href="https://thomasessmeyer.com/darkpatterns.html">“Cheat Sheet of Dark Design Patterns”</a>; <a href="https://darkpatterns.uxp2.com/">darkpatterns.uxp2.com</a>.</li>
 <li>ASCI Academy, <a href="https://www.consciouspatterns.in/ethical-gallery">Gallery of “Conscious” Design Patterns</a>.</li>
@@ -1527,6 +1527,7 @@ By Aditya Mehta · October 27, 2026 · <a href="https://techcrunch.com/2026/10/2
         { id: "chirp", name: "CHIRP 107.1", note: "Independent, volunteer-run", stream: "https://peridot.streamguys1.com:5185/live" },
         { id: "whpk", name: "WHPK 88.5", note: "University of Chicago", stream: "https://whpk-stream.uchicago.edu/stream" },
         { id: "wluw", name: "WLUW 88.7", note: "Loyola University Chicago", stream: "https://ice26.securenetsystems.net/WLUW" },
+        { id: "radius", name: "Radius", note: "Experimental radio, Chicago", stream: "https://partneraudio.wavefarm.org/radius.mp3" },
       ];
       // Tracks 1-21 of the 31-track, 91-minute album all start in its first hour, so a random start plays at least 32 minutes before the embed stops at the album's end.
       const LOFI_START_TRACKS = 21;
