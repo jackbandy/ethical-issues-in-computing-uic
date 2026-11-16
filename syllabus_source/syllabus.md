@@ -44,7 +44,7 @@ Details and updates about class meetings, office hours, teaching assistants, ass
 
 [Canvas Course](https://canvas.uic.edu) ([canvas.uic.edu](https://canvas.uic.edu)) - Students are expected to log in to Canvas regularly to upload assignments, monitor grades, and learn about any developments related to the course.
 
-[Public Website](https://doethics.fun) ([doethics.fun](https://doethics.fun)) - New this semester! The course now has a public site with reference materials such as slides, assignment descriptions, ethical dilemmas, and more. The site is new and there are still improvements to be made, so you are encouraged to submit fixes/improvements in the [Github repository](https://github.com/jackbandy/ethical-issues-in-computing-uic).
+[Public Website](https://doethics.fun) ([doethics.fun](https://doethics.fun)) - New this semester! The course now has a public site with reference materials such as slides, assignment descriptions, ethical dilemmas, and more. The site is new and there are still improvements to be made, so you are encouraged to submit fixes/improvements in the [Github repository](https://github.com/jackbandy/ethical-issues-in-computing-uic). For details about contributing, see the [CONTRIBUTING.md](https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/CONTRIBUTING.md) file.
 
 # Course Information
 
@@ -130,7 +130,7 @@ Concretely, "successful" students in this class will:
 - bring questions to class, sharing them with their table and/or with the whole class
 - begin the "read a book" exercise early rather than treating it as an end-of-semester assignment
 - come to drop-in hours at least once
-- contribute to the GitHub repository at least once
+- contribute to the GitHub repository at least once (which can also make up a missed class; see Attendance and Participation)
 - reach out as early as possible if/when feeling lost or confused about anything
 
 ## Technology Outside the Classroom
@@ -254,6 +254,8 @@ Showing up makes a substantial difference in this course (and in life). Many cla
 I take attendance each class. Four absences may be taken without penalty, and they do not have to be explicitly excused. If a student misses more than four classes without notifying the instructor, the instructor will reach out to them, and reserves the right to lower the "Attendance, Participation, and Civility" portion of the overall grade.
 
 Generally, if you miss a fifth class without notifying the instructor, your "Attendance, Participation, and Civility" grade will be lowered from 20/20 to 18/20. Additional deductions (i.e. two points per unexcused absence) will be noted in Canvas.
+
+**Making up an absence:** a merged contribution to the course [GitHub repository](https://github.com/jackbandy/ethical-issues-in-computing-uic) can make up for a missed class, for up to two absences. Credit is decided case by case. To claim it, send me the link to your pull request along with the date you missed, by the last day of class; see [CONTRIBUTING.md](https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/CONTRIBUTING.md) for how to contribute. Made-up absences still count toward the "more than half of all class sessions" rule below.
 
 **Separately, and regardless of points earned in other categories, students who miss more than half of all class sessions will not be able to pass the course.** I hope we will not have to get into the specific metrics and rounding schemes - again, I will reach out if your attendance becomes an issue.
 

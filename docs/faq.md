@@ -120,6 +120,10 @@ A: The materials are shared under [CC BY-NC-SA](https://creativecommons.org/lice
 
 The whole site is [on GitHub](https://github.com/jackbandy/ethical-issues-in-computing-uic), and direct corrections/ suggestions are welcome!
 
+**Q: How do I contribute to the site?**
+
+A: See [CONTRIBUTING.md](https://github.com/jackbandy/ethical-issues-in-computing-uic/blob/main/CONTRIBUTING.md) in the repo. A quick pull request is fine for small fixes like typos and broken links. If you're a student in the course, a merged contribution can also make up for a missed class (up to two absences, claimed by the last day of class).
+
 Note that some linked materials (and some materials in Canvas) are copyrighted and are not redistributable — please help protect copyright integrity for those.
 
 ## Something Else
