@@ -4,7 +4,7 @@ CS 377, Week 13, Day 1 🟦 Jefferson Park 🟦
 
 ---
 
-# Book Presentations {.title-slide .photo-title data-state="photo-title" background-image="../assets/blue-line-stops-better/stop29-jefferson-park-entrance.jpg" background-size="cover" data-menu-title="Week 13, Day 1"}
+# Book Presentations {.title-slide .photo-title .title-top data-state="photo-title" background-image="../assets/blue-line-stops-better/stop29-jefferson-park-entrance.jpg" background-size="cover" data-menu-title="Week 13, Day 1"}
 
 CS 377, Week 13, Day 1 🟦 Jefferson Park 🟦
 
@@ -21,8 +21,7 @@ CS 377, Week 13, Day 1 🟦 Jefferson Park 🟦
 :::: columns
 ::: {.column width="55%"}
 - Administrivia
-  - Canvas updates
-  - Questions?
+- Discussion: personal commitments
 - Book Presentations
 :::
 
@@ -34,6 +33,33 @@ CS 377, Week 13, Day 1 🟦 Jefferson Park 🟦
 ---
 
 ## Any Questions?
+
+---
+
+# Personal Commitments {.title-slide .section-header}
+
+---
+
+## Discussion: Personal Commitments {.embed-slide}
+
+::: {.embed-layout .golden-columns}
+::: {.embed-copy}
+- What will you do with your free will?
+- Which values do you want top of mind?
+- What do your ethics look like in practice?
+- Do you identify with one of the four main theories?
+- Whatever else you want to discuss 🙂
+:::
+
+::: {.embed-frame}
+<iframe
+  src="../timer/index.html"
+  title="CTA-style countdown timer"
+  loading="lazy"
+  data-external="1">
+</iframe>
+:::
+:::
 
 ---
 
