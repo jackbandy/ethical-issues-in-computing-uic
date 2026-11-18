@@ -86,9 +86,8 @@ CS 377, Week 13, Day 2 🟦 Harlem 🟦
 :::: columns
 ::: {.column width="55%"}
 - Administrivia
-  - Canvas updates
-  - Questions?
 - Book Presentations
+- Honors Symposium (if time)
 :::
 
 ::: {.column width="40%"}
